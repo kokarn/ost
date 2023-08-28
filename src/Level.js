@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Container from '@mui/material/Container';
 
 import numberFormat from './modules/number-format.mjs';
 
@@ -40,47 +41,51 @@ function Level() {
         noValidate
         autoComplete="off"
     >
-        <TextField
-            type="number"
-            name="current-level"
-            placeholder="Current Level"
-            label="Current Level"
-            value={currentLevel}
-            onChange={(event) => setCurrentLevel(Number(event.target.value))}
-        />
-        <TextField
-            type="number"
-            name="target-level"
-            placeholder="Target Level"
-            label="Target Level"
-            value={targetLevel}
-            onChange={(event) => setTargetLevel(Number(event.target.value))}
-        />
-        <div>
-            {`Exp Needed: ${numberFormat(Math.round(expNeeded))}`}
-        </div>
-        <TextField
-            type="number"
-            name="experience-per-action"
-            placeholder="Experience per Action"
-            label="Experience per Action"
-            value={experiencePerAction}
-            onChange={(event) => setExperiencePerAction(Number(event.target.value))}
-        />
-        <div>
-            {`Actions Needed: ${numberFormat(Math.round(expNeeded / experiencePerAction))}`}
-        </div>
-        <TextField
-            type="number"
-            name="cost-per-action"
-            placeholder="Cost per Action"
-            label="Cost per Action"
-            value={costPerAction}
-            onChange={(event) => setCostPerAction(Number(event.target.value))}
-        />
-        <div>
-            {`Total cost: ${numberFormat(Math.round(expNeeded / experiencePerAction) * costPerAction)}`}
-        </div>
+        <Container
+            maxWidth="sm"
+        >
+            <TextField
+                type="number"
+                name="current-level"
+                placeholder="Current Level"
+                label="Current Level"
+                value={currentLevel}
+                onChange={(event) => setCurrentLevel(Number(event.target.value))}
+            />
+            <TextField
+                type="number"
+                name="target-level"
+                placeholder="Target Level"
+                label="Target Level"
+                value={targetLevel}
+                onChange={(event) => setTargetLevel(Number(event.target.value))}
+            />
+            <div>
+                {`Exp Needed: ${numberFormat(Math.round(expNeeded))}`}
+            </div>
+            <TextField
+                type="number"
+                name="experience-per-action"
+                placeholder="Experience per Action"
+                label="Experience per Action"
+                value={experiencePerAction}
+                onChange={(event) => setExperiencePerAction(Number(event.target.value))}
+            />
+            <div>
+                {`Actions Needed: ${numberFormat(Math.round(expNeeded / experiencePerAction))}`}
+            </div>
+            <TextField
+                type="number"
+                name="cost-per-action"
+                placeholder="Cost per Action"
+                label="Cost per Action"
+                value={costPerAction}
+                onChange={(event) => setCostPerAction(Number(event.target.value))}
+            />
+            <div>
+                {`Total cost: ${numberFormat(Math.round(expNeeded / experiencePerAction) * costPerAction)}`}
+            </div>
+        </Container>
     </Box>;
 }
 
