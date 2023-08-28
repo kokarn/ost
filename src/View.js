@@ -2,7 +2,10 @@
 //     // useEffect,
 //     useState
 // } from 'react';
+import Box from '@mui/material/Box';
 import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import Container from '@mui/material/Container';
+// import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 // import loadJSON from './load-json.js';
 import numberFormat from './modules/number-format.mjs';
@@ -42,6 +45,7 @@ const columns = [
     },
     {
         field: 'name',
+        flex: 1,
         headerName: 'Output',
         width: 200,
         renderCell: ({ value }) => {
@@ -119,28 +123,33 @@ function View() {
     //     loadInitialData();
     // }, []);
 
-    return <DataGrid
-        density="standard"
-        rows={rows}
-        columns={columns}
-        getRowHeight={() => 'auto'}
-        initialState={{
-            columns: {
-                columnVisibilityModel: {
-                    id: false,
-                },
-            },
-        }}
-        disableColumnFilter
-        disableColumnSelector
-        disableDensitySelector
-        slots={{ toolbar: CustomToolbar }}
-        // slotProps={{
-        //     toolbar: {
-        //         showQuickFilter: true,
-        //     },
-        // }}
-    />
+    return <Box sx={{ flexGrow: 1 }}>
+        <Container>
+            <DataGrid
+                density="standard"
+                rows={rows}
+                columns={columns}
+                getRowHeight={() => 'auto'}
+                initialState={{
+                    columns: {
+                        columnVisibilityModel: {
+                            id: false,
+                        },
+                    },
+                }}
+                disableColumnFilter
+                disableColumnSelector
+                disableDensitySelector
+                hideFooter
+                slots={{ toolbar: CustomToolbar }}
+                // slotProps={{
+                //     toolbar: {
+                //         showQuickFilter: true,
+                //     },
+                // }}
+            />
+        </Container>
+    </Box>;
 }
 
 export default View;
