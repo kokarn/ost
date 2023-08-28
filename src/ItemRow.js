@@ -5,7 +5,10 @@ const ItemRow = function({name}) {
         <div
             className="item-image-wrapper"
         >
-            <img src={`https://oldschool.runescape.wiki/images/${name.replaceAll(' ', '_')}.png?cache`} />
+            <img
+                alt = {`${name} icon`}
+                src={`https://oldschool.runescape.wiki/images/${name.replaceAll(' ', '_').replace(/\(\d\)/, '')}.png?cache`}
+            />
         </div>
         {name}
     </div>;
