@@ -1,7 +1,7 @@
 import loadJSON from './load-json.mjs';
 
 const calculateProfit = async (latest, mapping, last24h) => {
-    console.log('calculating profit');
+    // console.log('calculating profit');
     if(Object.keys(latest).length < 10){
         return {};
     }
