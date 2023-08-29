@@ -1,6 +1,6 @@
 import loadJSON from './load-json.mjs';
 
-const calculateProfit = async (latest, mapping) => {
+const calculateProfit = async (latest, mapping, last24h) => {
     console.log('calculating profit');
     if(Object.keys(latest).length < 10){
         return {};
@@ -12,8 +12,8 @@ const calculateProfit = async (latest, mapping) => {
 
     const recipes = await loadJSON('https://jsonblob.com/api/jsonBlob/1144240622516690944');
     // const recipes = recipesResponse.body;
-    const latestDataResponse = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/24h`);
-    const last24h = latestDataResponse.data;
+    // const latestDataResponse = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/24h`);
+    // const last24h = latestDataResponse.data;
 
     for(const recipeOutputId in recipes){
         let cost = 0;
