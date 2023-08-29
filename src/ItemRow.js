@@ -1,4 +1,4 @@
-const ItemRow = function({name, icon}) {
+const ItemRow = function({name, icon, id}) {
     if(!icon){
         icon = `${name.replace(/\(\d\)/, '')}.png`;
     }
@@ -16,7 +16,11 @@ const ItemRow = function({name, icon}) {
                 src={`https://oldschool.runescape.wiki/images/${icon}?cache`}
             />
         </div>
-        {name}
+        <a
+            href={`https://oldschool.runescape.wiki/w/Special:Lookup?type=item&id=${id}`}
+        >
+            {name}
+        </a>
     </div>;
 };
 

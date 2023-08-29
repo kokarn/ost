@@ -43,8 +43,11 @@ function View({latest, mapping, profits}) {
             flex: 1,
             headerName: 'Output',
             renderCell: ({ value }) => {
+                const itemData = rows.find((row) => row.name === value);
                 return <ItemRow
                     name={value}
+                    icon={itemData?.icon}
+                    id={itemData?.id}
                 />;
             },
         },
