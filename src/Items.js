@@ -34,7 +34,7 @@ function Items({latest, mapping, profits, dayData}) {
 
         rows.push({
             id: itemId,
-            volume: dayData[itemId]?.highPriceVolume + dayData[itemId]?.lowPriceVolume,
+            volume: volume,
             lowAlchProfit: mapping[itemId]?.lowalch || 0 - dayData[itemId]?.avgHighPrice,
             highAlchProfit: mapping[itemId]?.highalch || 0 - dayData[itemId]?.avgHighPrice,
             ...dayData[itemId],
