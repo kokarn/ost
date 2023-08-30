@@ -40,13 +40,19 @@ function MoneyMaking() {
             gamePlayerStats['Quest points'] = 0;
             gamePlayerStats['Skills'] = 0;
 
+            for(const skill in mappingData.levels){
+                if(skill === 'Skills'){
+                    continue;
+                }
+
+                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
+            }
+
             for(const quest in mappingData.quests){
                 gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
             }
 
-            for(const skill in mappingData.levels){
-                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
-            }
+            // console.log(gamePlayerStats);
 
             setPlayerStats(gamePlayerStats);
         }
