@@ -644,7 +644,7 @@
         "hourlyProfit": 1263000,
         "skills": {
             "Crafting": "85",
-            "Construction": "50"
+            "Construction": "42"
         },
         "category": "Processing",
         "itenstity": "High",
@@ -931,7 +931,7 @@
             "Attack": "90",
             "Defence": "70",
             "Strength": "90",
-            "Prayer": "70"
+            "Prayer": "43"
         },
         "category": "Combat/High",
         "itenstity": "High",
@@ -1071,7 +1071,7 @@
         "methodLink": "/w/Money_making_guide/Killing_Dagannoth_Kings_(Rex_only)",
         "hourlyProfit": 761000,
         "skills": {
-            "Magic": "78",
+            "Magic": "50",
             "Defence": "40",
             "Prayer": "43"
         },
@@ -1178,7 +1178,7 @@
         "methodLink": "/w/Money_making_guide/Pickpocketing_master_farmers",
         "hourlyProfit": 691000,
         "skills": {
-            "Thieving": "94",
+            "Thieving": "38",
             "Farming": "75"
         },
         "category": "Skilling/Thieving",
@@ -1477,7 +1477,7 @@
         "methodLink": "/w/Money_making_guide/Last_Man_Standing",
         "hourlyProfit": 551000,
         "skills": {
-            "Skills": "1",
+            "Skills": "750 Total level",
             "Quest points": "30 Quest points"
         },
         "category": "Combat/Low",
@@ -2031,7 +2031,7 @@
             "Magic": "83",
             "Mining": "38",
             "Crafting": "38",
-            "Agility": "52",
+            "Agility": "73",
             "Construction": "85 Construction"
         },
         "category": "Skilling/Magic",
@@ -2044,7 +2044,7 @@
         "hourlyProfit": 355000,
         "skills": {
             "Mining": "42",
-            "Slayer": "60"
+            "Slayer": "10"
         },
         "category": "Skilling/Mining",
         "itenstity": "Moderate",
@@ -3191,7 +3191,7 @@
         "hourlyProfit": 127000,
         "skills": {
             "Woodcutting": "75",
-            "Attack": "70",
+            "Attack": "60",
             "Agility": "50"
         },
         "category": "Skilling/Woodcutting",
