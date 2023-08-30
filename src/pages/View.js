@@ -7,10 +7,10 @@ import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-d
 import Container from '@mui/material/Container';
 // import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
-import numberFormat from './modules/number-format.mjs';
-import ItemRow from './ItemRow.js';
+import numberFormat from '../modules/number-format.mjs';
+import ItemRow from '../components/ItemRow.js';
 
-import './App.css';
+import '../App.css';
 
 const CustomToolbar = () => {
     return (

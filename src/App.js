@@ -17,9 +17,10 @@ import Button from '@mui/material/Button';
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
 
-import View from './View.js';
-import Level from './Level.js';
-import Items from './Items.js';
+import View from './pages/View.js';
+import Level from './pages/Level.js';
+import Items from './pages/Items.js';
+import MoneyMaking from './pages/MoneyMaking.js';
 
 import './App.css';
 
@@ -53,6 +54,15 @@ function Layout() {
                             to="/items"
                         >
                             Items
+                        </Link>
+                    </Button>
+                    <Button
+                        sx={{ my: 2, color: 'white', display: 'block' }}
+                    >
+                        <Link
+                            to="/money-making"
+                        >
+                            Money Making
                         </Link>
                     </Button>
                 </Toolbar>
@@ -122,6 +132,7 @@ function App() {
                     profits={profits}
                     dayData={lastDayData}
                 />} />
+                <Route path="money-making" element={<MoneyMaking />} />
             </Route>
         </Routes>
     </Router>);
