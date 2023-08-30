@@ -25,12 +25,12 @@ const CustomToolbar = () => {
         </GridToolbarContainer>
     );
 };
-function Items({latest, mapping, profits, dayData}) {
+function Items({latest, mapping, profits, dayData, volumes}) {
     const [highAlch, setHighAlch] = useState(true);
     const rows = [];
 
     for (const itemId in mapping) {
-        const volume = dayData[itemId]?.highPriceVolume + dayData[itemId]?.lowPriceVolume;
+        // const volume = dayData[itemId]?.highPriceVolume + dayData[itemId]?.lowPriceVolume;
 
         if(!dayData[itemId]){
             continue;
@@ -38,11 +38,12 @@ function Items({latest, mapping, profits, dayData}) {
 
         rows.push({
             id: itemId,
-            volume: volume,
+            volume: volumes?.[itemId],
             lowAlchProfit: (mapping[itemId]?.lowalch || 0) - Math.max(dayData[itemId]?.avgHighPrice, dayData[itemId]?.avgLowPrice),
             highAlchProfit: (mapping[itemId]?.highalch || 0) - Math.max(dayData[itemId]?.avgHighPrice, dayData[itemId]?.avgLowPrice),
             ...dayData[itemId],
             ...mapping[itemId],
+            ...latest[itemId],
         });
     }
 
@@ -66,13 +67,13 @@ function Items({latest, mapping, profits, dayData}) {
             },
         },
         {
-            field: 'avgHighPrice',
+            field: 'high',
             headerName: 'Buy',
             valueFormatter: ({ value }) => numberFormat(value),
             width: 120,
         },
         {
-            field: 'avgLowPrice',
+            field: 'low',
             headerName: 'Sell',
             valueFormatter: ({ value }) => numberFormat(value),
             width: 120,
@@ -135,6 +136,7 @@ function Items({latest, mapping, profits, dayData}) {
                     lowalch: !highAlch,
                     highAlchProfit: highAlch,
                     highalch: highAlch,
+                    id: false,
                 }}
                 initialState={{
                     columns: {

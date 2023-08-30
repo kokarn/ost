@@ -81,12 +81,14 @@ function App() {
     const [mapping, setMapping] = useState({});
     const [profits, setProfit] = useState({});
     const [lastDayData, setLastDayData] = useState({});
+    const [volumes, setVolumes] = useState({});
 
     useEffect(() => {
         const loadInitialData = async () => {
             const mappingData = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/mapping`);
             const latestData = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/latest`);
             const dayData = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/24h`);
+            const volumeData = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/volumes`);
 
             const fullMap = {};
 
@@ -97,6 +99,7 @@ function App() {
             setMapping(fullMap);
             setLatest(latestData.data);
             setLastDayData(dayData.data);
+            setVolumes(volumeData.data);
 
             const currentProfit = await calculateProfit(latestData.data, fullMap, dayData.data);
             setProfit(currentProfit);
@@ -124,6 +127,7 @@ function App() {
                     latest={latest}
                     mapping={mapping}
                     profits={profits}
+                    volumes={volumes}
                 />} />
                 <Route path="level" element={<Level />} />
                 <Route path="items" element={<Items
@@ -131,6 +135,7 @@ function App() {
                     mapping={mapping}
                     profits={profits}
                     dayData={lastDayData}
+                    volumes={volumes}
                 />} />
                 <Route path="money-making" element={<MoneyMaking />} />
             </Route>
