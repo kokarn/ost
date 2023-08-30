@@ -61,12 +61,18 @@ function View({latest, mapping, profits}) {
             field: 'input',
             headerName: 'Input',
             width: 200,
+            valueGetter: ({ value }) => {
+                return value.map((itemId) => {
+                    return mapping[itemId]?.name;
+                });
+            },
             renderCell: ({ value }) => {
-                const itemComponents = value.map((itemId) => {
+                const itemComponents = value.map((itemName) => {
+                    const item = Object.values(mapping).find((item) => item.name === itemName);
                     return <div
-                        key={itemId}
+                        key={item.id}
                     >
-                        {mapping[itemId]?.name}: {numberFormat(Math.min(latest[itemId]?.low, (profits[itemId]?.cost || 9999999)))}
+                        {item.name}: {numberFormat(Math.min(latest[item.id]?.low, (profits[item.id]?.cost || 9999999)))}
                     </div>;
                 });
 
