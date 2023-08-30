@@ -10,9 +10,13 @@ import {
     Link,
     Outlet
 } from "react-router-dom";
+import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
+import InputBase from '@mui/material/InputBase';
+import SearchIcon from '@mui/icons-material/Search';
+import Box from '@mui/material/Box';
 
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
@@ -24,56 +28,109 @@ import MoneyMaking from './pages/MoneyMaking.js';
 
 import './App.css';
 
-function Layout() {
-    return (
-        <div>
-            {/* A "layout route" is a good place to put markup you want to
-            share across all the pages on your site, like navigation. */}
-            <AppBar position="static">
-                <Toolbar disableGutters>
-                    <Button
-                        sx={{ my: 2, color: 'white', display: 'block' }}
-                    >
-                        <Link to="/">
-                            Home
-                        </Link>
-                    </Button>
-                    <Button
-                        sx={{ my: 2, color: 'white', display: 'block' }}
-                    >
-                        <Link
-                            to="/level"
-                        >
-                            Level
-                        </Link>
-                    </Button>
-                    <Button
-                        sx={{ my: 2, color: 'white', display: 'block' }}
-                    >
-                        <Link
-                            to="/items"
-                        >
-                            Items
-                        </Link>
-                    </Button>
-                    <Button
-                        sx={{ my: 2, color: 'white', display: 'block' }}
-                    >
-                        <Link
-                            to="/money-making"
-                        >
-                            Money Making
-                        </Link>
-                    </Button>
-                </Toolbar>
-            </AppBar>
+const Search = styled('div')(({ theme }) => ({
+    position: 'relative',
+    borderRadius: theme.shape.borderRadius,
+    backgroundColor: alpha(theme.palette.common.white, 0.15),
+    '&:hover': {
+        backgroundColor: alpha(theme.palette.common.white, 0.25),
+    },
+    marginLeft: 0,
+    width: '100%',
+    [theme.breakpoints.up('sm')]: {
+        marginLeft: theme.spacing(1),
+        width: 'auto',
+    },
+}));
 
-            {/* An <Outlet> renders whatever child route is currently active,
-            so you can think about this <Outlet> as a placeholder for
-            the child routes we defined above. */}
-            <Outlet />
-        </div>
-    );
+const SearchIconWrapper = styled('div')(({ theme }) => ({
+    padding: theme.spacing(0, 2),
+    height: '100%',
+    position: 'absolute',
+    pointerEvents: 'none',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+}));
+
+const StyledInputBase = styled(InputBase)(({ theme }) => ({
+    color: 'inherit',
+    '& .MuiInputBase-input': {
+        padding: theme.spacing(1, 1, 1, 0),
+        // vertical padding + font size from searchIcon
+        paddingLeft: `calc(1em + ${theme.spacing(4)})`,
+        transition: theme.transitions.create('width'),
+        width: '100%',
+        [theme.breakpoints.up('sm')]: {
+            width: '12ch',
+            '&:focus': {
+                width: '20ch',
+            },
+        },
+    },
+}));
+
+function Layout({handleFilterChange}) {
+    return (<Box
+        sx={{ flexGrow: 1 }}
+    >
+            {/* A "layout route" is a good place to put markup you want to
+        share across all the pages on your site, like navigation. */}
+        <AppBar position="static">
+            <Toolbar disableGutters>
+                <Button
+                    sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                    <Link to="/">
+                        Home
+                    </Link>
+                </Button>
+                <Button
+                    sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                    <Link
+                        to="/level"
+                    >
+                        Level
+                    </Link>
+                </Button>
+                <Button
+                    sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                    <Link
+                        to="/items"
+                    >
+                        Items
+                    </Link>
+                </Button>
+                <Button
+                    sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                    <Link
+                        to="/money-making"
+                    >
+                        Money Making
+                    </Link>
+                </Button>
+                <Search>
+                    <SearchIconWrapper>
+                        <SearchIcon />
+                    </SearchIconWrapper>
+                    <StyledInputBase
+                        placeholder="Search…"
+                        inputProps={{ 'aria-label': 'search' }}
+                        onChange={handleFilterChange}
+                    />
+                </Search>
+            </Toolbar>
+        </AppBar>
+
+        {/* An <Outlet> renders whatever child route is currently active,
+        so you can think about this <Outlet> as a placeholder for
+        the child routes we defined above. */}
+        <Outlet />
+    </Box>
+);
 }
 
 function App() {
@@ -82,6 +139,7 @@ function App() {
     const [profits, setProfit] = useState({});
     const [lastDayData, setLastDayData] = useState({});
     const [volumes, setVolumes] = useState({});
+    const [itemFilter, setItemFilter] = useState('');
 
     useEffect(() => {
         const loadInitialData = async () => {
@@ -122,8 +180,13 @@ function App() {
 
     return (<Router>
         <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Layout
+                handleFilterChange={(e) => {
+                    setItemFilter(e.target.value);
+                }}
+            />}>
                 <Route index element={<View
+                    filter={itemFilter}
                     latest={latest}
                     mapping={mapping}
                     profits={profits}
@@ -131,12 +194,13 @@ function App() {
                 />} />
                 <Route path="level" element={<Level />} />
                 <Route path="items" element={<Items
+                    dayData={lastDayData}
+                    filter={itemFilter}
                     latest={latest}
                     mapping={mapping}
                     profits={profits}
-                    dayData={lastDayData}
                     volumes={volumes}
-                />} />
+                    />} />
                 <Route path="money-making" element={<MoneyMaking />} />
             </Route>
         </Routes>

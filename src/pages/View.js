@@ -1,9 +1,8 @@
 // import {
-//     useEffect,
-//     useState
+//     useMemo,
 // } from 'react';
 import Box from '@mui/material/Box';
-import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import Container from '@mui/material/Container';
 // import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
@@ -12,23 +11,29 @@ import ItemRow from '../components/ItemRow.js';
 
 import '../App.css';
 
-const CustomToolbar = () => {
-    return (
-        <GridToolbarContainer>
-            {/* Include the quick filter input */}
-            <GridToolbarQuickFilter />
-
-            {/* Add any other desired toolbar components */}
-        </GridToolbarContainer>
-    );
-};
-function View({latest, mapping, profits}) {
-    const rows = [];
+function View({latest, mapping, profits, filter}) {
+    let rows = [];
 
     for (const result in profits) {
         rows.push({
             id: result,
             ...profits[result],
+        });
+    }
+
+    if (filter) {
+        rows = rows.filter((row) => {
+            if(row.name.toLowerCase().includes(filter.toLowerCase())){
+                return true;
+            }
+
+            for(const rowInput of row.input){
+                if(mapping[rowInput].name.toLowerCase().includes(filter.toLowerCase())){
+                    return true;
+                }
+            }
+
+            return false;
         });
     }
 
@@ -119,12 +124,6 @@ function View({latest, mapping, profits}) {
                 disableColumnSelector
                 disableDensitySelector
                 hideFooter
-                slots={{ toolbar: CustomToolbar }}
-            // slotProps={{
-            //     toolbar: {
-            //         showQuickFilter: true,
-            //     },
-            // }}
             />
         </Container>
     </Box>;

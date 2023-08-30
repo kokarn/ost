@@ -3,31 +3,25 @@ import {
     useState,
 } from 'react';
 import Box from '@mui/material/Box';
-import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import Container from '@mui/material/Container';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-// import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import TimeAgo from 'timeago-react';
+import en_short from 'timeago.js/lib/lang/en_short';
+import * as timeago from 'timeago.js';
 
 import numberFormat from '../modules/number-format.mjs';
 import ItemRow from '../components/ItemRow.js';
 
 import '../App.css';
 
-const CustomToolbar = () => {
-    return (
-        <GridToolbarContainer>
-            {/* Include the quick filter input */}
-            <GridToolbarQuickFilter />
+timeago.register('en_short', en_short);
 
-            {/* Add any other desired toolbar components */}
-        </GridToolbarContainer>
-    );
-};
-function Items({latest, mapping, profits, dayData, volumes}) {
+function Items({latest, mapping, profits, dayData, volumes, filter}) {
     const [highAlch, setHighAlch] = useState(true);
-    const rows = [];
+    let rows = [];
 
     for (const itemId in mapping) {
         // const volume = dayData[itemId]?.highPriceVolume + dayData[itemId]?.lowPriceVolume;
@@ -44,6 +38,16 @@ function Items({latest, mapping, profits, dayData, volumes}) {
             ...dayData[itemId],
             ...mapping[itemId],
             ...latest[itemId],
+        });
+    }
+
+    if (filter) {
+        rows = rows.filter((row) => {
+            if(row.name.toLowerCase().includes(filter.toLowerCase())){
+                return true;
+            }
+
+            return false;
         });
     }
 
@@ -69,13 +73,33 @@ function Items({latest, mapping, profits, dayData, volumes}) {
         {
             field: 'high',
             headerName: 'Buy',
-            valueFormatter: ({ value }) => numberFormat(value),
+            // valueFormatter: ({ value }) => numberFormat(value),
+            renderCell: ({row}) => {
+                return <div>
+                    {numberFormat(row.high)}
+                    <TimeAgo
+                        datetime={row.highTime * 1000}
+                        className='time-ago'
+                        locale='en_short'
+                    />
+                </div>;
+            },
             width: 120,
         },
         {
             field: 'low',
             headerName: 'Sell',
-            valueFormatter: ({ value }) => numberFormat(value),
+            // valueFormatter: ({ value }) => numberFormat(value),
+            renderCell: ({row}) => {
+                return <div>
+                    {numberFormat(row.low)}
+                    <TimeAgo
+                        datetime={row.lowTime * 1000}
+                        className='time-ago'
+                        locale='en_short'
+                    />
+                </div>;
+            },
             width: 120,
         },
         {
@@ -104,7 +128,7 @@ function Items({latest, mapping, profits, dayData, volumes}) {
         },
         {
             field: 'highAlchProfit',
-            headerName: 'high alch profit',
+            headerName: 'High alch profit',
             // valueFormatter: ({ value }) => numberFormat(value),
             renderCell: ({ value }) => numberFormat(value),
             width: 120,
@@ -112,21 +136,20 @@ function Items({latest, mapping, profits, dayData, volumes}) {
     ];
 
     return <Box sx={{ flexGrow: 1 }}>
-        <FormGroup>
-            <FormControlLabel control={
-                <Checkbox
-                    checked={highAlch}
-                    label="High alch"
-                    onChange={(event) => {
-                        setHighAlch(event.target.checked);
-                    }}
-                />
-            } label="High alc" />
-            {/* <FormControlLabel required control={<Checkbox />} label="Required" />
-            <FormControlLabel disabled control={<Checkbox />} label="Disabled" /> */}
-        </FormGroup>
-
         <Container>
+            <FormGroup>
+                <FormControlLabel control={
+                    <Checkbox
+                        checked={highAlch}
+                        label="High alch"
+                        onChange={(event) => {
+                            setHighAlch(event.target.checked);
+                        }}
+                    />
+                } label="High alc" />
+                {/* <FormControlLabel required control={<Checkbox />} label="Required" />
+                <FormControlLabel disabled control={<Checkbox />} label="Disabled" /> */}
+            </FormGroup>
             <DataGrid
                 density="standard"
                 rows={rows}
@@ -149,7 +172,6 @@ function Items({latest, mapping, profits, dayData, volumes}) {
                 disableColumnSelector
                 disableDensitySelector
                 pageSizeOptions={[100]}
-                slots={{ toolbar: CustomToolbar }}
             />
         </Container>
     </Box>;

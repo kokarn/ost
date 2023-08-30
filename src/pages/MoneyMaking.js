@@ -166,9 +166,7 @@ function MoneyMaking() {
         noValidate
         autoComplete="off"
     >
-        <Container
-            maxWidth="md"
-        >
+        <Container>
             <FormGroup>
                 <FormControlLabel control={
                     <Checkbox
