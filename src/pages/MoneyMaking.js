@@ -36,8 +36,19 @@ function MoneyMaking() {
     useEffect(() => {
         const loadInitialData = async () => {
             const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
+            const gamePlayerStats = mappingData.levels;
+            gamePlayerStats['Quest points'] = 0;
+            gamePlayerStats['Skills'] = 0;
 
-            setPlayerStats(mappingData.levels);
+            for(const quest in mappingData.quests){
+                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
+            }
+
+            for(const skill in mappingData.levels){
+                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
+            }
+
+            setPlayerStats(gamePlayerStats);
         }
 
         loadInitialData();
