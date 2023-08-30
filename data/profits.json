@@ -1,0 +1,855 @@
+{
+  "56": {
+    "input": [
+      1521
+    ],
+    "name": "Oak longbow (u)",
+    "cost": 37,
+    "reward": 40,
+    "profit": 3,
+    "volume": 552
+  },
+  "60": {
+    "input": [
+      1519
+    ],
+    "name": "Willow shortbow (u)",
+    "cost": 22,
+    "reward": 50,
+    "profit": 28,
+    "volume": 100
+  },
+  "249": {
+    "input": [
+      199
+    ],
+    "name": "Guam leaf",
+    "cost": 61,
+    "reward": 48,
+    "profit": -13,
+    "volume": 1713
+  },
+  "253": {
+    "input": [
+      203
+    ],
+    "name": "Tarromin",
+    "cost": 196,
+    "reward": 233,
+    "profit": 37,
+    "volume": 2935
+  },
+  "255": {
+    "input": [
+      205
+    ],
+    "name": "Harralander",
+    "cost": 483,
+    "reward": 478,
+    "profit": -5,
+    "volume": 420
+  },
+  "257": {
+    "input": [
+      207
+    ],
+    "name": "Ranarr weed",
+    "cost": 7378,
+    "reward": 7415,
+    "profit": 37,
+    "volume": 15778
+  },
+  "259": {
+    "input": [
+      209
+    ],
+    "name": "Irit leaf",
+    "cost": 1134,
+    "reward": 1188,
+    "profit": 54,
+    "volume": 1917
+  },
+  "845": {
+    "input": [
+      1777,
+      56
+    ],
+    "name": "Oak longbow",
+    "cost": 125,
+    "reward": 50,
+    "profit": -75,
+    "volume": 12
+  },
+  "849": {
+    "input": [
+      60,
+      1777
+    ],
+    "name": "Willow shortbow",
+    "cost": 110,
+    "reward": 85,
+    "profit": -25,
+    "volume": 68
+  },
+  "1601": {
+    "input": [
+      1617
+    ],
+    "name": "Diamond",
+    "cost": 1948,
+    "reward": 1739,
+    "profit": -209,
+    "volume": 19763
+  },
+  "1603": {
+    "input": [
+      1619
+    ],
+    "name": "Ruby",
+    "cost": 915,
+    "reward": 880,
+    "profit": -35,
+    "volume": 27890
+  },
+  "1605": {
+    "input": [
+      1621
+    ],
+    "name": "Emerald",
+    "cost": 432,
+    "reward": 441,
+    "profit": 9,
+    "volume": 16032
+  },
+  "1607": {
+    "input": [
+      1623
+    ],
+    "name": "Sapphire",
+    "cost": 260,
+    "reward": 257,
+    "profit": -3,
+    "volume": 12288
+  },
+  "1635": {
+    "input": [
+      2357
+    ],
+    "name": "Gold ring",
+    "cost": 134,
+    "reward": 152,
+    "profit": 18,
+    "volume": 876
+  },
+  "1637": {
+    "input": [
+      1607,
+      2357
+    ],
+    "name": "Sapphire ring",
+    "cost": 391,
+    "reward": 493,
+    "profit": 102,
+    "volume": 1057
+  },
+  "1639": {
+    "input": [
+      2357,
+      1605
+    ],
+    "name": "Emerald ring",
+    "cost": 566,
+    "reward": 711,
+    "profit": 145,
+    "volume": 212
+  },
+  "1641": {
+    "input": [
+      2357,
+      1603
+    ],
+    "name": "Ruby ring",
+    "cost": 1015,
+    "reward": 1062,
+    "profit": 47,
+    "volume": 133
+  },
+  "1643": {
+    "input": [
+      2357,
+      1601
+    ],
+    "name": "Diamond ring",
+    "cost": 1892,
+    "reward": 1940,
+    "profit": 48,
+    "volume": 45
+  },
+  "1645": {
+    "input": [
+      2357,
+      1615
+    ],
+    "name": "Dragonstone ring",
+    "cost": 11325,
+    "reward": 12500,
+    "profit": 1175,
+    "volume": 19
+  },
+  "1654": {
+    "input": [
+      2357
+    ],
+    "name": "Gold necklace",
+    "cost": 134,
+    "reward": 162,
+    "profit": 28,
+    "volume": 257
+  },
+  "1656": {
+    "input": [
+      2357,
+      1607
+    ],
+    "name": "Sapphire necklace",
+    "cost": 391,
+    "reward": 481,
+    "profit": 90,
+    "volume": 1025
+  },
+  "1658": {
+    "input": [
+      2357,
+      1605
+    ],
+    "name": "Emerald necklace",
+    "cost": 566,
+    "reward": 695,
+    "profit": 129,
+    "volume": 950
+  },
+  "1660": {
+    "input": [
+      2357,
+      1603
+    ],
+    "name": "Ruby necklace",
+    "cost": 1015,
+    "reward": 1150,
+    "profit": 135,
+    "volume": 18242
+  },
+  "1662": {
+    "input": [
+      2357,
+      1601
+    ],
+    "name": "Diamond necklace",
+    "cost": 1892,
+    "reward": 1984,
+    "profit": 92,
+    "volume": 13684
+  },
+  "1664": {
+    "input": [
+      2357,
+      1615
+    ],
+    "name": "Dragon necklace",
+    "cost": 11325,
+    "reward": 11590,
+    "profit": 265,
+    "volume": 15
+  },
+  "1673": {
+    "input": [
+      2357
+    ],
+    "name": "Gold amulet (u)",
+    "cost": 134,
+    "reward": 160,
+    "profit": 26,
+    "volume": 0
+  },
+  "1675": {
+    "input": [
+      2357,
+      1607
+    ],
+    "name": "Sapphire amulet (u)",
+    "cost": 391,
+    "reward": 419,
+    "profit": 28,
+    "volume": 1336
+  },
+  "1677": {
+    "input": [
+      2357,
+      1605
+    ],
+    "name": "Emerald amulet (u)",
+    "cost": 566,
+    "reward": 670,
+    "profit": 104,
+    "volume": 0
+  },
+  "1679": {
+    "input": [
+      2357,
+      1603
+    ],
+    "name": "Ruby amulet (u)",
+    "cost": 1015,
+    "reward": 1094,
+    "profit": 79,
+    "volume": 0
+  },
+  "1681": {
+    "input": [
+      2357,
+      1601
+    ],
+    "name": "Diamond amulet (u)",
+    "cost": 1892,
+    "reward": 1920,
+    "profit": 28,
+    "volume": 0
+  },
+  "1683": {
+    "input": [
+      2357,
+      1615
+    ],
+    "name": "Dragonstone amulet (u)",
+    "cost": 11325,
+    "reward": 11755,
+    "profit": 430,
+    "volume": 2
+  },
+  "1692": {
+    "input": [
+      2357,
+      1759
+    ],
+    "name": "Gold amulet",
+    "cost": 288,
+    "reward": 175,
+    "profit": -113,
+    "volume": 2319
+  },
+  "1694": {
+    "input": [
+      2357,
+      1607,
+      1759
+    ],
+    "name": "Sapphire amulet",
+    "cost": 545,
+    "reward": 574,
+    "profit": 29,
+    "volume": 198
+  },
+  "1696": {
+    "input": [
+      2357,
+      1605,
+      1759
+    ],
+    "name": "Emerald amulet",
+    "cost": 720,
+    "reward": 800,
+    "profit": 80,
+    "volume": 4751
+  },
+  "1698": {
+    "input": [
+      2357,
+      1603,
+      1759
+    ],
+    "name": "Ruby amulet",
+    "cost": 1169,
+    "reward": 1138,
+    "profit": -31,
+    "volume": 645
+  },
+  "1700": {
+    "input": [
+      2357,
+      1601,
+      1759
+    ],
+    "name": "Diamond amulet",
+    "cost": 2046,
+    "reward": 2050,
+    "profit": 4,
+    "volume": 1276
+  },
+  "1702": {
+    "input": [
+      2357,
+      1615,
+      1759
+    ],
+    "name": "Dragonstone amulet",
+    "cost": 11479,
+    "reward": 11488,
+    "profit": 9,
+    "volume": 10
+  },
+  "1731": {
+    "input": [
+      1700,
+      564
+    ],
+    "name": "Amulet of power",
+    "cost": 2095,
+    "reward": 1854,
+    "profit": -241,
+    "volume": 890
+  },
+  "2357": {
+    "input": [
+      444
+    ],
+    "name": "Gold bar",
+    "cost": 200,
+    "reward": 130,
+    "profit": -70,
+    "volume": 278768
+  },
+  "2550": {
+    "input": [
+      1637,
+      564
+    ],
+    "name": "Ring of recoil",
+    "cost": 440,
+    "reward": 687,
+    "profit": 247,
+    "volume": 13032
+  },
+  "2552": {
+    "input": [
+      1639,
+      564
+    ],
+    "name": "Ring of dueling(8)",
+    "cost": 615,
+    "reward": 818,
+    "profit": 203,
+    "volume": 1084
+  },
+  "2568": {
+    "input": [
+      564,
+      1641
+    ],
+    "name": "Ring of forging",
+    "cost": 1064,
+    "reward": 1037,
+    "profit": -27,
+    "volume": 63
+  },
+  "2570": {
+    "input": [
+      1643
+    ],
+    "name": "Ring of life",
+    "cost": 1892,
+    "reward": 1788,
+    "profit": -104,
+    "volume": 399
+  },
+  "6573": {
+    "input": [
+      6571
+    ],
+    "name": "Onyx",
+    "cost": 1449995,
+    "reward": 1406030,
+    "profit": -43965,
+    "volume": 7
+  },
+  "6575": {
+    "input": [
+      6573,
+      2357
+    ],
+    "name": "Onyx ring",
+    "cost": 1450129,
+    "reward": 1215000,
+    "profit": -235129,
+    "volume": 0
+  },
+  "6577": {
+    "input": [
+      2357,
+      6573
+    ],
+    "name": "Onyx necklace",
+    "cost": 1450129,
+    "reward": 1111222,
+    "profit": -338907,
+    "volume": 0
+  },
+  "6579": {
+    "input": [
+      2357,
+      6573
+    ],
+    "name": "Onyx amulet (u)",
+    "cost": 1450129,
+    "reward": 1200000,
+    "profit": -250129,
+    "volume": 0
+  },
+  "6581": {
+    "input": [
+      2357,
+      6573,
+      1759
+    ],
+    "name": "Onyx amulet",
+    "cost": 1450283,
+    "reward": 1255000,
+    "profit": -195283,
+    "volume": 0
+  },
+  "11069": {
+    "input": [
+      2357
+    ],
+    "name": "Gold bracelet",
+    "cost": 134,
+    "reward": 275,
+    "profit": 141,
+    "volume": 3163
+  },
+  "11072": {
+    "input": [
+      2357,
+      1607
+    ],
+    "name": "Sapphire bracelet",
+    "cost": 391,
+    "reward": 585,
+    "profit": 194,
+    "volume": 367
+  },
+  "11076": {
+    "input": [
+      2357,
+      1605
+    ],
+    "name": "Emerald bracelet",
+    "cost": 566,
+    "reward": 700,
+    "profit": 134,
+    "volume": 0
+  },
+  "11085": {
+    "input": [
+      2357,
+      1603
+    ],
+    "name": "Ruby bracelet",
+    "cost": 1015,
+    "reward": 1300,
+    "profit": 285,
+    "volume": 1873
+  },
+  "11090": {
+    "input": [
+      1662,
+      564
+    ],
+    "name": "Phoenix necklace",
+    "cost": 1941,
+    "reward": 2206,
+    "profit": 265,
+    "volume": 2782
+  },
+  "11092": {
+    "input": [
+      2357,
+      1601
+    ],
+    "name": "Diamond bracelet",
+    "cost": 1892,
+    "reward": 2027,
+    "profit": 135,
+    "volume": 5427
+  },
+  "11095": {
+    "input": [
+      11092,
+      564
+    ],
+    "name": "Abyssal bracelet(5)",
+    "cost": 1941,
+    "reward": 2220,
+    "profit": 279,
+    "volume": 68
+  },
+  "11115": {
+    "input": [
+      2357,
+      1615
+    ],
+    "name": "Dragonstone bracelet",
+    "cost": 11325,
+    "reward": 11960,
+    "profit": 635,
+    "volume": 3111
+  },
+  "11130": {
+    "input": [
+      2357,
+      6573
+    ],
+    "name": "Onyx bracelet",
+    "cost": 1450129,
+    "reward": 1377474,
+    "profit": -72655,
+    "volume": 1
+  },
+  "19501": {
+    "input": [
+      2357,
+      6573,
+      19529
+    ],
+    "name": "Zenyte amulet (u)",
+    "cost": 8430129,
+    "reward": 9100000,
+    "profit": 669871,
+    "volume": 0
+  },
+  "19532": {
+    "input": [
+      2357,
+      6573,
+      19529
+    ],
+    "name": "Zenyte bracelet",
+    "cost": 8430129,
+    "reward": 8510000,
+    "profit": 79871,
+    "volume": 0
+  },
+  "19535": {
+    "input": [
+      2357,
+      19493
+    ],
+    "name": "Zenyte necklace",
+    "cost": 8700133,
+    "reward": 8500000,
+    "profit": -200133,
+    "volume": 1
+  },
+  "19538": {
+    "input": [
+      2357,
+      6573,
+      19529
+    ],
+    "name": "Zenyte ring",
+    "cost": 8430129,
+    "reward": 7007007,
+    "profit": -1423122,
+    "volume": 0
+  },
+  "19541": {
+    "input": [
+      2357,
+      6573,
+      19529,
+      1759
+    ],
+    "name": "Zenyte amulet",
+    "cost": 8430283,
+    "reward": 8460001,
+    "profit": 29718,
+    "volume": 0
+  },
+  "21081": {
+    "input": [
+      2355,
+      1609
+    ],
+    "name": "Opal ring",
+    "cost": 1333,
+    "reward": 620,
+    "profit": -713,
+    "volume": 0
+  },
+  "21084": {
+    "input": [
+      2355,
+      1611
+    ],
+    "name": "Jade ring",
+    "cost": 342,
+    "reward": 660,
+    "profit": 318,
+    "volume": 0
+  },
+  "21087": {
+    "input": [
+      2355,
+      1613
+    ],
+    "name": "Topaz ring",
+    "cost": 1819,
+    "reward": 1747,
+    "profit": -72,
+    "volume": 0
+  },
+  "21090": {
+    "input": [
+      2355,
+      1609
+    ],
+    "name": "Opal necklace",
+    "cost": 1333,
+    "reward": 1706,
+    "profit": 373,
+    "volume": 256
+  },
+  "21093": {
+    "input": [
+      2355,
+      1611
+    ],
+    "name": "Jade necklace",
+    "cost": 342,
+    "reward": 730,
+    "profit": 388,
+    "volume": 201
+  },
+  "21096": {
+    "input": [
+      2355,
+      1613
+    ],
+    "name": "Topaz necklace",
+    "cost": 1819,
+    "reward": 720,
+    "profit": -1099,
+    "volume": 0
+  },
+  "21099": {
+    "input": [
+      2355,
+      1609
+    ],
+    "name": "Opal amulet (u)",
+    "cost": 1333,
+    "reward": 550,
+    "profit": -783,
+    "volume": 0
+  },
+  "21102": {
+    "input": [
+      2355,
+      1611
+    ],
+    "name": "Jade amulet (u)",
+    "cost": 342,
+    "reward": 724,
+    "profit": 382,
+    "volume": 0
+  },
+  "21105": {
+    "input": [
+      2355,
+      1613
+    ],
+    "name": "Topaz amulet (u)",
+    "cost": 1819,
+    "reward": 2050,
+    "profit": 231,
+    "volume": 0
+  },
+  "21108": {
+    "input": [
+      2355,
+      1609,
+      1759
+    ],
+    "name": "Opal amulet",
+    "cost": 1487,
+    "reward": 1059,
+    "profit": -428,
+    "volume": 0
+  },
+  "21111": {
+    "input": [
+      2355,
+      1611,
+      1759
+    ],
+    "name": "Jade amulet",
+    "cost": 496,
+    "reward": 900,
+    "profit": 404,
+    "volume": 0
+  },
+  "21114": {
+    "input": [
+      21105,
+      1759
+    ],
+    "name": "Topaz amulet",
+    "cost": 1973,
+    "reward": 2550,
+    "profit": 577,
+    "volume": 200
+  },
+  "21117": {
+    "input": [
+      2355,
+      1609
+    ],
+    "name": "Opal bracelet",
+    "cost": 1333,
+    "reward": 1800,
+    "profit": 467,
+    "volume": 1
+  },
+  "21120": {
+    "input": [
+      2355,
+      1611
+    ],
+    "name": "Jade bracelet",
+    "cost": 342,
+    "reward": 560,
+    "profit": 218,
+    "volume": 26
+  },
+  "21123": {
+    "input": [
+      2355,
+      1613
+    ],
+    "name": "Topaz bracelet",
+    "cost": 1819,
+    "reward": 1980,
+    "profit": 161,
+    "volume": 1
+  },
+  "21166": {
+    "input": [
+      21114,
+      564
+    ],
+    "name": "Burning amulet(5)",
+    "cost": 2022,
+    "reward": 2728,
+    "profit": 706,
+    "volume": 985
+  }
+}
