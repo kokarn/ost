@@ -198,9 +198,9 @@
         "methodLink": "/w/Money_making_guide/Killing_Callisto",
         "hourlyProfit": 4306000,
         "skills": {
-            "Attack": "90",
+            "Attack": 80,
             "Defence": "70",
-            "Strength": "90",
+            "Strength": 80,
             "Hitpoints": "60",
             "Ranged": "70",
             "Magic": "94"
@@ -291,9 +291,9 @@
         "methodLink": "/w/Money_making_guide/Killing_Commander_Zilyana",
         "hourlyProfit": 2698000,
         "skills": {
-            "Attack": "100",
+            "Attack": 90,
             "Defence": "80",
-            "Strength": "100",
+            "Strength": 90,
             "Agility": "70",
             "Ranged": "80",
             "Hitpoints": "70",
@@ -309,9 +309,9 @@
         "hourlyProfit": 2669000,
         "skills": {
             "Farming": "68",
-            "Attack": "85",
-            "Defence": "85",
-            "Strength": "85"
+            "Attack": 75,
+            "Defence": 75,
+            "Strength": 75
         },
         "category": "Processing",
         "itenstity": "Moderate",
@@ -656,9 +656,9 @@
         "hourlyProfit": 1251000,
         "skills": {
             "Slayer": "93",
-            "Attack": "90",
-            "Defence": "90",
-            "Strength": "90",
+            "Attack": 80,
+            "Defence": 80,
+            "Strength": 80,
             "Magic": "94"
         },
         "category": "Combat/High",
@@ -928,9 +928,9 @@
         "hourlyProfit": 894000,
         "skills": {
             "Slayer": "75",
-            "Attack": "90",
+            "Attack": 80,
             "Defence": "70",
-            "Strength": "90",
+            "Strength": 80,
             "Prayer": "43"
         },
         "category": "Combat/High",
@@ -1120,9 +1120,9 @@
         "hourlyProfit": 741000,
         "skills": {
             "Crafting": "20",
-            "Attack": "81",
-            "Defence": "81",
-            "Strength": "81"
+            "Attack": 71,
+            "Defence": 71,
+            "Strength": 71
         },
         "category": "Skilling/Crafting",
         "itenstity": "Low",
@@ -1301,9 +1301,9 @@
         "methodLink": "/w/Money_making_guide/Killing_green_dragons_(Myths_Guild)",
         "hourlyProfit": 611000,
         "skills": {
-            "Attack": "80",
-            "Defence": "80",
-            "Strength": "80",
+            "Attack": 70,
+            "Defence": 70,
+            "Strength": 70,
             "Ranged": "60"
         },
         "category": "Combat/Mid",
@@ -1561,9 +1561,9 @@
         "methodLink": "/w/Money_making_guide/Temple_Trekking",
         "hourlyProfit": 512000,
         "skills": {
-            "Attack": "60",
-            "Defence": "60",
-            "Strength": "60"
+            "Attack": 50,
+            "Defence": 50,
+            "Strength": 50
         },
         "category": "Combat/Low",
         "itenstity": "Low",
@@ -1728,9 +1728,9 @@
         "methodLink": "/w/Money_making_guide/Killing_green_dragons",
         "hourlyProfit": 450000,
         "skills": {
-            "Attack": "80",
-            "Defence": "80",
-            "Strength": "80",
+            "Attack": 70,
+            "Defence": 70,
+            "Strength": 70,
             "Ranged": "60",
             "Prayer": "25"
         },
@@ -1937,9 +1937,9 @@
         "methodLink": "/w/Money_making_guide/Killing_blue_dragons",
         "hourlyProfit": 387000,
         "skills": {
-            "Attack": "90",
-            "Defence": "90",
-            "Strength": "90",
+            "Attack": 80,
+            "Defence": 80,
+            "Strength": 80,
             "Ranged": "70",
             "Magic": "37",
             "Agility": "70"
@@ -2606,9 +2606,9 @@
         "methodLink": "/w/Money_making_guide/Killing_Feral_Vampyres",
         "hourlyProfit": 213000,
         "skills": {
-            "Attack": "75",
-            "Defence": "75",
-            "Strength": "75"
+            "Attack": 65,
+            "Defence": 65,
+            "Strength": 65
         },
         "category": "Combat/Mid",
         "itenstity": "Low",
@@ -2761,9 +2761,9 @@
         "methodLink": "/w/Money_making_guide/Killing_chaos_druids",
         "hourlyProfit": 185000,
         "skills": {
-            "Attack": "40",
-            "Defence": "40",
-            "Strength": "40",
+            "Attack": 30,
+            "Defence": 30,
+            "Strength": 30,
             "Prayer": "25"
         },
         "category": "Combat/Low",
@@ -2863,9 +2863,9 @@
         "methodLink": "/w/Money_making_guide/Collecting_red_spiders%27_eggs_(free-to-play)",
         "hourlyProfit": 170000,
         "skills": {
-            "Attack": "69",
-            "Defence": "69",
-            "Strength": "69"
+            "Attack": 59,
+            "Defence": 59,
+            "Strength": 59
         },
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -3433,9 +3433,9 @@
         "methodLink": "/w/Money_making_guide/Killing_chaos_dwarves",
         "hourlyProfit": 97000,
         "skills": {
-            "Attack": "60",
-            "Defence": "60",
-            "Strength": "60"
+            "Attack": 50,
+            "Defence": 50,
+            "Strength": 50
         },
         "category": "Combat/Mid",
         "itenstity": "Low",
@@ -3546,9 +3546,9 @@
         "methodLink": "/w/Money_making_guide/Killing_imps",
         "hourlyProfit": 77000,
         "skills": {
-            "Attack": "30",
-            "Defence": "30",
-            "Strength": "30"
+            "Attack": 20,
+            "Defence": 20,
+            "Strength": 20
         },
         "category": "Combat/Low",
         "itenstity": "Low",
@@ -3612,9 +3612,9 @@
         "methodLink": "/w/Money_making_guide/Killing_monkeys",
         "hourlyProfit": 71000,
         "skills": {
-            "Attack": "5",
-            "Defence": "5",
-            "Strength": "5"
+            "Attack": -5,
+            "Defence": -5,
+            "Strength": -5
         },
         "category": "Combat/Low",
         "itenstity": "Low",
@@ -3722,9 +3722,9 @@
         "methodLink": "/w/Money_making_guide/Killing_cows_and_tanning_cowhide",
         "hourlyProfit": 56000,
         "skills": {
-            "Attack": "20",
-            "Defence": "20",
-            "Strength": "20"
+            "Attack": 10,
+            "Defence": 10,
+            "Strength": 10
         },
         "category": "Combat/Low",
         "itenstity": "Low",
@@ -3754,9 +3754,9 @@
         "hourlyProfit": 49000,
         "skills": {
             "Mining": "15",
-            "Attack": "13",
-            "Defence": "13",
-            "Strength": "13"
+            "Attack": 3,
+            "Defence": 3,
+            "Strength": 3
         },
         "category": "Skilling/Mining",
         "itenstity": "High",
@@ -3981,9 +3981,9 @@
         "hourlyProfit": 24000,
         "skills": {
             "Mining": "40",
-            "Attack": "65",
-            "Defence": "65",
-            "Strength": "65"
+            "Attack": 55,
+            "Defence": 55,
+            "Strength": 55
         },
         "category": "Skilling/Mining",
         "itenstity": "Low",
@@ -4007,9 +4007,9 @@
         "methodLink": "/w/Money_making_guide/Killing_bears",
         "hourlyProfit": 23000,
         "skills": {
-            "Attack": "30",
-            "Defence": "30",
-            "Strength": "30"
+            "Attack": 20,
+            "Defence": 20,
+            "Strength": 20
         },
         "category": "Combat/Mid",
         "itenstity": "Moderate",
@@ -4076,9 +4076,9 @@
         "methodLink": "/w/Money_making_guide/Killing_wizards",
         "hourlyProfit": 20000,
         "skills": {
-            "Attack": "20",
-            "Defence": "20",
-            "Strength": "20"
+            "Attack": 10,
+            "Defence": 10,
+            "Strength": 10
         },
         "category": "Combat/Low",
         "itenstity": "Low",
