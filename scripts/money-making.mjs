@@ -60,9 +60,9 @@ const parseWikiTable = async (url, keys, tableIndex) => {
 
         for(const skill in rawSkills){
             if(skill === 'Combat level'){
-                parsedSkills.Attack = rawSkills[skill];
-                parsedSkills.Defence = rawSkills[skill];
-                parsedSkills.Strength = rawSkills[skill];
+                parsedSkills.Attack = rawSkills[skill] - 10;
+                parsedSkills.Defence = rawSkills[skill] - 10;
+                parsedSkills.Strength = rawSkills[skill] - 10;
 
                 continue;
             }
