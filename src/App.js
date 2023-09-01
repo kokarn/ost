@@ -185,7 +185,8 @@ function App() {
                     setItemFilter(e.target.value);
                 }}
             />}>
-                <Route index element={<View
+                <Route index element={<Items
+                    dayData={lastDayData}
                     filter={itemFilter}
                     latest={latest}
                     mapping={mapping}
@@ -193,14 +194,6 @@ function App() {
                     volumes={volumes}
                 />} />
                 <Route path="level" element={<Level />} />
-                <Route path="items" element={<Items
-                    dayData={lastDayData}
-                    filter={itemFilter}
-                    latest={latest}
-                    mapping={mapping}
-                    profits={profits}
-                    volumes={volumes}
-                    />} />
                 <Route path="money-making" element={<MoneyMaking />} />
             </Route>
         </Routes>
