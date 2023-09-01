@@ -21,7 +21,7 @@ import Box from '@mui/material/Box';
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
 
-import View from './pages/View.js';
+// import View from './pages/View.js';
 import Level from './pages/Level.js';
 import Items from './pages/Items.js';
 import MoneyMaking from './pages/MoneyMaking.js';
