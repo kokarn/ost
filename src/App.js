@@ -17,6 +17,10 @@ import Button from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import Box from '@mui/material/Box';
+import Menu from '@mui/material/Menu';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
@@ -71,58 +75,113 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 function Layout({handleFilterChange}) {
+    const [anchorElNav, setAnchorElNav] = useState(null);
+
+    const handleOpenNavMenu = (event) => {
+      setAnchorElNav(event.currentTarget);
+    };
+
+    const handleCloseNavMenu = () => {
+      setAnchorElNav(null);
+    };
+
+    const pages = [
+        'Home',
+        'Money Making',
+        'Level',
+    ];
+
     return (<Box
         sx={{ flexGrow: 1 }}
     >
             {/* A "layout route" is a good place to put markup you want to
         share across all the pages on your site, like navigation. */}
-        <AppBar position="static">
-            <Toolbar disableGutters>
-                <Button
-                    sx={{ my: 2, color: 'white', display: 'block' }}
-                >
-                    <Link to="/">
-                        Home
-                    </Link>
-                </Button>
-                <Button
-                    sx={{ my: 2, color: 'white', display: 'block' }}
-                >
-                    <Link
-                        to="/level"
+        <AppBar
+            position="static"
+        >
+            <Toolbar
+                disableGutters
+            >
+                <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <IconButton
+                        size="large"
+                        aria-label="account of current user"
+                        aria-controls="menu-appbar"
+                        aria-haspopup="true"
+                        onClick={handleOpenNavMenu}
+                        color="inherit"
                     >
-                        Level
-                    </Link>
-                </Button>
-                {/* <Button
-                    sx={{ my: 2, color: 'white', display: 'block' }}
-                >
-                    <Link
-                        to="/items"
+                        <MenuIcon />
+                    </IconButton>
+                    <Menu
+                        id="menu-appbar"
+                        anchorEl={anchorElNav}
+                        anchorOrigin={{
+                            vertical: 'bottom',
+                            horizontal: 'left',
+                        }}
+                        keepMounted
+                        transformOrigin={{
+                            vertical: 'top',
+                            horizontal: 'left',
+                        }}
+                        open={Boolean(anchorElNav)}
+                        onClose={handleCloseNavMenu}
+                        sx={{
+                            display: { xs: 'block', md: 'none' },
+                        }}
                     >
-                        Items
-                    </Link>
-                </Button> */}
-                <Button
-                    sx={{ my: 2, color: 'white', display: 'block' }}
+                        {pages.map((page) => (
+                            <MenuItem
+                                key={`mobile-${page}`}
+                                onClick={handleCloseNavMenu}
+                            >
+                                <Button
+                                    onClick={handleCloseNavMenu}
+                                    sx={{ my: 2, color: 'white', display: 'block' }}
+                                >
+                                    <Link
+                                        to = {`/${page.toLowerCase().replace('home', '').replace(' ', '-')}`}
+                                    >
+                                        {page}
+                                    </Link>
+                                </Button>
+                            </MenuItem>
+                        ))}
+                    </Menu>
+                </Box>
+                <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    {pages.map((page) => (
+                        <Button
+                            key={`desktop-${page}`}
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            <Link
+                                to = {`/${page.toLowerCase().replace('home', '').replace(' ', '-')}`}
+                            >
+                                {page}
+                            </Link>
+                        </Button>
+                    ))}
+                </Box>
+                <Box
+                    sx={{
+                        marginRight: '12px',
+                    }}
                 >
-                    <Link
-                        to="/money-making"
-                    >
-                        Money Making
-                    </Link>
-                </Button>
-                <Search>
-                    <SearchIconWrapper>
-                        <SearchIcon />
-                    </SearchIconWrapper>
-                    <StyledInputBase
-                        autoFocus
-                        inputProps={{ 'aria-label': 'search' }}
-                        onChange={handleFilterChange}
-                        placeholder="Search…"
-                    />
-                </Search>
+                    <Search>
+                        <SearchIconWrapper>
+                            <SearchIcon />
+                        </SearchIconWrapper>
+                        <StyledInputBase
+                            autoFocus
+                            inputProps={{ 'aria-label': 'search' }}
+                            onChange={handleFilterChange}
+                            placeholder="Search…"
+                        />
+                    </Search>
+                </Box>
             </Toolbar>
         </AppBar>
 
