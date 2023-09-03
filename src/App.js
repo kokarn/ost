@@ -94,7 +94,7 @@ function Layout({handleFilterChange}) {
                         Level
                     </Link>
                 </Button>
-                <Button
+                {/* <Button
                     sx={{ my: 2, color: 'white', display: 'block' }}
                 >
                     <Link
@@ -102,7 +102,7 @@ function Layout({handleFilterChange}) {
                     >
                         Items
                     </Link>
-                </Button>
+                </Button> */}
                 <Button
                     sx={{ my: 2, color: 'white', display: 'block' }}
                 >
