@@ -161,6 +161,10 @@ function MoneyMaking() {
         // },
     ];
 
+    const calculateRowHeight = (params) => {
+        return Object.keys(params.model.skills).length * 40 * params.densityFactor;
+    };
+
     return <Box
         component="form"
         sx={{
@@ -196,7 +200,7 @@ function MoneyMaking() {
                 density="standard"
                 rows={rows}
                 columns={columns}
-                getRowHeight={() => 'auto'}
+                // getRowHeight={() => 'auto'}
                 initialState={{
                     columns: {
                         columnVisibilityModel: {
@@ -204,6 +208,7 @@ function MoneyMaking() {
                         },
                     },
                 }}
+                getRowHeight={calculateRowHeight}
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector

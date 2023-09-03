@@ -229,6 +229,10 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
         },
     ];
 
+    const calculateRowHeight = (params) => {
+        return params.model.input.length * 40 * params.densityFactor;
+    };
+
     return <Box sx={{ flexGrow: 1 }}>
         <Container>
             <FormGroup>
@@ -279,7 +283,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                 density="standard"
                 rows={craftRows}
                 columns={craftColumns}
-                getRowHeight={() => 'auto'}
+                getRowHeight={calculateRowHeight}
                 initialState={{
                     columns: {
                         columnVisibilityModel: {
