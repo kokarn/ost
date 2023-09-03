@@ -69,6 +69,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                     id={itemData?.id}
                 />;
             },
+            minWidth: 200,
         },
         {
             field: 'high',
