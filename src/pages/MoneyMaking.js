@@ -12,6 +12,7 @@ import Checkbox from '@mui/material/Checkbox';
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
+import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 
 import moneyMaking from '../money-making.json';
 
@@ -52,7 +53,9 @@ function MoneyMaking() {
                 gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
             }
 
-            // console.log(gamePlayerStats);
+            gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
+
+            // console.log(gamePlayerStats['Combat level']);
 
             setPlayerStats(gamePlayerStats);
         }

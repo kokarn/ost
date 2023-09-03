@@ -59,14 +59,6 @@ const parseWikiTable = async (url, keys, tableIndex) => {
         // console.log(rawSkills);
 
         for(const skill in rawSkills){
-            if(skill === 'Combat level'){
-                parsedSkills.Attack = rawSkills[skill] - 10;
-                parsedSkills.Defence = rawSkills[skill] - 10;
-                parsedSkills.Strength = rawSkills[skill] - 10;
-
-                continue;
-            }
-
             // Remove anything that just says "Decent"
             if(rawSkills[skill].includes('Decent')){
                 continue;
@@ -107,7 +99,6 @@ const parseWikiTable = async (url, keys, tableIndex) => {
 
     return rows;
 };
-
 
 const keys = [
     'methodName',
