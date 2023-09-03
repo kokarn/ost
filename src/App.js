@@ -117,9 +117,10 @@ function Layout({handleFilterChange}) {
                         <SearchIcon />
                     </SearchIconWrapper>
                     <StyledInputBase
-                        placeholder="Search…"
+                        autoFocus
                         inputProps={{ 'aria-label': 'search' }}
                         onChange={handleFilterChange}
+                        placeholder="Search…"
                     />
                 </Search>
             </Toolbar>
