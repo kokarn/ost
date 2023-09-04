@@ -276,11 +276,17 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                             sort: 'desc',
                         }],
                     },
+                    pagination: {
+                        paginationModel: {
+                            pageSize: 10,
+                            page: 0,
+                        },
+                    },
                 }}
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                pageSizeOptions={[100]}
+                // hideFooter
             />
         </Container>
         <Container>
@@ -304,11 +310,17 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                             sort: 'desc',
                         }],
                     },
+                    pagination: {
+                        paginationModel: {
+                            pageSize: 10,
+                            page: 0,
+                        },
+                    },
                 }}
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                hideFooter
+                // hideFooter
             />
         </Container>
     </Box>;
