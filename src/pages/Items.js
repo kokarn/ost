@@ -16,6 +16,7 @@ import numberFormat from '../modules/number-format.mjs';
 import ItemRow from '../components/ItemRow.js';
 
 import '../App.css';
+import { Typography } from '@mui/material';
 
 timeago.register('en_short', en_short);
 
@@ -236,6 +237,9 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
 
     return <Box sx={{ flexGrow: 1 }}>
         <Container>
+            <Typography variant="h4" component="h4">
+                Grand Exchange
+            </Typography>
             <FormGroup>
                 <FormControlLabel control={
                     <Checkbox
@@ -280,6 +284,9 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
             />
         </Container>
         <Container>
+            <Typography variant="h4" component="h4">
+                Crafting
+            </Typography>
             <DataGrid
                 density="standard"
                 rows={craftRows}
@@ -290,6 +297,12 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                         columnVisibilityModel: {
                             id: false,
                         },
+                    },
+                    sorting: {
+                        sortModel: [{
+                            field: 'profit',
+                            sort: 'desc',
+                        }],
                     },
                 }}
                 disableColumnFilter
