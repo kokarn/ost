@@ -21,6 +21,14 @@ const addRecipe = async (recipe) => {
         return false;
     }
 
+    for(const inputId of recipe.input){
+        if(inputId === null){
+            console.error(`Can't add a recipe with a null input`);
+
+            return false;
+        }
+    }
+
     console.log(`Adding recipe for ${recipe.result}`);
 
     currentRecipes[recipe.result] = {
