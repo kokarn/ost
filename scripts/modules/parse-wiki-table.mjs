@@ -3,7 +3,7 @@ import * as cheerio from 'cheerio';
 
 import {getItem, searchForItem} from './get-item.mjs';
 
-const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false) => {
+const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false, nameSuffix = false) => {
     const pageResponse = await got(url);
     const $ = cheerio.load(pageResponse.body);
 
@@ -27,6 +27,31 @@ const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false) =
                     craft[keys[i]] = contents;
                 }
             });
+
+            if(nameSuffix){
+                craft.resultName = `${craft.resultName}${nameSuffix}`;
+            }
+
+            if(craft.wikiMaterial1 || craft.wikiMaterial2 || craft.wikiMaterial3){
+                craft.materials = [];
+                if(Array.isArray(craft.wikiMaterial1)){
+                    craft.materials.concat(craft.wikiMaterial1);
+                } else {
+                    craft.materials.push(craft.wikiMaterial1);
+                }
+
+                if(Array.isArray(craft.wikiMaterial2)){
+                    craft.materials.concat(craft.wikiMaterial2);
+                } else {
+                    craft.materials.push(craft.wikiMaterial2);
+                }
+
+                if(Array.isArray(craft.wikiMaterial3)){
+                    craft.materials.concat(craft.wikiMaterial3);
+                } else {
+                    craft.materials.push(craft.wikiMaterial3);
+                }
+            }
 
             crafts.push(craft);
         });
@@ -53,9 +78,36 @@ const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false) =
                     } else {
                         const contents = $(el).text().trim();
 
+                        // console.log(contents);
+
                         craft[keys[i]] = contents;
                     }
                 });
+
+                if(nameSuffix){
+                    craft.resultName = `${craft.resultName}${nameSuffix}`;
+                }
+
+                if(craft.wikiMaterial1 || craft.wikiMaterial2 || craft.wikiMaterial3){
+                    craft.materials = [];
+                    if(Array.isArray(craft.wikiMaterial1)){
+                        craft.materials.concat(craft.wikiMaterial1);
+                    } else {
+                        craft.materials.push(craft.wikiMaterial1);
+                    }
+
+                    if(Array.isArray(craft.wikiMaterial2)){
+                        craft.materials.concat(craft.wikiMaterial2);
+                    } else {
+                        craft.materials.push(craft.wikiMaterial2);
+                    }
+
+                    if(Array.isArray(craft.wikiMaterial3)){
+                        craft.materials.concat(craft.wikiMaterial3);
+                    } else {
+                        craft.materials.push(craft.wikiMaterial3);
+                    }
+                }
 
                 crafts.push(craft);
             });
@@ -69,7 +121,7 @@ const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false) =
             continue;
         }
 
-        // console.log(craft.resultName);
+        // console.log(craft);
         // console.log(JSON.stringify(craft, null, 4));
         craft.result = getItem(craft.resultName);
 

@@ -19,6 +19,16 @@ const calculateProfit = async (latest, mapping, last24h) => {
         let cost = 0;
 
         for(const input of recipes[recipeOutputId].input){
+            if(!latest[input] || !latest[input].high){
+                cost = cost + 999999999999999;
+
+                continue;
+            }
+
+            if(latest[input]){
+                console.log(latest[input]);
+            }
+
             cost = cost + latest[input].high;
         }
 
@@ -33,6 +43,8 @@ const calculateProfit = async (latest, mapping, last24h) => {
         let cost = 0;
         for(const input of recipes[recipeOutputId].input){
             if(recipes[input]?.cost && recipes[input].cost < latest[input].high){
+                cost = cost + recipes[input].cost;
+            } else if(!latest[input] ){
                 cost = cost + recipes[input].cost;
             } else {
                 cost = cost + latest[input].high;
