@@ -3,32 +3,64 @@ import * as cheerio from 'cheerio';
 
 import {getItem, searchForItem} from './get-item.mjs';
 
-const parseWikiTable = async (url, keys, tableIndex) => {
+const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false) => {
     const pageResponse = await got(url);
     const $ = cheerio.load(pageResponse.body);
 
     const crafts = [];
-    $('table').eq(tableIndex).find('tbody').find('tr').each((outerIndex, outerElement) => {
-        const craft = {};
+    if(tableIndex){
+        $('table').eq(tableIndex).find('tbody').find('tr').each((outerIndex, outerElement) => {
+            const craft = {};
 
-        $(outerElement).find('td').each((i, el) => {
-            if($(el).find('br').length > 0) {
-                craft[keys[i]] = [];
+            $(outerElement).find('td').each((i, el) => {
+                if($(el).find('br').length > 0) {
+                    craft[keys[i]] = [];
 
-                $(el).find('a').each((itemIndex, itemElement) => {
-                    craft[keys[i]].push($(itemElement).text().trim());
+                    $(el).find('a').each((itemIndex, itemElement) => {
+                        craft[keys[i]].push($(itemElement).text().trim());
+                    });
+
+                    craft[keys[i]] = craft[keys[i]].filter(Boolean);
+                } else {
+                    const contents = $(el).text().trim();
+
+                    craft[keys[i]] = contents;
+                }
+            });
+
+            crafts.push(craft);
+        });
+    } else if(tableKey){
+        $('table').each((index, tableElement) => {
+            const firstColumnKey = $(tableElement).find('th').first().text().trim().toLowerCase();
+
+            if(firstColumnKey !== tableKey){
+                return true;
+            }
+
+            $(tableElement).find('tbody').find('tr').each((outerIndex, outerElement) => {
+                const craft = {};
+
+                $(outerElement).find('td').each((i, el) => {
+                    if($(el).find('br').length > 0) {
+                        craft[keys[i]] = [];
+
+                        $(el).find('a').each((itemIndex, itemElement) => {
+                            craft[keys[i]].push($(itemElement).text().trim());
+                        });
+
+                        craft[keys[i]] = craft[keys[i]].filter(Boolean);
+                    } else {
+                        const contents = $(el).text().trim();
+
+                        craft[keys[i]] = contents;
+                    }
                 });
 
-                craft[keys[i]] = craft[keys[i]].filter(Boolean);
-            } else {
-                const contents = $(el).text().trim();
-
-                craft[keys[i]] = contents;
-            }
+                crafts.push(craft);
+            });
         });
-
-        crafts.push(craft);
-    });
+    }
 
     for(const [index, craft] of crafts.entries()){
         if(!craft.resultName){
@@ -37,8 +69,8 @@ const parseWikiTable = async (url, keys, tableIndex) => {
             continue;
         }
 
-        console.log(craft.resultName);
-        console.log(JSON.stringify(craft, null, 4));
+        // console.log(craft.resultName);
+        // console.log(JSON.stringify(craft, null, 4));
         craft.result = getItem(craft.resultName);
 
         if(!craft.result){
@@ -58,8 +90,6 @@ const parseWikiTable = async (url, keys, tableIndex) => {
 
             craft.result = searchResult[0];
         }
-
-        console.log(craft);
 
         craft.result = craft.result.id;
 
