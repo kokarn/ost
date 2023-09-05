@@ -25,10 +25,10 @@ import MenuItem from '@mui/material/MenuItem';
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
 
-// import View from './pages/View.js';
-import Level from './pages/Level.js';
+import LevelCalculator from './pages/LevelCalculator.js';
 import Items from './pages/Items.js';
 import MoneyMaking from './pages/MoneyMaking.js';
+import Crafts from './pages/Crafts.js';
 
 import './App.css';
 
@@ -86,9 +86,26 @@ function Layout({handleFilterChange}) {
     };
 
     const pages = [
-        'Home',
-        'Money Making',
-        'Level',
+        {
+            key: 'items',
+            label: 'Items',
+            path: '/',
+        },
+        {
+            key: 'money-making',
+            label: 'Money Making',
+            path: '/money-making',
+        },
+        {
+            key: 'level',
+            label: 'Level Calculator',
+            path: '/level-calculator',
+        },
+        {
+            key: 'crafts',
+            label: 'Crafts',
+            path: '/crafts',
+        },
     ];
 
     return (<Box
@@ -133,7 +150,7 @@ function Layout({handleFilterChange}) {
                     >
                         {pages.map((page) => (
                             <MenuItem
-                                key={`mobile-${page}`}
+                                key={`mobile-${page.path}`}
                                 onClick={handleCloseNavMenu}
                             >
                                 <Button
@@ -141,9 +158,9 @@ function Layout({handleFilterChange}) {
                                     sx={{ my: 2, color: 'white', display: 'block' }}
                                 >
                                     <Link
-                                        to = {`/${page.toLowerCase().replace('home', '').replace(' ', '-')}`}
+                                        to = {`${page.path}`}
                                     >
-                                        {page}
+                                        {page.label}
                                     </Link>
                                 </Button>
                             </MenuItem>
@@ -153,14 +170,14 @@ function Layout({handleFilterChange}) {
                 <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                     {pages.map((page) => (
                         <Button
-                            key={`desktop-${page}`}
+                            key={`desktop-${page.path}`}
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
                             <Link
-                                to = {`/${page.toLowerCase().replace('home', '').replace(' ', '-')}`}
+                                to = {`${page.path}`}
                             >
-                                {page}
+                                {page.label}
                             </Link>
                         </Button>
                     ))}
@@ -251,21 +268,44 @@ function App() {
 
     return (<Router>
         <Routes>
-            <Route path="/" element={<Layout
-                handleFilterChange={(e) => {
-                    setItemFilter(e.target.value);
-                }}
-            />}>
-                <Route index element={<Items
-                    dayData={lastDayData}
-                    filter={debouncedFilter}
-                    latest={latest}
-                    mapping={mapping}
-                    profits={profits}
-                    volumes={volumes}
-                />} />
-                <Route path="level" element={<Level />} />
-                <Route path="money-making" element={<MoneyMaking />} />
+            <Route
+                path="/"
+                element={<Layout
+                    handleFilterChange={(e) => {
+                        setItemFilter(e.target.value);
+                    }}
+                />}
+            >
+                <Route
+                    index
+                    element={<Items
+                        dayData={lastDayData}
+                        filter={debouncedFilter}
+                        latest={latest}
+                        mapping={mapping}
+                        profits={profits}
+                        volumes={volumes}
+                    />}
+                />
+                <Route
+                    path="level-calculator"
+                    element={<LevelCalculator />}
+                />
+                <Route
+                    path="money-making"
+                    element={<MoneyMaking />}
+                />
+                <Route
+                    path='crafts'
+                    element={<Crafts
+                        dayData={lastDayData}
+                        filter={debouncedFilter}
+                        latest={latest}
+                        mapping={mapping}
+                        profits={profits}
+                        volumes={volumes}
+                    />}
+                />
             </Route>
         </Routes>
     </Router>);
