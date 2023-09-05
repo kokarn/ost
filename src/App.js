@@ -1,7 +1,7 @@
 import {
     useEffect,
     useState,
-    // useMemo,
+    useRef,
 } from 'react';
 import {
     BrowserRouter as Router,
@@ -21,6 +21,7 @@ import Menu from '@mui/material/Menu';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import ClearIcon from '@mui/icons-material/Clear';
 
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
@@ -76,6 +77,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 function Layout({handleFilterChange}) {
     const [anchorElNav, setAnchorElNav] = useState(null);
+    const inputRef = useRef(null);
 
     const handleOpenNavMenu = (event) => {
       setAnchorElNav(event.currentTarget);
@@ -193,7 +195,24 @@ function Layout({handleFilterChange}) {
                         </SearchIconWrapper>
                         <StyledInputBase
                             autoFocus
-                            inputProps={{ 'aria-label': 'search' }}
+                            endAdornment ={ <IconButton
+                                //   sx={{ visibility: true ? "visible" : "hidden" }}
+                                  onClick={() => {
+                                    inputRef.current.value = '';
+                                    inputRef.current.focus();
+                                    handleFilterChange({
+                                        target: {
+                                            value: '',
+                                        }
+                                    });
+                                  }}
+                                >
+                                    <ClearIcon />
+                            </IconButton>}
+                            inputProps={{
+                                'aria-label': 'search',
+                            }}
+                            inputRef={inputRef}
                             onChange={handleFilterChange}
                             placeholder="Search…"
                         />
