@@ -250,8 +250,6 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                         }}
                     />
                 } label="High alc" />
-                {/* <FormControlLabel required control={<Checkbox />} label="Required" />
-                <FormControlLabel disabled control={<Checkbox />} label="Disabled" /> */}
             </FormGroup>
             <DataGrid
                 density="standard"
