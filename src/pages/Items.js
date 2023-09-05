@@ -1,5 +1,5 @@
 import {
-    // useEffect,
+    useMemo,
     useState,
 } from 'react';
 import Box from '@mui/material/Box';
@@ -22,35 +22,37 @@ timeago.register('en_short', en_short);
 
 function Items({latest, mapping, profits, dayData, volumes, filter}) {
     const [highAlch, setHighAlch] = useState(true);
-    let rows = [];
 
-    for (const itemId in mapping) {
-        // const volume = dayData[itemId]?.highPriceVolume + dayData[itemId]?.lowPriceVolume;
+    const rows = useMemo(() => {
+        let returnRows = [];
+        for (const itemId in mapping) {
+            if(!dayData[itemId]){
+                continue;
+            }
 
-        if(!dayData[itemId]){
-            continue;
+            returnRows.push({
+                id: itemId,
+                volume: volumes?.[itemId],
+                lowAlchProfit: (mapping[itemId]?.lowalch || 0) - Math.max(dayData[itemId]?.avgHighPrice, dayData[itemId]?.avgLowPrice),
+                highAlchProfit: (mapping[itemId]?.highalch || 0) - Math.max(dayData[itemId]?.avgHighPrice, dayData[itemId]?.avgLowPrice),
+                ...dayData[itemId],
+                ...mapping[itemId],
+                ...latest[itemId],
+            });
         }
 
-        rows.push({
-            id: itemId,
-            volume: volumes?.[itemId],
-            lowAlchProfit: (mapping[itemId]?.lowalch || 0) - Math.max(dayData[itemId]?.avgHighPrice, dayData[itemId]?.avgLowPrice),
-            highAlchProfit: (mapping[itemId]?.highalch || 0) - Math.max(dayData[itemId]?.avgHighPrice, dayData[itemId]?.avgLowPrice),
-            ...dayData[itemId],
-            ...mapping[itemId],
-            ...latest[itemId],
-        });
-    }
+        return returnRows;
+    }, [latest, mapping, dayData, volumes]);
 
-    if (filter) {
-        rows = rows.filter((row) => {
+    const renderItemRows = useMemo(() => {
+        return rows.filter((row) => {
             if(row.name.toLowerCase().includes(filter.toLowerCase())){
                 return true;
             }
 
             return false;
         });
-    }
+    }, [rows, filter]);
 
     const columns = [
         {
@@ -137,17 +139,21 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
         },
     ];
 
-    let craftRows = [];
+    const craftRows = useMemo(() => {
+        let returnRows = [];
 
-    for (const result in profits) {
-        craftRows.push({
-            id: result,
-            ...profits[result],
-        });
-    }
+        for (const result in profits) {
+            returnRows.push({
+                id: result,
+                ...profits[result],
+            });
+        }
 
-    if (filter) {
-        craftRows = craftRows.filter((row) => {
+        return returnRows;
+    }, [profits]);
+
+    const renderCraftRows = useMemo(() => {
+        return craftRows.filter((row) => {
             if(row.name.toLowerCase().includes(filter.toLowerCase())){
                 return true;
             }
@@ -160,7 +166,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
 
             return false;
         });
-    }
+    }, [craftRows, filter, mapping]);
 
     const craftColumns = [
         {
@@ -253,7 +259,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
             </FormGroup>
             <DataGrid
                 density="standard"
-                rows={rows}
+                rows={renderItemRows}
                 columns={columns}
                 columnVisibilityModel={{
                     lowAlchProfit: !highAlch,
@@ -293,7 +299,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
             </Typography>
             <DataGrid
                 density="standard"
-                rows={craftRows}
+                rows={renderCraftRows}
                 columns={craftColumns}
                 getRowHeight={calculateRowHeight}
                 initialState={{
