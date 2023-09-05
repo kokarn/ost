@@ -200,6 +200,7 @@ function App() {
     const [lastDayData, setLastDayData] = useState({});
     const [volumes, setVolumes] = useState({});
     const [itemFilter, setItemFilter] = useState('');
+    const [debouncedFilter, setDebouncedFilter] = useState('');
 
     useEffect(() => {
         const loadInitialData = async () => {
@@ -238,6 +239,16 @@ function App() {
         return () => clearInterval(interval);
     }, [mapping, lastDayData])
 
+    useEffect(() => {
+        const timerId = setTimeout(() => {
+            setDebouncedFilter(itemFilter);
+        }, 250);
+
+        return () => {
+            clearTimeout(timerId);
+        };
+      }, [itemFilter]);
+
     return (<Router>
         <Routes>
             <Route path="/" element={<Layout
@@ -247,7 +258,7 @@ function App() {
             />}>
                 <Route index element={<Items
                     dayData={lastDayData}
-                    filter={itemFilter}
+                    filter={debouncedFilter}
                     latest={latest}
                     mapping={mapping}
                     profits={profits}
