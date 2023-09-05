@@ -232,7 +232,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
     ];
 
     const calculateRowHeight = (params) => {
-        return params.model.input.length * 40 * params.densityFactor;
+        return params.model.input.length * 20 + (16 * params.densityFactor);
     };
 
     return <Box sx={{ flexGrow: 1 }}>
