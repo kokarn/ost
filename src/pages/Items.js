@@ -11,9 +11,11 @@ import Checkbox from '@mui/material/Checkbox';
 import TimeAgo from 'timeago-react';
 import en_short from 'timeago.js/lib/lang/en_short';
 import * as timeago from 'timeago.js';
+import Stack from '@mui/material/Stack';
 
 import numberFormat from '../modules/number-format.mjs';
 import ItemRow from '../components/ItemRow.js';
+import CustomNoRowsOverlay from '../components/NoRows.js';
 
 import '../App.css';
 import { Typography } from '@mui/material';
@@ -114,13 +116,13 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
         },
         {
             field: 'lowalch',
-            headerName: 'Low alch value',
+            headerName: 'Low alch',
             valueFormatter: ({ value }) => numberFormat(value),
             width: 120,
         },
         {
             field: 'highalch',
-            headerName: 'High alch value',
+            headerName: 'High alch',
             valueFormatter: ({ value }) => numberFormat(value),
             width: 120,
         },
@@ -243,22 +245,27 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
 
     return <Box sx={{ flexGrow: 1 }}>
         <Container>
-            <Typography variant="h4" component="h4">
-                Grand Exchange
-            </Typography>
-            <FormGroup>
-                <FormControlLabel control={
-                    <Checkbox
-                        checked={highAlch}
-                        label="High alch"
-                        onChange={(event) => {
-                            setHighAlch(event.target.checked);
-                        }}
-                    />
-                } label="High alc" />
-            </FormGroup>
+            <Stack
+                direction="row"
+                justifyContent="space-between"
+            >
+                <Typography variant="h4" component="h4">
+                    Grand Exchange
+                </Typography>
+                <FormGroup>
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={highAlch}
+                            label="High alch"
+                            onChange={(event) => {
+                                setHighAlch(event.target.checked);
+                            }}
+                        />
+                    } label="High alc" />
+                </FormGroup>
+            </Stack>
             <DataGrid
-                density="standard"
+                autoHeight
                 rows={renderItemRows}
                 columns={columns}
                 columnVisibilityModel={{
@@ -290,7 +297,11 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                // hideFooter
+                hideFooter
+                slots={{
+                    noRowsOverlay: CustomNoRowsOverlay,
+                    noResultsOverlay: CustomNoRowsOverlay,
+                }}
             />
         </Container>
         <Container>
@@ -298,7 +309,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                 Crafting
             </Typography>
             <DataGrid
-                density="standard"
+                autoHeight
                 rows={renderCraftRows}
                 columns={craftColumns}
                 getRowHeight={calculateRowHeight}
@@ -324,7 +335,11 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                // hideFooter
+                slots={{
+                    noRowsOverlay: CustomNoRowsOverlay,
+                    noResultsOverlay: CustomNoRowsOverlay,
+                }}
+                hideFooter
             />
         </Container>
     </Box>;

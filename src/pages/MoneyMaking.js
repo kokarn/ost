@@ -9,6 +9,7 @@ import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-d
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import { Stack } from '@mui/material';
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
@@ -162,7 +163,7 @@ function MoneyMaking() {
     ];
 
     const calculateRowHeight = (params) => {
-        return Object.keys(params.model.skills).length * 40 * params.densityFactor;
+        return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
     };
 
     return <Box
@@ -175,26 +176,28 @@ function MoneyMaking() {
     >
         <Container>
             <FormGroup>
-                <FormControlLabel control={
-                    <Checkbox
-                        checked={hideEmpty}
-                        label="Hide empty requirements"
-                        onChange={(event) => {
-                            setHideEmpty(event.target.checked);
-                        }}
-                    />
-                } label="Hide empty" />
-                <FormControlLabel control={
-                    <Checkbox
-                        checked={hideUnqualified}
-                        label="Hide unqualified"
-                        onChange={(event) => {
-                            setHideUnqualified(event.target.checked);
-                        }}
-                    />
-                } label="Hide unqualified" />
-                {/* <FormControlLabel required control={<Checkbox />} label="Required" />
-                <FormControlLabel disabled control={<Checkbox />} label="Disabled" /> */}
+                <Stack
+                    direction="row"
+                >
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={hideEmpty}
+                            label="Hide empty requirements"
+                            onChange={(event) => {
+                                setHideEmpty(event.target.checked);
+                            }}
+                        />
+                    } label="Hide empty" />
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={hideUnqualified}
+                            label="Hide unqualified"
+                            onChange={(event) => {
+                                setHideUnqualified(event.target.checked);
+                            }}
+                        />
+                    } label="Hide unqualified" />
+            </Stack>
             </FormGroup>
             <DataGrid
                 density="standard"
