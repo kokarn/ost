@@ -143,6 +143,7 @@ function CraftTable({latest, mapping, profits, filter}) {
                     },
                 },
             }}
+            pageSizeOptions={[10]}
             disableColumnFilter
             disableColumnSelector
             disableDensitySelector
@@ -150,7 +151,7 @@ function CraftTable({latest, mapping, profits, filter}) {
                 noRowsOverlay: CustomNoRowsOverlay,
                 noResultsOverlay: CustomNoRowsOverlay,
             }}
-            hideFooter
+            // hideFooter
         />
     </Container>
     ;

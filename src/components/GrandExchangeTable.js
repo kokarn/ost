@@ -193,7 +193,8 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
             disableColumnFilter
             disableColumnSelector
             disableDensitySelector
-            hideFooter
+            pageSizeOptions={[10]}
+            // hideFooter
             slots={{
                 noRowsOverlay: CustomNoRowsOverlay,
                 noResultsOverlay: CustomNoRowsOverlay,
