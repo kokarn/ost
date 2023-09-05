@@ -25,10 +25,6 @@ const calculateProfit = async (latest, mapping, last24h) => {
                 continue;
             }
 
-            if(latest[input]){
-                console.log(latest[input]);
-            }
-
             cost = cost + latest[input].high;
         }
 
