@@ -28,6 +28,7 @@ jobs:
     - name: Build
       run: |
         npm install
+        node scripts/money-making.mjs
         npm run build
 
     - name: Deploy 🚀

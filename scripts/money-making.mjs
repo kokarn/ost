@@ -1,5 +1,11 @@
+import {writeFile} from 'fs/promises';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+
 import * as cheerio from 'cheerio';
 import got from 'got';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // import {getItem, searchForItem} from './get-item.mjs';
 
@@ -126,4 +132,5 @@ try {
 //     await addRecipe(craft);
 // };
 
-console.log(JSON.stringify(methods, null, 4));
+// console.log(JSON.stringify(methods, null, 4));
+writeFile(join(__dirname, '..', 'src', 'money-making.json'), JSON.stringify(methods, null, 4));
