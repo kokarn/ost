@@ -1,0 +1,1578 @@
+[
+    {
+        "name": "Adamant dragon",
+        "attributes": {
+            "lootValue": 27861,
+            "combatLevel": 338
+        },
+        "link": "https://oldschool.runescape.wiki/w/Adamant_dragon"
+    },
+    {
+        "name": "Alchemical Hydra",
+        "attributes": {
+            "lootValue": 8990,
+            "combatLevel": 426
+        },
+        "link": "https://oldschool.runescape.wiki/w/Alchemical_Hydra"
+    },
+    {
+        "name": "Alvarg",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Alvarg"
+    },
+    {
+        "name": "Ancient Wyvern",
+        "attributes": {
+            "lootValue": 16653,
+            "combatLevel": 210
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ancient_Wyvern"
+    },
+    {
+        "name": "Baby black dragon",
+        "attributes": {
+            "lootValue": 654,
+            "combatLevel": 83
+        },
+        "link": "https://oldschool.runescape.wiki/w/Baby_black_dragon"
+    },
+    {
+        "name": "Baby blue dragon",
+        "attributes": {
+            "lootValue": 662,
+            "combatLevel": 48
+        },
+        "link": "https://oldschool.runescape.wiki/w/Baby_blue_dragon"
+    },
+    {
+        "name": "Baby green dragon",
+        "attributes": {
+            "lootValue": 654,
+            "combatLevel": 48
+        },
+        "link": "https://oldschool.runescape.wiki/w/Baby_green_dragon"
+    },
+    {
+        "name": "Baby red dragon",
+        "attributes": {
+            "lootValue": 654,
+            "combatLevel": 48
+        },
+        "link": "https://oldschool.runescape.wiki/w/Baby_red_dragon"
+    },
+    {
+        "name": "Baby red dragon (Construction)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Baby_red_dragon_(Construction)"
+    },
+    {
+        "name": "Black dragon",
+        "attributes": {
+            "lootValue": 23775,
+            "combatLevel": 227
+        },
+        "link": "https://oldschool.runescape.wiki/w/Black_dragon"
+    },
+    {
+        "name": "Blue dragon",
+        "attributes": {
+            "lootValue": 3971,
+            "combatLevel": 111
+        },
+        "link": "https://oldschool.runescape.wiki/w/Blue_dragon"
+    },
+    {
+        "name": "Bronze dragon",
+        "attributes": {
+            "lootValue": 3808,
+            "combatLevel": 131
+        },
+        "link": "https://oldschool.runescape.wiki/w/Bronze_dragon"
+    },
+    {
+        "name": "Brutal black dragon",
+        "attributes": {
+            "lootValue": 22221,
+            "combatLevel": 318
+        },
+        "link": "https://oldschool.runescape.wiki/w/Brutal_black_dragon"
+    },
+    {
+        "name": "Brutal blue dragon",
+        "attributes": {
+            "lootValue": 9161,
+            "combatLevel": 271
+        },
+        "link": "https://oldschool.runescape.wiki/w/Brutal_blue_dragon"
+    },
+    {
+        "name": "Brutal green dragon",
+        "attributes": {
+            "lootValue": 7730,
+            "combatLevel": 227
+        },
+        "link": "https://oldschool.runescape.wiki/w/Brutal_green_dragon"
+    },
+    {
+        "name": "Brutal red dragon",
+        "attributes": {
+            "lootValue": 13260,
+            "combatLevel": 289
+        },
+        "link": "https://oldschool.runescape.wiki/w/Brutal_red_dragon"
+    },
+    {
+        "name": "Chromatic dragons",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Chromatic_dragons"
+    },
+    {
+        "name": "Colossal Hydra",
+        "attributes": {
+            "lootValue": 542214,
+            "combatLevel": 309
+        },
+        "link": "https://oldschool.runescape.wiki/w/Colossal_Hydra"
+    },
+    {
+        "name": "Colossal Wyrm",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Colossal_Wyrm"
+    },
+    {
+        "name": "Drake",
+        "attributes": {
+            "lootValue": 7599,
+            "combatLevel": 192
+        },
+        "link": "https://oldschool.runescape.wiki/w/Drake"
+    },
+    {
+        "name": "Elvarg",
+        "attributes": {
+            "lootValue": 1959,
+            "combatLevel": 83
+        },
+        "link": "https://oldschool.runescape.wiki/w/Elvarg"
+    },
+    {
+        "name": "Eski",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Eski"
+    },
+    {
+        "name": "Eski the Bloated",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Eski_the_Bloated"
+    },
+    {
+        "name": "Fairy dragon",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Fairy_dragon"
+    },
+    {
+        "name": "Forcae",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Forcae"
+    },
+    {
+        "name": "Galvek",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 608
+        },
+        "link": "https://oldschool.runescape.wiki/w/Galvek"
+    },
+    {
+        "name": "Garak",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Garak"
+    },
+    {
+        "name": "Great Olm",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Great_Olm"
+    },
+    {
+        "name": "Green dragon",
+        "attributes": {
+            "lootValue": 12178,
+            "combatLevel": 79
+        },
+        "link": "https://oldschool.runescape.wiki/w/Green_dragon"
+    },
+    {
+        "name": "Guardian Drake",
+        "attributes": {
+            "lootValue": 234276,
+            "combatLevel": 386
+        },
+        "link": "https://oldschool.runescape.wiki/w/Guardian_Drake"
+    },
+    {
+        "name": "Hekala",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Hekala"
+    },
+    {
+        "name": "Hydra",
+        "attributes": {
+            "lootValue": 9926,
+            "combatLevel": 194
+        },
+        "link": "https://oldschool.runescape.wiki/w/Hydra"
+    },
+    {
+        "name": "Iron dragon",
+        "attributes": {
+            "lootValue": 5197,
+            "combatLevel": 189
+        },
+        "link": "https://oldschool.runescape.wiki/w/Iron_dragon"
+    },
+    {
+        "name": "K'klik",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/K%27klik"
+    },
+    {
+        "name": "Karuulm",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Karuulm"
+    },
+    {
+        "name": "Kerapac",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Kerapac"
+    },
+    {
+        "name": "Dragonkin",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dragonkin"
+    },
+    {
+        "name": "Dragonkin (A Tail of Two Cats)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dragonkin_(A_Tail_of_Two_Cats)"
+    },
+    {
+        "name": "Dragonkin (Dragon Slayer II)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dragonkin_(Dragon_Slayer_II)"
+    },
+    {
+        "name": "King Black Dragon",
+        "attributes": {
+            "lootValue": 18667,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/King_Black_Dragon"
+    },
+    {
+        "name": "Lava dragon",
+        "attributes": {
+            "lootValue": 16124,
+            "combatLevel": 252
+        },
+        "link": "https://oldschool.runescape.wiki/w/Lava_dragon"
+    },
+    {
+        "name": "Long-tailed Wyvern",
+        "attributes": {
+            "lootValue": 6592,
+            "combatLevel": 152
+        },
+        "link": "https://oldschool.runescape.wiki/w/Long-tailed_Wyvern"
+    },
+    {
+        "name": "Metal dragons",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Metal_dragons"
+    },
+    {
+        "name": "Miscellaneous dragons",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Miscellaneous_dragons"
+    },
+    {
+        "name": "Mithril dragon",
+        "attributes": {
+            "lootValue": 12213,
+            "combatLevel": 304
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mithril_dragon"
+    },
+    {
+        "name": "Mr. Mordaut",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mr._Mordaut"
+    },
+    {
+        "name": "Dragon (race)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dragon_(race)"
+    },
+    {
+        "name": "Reanimated dragon",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Reanimated_dragon"
+    },
+    {
+        "name": "Red dragon",
+        "attributes": {
+            "lootValue": 6003,
+            "combatLevel": 152
+        },
+        "link": "https://oldschool.runescape.wiki/w/Red_dragon"
+    },
+    {
+        "name": "Revenant dragon",
+        "attributes": {
+            "lootValue": 43263,
+            "combatLevel": 135
+        },
+        "link": "https://oldschool.runescape.wiki/w/Revenant_dragon"
+    },
+    {
+        "name": "Rune dragon",
+        "attributes": {
+            "lootValue": 35296,
+            "combatLevel": 380
+        },
+        "link": "https://oldschool.runescape.wiki/w/Rune_dragon"
+    },
+    {
+        "name": "Shadow Wyrm",
+        "attributes": {
+            "lootValue": 118203,
+            "combatLevel": 267
+        },
+        "link": "https://oldschool.runescape.wiki/w/Shadow_Wyrm"
+    },
+    {
+        "name": "Skeka",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Skeka"
+    },
+    {
+        "name": "Skeletal Wyvern",
+        "attributes": {
+            "lootValue": 13698,
+            "combatLevel": 140
+        },
+        "link": "https://oldschool.runescape.wiki/w/Skeletal_Wyvern"
+    },
+    {
+        "name": "Spitting Wyvern",
+        "attributes": {
+            "lootValue": 6592,
+            "combatLevel": 139
+        },
+        "link": "https://oldschool.runescape.wiki/w/Spitting_Wyvern"
+    },
+    {
+        "name": "Steel dragon",
+        "attributes": {
+            "lootValue": 8249,
+            "combatLevel": 246
+        },
+        "link": "https://oldschool.runescape.wiki/w/Steel_dragon"
+    },
+    {
+        "name": "Taloned Wyvern",
+        "attributes": {
+            "lootValue": 6592,
+            "combatLevel": 147
+        },
+        "link": "https://oldschool.runescape.wiki/w/Taloned_Wyvern"
+    },
+    {
+        "name": "Vorkath",
+        "attributes": {
+            "lootValue": 17078,
+            "combatLevel": 732
+        },
+        "link": "https://oldschool.runescape.wiki/w/Vorkath"
+    },
+    {
+        "name": "Wyrm",
+        "attributes": {
+            "lootValue": 3734,
+            "combatLevel": 99
+        },
+        "link": "https://oldschool.runescape.wiki/w/Wyrm"
+    },
+    {
+        "name": "Zorgoth",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Zorgoth"
+    },
+    {
+        "name": "Demons",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demons"
+    },
+    {
+        "name": "Abyssal demon",
+        "attributes": {
+            "lootValue": 10201,
+            "combatLevel": 124
+        },
+        "link": "https://oldschool.runescape.wiki/w/Abyssal_demon"
+    },
+    {
+        "name": "Abyssal Sire",
+        "attributes": {
+            "lootValue": 43225,
+            "combatLevel": 350
+        },
+        "link": "https://oldschool.runescape.wiki/w/Abyssal_Sire"
+    },
+    {
+        "name": "Agrith Naar",
+        "attributes": {
+            "lootValue": 635,
+            "combatLevel": 100
+        },
+        "link": "https://oldschool.runescape.wiki/w/Agrith_Naar"
+    },
+    {
+        "name": "Balfrug Kreeyath",
+        "attributes": {
+            "lootValue": 2359,
+            "combatLevel": 151
+        },
+        "link": "https://oldschool.runescape.wiki/w/Balfrug_Kreeyath"
+    },
+    {
+        "name": "Black demon",
+        "attributes": {
+            "lootValue": 11791,
+            "combatLevel": 172
+        },
+        "link": "https://oldschool.runescape.wiki/w/Black_demon"
+    },
+    {
+        "name": "Blood Reaver",
+        "attributes": {
+            "lootValue": 3477,
+            "combatLevel": 174
+        },
+        "link": "https://oldschool.runescape.wiki/w/Blood_Reaver"
+    },
+    {
+        "name": "Bloodveld",
+        "attributes": {
+            "lootValue": 2726,
+            "combatLevel": 76
+        },
+        "link": "https://oldschool.runescape.wiki/w/Bloodveld"
+    },
+    {
+        "name": "Demon butler",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demon_butler"
+    },
+    {
+        "name": "Cerberus",
+        "attributes": {
+            "lootValue": 94092,
+            "combatLevel": 318
+        },
+        "link": "https://oldschool.runescape.wiki/w/Cerberus"
+    },
+    {
+        "name": "Chaotic death spawn",
+        "attributes": {
+            "lootValue": 131,
+            "combatLevel": 215
+        },
+        "link": "https://oldschool.runescape.wiki/w/Chaotic_death_spawn"
+    },
+    {
+        "name": "Chocolate demon",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Chocolate_demon"
+    },
+    {
+        "name": "Chronozon",
+        "attributes": {
+            "lootValue": 635,
+            "combatLevel": 170
+        },
+        "link": "https://oldschool.runescape.wiki/w/Chronozon"
+    },
+    {
+        "name": "Demon (Construction)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demon_(Construction)"
+    },
+    {
+        "name": "Death spawn",
+        "attributes": {
+            "lootValue": 135,
+            "combatLevel": 46
+        },
+        "link": "https://oldschool.runescape.wiki/w/Death_spawn"
+    },
+    {
+        "name": "Delrith",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 27
+        },
+        "link": "https://oldschool.runescape.wiki/w/Delrith"
+    },
+    {
+        "name": "Doomion",
+        "attributes": {
+            "lootValue": 635,
+            "combatLevel": 91
+        },
+        "link": "https://oldschool.runescape.wiki/w/Doomion"
+    },
+    {
+        "name": "Dunce",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dunce"
+    },
+    {
+        "name": "Flaming pyrelord",
+        "attributes": {
+            "lootValue": 74814,
+            "combatLevel": 97
+        },
+        "link": "https://oldschool.runescape.wiki/w/Flaming_pyrelord"
+    },
+    {
+        "name": "Greater abyssal demon",
+        "attributes": {
+            "lootValue": 378011,
+            "combatLevel": 342
+        },
+        "link": "https://oldschool.runescape.wiki/w/Greater_abyssal_demon"
+    },
+    {
+        "name": "Greater demon",
+        "attributes": {
+            "lootValue": 6875,
+            "combatLevel": 92
+        },
+        "link": "https://oldschool.runescape.wiki/w/Greater_demon"
+    },
+    {
+        "name": "Greater Nechryael",
+        "attributes": {
+            "lootValue": 16458,
+            "combatLevel": 200
+        },
+        "link": "https://oldschool.runescape.wiki/w/Greater_Nechryael"
+    },
+    {
+        "name": "Hell-Rat",
+        "attributes": {
+            "lootValue": 131,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Hell-Rat"
+    },
+    {
+        "name": "Hell-Rat Behemoth",
+        "attributes": {
+            "lootValue": 131,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Hell-Rat_Behemoth"
+    },
+    {
+        "name": "Hellcat",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Hellcat"
+    },
+    {
+        "name": "Hellhound",
+        "attributes": {
+            "lootValue": 8089,
+            "combatLevel": 122
+        },
+        "link": "https://oldschool.runescape.wiki/w/Hellhound"
+    },
+    {
+        "name": "Holthion",
+        "attributes": {
+            "lootValue": 635,
+            "combatLevel": 91
+        },
+        "link": "https://oldschool.runescape.wiki/w/Holthion"
+    },
+    {
+        "name": "Demonic gorilla",
+        "attributes": {
+            "lootValue": 43858,
+            "combatLevel": 275
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demonic_gorilla"
+    },
+    {
+        "name": "Ice demon",
+        "attributes": {
+            "lootValue": 135,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_demon"
+    },
+    {
+        "name": "Icefiend",
+        "attributes": {
+            "lootValue": 10,
+            "combatLevel": 13
+        },
+        "link": "https://oldschool.runescape.wiki/w/Icefiend"
+    },
+    {
+        "name": "Imp",
+        "attributes": {
+            "lootValue": 533,
+            "combatLevel": 2
+        },
+        "link": "https://oldschool.runescape.wiki/w/Imp"
+    },
+    {
+        "name": "Imp Champion",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 14
+        },
+        "link": "https://oldschool.runescape.wiki/w/Imp_Champion"
+    },
+    {
+        "name": "Imp defender",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Imp_defender"
+    },
+    {
+        "name": "Impling",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Impling"
+    },
+    {
+        "name": "Infernal pyrelord",
+        "attributes": {
+            "lootValue": 74932,
+            "combatLevel": 134
+        },
+        "link": "https://oldschool.runescape.wiki/w/Infernal_pyrelord"
+    },
+    {
+        "name": "Insatiable Bloodveld",
+        "attributes": {
+            "lootValue": 98020,
+            "combatLevel": 202
+        },
+        "link": "https://oldschool.runescape.wiki/w/Insatiable_Bloodveld"
+    },
+    {
+        "name": "Insatiable mutated Bloodveld",
+        "attributes": {
+            "lootValue": 98020,
+            "combatLevel": 278
+        },
+        "link": "https://oldschool.runescape.wiki/w/Insatiable_mutated_Bloodveld"
+    },
+    {
+        "name": "Judge of Yama",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 168
+        },
+        "link": "https://oldschool.runescape.wiki/w/Judge_of_Yama"
+    },
+    {
+        "name": "Jungle Demon",
+        "attributes": {
+            "lootValue": 1105,
+            "combatLevel": 195
+        },
+        "link": "https://oldschool.runescape.wiki/w/Jungle_Demon"
+    },
+    {
+        "name": "K'ril Tsutsaroth",
+        "attributes": {
+            "lootValue": 13309,
+            "combatLevel": 650
+        },
+        "link": "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth"
+    },
+    {
+        "name": "Kolodion",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Kolodion"
+    },
+    {
+        "name": "Lesser demon",
+        "attributes": {
+            "lootValue": 5922,
+            "combatLevel": 82
+        },
+        "link": "https://oldschool.runescape.wiki/w/Lesser_demon"
+    },
+    {
+        "name": "Lesser Demon Champion",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 162
+        },
+        "link": "https://oldschool.runescape.wiki/w/Lesser_Demon_Champion"
+    },
+    {
+        "name": "Lithil",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Lithil"
+    },
+    {
+        "name": "Mazchna",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mazchna"
+    },
+    {
+        "name": "Mutated Bloodveld",
+        "attributes": {
+            "lootValue": 2517,
+            "combatLevel": 123
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mutated_Bloodveld"
+    },
+    {
+        "name": "Nechryael",
+        "attributes": {
+            "lootValue": 3833,
+            "combatLevel": 115
+        },
+        "link": "https://oldschool.runescape.wiki/w/Nechryael"
+    },
+    {
+        "name": "Nechryarch",
+        "attributes": {
+            "lootValue": 517988,
+            "combatLevel": 300
+        },
+        "link": "https://oldschool.runescape.wiki/w/Nechryarch"
+    },
+    {
+        "name": "Nezikchened",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 187
+        },
+        "link": "https://oldschool.runescape.wiki/w/Nezikchened"
+    },
+    {
+        "name": "Demon of Balance",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demon_of_Balance"
+    },
+    {
+        "name": "Demon of Darkness",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demon_of_Darkness"
+    },
+    {
+        "name": "Demon of Light",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Demon_of_Light"
+    },
+    {
+        "name": "Othainian",
+        "attributes": {
+            "lootValue": 635,
+            "combatLevel": 91
+        },
+        "link": "https://oldschool.runescape.wiki/w/Othainian"
+    },
+    {
+        "name": "Porazdir",
+        "attributes": {
+            "lootValue": 1856,
+            "combatLevel": 235
+        },
+        "link": "https://oldschool.runescape.wiki/w/Porazdir"
+    },
+    {
+        "name": "Pyrefiend",
+        "attributes": {
+            "lootValue": 341,
+            "combatLevel": 43
+        },
+        "link": "https://oldschool.runescape.wiki/w/Pyrefiend"
+    },
+    {
+        "name": "Pyrelord",
+        "attributes": {
+            "lootValue": 459,
+            "combatLevel": 60
+        },
+        "link": "https://oldschool.runescape.wiki/w/Pyrelord"
+    },
+    {
+        "name": "Revenant demon",
+        "attributes": {
+            "lootValue": 29152,
+            "combatLevel": 98
+        },
+        "link": "https://oldschool.runescape.wiki/w/Revenant_demon"
+    },
+    {
+        "name": "Revenant hellhound",
+        "attributes": {
+            "lootValue": 27807,
+            "combatLevel": 90
+        },
+        "link": "https://oldschool.runescape.wiki/w/Revenant_hellhound"
+    },
+    {
+        "name": "Revenant imp",
+        "attributes": {
+            "lootValue": 4438,
+            "combatLevel": 7
+        },
+        "link": "https://oldschool.runescape.wiki/w/Revenant_imp"
+    },
+    {
+        "name": "Revenant pyrefiend",
+        "attributes": {
+            "lootValue": 16939,
+            "combatLevel": 52
+        },
+        "link": "https://oldschool.runescape.wiki/w/Revenant_pyrefiend"
+    },
+    {
+        "name": "Ripper Demon",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ripper_Demon"
+    },
+    {
+        "name": "Sergeant Damien",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Sergeant_Damien"
+    },
+    {
+        "name": "Skotizo",
+        "attributes": {
+            "lootValue": 150361,
+            "combatLevel": 321
+        },
+        "link": "https://oldschool.runescape.wiki/w/Skotizo"
+    },
+    {
+        "name": "Skotizo/Strategies",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Skotizo/Strategies"
+    },
+    {
+        "name": "Skotos",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Skotos"
+    },
+    {
+        "name": "Spirit (2018 Halloween event)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Spirit_(2018_Halloween_event)"
+    },
+    {
+        "name": "Thammaron",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Thammaron"
+    },
+    {
+        "name": "Tortured gorilla",
+        "attributes": {
+            "lootValue": 3138,
+            "combatLevel": 141
+        },
+        "link": "https://oldschool.runescape.wiki/w/Tortured_gorilla"
+    },
+    {
+        "name": "Tstanon Karlak",
+        "attributes": {
+            "lootValue": 2359,
+            "combatLevel": 145
+        },
+        "link": "https://oldschool.runescape.wiki/w/Tstanon_Karlak"
+    },
+    {
+        "name": "Voice of Yama",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Voice_of_Yama"
+    },
+    {
+        "name": "Waterfiend",
+        "attributes": {
+            "lootValue": 2775,
+            "combatLevel": 115
+        },
+        "link": "https://oldschool.runescape.wiki/w/Waterfiend"
+    },
+    {
+        "name": "Yama",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Yama"
+    },
+    {
+        "name": "Zakl'n Gritch",
+        "attributes": {
+            "lootValue": 2359,
+            "combatLevel": 142
+        },
+        "link": "https://oldschool.runescape.wiki/w/Zakl%27n_Gritch"
+    },
+    {
+        "name": "Zalcano",
+        "attributes": {
+            "lootValue": 99818,
+            "combatLevel": 336
+        },
+        "link": "https://oldschool.runescape.wiki/w/Zalcano"
+    },
+    {
+        "name": "Zimberfizz",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Zimberfizz"
+    },
+    {
+        "name": "Troll",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 0
+        },
+        "link": "https://oldschool.runescape.wiki/w/Troll"
+    },
+    {
+        "name": "Aga",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Aga"
+    },
+    {
+        "name": "Arrg",
+        "attributes": {
+            "lootValue": 757,
+            "combatLevel": 113
+        },
+        "link": "https://oldschool.runescape.wiki/w/Arrg"
+    },
+    {
+        "name": "Ash",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ash"
+    },
+    {
+        "name": "Berry",
+        "attributes": {
+            "lootValue": 675,
+            "combatLevel": 71
+        },
+        "link": "https://oldschool.runescape.wiki/w/Berry"
+    },
+    {
+        "name": "Boulder",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Boulder"
+    },
+    {
+        "name": "Burntmeat",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Burntmeat"
+    },
+    {
+        "name": "Butterfly (troll)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Butterfly_(troll)"
+    },
+    {
+        "name": "Carol (Christmas 2016)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Carol_(Christmas_2016)"
+    },
+    {
+        "name": "Troll child",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Troll_child"
+    },
+    {
+        "name": "Dad",
+        "attributes": {
+            "lootValue": 185,
+            "combatLevel": 101
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dad"
+    },
+    {
+        "name": "Don't Know What",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 163
+        },
+        "link": "https://oldschool.runescape.wiki/w/Don%27t_Know_What"
+    },
+    {
+        "name": "Driftwood",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Driftwood"
+    },
+    {
+        "name": "Drunken Dwarf's Leg",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Drunken_Dwarf%27s_Leg"
+    },
+    {
+        "name": "Dung",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Dung"
+    },
+    {
+        "name": "Troll father",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Troll_father"
+    },
+    {
+        "name": "Flippa",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Flippa"
+    },
+    {
+        "name": "Frenzied ice troll female",
+        "attributes": {
+            "lootValue": 185,
+            "combatLevel": 82
+        },
+        "link": "https://oldschool.runescape.wiki/w/Frenzied_ice_troll_female"
+    },
+    {
+        "name": "Frenzied ice troll grunt",
+        "attributes": {
+            "lootValue": 185,
+            "combatLevel": 102
+        },
+        "link": "https://oldschool.runescape.wiki/w/Frenzied_ice_troll_grunt"
+    },
+    {
+        "name": "Frenzied ice troll male",
+        "attributes": {
+            "lootValue": 185,
+            "combatLevel": 82
+        },
+        "link": "https://oldschool.runescape.wiki/w/Frenzied_ice_troll_male"
+    },
+    {
+        "name": "Frenzied ice troll runt",
+        "attributes": {
+            "lootValue": 185,
+            "combatLevel": 74
+        },
+        "link": "https://oldschool.runescape.wiki/w/Frenzied_ice_troll_runt"
+    },
+    {
+        "name": "Troll general",
+        "attributes": {
+            "lootValue": 1115,
+            "combatLevel": 113
+        },
+        "link": "https://oldschool.runescape.wiki/w/Troll_general"
+    },
+    {
+        "name": "Goat Poo",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Goat_Poo"
+    },
+    {
+        "name": "Ice block",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_block"
+    },
+    {
+        "name": "Ice troll",
+        "attributes": {
+            "lootValue": 1113,
+            "combatLevel": 120
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_troll"
+    },
+    {
+        "name": "Ice troll (Desert Treasure I)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_troll_(Desert_Treasure_I)"
+    },
+    {
+        "name": "Ice troll female",
+        "attributes": {
+            "lootValue": 2569,
+            "combatLevel": 82
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_troll_female"
+    },
+    {
+        "name": "Ice troll grunt",
+        "attributes": {
+            "lootValue": 2384,
+            "combatLevel": 100
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_troll_grunt"
+    },
+    {
+        "name": "Ice Troll King",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 122
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_Troll_King"
+    },
+    {
+        "name": "Ice troll male",
+        "attributes": {
+            "lootValue": 3060,
+            "combatLevel": 82
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_troll_male"
+    },
+    {
+        "name": "Ice troll runt",
+        "attributes": {
+            "lootValue": 3060,
+            "combatLevel": 74
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ice_troll_runt"
+    },
+    {
+        "name": "Icicle",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Icicle"
+    },
+    {
+        "name": "Jelly (mountain troll)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Jelly_(mountain_troll)"
+    },
+    {
+        "name": "Kob",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 185
+        },
+        "link": "https://oldschool.runescape.wiki/w/Kob"
+    },
+    {
+        "name": "Kraka",
+        "attributes": {
+            "lootValue": 1115,
+            "combatLevel": 91
+        },
+        "link": "https://oldschool.runescape.wiki/w/Kraka"
+    },
+    {
+        "name": "Lalli",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Lalli"
+    },
+    {
+        "name": "Mother",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 198
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mother"
+    },
+    {
+        "name": "Troll mother",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Troll_mother"
+    },
+    {
+        "name": "Mountain troll",
+        "attributes": {
+            "lootValue": 675,
+            "combatLevel": 69
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mountain_troll"
+    },
+    {
+        "name": "Mushroom (mountain troll)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Mushroom_(mountain_troll)"
+    },
+    {
+        "name": "My Arm",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/My_Arm"
+    },
+    {
+        "name": "Odd Mushroom",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Odd_Mushroom"
+    },
+    {
+        "name": "Odd Stone",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Odd_Stone"
+    },
+    {
+        "name": "Pebble",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Pebble"
+    },
+    {
+        "name": "Pee Hat",
+        "attributes": {
+            "lootValue": 1115,
+            "combatLevel": 91
+        },
+        "link": "https://oldschool.runescape.wiki/w/Pee_Hat"
+    },
+    {
+        "name": "River troll",
+        "attributes": {
+            "lootValue": 115,
+            "combatLevel": 14
+        },
+        "link": "https://oldschool.runescape.wiki/w/River_troll"
+    },
+    {
+        "name": "Rock (Troll)",
+        "attributes": {
+            "lootValue": 1115,
+            "combatLevel": 111
+        },
+        "link": "https://oldschool.runescape.wiki/w/Rock_(Troll)"
+    },
+    {
+        "name": "Root",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Root"
+    },
+    {
+        "name": "Sea troll",
+        "attributes": {
+            "lootValue": 267,
+            "combatLevel": 65
+        },
+        "link": "https://oldschool.runescape.wiki/w/Sea_troll"
+    },
+    {
+        "name": "Sea Troll General",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Sea_Troll_General"
+    },
+    {
+        "name": "Sea Troll Queen",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": 170
+        },
+        "link": "https://oldschool.runescape.wiki/w/Sea_Troll_Queen"
+    },
+    {
+        "name": "Snowflake",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Snowflake"
+    },
+    {
+        "name": "Troll spectator",
+        "attributes": {
+            "lootValue": 675,
+            "combatLevel": 71
+        },
+        "link": "https://oldschool.runescape.wiki/w/Troll_spectator"
+    },
+    {
+        "name": "Squirrel (troll)",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Squirrel_(troll)"
+    },
+    {
+        "name": "Stick",
+        "attributes": {
+            "lootValue": 1115,
+            "combatLevel": 104
+        },
+        "link": "https://oldschool.runescape.wiki/w/Stick"
+    },
+    {
+        "name": "Thrower Troll",
+        "attributes": {
+            "lootValue": 675,
+            "combatLevel": 67
+        },
+        "link": "https://oldschool.runescape.wiki/w/Thrower_Troll"
+    },
+    {
+        "name": "Thrower troll (Trollheim)",
+        "attributes": {
+            "lootValue": 185,
+            "combatLevel": 68
+        },
+        "link": "https://oldschool.runescape.wiki/w/Thrower_troll_(Trollheim)"
+    },
+    {
+        "name": "Tilt",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Tilt"
+    },
+    {
+        "name": "Twig",
+        "attributes": {
+            "lootValue": 675,
+            "combatLevel": 71
+        },
+        "link": "https://oldschool.runescape.wiki/w/Twig"
+    },
+    {
+        "name": "Ug",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Ug"
+    },
+    {
+        "name": "Wolfbone",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Wolfbone"
+    },
+    {
+        "name": "Yellow Snow",
+        "attributes": {
+            "lootValue": 0,
+            "combatLevel": null
+        },
+        "link": "https://oldschool.runescape.wiki/w/Yellow_Snow"
+    }
+]

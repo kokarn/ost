@@ -29,6 +29,7 @@ jobs:
       run: |
         npm install
         node scripts/money-making.mjs
+        node scripts/monsters.mjs
         npm run build
 
     - name: Deploy 🚀

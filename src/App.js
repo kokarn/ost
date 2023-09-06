@@ -30,6 +30,7 @@ import LevelCalculator from './pages/LevelCalculator.js';
 import Items from './pages/Items.js';
 import MoneyMaking from './pages/MoneyMaking.js';
 import Crafts from './pages/Crafts.js';
+import MonsterProfits from './pages/MonsterProfits.js';
 
 import './App.css';
 
@@ -107,6 +108,11 @@ function Layout({handleFilterChange}) {
             key: 'crafts',
             label: 'Crafts',
             path: '/crafts',
+        },
+        {
+            key: 'monster-profit',
+            label: 'Monsters',
+            path: '/monsters',
         },
     ];
 
@@ -323,6 +329,13 @@ function App() {
                         mapping={mapping}
                         profits={profits}
                         volumes={volumes}
+                    />}
+                />
+                <Route
+                    path="monsters"
+                    element={<MonsterProfits
+                        latest={latest}
+                        mapping={mapping}
                     />}
                 />
             </Route>
