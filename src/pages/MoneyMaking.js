@@ -197,7 +197,7 @@ function MoneyMaking() {
                             }}
                         />
                     } label="Hide unqualified" />
-            </Stack>
+                </Stack>
             </FormGroup>
             <DataGrid
                 density="standard"

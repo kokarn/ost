@@ -1,6 +1,14 @@
+import {
+    useState,
+    useMemo,
+} from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+import { Stack } from '@mui/material';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -20,21 +28,17 @@ const CustomToolbar = () => {
 };
 
 function MonsterProfits({mapping, latest}) {
+    const [hideNonCombat, setHideNonCombat] = useState(true);
+    // const [hideUnqualified, setHideUnqualified] = useState(true);
     // const rows = useMemo(() => {
 
 
     //     return returnRows;
     // }, [mapping, latest]);
 
-    const rows = [];
-
-
-    // console.log(itemMap);
-
-    // console.log(mapping);
-
-    if(Object.keys(latest).length !== 0){
+    const rows = useMemo(() => {
         const itemMap = {};
+        let monsterRows = [];
 
         for(const itemId in mapping){
             itemMap[mapping[itemId].name.toLowerCase()] = itemId;
@@ -48,19 +52,22 @@ function MonsterProfits({mapping, latest}) {
 
             let totalLootValue = 0;
 
+            if(hideNonCombat && (monsterData.combatLevel === 0 || !monsterData.combatLevel)){
+                // console.log(`Hiding ${monsterData.name} because it is not combat`);
+                continue;
+            }
+
             for(const drop of monsterData.drops){
                 let item = latest[itemMap[drop.item.toLowerCase()]];
-                // console.log(drop.item);
-                // console.log(item);
 
                 if(!item && drop.item !== 'Coins'){
-                    console.log(`Could not find item for ${drop.item}`);
+                    // console.log(`Could not find item for ${drop.item}`);
 
                     continue;
                 }
 
                 if(!drop.quantity){
-                    console.log(`Could not find quantity for ${drop.item}`);
+                    // console.log(`Could not find quantity for ${drop.item}`);
 
                     continue;
                 }
@@ -77,12 +84,11 @@ function MonsterProfits({mapping, latest}) {
 
             monsterData.lootValue = totalLootValue;
 
-            rows.push(monsterData);
+            monsterRows.push(monsterData);
         }
 
-        // console.log(itemMap);
-        // console.log(rows);
-    }
+        return monsterRows;
+    }, [mapping, latest, hideNonCombat]);
 
     const columns = [
         {
@@ -130,6 +136,30 @@ function MonsterProfits({mapping, latest}) {
         autoComplete="off"
     >
         <Container>
+            <FormGroup>
+                <Stack
+                    direction="row"
+                >
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={hideNonCombat}
+                            label="Hide non-combat things"
+                            onChange={(event) => {
+                                setHideNonCombat(event.target.checked);
+                            }}
+                        />
+                    } label="Hide non-combat" />
+                    {/* <FormControlLabel control={
+                        <Checkbox
+                            checked={hideUnqualified}
+                            label="Hide unqualified"
+                            onChange={(event) => {
+                                setHideUnqualified(event.target.checked);
+                            }}
+                        />
+                    } label="Hide unqualified" /> */}
+                </Stack>
+            </FormGroup>
             <DataGrid
                 density="standard"
                 rows={rows}
