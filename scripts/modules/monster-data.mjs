@@ -10,9 +10,6 @@ const fractionToDecimal = (fractionString) => {
     // Calculate the decimal representation
     const decimalValue = numerator / denominator;
 
-    // Convert to percentage
-    // const percentageValue = decimalValue * 100;
-
     return decimalValue;
 };
 
@@ -57,15 +54,8 @@ const getMonsterData = async (url, keys) => {
             const matches = drop.rarity.match(/(\d) ×/g);
             drop.rarity = drop.rarity.replace(/(\d) ×/g, '').trim();
 
-            // console.log(matches);
-
             multiplier = Number(matches[0].replace('×', '').trim());
         }
-
-        // if(multiplier !== 1){
-        //     console.log(multiplier);
-        //     console.log(drop);
-        // }
 
         drop.quantity = drop.quantity
             .replace('(noted)', '')
@@ -77,44 +67,13 @@ const getMonsterData = async (url, keys) => {
             drop.quantity = Math.floor((Number(min) + Number(max)) / 2);
         }
 
-        // drop.rarity = drop.rarity.replace('Always', '1/1');
         const quantity = fractionToDecimal(drop.rarity) * Number(drop.quantity) * multiplier;
-        // const price = Number(drop.wikiPrice.replace(/,/g, ''));
 
         return {
             quantity,
             item: drop.item,
         };
     }).filter(Boolean);
-
-    // console.log(JSON.stringify(drops, null, 4));
-    // console.log(JSON.stringify(totalLoot, null, 4));
-
-    // let totalLootValue = 0;
-
-    // for(const drop of totalLoot){
-    //     let item = await getItem(drop.item);
-
-    //     if(!item && drop.item !== 'Coins'){
-    //         // console.log(`Could not find item for ${drop.item}`);
-
-    //         continue;
-    //     }
-
-    //     if(!drop.quantity){
-    //         // console.log(`Could not find quantity for ${drop.item}`);
-
-    //         continue;
-    //     }
-
-    //     if(drop.item === 'Coins'){
-    //         item = {
-    //             low: 1,
-    //         }
-    //     }
-
-    //     totalLootValue = totalLootValue + (item.low * drop.quantity);
-    // }
 
     let combatLevel = Number($('.infobox tr').eq(6).find('td').eq(0).text().trim());
 

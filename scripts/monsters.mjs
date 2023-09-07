@@ -22,10 +22,6 @@ const keys = [
     'quantity',
     'rarity',
     'wikiPrice',
-    // 'wikiProfit',
-    // 'wikiXp',
-    // 'wikiXp/hr',
-    // 'wikiCoins/xp',
 ];
 
 let monsters = [];
@@ -59,10 +55,6 @@ for(const category of categories){
     });
 
     monsters = monsters.concat(await Promise.all(monsterPromises.map((monsterPromise) => monsterPromise())));
-
-    // monsters = monsters
-    //     .sort((a, b) => b.attributes.lootValue - a.attributes.lootValue)
-    //     .filter((monster) => monster.attributes.lootValue > 0);
 
 }
 
