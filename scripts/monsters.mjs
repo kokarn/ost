@@ -14,6 +14,8 @@ const categories = [
     'https://oldschool.runescape.wiki/w/Category:Demons',
     'https://oldschool.runescape.wiki/w/Category:Trolls',
     'https://oldschool.runescape.wiki/w/Category:Rare_drop_table_monsters',
+    'https://oldschool.runescape.wiki/w/Category:Pages_with_drop_log-supported_drop_tables?pageuntil=Imre#mw-pages',
+    'https://oldschool.runescape.wiki/w/Category:Pages_with_drop_log-supported_drop_tables?pagefrom=Imre#mw-pages',
 ];
 
 const keys = [
