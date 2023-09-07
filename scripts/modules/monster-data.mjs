@@ -29,12 +29,20 @@ const getMonsterData = async (url, keys) => {
     }
 
     const totalLoot = drops.map((drop) => {
+        let multiplier = 1;
+
         if(!drop.rarity) {
+            return false;
+        }
+
+        if(drop.item === 'Nothing'){
             return false;
         }
 
         drop.rarity = drop.rarity
             .replace(/\[d \d\]/g, '')
+            .replace(/\[\d\]/g, '')
+            .replace(/,/g, '')
             .replace('~', '');
 
         if(drop.rarity.includes('Always')){
@@ -45,9 +53,23 @@ const getMonsterData = async (url, keys) => {
             drop.rarity = drop.rarity.split(';')[0];
         }
 
+        if(/\d ×/.test(drop.rarity)){
+            const matches = drop.rarity.match(/(\d) ×/g);
+            drop.rarity = drop.rarity.replace(/(\d) ×/g, '').trim();
+
+            // console.log(matches);
+
+            multiplier = Number(matches[0].replace('×', '').trim());
+        }
+
+        // if(multiplier !== 1){
+        //     console.log(multiplier);
+        //     console.log(drop);
+        // }
+
         drop.quantity = drop.quantity
             .replace('(noted)', '')
-            .replace(',', '')
+            .replace(/,/g, '')
             .trim();
 
         if(drop.quantity.includes('–')){
@@ -56,7 +78,7 @@ const getMonsterData = async (url, keys) => {
         }
 
         // drop.rarity = drop.rarity.replace('Always', '1/1');
-        const quantity = fractionToDecimal(drop.rarity) * Number(drop.quantity);
+        const quantity = fractionToDecimal(drop.rarity) * Number(drop.quantity) * multiplier;
         // const price = Number(drop.wikiPrice.replace(/,/g, ''));
 
         return {

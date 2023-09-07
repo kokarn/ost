@@ -13,6 +13,7 @@ const categories = [
     'https://oldschool.runescape.wiki/w/Category:Dragons',
     'https://oldschool.runescape.wiki/w/Category:Demons',
     'https://oldschool.runescape.wiki/w/Category:Trolls',
+    'https://oldschool.runescape.wiki/w/Category:Rare_drop_table_monsters',
 ];
 
 const keys = [
@@ -28,6 +29,7 @@ const keys = [
 ];
 
 let monsters = [];
+let pageCache = [];
 
 for(const category of categories){
     const response = await got(category);
@@ -36,12 +38,20 @@ for(const category of categories){
     const monsterPromises = [];
 
     $('.mw-category a').each((i, el) => {
+        let url = `https://oldschool.runescape.wiki${$(el).attr('href')}`;
+
+        if(pageCache.includes(url)){
+            return;
+        }
+
+        pageCache.push(url);
+
         monsterPromises.push(async () => {
-            const url = `https://oldschool.runescape.wiki${$(el).attr('href')}`;
             const value = await getMonsterData(url, keys);
+            const name = $(el).attr('title');
 
             return {
-                name: $(el).attr('title'),
+                name: name,
                 link: url,
                 ...value,
             };
