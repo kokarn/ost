@@ -16,6 +16,9 @@ const categories = [
     'https://oldschool.runescape.wiki/w/Category:Rare_drop_table_monsters',
     'https://oldschool.runescape.wiki/w/Category:Pages_with_drop_log-supported_drop_tables?pageuntil=Imre#mw-pages',
     'https://oldschool.runescape.wiki/w/Category:Pages_with_drop_log-supported_drop_tables?pagefrom=Imre#mw-pages',
+    'https://oldschool.runescape.wiki/w/Category:Slayer_monsters',
+    'https://oldschool.runescape.wiki/w/Category:Slayer_monsters?pagefrom=Greater+Skeleton+Hellhound+%28Calvar%27ion%29#mw-pages',
+    'https://oldschool.runescape.wiki/w/Category:Slayer_monsters?pagefrom=Sea+Snake+Hatchling#mw-pages',
 ];
 
 const keys = [
