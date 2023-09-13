@@ -116,14 +116,16 @@ const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false, n
         });
     }
 
+
     if(!parseAsCraft){
         return crafts;
     }
 
-    for(const [index, craft] of crafts.entries()){
-        if(!craft.resultName){
-            crafts.splice(index, 1);
 
+    const returnCrafts = [];
+
+    for(const craft of crafts){
+        if(!craft.resultName){
             continue;
         }
 
@@ -158,9 +160,11 @@ const parseWikiTable = async (url, keys, tableIndex = false, tableKey = false, n
         }
 
         craft.input = craft.input.map(item => item.id);
+
+        returnCrafts.push(craft);
     }
 
-    return crafts;
+    return returnCrafts;
 };
 
 export default parseWikiTable;
