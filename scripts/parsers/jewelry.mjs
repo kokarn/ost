@@ -21,7 +21,7 @@ const urls = [
     'https://oldschool.runescape.wiki/w/Opal',
     'https://oldschool.runescape.wiki/w/Jade',
     'https://oldschool.runescape.wiki/w/Red_topaz',
-    // 'https://oldschool.runescape.wiki/w/Dragonstone',
+    'https://oldschool.runescape.wiki/w/Dragonstone',
 ];
 
 for(const url of urls){
@@ -44,5 +44,5 @@ for(const url of urls){
         await addRecipe(craft);
     };
 
-    console.log(JSON.stringify(crafts, null, 4));
+    // console.log(JSON.stringify(crafts, null, 4));
 }
