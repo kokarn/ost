@@ -1,6 +1,10 @@
 const ItemRow = function({name, icon, id}) {
-    if(!icon){
+    if(!icon ){
         icon = `${name.replace(/\(\d\)/, '')}.png`;
+
+        if(name.includes('potion')){
+            icon = `${name}.png`;
+        }
     }
 
     icon = icon.replace(/ /g, '_');
