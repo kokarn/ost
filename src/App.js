@@ -7,8 +7,9 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Link,
-    Outlet
+    // Link,
+    Outlet,
+    NavLink,
 } from "react-router-dom";
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
@@ -165,11 +166,11 @@ function Layout({handleFilterChange}) {
                                     onClick={handleCloseNavMenu}
                                     sx={{ my: 2, color: 'white', display: 'block' }}
                                 >
-                                    <Link
+                                    <NavLink
                                         to = {`${page.path}`}
                                     >
                                         {page.label}
-                                    </Link>
+                                    </NavLink>
                                 </Button>
                             </MenuItem>
                         ))}
@@ -180,13 +181,19 @@ function Layout({handleFilterChange}) {
                         <Button
                             key={`desktop-${page.path}`}
                             onClick={handleCloseNavMenu}
-                            sx={{ my: 2, color: 'white', display: 'block' }}
+                            sx={{ my: 2, display: 'block' }}
                         >
-                            <Link
+                            <NavLink
+                                className={'nav-link'}
                                 to = {`${page.path}`}
+                                style={{
+                                    animation: 'all 0.5s ease-in-out',
+                                    color: 'white',
+                                    // textUnderlineOffset: '2px',
+                                }}
                             >
                                 {page.label}
-                            </Link>
+                            </NavLink>
                         </Button>
                     ))}
                 </Box>
