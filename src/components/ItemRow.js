@@ -25,6 +25,11 @@ const ItemRow = function({name, icon, id}) {
         >
             {name}
         </a>
+        <a
+            href = {`https://www.osrs.exchange/item/${name.toLowerCase().replace(/ /g, '-')}`}
+        >
+            G
+        </a>
     </div>;
 };
 
