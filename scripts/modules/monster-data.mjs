@@ -13,8 +13,24 @@ const fractionToDecimal = (fractionString) => {
     return decimalValue;
 };
 
+const parseInfoBox = ($) => {
+    const infoBox = $('.infobox tr');
+
+    const data = {};
+
+    infoBox.each((index, element) => {
+        const key = $(element).find('th').text().trim();
+        const value = $(element).find('td').text().trim();
+
+        data[key] = value;
+    });
+
+    return data;
+};
+
 const getMonsterData = async (url, keys) => {
     let drops;
+    const returnData = {};
 
     const pageResponse = await got(url);
     const $ = cheerio.load(pageResponse.body);
@@ -75,16 +91,20 @@ const getMonsterData = async (url, keys) => {
         };
     }).filter(Boolean);
 
-    let combatLevel = Number($('.infobox tr').eq(6).find('td').eq(0).text().trim());
+    const infoBoxData = parseInfoBox($);
 
-    if(!combatLevel){
-        combatLevel = Number($('.infobox tr').eq(7).find('td').eq(0).text().trim());
+    returnData.combatLevel = Number(infoBoxData['Combat level']);
+
+    if(infoBoxData['Slayer level'] && infoBoxData['Slayer level'] !== 'None'){
+        returnData.slayerMonster = true;
+        returnData.slayerLevel = Number(infoBoxData['Slayer level']);
     }
 
-    const returnData = {
-        drops: totalLoot,
-        combatLevel: combatLevel,
-    };
+    returnData.drops = totalLoot;
+
+    if(returnData.slayerMonster && !returnData.slayerLevel){
+        console.log(url);
+    }
 
     return returnData;
 };

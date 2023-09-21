@@ -1,6 +1,7 @@
 import {
     useState,
     useMemo,
+    useEffect,
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -9,8 +10,10 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import { Stack } from '@mui/material';
+import TextField from '@mui/material/TextField';
 
 import numberFormat from '../modules/number-format.mjs';
+import loadJSON from '../modules/load-json.mjs';
 
 import monsters from '../monsters.json';
 
@@ -29,12 +32,34 @@ const CustomToolbar = () => {
 
 function MonsterProfits({mapping, latest}) {
     const [hideNonCombat, setHideNonCombat] = useState(true);
-    // const [hideUnqualified, setHideUnqualified] = useState(true);
-    // const rows = useMemo(() => {
+    const [playerStats, setPlayerStats] = useState({});
+    const [hideUnqualified, setHideUnqualified] = useState(true);
+    const [maxCombatLevel, setMaxCombatLevel] = useState(0);
 
+    useEffect(() => {
+        const loadInitialData = async () => {
+            const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
+            const gamePlayerStats = mappingData.levels;
+            gamePlayerStats['Quest points'] = 0;
+            gamePlayerStats['Skills'] = 0;
 
-    //     return returnRows;
-    // }, [mapping, latest]);
+            for(const skill in mappingData.levels){
+                if(skill === 'Skills'){
+                    continue;
+                }
+
+                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
+            }
+
+            for(const quest in mappingData.quests){
+                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
+            }
+
+            setPlayerStats(gamePlayerStats);
+        }
+
+        loadInitialData();
+    }, []);
 
     const rows = useMemo(() => {
         const itemMap = {};
@@ -43,6 +68,8 @@ function MonsterProfits({mapping, latest}) {
         for(const itemId in mapping){
             itemMap[mapping[itemId].name.toLowerCase()] = itemId;
         }
+
+        console.log(maxCombatLevel);
 
         for (const result of monsters) {
             const monsterData = {
@@ -54,6 +81,14 @@ function MonsterProfits({mapping, latest}) {
 
             if(hideNonCombat && (monsterData.combatLevel === 0 || !monsterData.combatLevel)){
                 // console.log(`Hiding ${monsterData.name} because it is not combat`);
+                continue;
+            }
+
+            if(hideUnqualified && monsterData.slayerLevel > playerStats['Slayer']){
+                continue;
+            }
+
+            if(maxCombatLevel && maxCombatLevel < monsterData.combatLevel){
                 continue;
             }
 
@@ -82,13 +117,17 @@ function MonsterProfits({mapping, latest}) {
 
             }
 
+            if(!totalLootValue){
+                continue;
+            }
+
             monsterData.lootValue = totalLootValue;
 
             monsterRows.push(monsterData);
         }
 
         return monsterRows;
-    }, [mapping, latest, hideNonCombat]);
+    }, [mapping, latest, hideNonCombat, hideUnqualified, maxCombatLevel, playerStats]);
 
     const columns = [
         {
@@ -121,6 +160,12 @@ function MonsterProfits({mapping, latest}) {
             renderCell: ({ value }) => numberFormat(value),
             width: 150,
         },
+        {
+            field: 'slayerLevel',
+            headerName: 'Slayer Level',
+            renderCell: ({ value }) => numberFormat(value) || '',
+            width: 150,
+        },
     ];
 
     // const calculateRowHeight = (params) => {
@@ -149,7 +194,7 @@ function MonsterProfits({mapping, latest}) {
                             }}
                         />
                     } label="Hide non-combat" />
-                    {/* <FormControlLabel control={
+                    <FormControlLabel control={
                         <Checkbox
                             checked={hideUnqualified}
                             label="Hide unqualified"
@@ -157,7 +202,16 @@ function MonsterProfits({mapping, latest}) {
                                 setHideUnqualified(event.target.checked);
                             }}
                         />
-                    } label="Hide unqualified" /> */}
+                    } label="Hide unqualified" />
+                    <FormControlLabel control={
+                        <TextField
+                            label="Max combat level"
+                            onChange={(event) => {
+                                setMaxCombatLevel(event.target.value);
+                            }}
+                            type="number"
+                        />
+                    }/>
                 </Stack>
             </FormGroup>
             <DataGrid
@@ -170,6 +224,12 @@ function MonsterProfits({mapping, latest}) {
                         columnVisibilityModel: {
                             id: false,
                         },
+                    },
+                    sorting: {
+                        sortModel: [{
+                            field: 'lootValue',
+                            sort: 'desc',
+                        }],
                     },
                 }}
                 // getRowHeight={calculateRowHeight}
