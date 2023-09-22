@@ -32,6 +32,7 @@ import Items from './pages/Items.js';
 import MoneyMaking from './pages/MoneyMaking.js';
 import Crafts from './pages/Crafts.js';
 import MonsterProfits from './pages/MonsterProfits.js';
+import Implings from './pages/Implings.js';
 
 import './App.css';
 
@@ -114,6 +115,11 @@ function Layout({handleFilterChange}) {
             key: 'monster-profit',
             label: 'Monsters',
             path: '/monsters',
+        },
+        {
+            key: 'implings',
+            label: 'Implings',
+            path: '/implings',
         },
     ];
 
@@ -341,6 +347,13 @@ function App() {
                 <Route
                     path="monsters"
                     element={<MonsterProfits
+                        latest={latest}
+                        mapping={mapping}
+                    />}
+                />
+                <Route
+                    path="implings"
+                    element={<Implings
                         latest={latest}
                         mapping={mapping}
                     />}
