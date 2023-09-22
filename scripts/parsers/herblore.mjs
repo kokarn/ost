@@ -1,5 +1,5 @@
 import addRecipe from '../modules/add-recipe.mjs';
-import parseWikiTable from '../modules/parse-wiki-table.mjs';
+import getWikiTableCrafts from '../modules/get-wiki-table-crafts.mjs';
 
 const keys = [
     'level',
@@ -25,7 +25,7 @@ for(const url of urls){
     let crafts;
 
     try {
-        crafts = await parseWikiTable(url, keys, false, 'level', '(3)');
+        crafts = await getWikiTableCrafts(url, keys, false, 'level', '(3)');
     } catch (error) {
         console.error(error);
     }

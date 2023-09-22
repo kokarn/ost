@@ -1,7 +1,7 @@
 import got from 'got';
 import * as cheerio from 'cheerio';
 
-import parseWikiTable from './parse-wiki-table-2.mjs';
+import parseWikiTable from './parse-wiki-table.mjs';
 
 const fractionToDecimal = (fractionString) => {
     // Split the string into numerator and denominator
