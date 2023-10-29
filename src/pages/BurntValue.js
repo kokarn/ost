@@ -89,9 +89,7 @@ function BurntValue() {
         noValidate
         autoComplete="off"
     >
-        <Container
-            maxWidth="sm"
-        >
+        <Container>
             <h2>
                 {`Total value: ${numberFormat(lowTotal)} - ${numberFormat(highTotal)}`}
             </h2>
