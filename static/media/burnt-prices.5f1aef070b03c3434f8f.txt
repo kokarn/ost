@@ -1,0 +1,100 @@
+Trout/Salmon
+50-90
+Bass/Tuna
+50-100
+Swordfish
+50-85
+Lobster
+50-80
+Shark
+45-80
+Monkfish
+45-70
+Karambwan
+40-70
+Eel
+2k-6k
+Cave Eel
+2k-6k
+Snail
+2k-5k
+Shrimp
+300-800
+Anchovy
+400-900
+Herring
+200-650
+Sardine
+600-1k
+Potato
+800-2.4k
+Sweetcorn
+2k-4k
+Rainbow Fish
+2k-5k
+Bread
+2k-4.5k
+Cake
+3k-5k
+Pie
+2k-4k
+Sea Turtle
+400-1.2k
+Manta Ray
+400-1.3k
+Dark Crab
+600-1.6k
+Egg
+2.3k-5.4k
+Mushroom
+3k-5.5k
+Onion
+2.5k-5.5k
+Curry
+5k-10k
+Stew
+3k-6k
+Bird Meat
+2k-6.5k
+Rabbit
+3k-7k
+Beast Meat
+4k-16k
+Pizza
+1k-2.6k
+Anglerfish
+300-600
+Jubbly
+7k-19k
+Ruined Chompy
+10k-27k
+Oomlie Wrap
+1.5-2.5m
+Burnt Spider (Stick)
+4k-8k
+Spider on Shaft
+4k-8k
+Oomlie
+1.5k-6k
+Ruined Herb Tea
+500-1k
+Spooky Egg/Smelly Sock/Bruised Banana/Old Wool
+50-200
+Crunchies
+4k-10k
+Batta
+4k-11k
+Gnomebowl
+4k-10k
+Meat
+100-400
+Chicken
+150-400
+Rotten Food
+1k-4k
+Crushed Gems
+60-130
+Coconut Shells
+1k-2k
+Fossilised Dung
+45k-120k
