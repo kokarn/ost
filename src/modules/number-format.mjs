@@ -1,5 +1,8 @@
 const numberFormat = (number) => {
-    const returnValue = new Intl.NumberFormat('sv-SE', {}).format(number);
+    const returnValue = new Intl.NumberFormat('en-US', {
+        notation: "compact",
+        maximumFractionDigits: 1,
+    }).format(number);
 
     if(returnValue === 'NaN'){
         return false;
