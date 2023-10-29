@@ -49,7 +49,7 @@ function Level() {
                 name="current-level"
                 placeholder="Current Level"
                 label="Current Level"
-                value={currentLevel}
+                value={currentLevel || ''}
                 onChange={(event) => setCurrentLevel(Number(event.target.value))}
             />
             <TextField
@@ -57,7 +57,7 @@ function Level() {
                 name="target-level"
                 placeholder="Target Level"
                 label="Target Level"
-                value={targetLevel}
+                value={targetLevel || ''}
                 onChange={(event) => setTargetLevel(Number(event.target.value))}
             />
             <div>
@@ -68,7 +68,7 @@ function Level() {
                 name="experience-per-action"
                 placeholder="Experience per Action"
                 label="Experience per Action"
-                value={experiencePerAction}
+                value={experiencePerAction || ''}
                 onChange={(event) => setExperiencePerAction(Number(event.target.value))}
             />
             <div>
@@ -79,7 +79,7 @@ function Level() {
                 name="cost-per-action"
                 placeholder="Cost per Action"
                 label="Cost per Action"
-                value={costPerAction}
+                value={costPerAction || ''}
                 onChange={(event) => setCostPerAction(Number(event.target.value))}
             />
             <div>
