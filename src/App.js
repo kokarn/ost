@@ -33,6 +33,7 @@ import MoneyMaking from './pages/MoneyMaking.js';
 import Crafts from './pages/Crafts.js';
 import MonsterProfits from './pages/MonsterProfits.js';
 import Implings from './pages/Implings.js';
+import BurntValue from './pages/BurntValue.js';
 
 import './App.css';
 
@@ -120,6 +121,11 @@ function Layout({handleFilterChange}) {
             key: 'implings',
             label: 'Implings',
             path: '/implings',
+        },
+        {
+            key: 'burnt-value',
+            label: 'Burnt Value',
+            path: '/burnt-value',
         },
     ];
 
@@ -357,6 +363,10 @@ function App() {
                         latest={latest}
                         mapping={mapping}
                     />}
+                />
+                <Route
+                    path="burnt-value"
+                    element={<BurntValue/>}
                 />
             </Route>
         </Routes>
