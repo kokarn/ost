@@ -25,7 +25,6 @@ function Level({mapping, latest}) {
     const [experiencePerAction, setExperiencePerAction] = useState(1);
     const [costPerAction, setCostPerAction] = useState(1);
     const itemRef = useRef(null);
-    const [currentItem, setCurrentItem] = useState(null);
 
     const availableItems = useMemo(() => {
         const availableItems = [];
@@ -106,7 +105,6 @@ function Level({mapping, latest}) {
                 onChange={(event) => setCostPerAction(Number(event.target.value))}
             />
             <Autocomplete
-                value={currentItem}
                 disablePortal
                 options={availableItems}
                 onChange={(event, value) => {
