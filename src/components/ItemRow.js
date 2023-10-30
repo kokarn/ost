@@ -1,9 +1,26 @@
+const ignoreList = [
+    'super_attack',
+    'super_strength',
+    'super_defence',
+    'super_energy',
+    'super_restore',
+    'superantipoison',
+];
+
 const ItemRow = function({name, icon, id}) {
-    if(!icon ){
+    if(!icon){
         icon = `${name.replace(/\(\d\)/, '')}.png`;
 
         if(name.includes('potion')){
             icon = `${name}.png`;
+        }
+
+        let formattedName = name.toLowerCase().replace(/ /g, '_');
+
+        for(const ignore of ignoreList){
+            if(formattedName.includes(ignore)){
+                icon = `${name}.png`;
+            }
         }
     }
 
