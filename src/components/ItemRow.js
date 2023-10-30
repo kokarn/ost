@@ -5,6 +5,12 @@ const ignoreList = [
     'super_energy',
     'super_restore',
     'superantipoison',
+    'antipoison',
+    'zamorak_brew',
+    'saradomin_brew',
+    'menaphite_remedy',
+    'antidote+',
+    'ancient_brew',
 ];
 
 const ItemRow = function({name, icon, id}) {
