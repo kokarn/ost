@@ -34,6 +34,7 @@ import Crafts from './pages/Crafts.js';
 import MonsterProfits from './pages/MonsterProfits.js';
 import Implings from './pages/Implings.js';
 import BurntValue from './pages/BurntValue.js';
+import Admin from './pages/Admin.js';
 
 import './App.css';
 
@@ -127,6 +128,11 @@ function Layout({handleFilterChange}) {
             label: 'Burnt Value',
             path: '/burnt-value',
         },
+        // {
+        //     key: 'admin',
+        //     label: 'Admin',
+        //     path: '/admin',
+        // },
     ];
 
     return (<Box
@@ -367,6 +373,17 @@ function App() {
                 <Route
                     path="burnt-value"
                     element={<BurntValue/>}
+                />
+                <Route
+                    path="admin"
+                    element={<Admin
+                        dayData={lastDayData}
+                        filter={debouncedFilter}
+                        latest={latest}
+                        mapping={mapping}
+                        profits={profits}
+                        volumes={volumes}
+                    />}
                 />
             </Route>
         </Routes>
