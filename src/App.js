@@ -339,7 +339,10 @@ function App() {
                 />
                 <Route
                     path="level-calculator"
-                    element={<LevelCalculator />}
+                    element={<LevelCalculator
+                        mapping={mapping}
+                        latest={latest}
+                    />}
                 />
                 <Route
                     path="money-making"
