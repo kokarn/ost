@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Container from '@mui/material/Container';
 import Autocomplete from '@mui/material/Autocomplete';
+import { Typography } from '@mui/material';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -78,9 +79,11 @@ function Level({mapping, latest}) {
                 value={targetLevel || ''}
                 onChange={(event) => setTargetLevel(Number(event.target.value))}
             />
-            <div>
+            <Typography
+                variant='h5'
+            >
                 {`Exp Needed: ${numberFormat(Math.round(expNeeded))}`}
-            </div>
+            </Typography>
             <TextField
                 type="number"
                 name="experience-per-action"
@@ -89,9 +92,11 @@ function Level({mapping, latest}) {
                 value={experiencePerAction || ''}
                 onChange={(event) => setExperiencePerAction(Number(event.target.value))}
             />
-            <div>
+            <Typography
+                variant='h5'
+            >
                 {`Actions Needed: ${numberFormat(Math.round(expNeeded / experiencePerAction))}`}
-            </div>
+            </Typography>
             <TextField
                 type="number"
                 name="cost-per-action"
@@ -119,9 +124,11 @@ function Level({mapping, latest}) {
                     label="Input item"
                 />}
             />
-            <div>
+            <Typography
+                variant='h5'
+            >
                 {`Total cost: ${numberFormat(Math.round(expNeeded / experiencePerAction) * costPerAction)}`}
-            </div>
+            </Typography>
         </Container>
     </Box>;
 }
