@@ -31,10 +31,10 @@ jobs:
     - name: Build
       run: |
         npm install
-        node scripts/implings.mjs
-        npm run build
+        # node scripts/implings.mjs
         # node scripts/monsters.mjs
         # node scripts/money-making.mjs
+        npm run build
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
