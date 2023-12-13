@@ -31,8 +31,8 @@ jobs:
     - name: Build
       run: |
         npm install
-        node scripts/money-making.mjs
         node scripts/monsters.mjs
+        node scripts/money-making.mjs
         node scripts/implings.mjs
         npm run build
 
