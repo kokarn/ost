@@ -10,7 +10,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // import {getItem, searchForItem} from './get-item.mjs';
 
 const parseWikiTable = async (url, keys, tableIndex) => {
-    const pageResponse = await got(url);
+    let pageResponse;
+    try {
+        pageResponse = await got(url);
+    } catch (error) {
+        console.error(error);
+
+        throw new Error('Failed to get money making page');
+    }
     const $ = cheerio.load(pageResponse.body);
 
     const rows = [];
