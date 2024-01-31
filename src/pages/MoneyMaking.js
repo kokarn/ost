@@ -135,10 +135,19 @@ function MoneyMaking() {
             renderCell: ({ value }) => {
                 const skillRequirements = [];
                 for(const skill in value){
+                    let isQualifiedClass = 'skill-ok';
+                    if(playerStats[skill] < value[skill]){
+                        isQualifiedClass = 'skill-not-ok';
+                    }
+
                     skillRequirements.push(<div
                         key={skill}
                     >
-                        {skill}: {value[skill]}
+                        <span
+                            className={isQualifiedClass}
+                        >
+                            {skill}: {value[skill]}
+                        </span>
                     </div>);
                 };
 
