@@ -59,9 +59,12 @@ function Level({mapping, latest}) {
         noValidate
         autoComplete="off"
     >
-        <Container
-            maxWidth="sm"
-        >
+        <Container>
+            <Typography
+                variant='h4'
+            >
+                {`Level calculator`}
+            </Typography>
             <TextField
                 type="number"
                 name="current-level"
@@ -69,6 +72,9 @@ function Level({mapping, latest}) {
                 label="Current Level"
                 value={currentLevel || ''}
                 onChange={(event) => setCurrentLevel(Number(event.target.value))}
+                sx = {{
+                    ml: 0,
+                }}
             />
             <TextField
                 type="number"
