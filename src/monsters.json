@@ -520,6 +520,12 @@
         "drops": []
     },
     {
+        "name": "Duke Sucellus",
+        "link": "https://oldschool.runescape.wiki/w/Duke_Sucellus",
+        "combatLevel": 538,
+        "drops": []
+    },
+    {
         "name": "Dunce",
         "link": "https://oldschool.runescape.wiki/w/Dunce",
         "combatLevel": null,
@@ -1296,7 +1302,7 @@
     {
         "name": "Bloodthirsty smoke devil",
         "link": "https://oldschool.runescape.wiki/w/Bloodthirsty_smoke_devil",
-        "combatLevel": 280,
+        "combatLevel": 420,
         "slayerMonster": true,
         "slayerLevel": 93,
         "drops": []
@@ -2241,12 +2247,6 @@
         "drops": []
     },
     {
-        "name": "Duke Sucellus",
-        "link": "https://oldschool.runescape.wiki/w/Duke_Sucellus",
-        "combatLevel": 538,
-        "drops": []
-    },
-    {
         "name": "Dust devil",
         "link": "https://oldschool.runescape.wiki/w/Dust_devil",
         "combatLevel": 93,
@@ -3049,12 +3049,6 @@
         "drops": []
     },
     {
-        "name": "Pillory",
-        "link": "https://oldschool.runescape.wiki/w/Pillory",
-        "combatLevel": null,
-        "drops": []
-    },
-    {
         "name": "Pinball",
         "link": "https://oldschool.runescape.wiki/w/Pinball",
         "combatLevel": null,
@@ -3180,6 +3174,12 @@
         "combatLevel": 144,
         "slayerMonster": true,
         "slayerLevel": 15,
+        "drops": []
+    },
+    {
+        "name": "Scurrius",
+        "link": "https://oldschool.runescape.wiki/w/Scurrius",
+        "combatLevel": 200,
         "drops": []
     },
     {
@@ -3642,8 +3642,8 @@
         "drops": []
     },
     {
-        "name": "Woman",
-        "link": "https://oldschool.runescape.wiki/w/Woman",
+        "name": "Woman (East Ardougne)",
+        "link": "https://oldschool.runescape.wiki/w/Woman_(East_Ardougne)",
         "combatLevel": 2,
         "drops": []
     },
@@ -3724,12 +3724,6 @@
     {
         "name": "Category:Slayer monsters that can only be fought on task",
         "link": "https://oldschool.runescape.wiki/w/Category:Slayer_monsters_that_can_only_be_fought_on_task",
-        "combatLevel": null,
-        "drops": []
-    },
-    {
-        "name": "Slayer",
-        "link": "https://oldschool.runescape.wiki/w/Slayer",
         "combatLevel": null,
         "drops": []
     },
@@ -3902,7 +3896,7 @@
     {
         "name": "Bloodthirsty Hydra",
         "link": "https://oldschool.runescape.wiki/w/Bloodthirsty_Hydra",
-        "combatLevel": 309,
+        "combatLevel": 501,
         "slayerMonster": true,
         "slayerLevel": 95,
         "drops": []
@@ -3942,7 +3936,7 @@
     {
         "name": "Bloodthirsty warped Jelly",
         "link": "https://oldschool.runescape.wiki/w/Bloodthirsty_warped_Jelly",
-        "combatLevel": 241,
+        "combatLevel": 361,
         "slayerMonster": true,
         "slayerLevel": 52,
         "drops": []
@@ -4305,6 +4299,14 @@
         "name": "Ghost",
         "link": "https://oldschool.runescape.wiki/w/Ghost",
         "combatLevel": 19,
+        "drops": []
+    },
+    {
+        "name": "Ghost (Grave of Scorpius)",
+        "link": "https://oldschool.runescape.wiki/w/Ghost_(Grave_of_Scorpius)",
+        "combatLevel": 24,
+        "slayerMonster": true,
+        "slayerLevel": 1,
         "drops": []
     },
     {
@@ -5309,12 +5311,6 @@
         "name": "Ulfric",
         "link": "https://oldschool.runescape.wiki/w/Ulfric",
         "combatLevel": 100,
-        "drops": []
-    },
-    {
-        "name": "Unbound JalTok-Jad",
-        "link": "https://oldschool.runescape.wiki/w/Unbound_JalTok-Jad",
-        "combatLevel": null,
         "drops": []
     },
     {
