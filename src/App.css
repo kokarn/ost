@@ -31,3 +31,7 @@
 .active {
     text-underline-offset: 8px;
 }
+
+.skill-ok {
+    color: green;
+}
