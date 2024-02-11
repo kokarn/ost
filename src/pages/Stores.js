@@ -14,6 +14,7 @@ import { Stack } from '@mui/material';
 
 import numberFormat from '../modules/number-format.mjs';
 // import loadJSON from '../modules/load-json.mjs';
+import ItemRow from '../components/ItemRow.js';
 
 import stores from '../stores.json';
 
@@ -90,6 +91,8 @@ function StoreProfits({mapping, latest, volumes}) {
             storeItemRows.push({
                 ...storeItem,
                 id: id,
+                itemId: mappingLookup[storeItem.name].id,
+                icon: mappingLookup[storeItem.name].icon,
             });
         }
 
@@ -107,13 +110,14 @@ function StoreProfits({mapping, latest, volumes}) {
             flex: 1,
             headerName: 'Name',
             renderCell: ({row}) => {
+                // const itemData = craftRows.find((row) => row.name === value);
                 // console.log(row);
                 return <div>
-                    <a
-                        href={row.store}
-                    >
-                        {row.name}
-                    </a>
+                    <ItemRow
+                        name={row.name}
+                        icon={row.icon}
+                        id={row.itemId}
+                    />
                     <a
                         className='subtext'
                         href = {row.store}
