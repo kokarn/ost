@@ -32,6 +32,9 @@ const keys = [
 let monsters = [];
 let pageCache = [];
 
+console.log('Loading monster data');
+console.time('monsters');
+
 for(const category of categories){
     const response = await got(category);
     const $ = cheerio.load(response.body);
@@ -65,3 +68,4 @@ for(const category of categories){
 
 // console.log(JSON.stringify(monsters, null, 4));
 writeFile(join(__dirname, '..', 'src', 'monsters.json'), JSON.stringify(monsters, null, 4));
+console.timeEnd('monsters');

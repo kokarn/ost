@@ -125,6 +125,9 @@ const keys = [
 
 let methods;
 
+console.log('Loading money-making data');
+console.time('money-making');
+
 try {
     methods = await parseWikiTable('https://oldschool.runescape.wiki/w/Money_making_guide', keys, 0);
 } catch (error) {
@@ -141,3 +144,4 @@ try {
 
 // console.log(JSON.stringify(methods, null, 4));
 writeFile(join(__dirname, '..', 'src', 'money-making.json'), JSON.stringify(methods, null, 4));
+console.timeEnd('money-making');

@@ -35,6 +35,9 @@ const keys = [
 
 const implingDrops = [];
 
+console.log('Loading impling data');
+console.time('implings');
+
 for(const impling of implings){
     const response = await got(impling);
     const $ = cheerio.load(response.body);
@@ -58,3 +61,4 @@ for(const impling of implings){
 
 // console.log(JSON.stringify(implingDrops, null, 4));
 writeFile(join(__dirname, '..', 'src', 'implings.json'), JSON.stringify(implingDrops, null, 4));
+console.timeEnd('implings');
