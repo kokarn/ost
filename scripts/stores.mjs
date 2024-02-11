@@ -305,7 +305,7 @@ for(const store of stores){
             quantity: Number(item.quantity),
             sellPrice: Number(item['sell-price']?.replace(',', '')),
             buyPrice: Number(item['buy-price']?.replace(',', '')),
-            gePrice: Number(item['ge-price']?.replace(',', '')),
+            // gePrice: Number(item['ge-price']?.replace(',', '')),
             store,
         });
     }
