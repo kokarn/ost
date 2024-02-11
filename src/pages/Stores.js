@@ -170,7 +170,16 @@ function StoreProfits({mapping, latest, volumes}) {
         columns.push({
                 field: 'storeProfit',
                 headerName: 'Per world',
-                renderCell: ({ value }) => numberFormat(value) || '',
+                renderCell: ({row}) => {
+                    return <div>
+                        {numberFormat(row.storeProfit)}
+                        <span
+                            className='subtext'
+                        >
+                            {`Hourly: ${numberFormat(row.storeProfit * 240)}`}
+                        </span>
+                    </div>;
+                },
                 // width: 150,
         });
     }
