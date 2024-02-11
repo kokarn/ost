@@ -52,7 +52,6 @@ const parseWikiTable = async ($, keys, tableIndex = false, tableKey = false, nam
             parseRow($, outerElement, keys, crafts, nameSuffix);
         });
     } else if(tableKey){
-        console.log('Parsing by table key');
         $('table').each((index, tableElement) => {
             const firstColumnKey = $(tableElement).find('th').eq(tableKeyIndex).text().trim().toLowerCase();
 
