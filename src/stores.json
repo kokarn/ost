@@ -20007,5 +20007,68 @@
         "sellPrice": 10,
         "buyPrice": 5,
         "store": "https://oldschool.runescape.wiki/w/Logava_Gricoller%27s_Cooking_Supplies"
+    },
+    {
+        "name": "100",
+        "quantity": null,
+        "sellPrice": null,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "250",
+        "quantity": null,
+        "sellPrice": null,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "500",
+        "quantity": null,
+        "sellPrice": null,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "1,500",
+        "quantity": null,
+        "sellPrice": null,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "Saw",
+        "quantity": 1000,
+        "sellPrice": 13,
+        "buyPrice": 5,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "Bolt of cloth",
+        "quantity": 1000,
+        "sellPrice": 650,
+        "buyPrice": 250,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "Bronze nails",
+        "quantity": 1000,
+        "sellPrice": 2,
+        "buyPrice": 1,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "Iron nails",
+        "quantity": 1000,
+        "sellPrice": 5,
+        "buyPrice": 2,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
+    },
+    {
+        "name": "Steel nails",
+        "quantity": 1000,
+        "sellPrice": 3,
+        "buyPrice": 1,
+        "store": "https://oldschool.runescape.wiki/w/Sawmill_operator"
     }
 ]
