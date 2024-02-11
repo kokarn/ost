@@ -15,6 +15,7 @@ import { Stack } from '@mui/material';
 import numberFormat from '../modules/number-format.mjs';
 // import loadJSON from '../modules/load-json.mjs';
 import ItemRow from '../components/ItemRow.js';
+import calculateStoreProfit from '../modules/calculate-store-profit.mjs';
 
 import stores from '../stores.json';
 
@@ -60,33 +61,22 @@ function StoreProfits({mapping, latest, volumes}) {
 
             storeItem.volume = volumes[mappingLookup[storeItem.name].id] || 0;
 
+            // Remove all items with a low volume
             if(volumes[mappingLookup[storeItem.name].id] < 1000){
                 continue;
             }
 
             storeItem.gePrice = latest[mappingLookup[storeItem.name].id].high;
-            storeItem.storeProfit = storeItem.quantity * (storeItem.gePrice - storeItem.sellPrice);
             storeItem.profitRatio = storeItem.gePrice / storeItem.sellPrice;
+
+
+            // storeItem.storeProfit = storeItem.quantity * (storeItem.gePrice - storeItem.sellPrice);
+            storeItem.storeCost = calculateStoreProfit(storeItem.sellPrice, 1, storeItem.quantity)
+            storeItem.storeProfit = storeItem.quantity * storeItem.gePrice - storeItem.storeCost;
 
             if(sellToStore){
                 storeItem.profitRatio = storeItem.buyPrice / storeItem.gePrice;
             }
-
-            // if(storeItem.quantity < 5){
-            //     continue;
-            // }
-
-            // if(storeItem.quantity < 100 && storeItem.profitRatio < 10){
-            //     continue;
-            // }
-
-            // if(storeItem.profitRatio < 2){
-            //     continue;
-            // }
-
-            // if(storeItem.storeProfit < 5000){
-            //     continue;
-            // }
 
             storeItemRows.push({
                 ...storeItem,
@@ -173,7 +163,7 @@ function StoreProfits({mapping, latest, volumes}) {
         });
         columns.push({
                 field: 'storeProfit',
-                headerName: 'Per store',
+                headerName: 'Per world',
                 renderCell: ({ value }) => numberFormat(value) || '',
                 // width: 150,
         });
