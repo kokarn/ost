@@ -30,7 +30,7 @@ const CustomToolbar = () => {
     );
 };
 
-function MonsterProfits({mapping, latest}) {
+function Implings({mapping, latest}) {
     // const [hideNonCombat, setHideNonCombat] = useState(true);
     // const [playerStats, setPlayerStats] = useState({});
     // const [hideUnqualified, setHideUnqualified] = useState(true);
@@ -237,4 +237,4 @@ function MonsterProfits({mapping, latest}) {
     </Box>;
 }
 
-export default MonsterProfits;
+export default Implings;
