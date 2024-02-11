@@ -32,7 +32,7 @@ const CustomToolbar = () => {
 };
 
 function StoreProfits({mapping, latest, volumes}) {
-    const [sellToStore, setSellToStore] = useState(true);
+    const [sellToStore, setSellToStore] = useState(false);
     // const [playerStats, setPlayerStats] = useState({});
     // const [hideUnqualified, setHideUnqualified] = useState(true);
     // const [maxCombatLevel, setMaxCombatLevel] = useState(0);
@@ -122,7 +122,11 @@ function StoreProfits({mapping, latest, volumes}) {
                         className='subtext'
                         href = {row.store}
                     >
-                        {decodeURIComponent(row.store.replace('https://oldschool.runescape.wiki/w/', '').replace(/_/g, ' '))}
+                        {decodeURIComponent(row.store
+                                .replace('https://oldschool.runescape.wiki/w/', '')
+                                .replace(/_/g, ' ')
+                                .replace(/\.$/, '')
+                        )}
                     </a>
                 </div>;
             },
