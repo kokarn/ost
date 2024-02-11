@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 
 import got from 'got';
 import * as cheerio from 'cheerio';
-import cliTable from 'cli-table';
 
 import parseWikiTable from './modules/parse-wiki-table.mjs';
 
@@ -312,11 +311,6 @@ for(const store of stores){
     }
 }
 
-const table = new cliTable({
-    head: ['name', 'quantity', 'sellPrice', 'gePrice', 'sellProfitRatio', 'profit per hop', 'store'],
-    // colWidths: [100, 200]
-});
-
 const profitableItems = [];
 
 for(const item of allItems){
@@ -347,10 +341,6 @@ for(const item of allItems){
 }
 
 profitableItems.sort((a, b) => b[5] - a[5]);
-
-table.push(...profitableItems);
-
-// console.log(table.toString());
 
 // console.log(JSON.stringify(allItems, null, 4));
 writeFile(join(__dirname, '..', 'src', 'stores.json'), JSON.stringify(allItems, null, 4));
