@@ -35,6 +35,7 @@ import MonsterProfits from './pages/MonsterProfits.js';
 import Implings from './pages/Implings.js';
 import BurntValue from './pages/BurntValue.js';
 import Admin from './pages/Admin.js';
+import Stores from './pages/Stores.js';
 
 import './App.css';
 
@@ -127,6 +128,11 @@ function Layout({handleFilterChange}) {
             key: 'burnt-value',
             label: 'Burnt Value',
             path: '/burnt-value',
+        },
+        {
+            key: 'stores',
+            label: 'Stores',
+            path: '/stores',
         },
         // {
         //     key: 'admin',
@@ -376,6 +382,14 @@ function App() {
                 <Route
                     path="burnt-value"
                     element={<BurntValue/>}
+                />
+                <Route
+                    path="stores"
+                    element={<Stores
+                        latest={latest}
+                        mapping={mapping}
+                        volumes={volumes}
+                    />}
                 />
                 <Route
                     path="admin"
