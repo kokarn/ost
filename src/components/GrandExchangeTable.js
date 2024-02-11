@@ -84,7 +84,7 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
                     {numberFormat(row.high)}
                     <TimeAgo
                         datetime={row.highTime * 1000}
-                        className='time-ago'
+                        className='subtext'
                         locale='en_short'
                     />
                 </div>;
@@ -100,7 +100,7 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
                     {numberFormat(row.low)}
                     <TimeAgo
                         datetime={row.lowTime * 1000}
-                        className='time-ago'
+                        className='subtext'
                         locale='en_short'
                     />
                 </div>;

@@ -108,11 +108,19 @@ function StoreProfits({mapping, latest, volumes}) {
             headerName: 'Name',
             renderCell: ({row}) => {
                 // console.log(row);
-                return <a
-                    href={row.store}
-                >
-                    {row.name}
-                </a>;
+                return <div>
+                    <a
+                        href={row.store}
+                    >
+                        {row.name}
+                    </a>
+                    <a
+                        className='subtext'
+                        href = {row.store}
+                    >
+                        {decodeURIComponent(row.store.replace('https://oldschool.runescape.wiki/w/', '').replace(/_/g, ' '))}
+                    </a>
+                </div>;
             },
         },
         {

@@ -14,9 +14,10 @@
     max-width: 100%;
 }
 
-.time-ago {
+.subtext {
     display: block;
     font-size: 10px;
+    text-decoration: none;
 }
 
 .nav-link {
