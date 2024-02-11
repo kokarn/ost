@@ -1,62 +1,982 @@
 [
     {
         "name": "Dragon impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 1.0526315789473684,
+                "item": "Dragonstone bolt tips"
+            },
+            {
+                "quantity": 1.894736842105263,
+                "item": "Dragonstone bolt tips"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Mystic robe bottom"
+            },
+            {
+                "quantity": 0.15789473684210525,
+                "item": "Amulet of glory"
+            },
+            {
+                "quantity": 0.10526315789473684,
+                "item": "Dragonstone amulet"
+            },
+            {
+                "quantity": 9.210526315789473,
+                "item": "Dragon arrow"
+            },
+            {
+                "quantity": 1.3157894736842104,
+                "item": "Dragonstone bolts"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Dragon longsword"
+            },
+            {
+                "quantity": 0.15789473684210525,
+                "item": "Dragon dagger(p++)"
+            },
+            {
+                "quantity": 9.210526315789473,
+                "item": "Dragon dart"
+            },
+            {
+                "quantity": 0.15789473684210525,
+                "item": "Dragonstone"
+            },
+            {
+                "quantity": 11.842105263157894,
+                "item": "Dragon dart tip"
+            },
+            {
+                "quantity": 11.842105263157894,
+                "item": "Dragon arrowtips"
+            },
+            {
+                "quantity": 1.5789473684210527,
+                "item": "Dragon javelin heads"
+            },
+            {
+                "quantity": 10.526315789473683,
+                "item": "Babydragon bones"
+            },
+            {
+                "quantity": 3.9473684210526314,
+                "item": "Dragon bones"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Magic seed"
+            },
+            {
+                "quantity": 0.3157894736842105,
+                "item": "Snapdragon seed"
+            },
+            {
+                "quantity": 0.7894736842105263,
+                "item": "Summer pie"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (elite)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Dragon_impling"
     },
     {
         "name": "Crystal impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.3333333333333333,
+                "item": "Amulet of power"
+            },
+            {
+                "quantity": 0.05555555555555555,
+                "item": "Crystal acorn"
+            },
+            {
+                "quantity": 0.38888888888888884,
+                "item": "Crystal shard"
+            },
+            {
+                "quantity": 0.05555555555555555,
+                "item": "Dragonstone amulet"
+            },
+            {
+                "quantity": 0.1111111111111111,
+                "item": "Dragonstone"
+            },
+            {
+                "quantity": 4.833333333333333,
+                "item": "Ruby bolt tips"
+            },
+            {
+                "quantity": 0.4444444444444444,
+                "item": "Onyx bolt tips"
+            },
+            {
+                "quantity": 11.11111111111111,
+                "item": "Rune arrowtips"
+            },
+            {
+                "quantity": 31.944444444444443,
+                "item": "Rune arrow"
+            },
+            {
+                "quantity": 2.2222222222222223,
+                "item": "Rune javelin heads"
+            },
+            {
+                "quantity": 2.7777777777777777,
+                "item": "Rune dart tip"
+            },
+            {
+                "quantity": 4.166666666666666,
+                "item": "Rune dart"
+            },
+            {
+                "quantity": 0.6666666666666666,
+                "item": "Dragon dart tip"
+            },
+            {
+                "quantity": 0.1111111111111111,
+                "item": "Dragon dagger"
+            },
+            {
+                "quantity": 0.2222222222222222,
+                "item": "Rune scimitar"
+            },
+            {
+                "quantity": 5.555555555555555,
+                "item": "Babydragon bones"
+            },
+            {
+                "quantity": 0.2777777777777778,
+                "item": "Ranarr seed"
+            },
+            {
+                "quantity": 0.05555555555555555,
+                "item": "Yew seed"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (elite)"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Elven signet"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Crystal_impling"
     },
     {
         "name": "Lucky impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.2,
+                "item": "Roll from easy clue table"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Roll from medium clue table"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Roll from hard clue table"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Roll from elite clue table"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Roll from master clue table"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Lucky_impling"
     },
     {
         "name": "Magpie impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.5714285714285714,
+                "item": "Black dragonhide"
+            },
+            {
+                "quantity": 0.14285714285714285,
+                "item": "Diamond amulet"
+            },
+            {
+                "quantity": 0.14285714285714285,
+                "item": "Amulet of power"
+            },
+            {
+                "quantity": 0.14285714285714285,
+                "item": "Ring of forging"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Splitbark gauntlets"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Mystic boots"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Mystic gloves"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Rune warhammer"
+            },
+            {
+                "quantity": 0.19047619047619047,
+                "item": "Ring of life"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Rune sq shield"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Dragon dagger"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Nature tiara"
+            },
+            {
+                "quantity": 0.09523809523809523,
+                "item": "Runite bar"
+            },
+            {
+                "quantity": 0.19047619047619047,
+                "item": "Diamond"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Pineapple seed"
+            },
+            {
+                "quantity": 0.14285714285714285,
+                "item": "Ring of recoil"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Snapdragon seed"
+            },
+            {
+                "quantity": 0.047619047619047616,
+                "item": "Sinister key"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (hard)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Magpie_impling"
     },
     {
         "name": "Ninja impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Snakeskin boots"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Splitbark helm"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Mystic boots"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Rune chainbody"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Mystic gloves"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Opal machete"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Rune claws"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Rune scimitar"
+            },
+            {
+                "quantity": 0.05263157894736842,
+                "item": "Dragon dagger(p+)"
+            },
+            {
+                "quantity": 3.6842105263157894,
+                "item": "Rune arrow"
+            },
+            {
+                "quantity": 3.6842105263157894,
+                "item": "Rune dart"
+            },
+            {
+                "quantity": 2.1052631578947367,
+                "item": "Rune knife"
+            },
+            {
+                "quantity": 2.631578947368421,
+                "item": "Rune thrownaxe"
+            },
+            {
+                "quantity": 0.10526315789473684,
+                "item": "Onyx bolts"
+            },
+            {
+                "quantity": 0.21052631578947367,
+                "item": "Onyx bolt tips"
+            },
+            {
+                "quantity": 0.5263157894736842,
+                "item": "Black dragonhide"
+            },
+            {
+                "quantity": 0.21052631578947367,
+                "item": "Prayer potion(3)"
+            },
+            {
+                "quantity": 0.21052631578947367,
+                "item": "Weapon poison(+)"
+            },
+            {
+                "quantity": 0.15789473684210525,
+                "item": "Dagannoth hide"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Clue scroll (hard)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Ninja_impling"
     },
     {
         "name": "Nature impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.1,
+                "item": "Limpwurt seed"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Jangerberry seed"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Belladonna seed"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Harralander seed"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Cactus spine"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Magic logs"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Tarromin"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Coconut"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Irit seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Curry tree seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Orange tree seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Snapdragon"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Kwuarm seed"
+            },
+            {
+                "quantity": 0.05,
+                "item": "Avantoe seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Willow seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Torstol seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Ranarr seed"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Torstol"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Dwarf weed seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Clue scroll (hard)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Nature_impling"
     },
     {
         "name": "Eclectic impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.1,
+                "item": "Mithril pickaxe"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Curry leaf"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Snape grass"
+            },
+            {
+                "quantity": 4.4,
+                "item": "Air rune"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Oak plank"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Empty candle lantern"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Gold ore"
+            },
+            {
+                "quantity": 0.5,
+                "item": "Gold bar"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Unicorn horn"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Adamant kiteshield"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Blue d'hide chaps"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Red spiky vambraces"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Rune dagger"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Battlestaff"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Adamantite ore"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Slayer's respite"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Wild pie"
+            },
+            {
+                "quantity": 0.03,
+                "item": "Watermelon seed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Diamond"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Clue scroll (medium)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Eclectic_impling"
     },
     {
         "name": "Earth impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.1,
+                "item": "Fire talisman"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Earth talisman"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Earth tiara"
+            },
+            {
+                "quantity": 3.2,
+                "item": "Earth rune"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Mithril ore"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Bucket of sand"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Unicorn horn"
+            },
+            {
+                "quantity": 0.6000000000000001,
+                "item": "Compost"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Gold ore"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Steel bar"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Mithril pickaxe"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Wildblood seed"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Jangerberry seed"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Supercompost"
+            },
+            {
+                "quantity": 0.03,
+                "item": "Mithril ore"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Harralander seed"
+            },
+            {
+                "quantity": 0.06,
+                "item": "Coal"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Emerald"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Ruby"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Clue scroll (medium)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Earth_impling"
     },
     {
         "name": "Essence impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 2,
+                "item": "Pure essence"
+            },
+            {
+                "quantity": 3,
+                "item": "Water rune"
+            },
+            {
+                "quantity": 3,
+                "item": "Air rune"
+            },
+            {
+                "quantity": 5,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": 2.5,
+                "item": "Mind rune"
+            },
+            {
+                "quantity": 2.8000000000000003,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Cosmic rune"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Mind talisman"
+            },
+            {
+                "quantity": 0.35000000000000003,
+                "item": "Pure essence"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Lava rune"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Mud rune"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Smoke rune"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Steam rune"
+            },
+            {
+                "quantity": 0.13,
+                "item": "Death rune"
+            },
+            {
+                "quantity": 0.13,
+                "item": "Law rune"
+            },
+            {
+                "quantity": 0.07,
+                "item": "Blood rune"
+            },
+            {
+                "quantity": 0.11,
+                "item": "Soul rune"
+            },
+            {
+                "quantity": 0.13,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (medium)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Essence_impling"
     },
     {
         "name": "Gourmet impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.002,
+                "item": "Grubby key"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Tuna"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Bass"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Curry"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Meat pie"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Chocolate cake"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Frog spawn"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Spice"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Curry leaf"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Ugthanki kebab"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Lobster"
+            },
+            {
+                "quantity": 0.03,
+                "item": "Shark"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Fish pie"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Chef's delight"
+            },
+            {
+                "quantity": 0.05,
+                "item": "Rainbow fish"
+            },
+            {
+                "quantity": 0.06,
+                "item": "Garden pie"
+            },
+            {
+                "quantity": 0.03,
+                "item": "Swordfish"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Strawberries(5)"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Cooked karambwan"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Clue scroll (easy)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Gourmet_impling"
     },
     {
         "name": "Young impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.5,
+                "item": "Steel nails"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Lockpick"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Pure essence"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Tuna"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Chocolate slice"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Steel axe"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Meat pizza"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Coal"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Bow string"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Snape grass"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Soft clay"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Studded chaps"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Steel full helm"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Oak plank"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Defence potion(3)"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Mithril bar"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Yew longbow"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Garden pie"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Jangerberries"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Clue scroll (beginner)"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (easy)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Young_impling"
     },
     {
         "name": "Baby impling",
-        "drops": [],
+        "drops": [
+            {
+                "quantity": 0.1,
+                "item": "Chisel"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Thread"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Needle"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Knife"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Cheese"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Hammer"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Ball of wool"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Anchovies"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Spice"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Flax"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Mud pie"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Seaweed"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Air talisman"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Silver bar"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Sapphire"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Hard leather"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Lobster"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Soft clay"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (beginner)"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Clue scroll (easy)"
+            }
+        ],
         "link": "https://oldschool.runescape.wiki/w/Baby_impling"
     }
 ]
