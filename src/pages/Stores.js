@@ -54,8 +54,14 @@ function StoreProfits({mapping, latest, volumes}) {
             }
 
             if (!mappingLookup[storeItem.name]) {
-                // console.log  (`No item data for ${storeItem.name}`);
+                continue;
+            }
 
+            if(storeItem.quantity <= 1){
+                continue;
+            }
+
+            if(storeItem.sellPrice <= 0){
                 continue;
             }
 
