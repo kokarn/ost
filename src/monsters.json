@@ -1476,12 +1476,6 @@
         "drops": []
     },
     {
-        "name": "Scorpia",
-        "link": "https://oldschool.runescape.wiki/w/Scorpia",
-        "combatLevel": 225,
-        "drops": []
-    },
-    {
         "name": "Skeleton (Shayzien Crypts)",
         "link": "https://oldschool.runescape.wiki/w/Skeleton_(Shayzien_Crypts)",
         "combatLevel": 132,
@@ -1527,14 +1521,6 @@
         "name": "Zulrah",
         "link": "https://oldschool.runescape.wiki/w/Zulrah",
         "combatLevel": 725,
-        "drops": []
-    },
-    {
-        "name": "Ancient Zygomite",
-        "link": "https://oldschool.runescape.wiki/w/Ancient_Zygomite",
-        "combatLevel": 109,
-        "slayerMonster": true,
-        "slayerLevel": 57,
         "drops": []
     },
     {
@@ -3762,6 +3748,14 @@
         "drops": []
     },
     {
+        "name": "Ancient Zygomite",
+        "link": "https://oldschool.runescape.wiki/w/Ancient_Zygomite",
+        "combatLevel": 109,
+        "slayerMonster": true,
+        "slayerLevel": 57,
+        "drops": []
+    },
+    {
         "name": "Asyn Shade",
         "link": "https://oldschool.runescape.wiki/w/Asyn_Shade",
         "combatLevel": 100,
@@ -4949,6 +4943,12 @@
         "name": "Scarabs",
         "link": "https://oldschool.runescape.wiki/w/Scarabs",
         "combatLevel": 92,
+        "drops": []
+    },
+    {
+        "name": "Scorpia",
+        "link": "https://oldschool.runescape.wiki/w/Scorpia",
+        "combatLevel": 225,
         "drops": []
     },
     {
