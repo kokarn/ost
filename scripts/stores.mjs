@@ -17,6 +17,18 @@ const weirdStores = [
     // "https://oldschool.runescape.wiki/w/TzHaar-Hur-Rin%27s_Ore_and_Gem_Store",
     // "https://oldschool.runescape.wiki/w/TzHaar-Hur-Zal%27s_Equipment_Store",
     // "https://oldschool.runescape.wiki/w/TzHaar-Hur-Tel%27s_Equipment_Store",
+    // "https://oldschool.runescape.wiki/w/Mythical_Cape_Store",
+    // "https://oldschool.runescape.wiki/w/Aggie",
+    // "https://oldschool.runescape.wiki/w/Ali_the_dyer",
+    // "https://oldschool.runescape.wiki/w/Mairin%27s_Market",
+    // "https://oldschool.runescape.wiki/w/Zahur",
+    // "https://oldschool.runescape.wiki/w/Ali_the_Kebab_seller",
+    // "https://oldschool.runescape.wiki/w/Kjut%27s_Kebabs",
+    // "https://oldschool.runescape.wiki/w/Karim",
+    // "https://oldschool.runescape.wiki/w/Silk_trader",
+    // "https://oldschool.runescape.wiki/w/Silk_merchant",
+    // "https://oldschool.runescape.wiki/w/Anwen",
+    // 'https://oldschool.runescape.wiki/w/Candle_seller',
 ];
 
 let stores = [
@@ -109,7 +121,6 @@ let stores = [
     'https://oldschool.runescape.wiki/w/Mount_Karuulm_Weapon_Shop',
     'https://oldschool.runescape.wiki/w/Perry%27s_Chop-chop_Shop',
     'https://oldschool.runescape.wiki/w/Warrior_Guild_Armoury',
-    'https://oldschool.runescape.wiki/w/Candle_seller',
     'https://oldschool.runescape.wiki/w/Candle_Shop',
     'https://oldschool.runescape.wiki/w/Darkmeyer_Lantern_Shop',
     'https://oldschool.runescape.wiki/w/Miltog%27s_Lamps',
@@ -127,7 +138,6 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Lliann%27s_Wares",
     "https://oldschool.runescape.wiki/w/Miscellanian_Clothes_Shop",
     "https://oldschool.runescape.wiki/w/Moon_Clan_Fine_Clothes.",
-    "https://oldschool.runescape.wiki/w/Mythical_Cape_Store",
     "https://oldschool.runescape.wiki/w/Shayzien_Styles",
     "https://oldschool.runescape.wiki/w/Vermundi%27s_Clothes_Stall",
     "https://oldschool.runescape.wiki/w/Yrsa%27s_Accoutrements",
@@ -146,8 +156,6 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Crossbow_Shop_(Keldagrim)",
     "https://oldschool.runescape.wiki/w/Crossbow_Shop_(White_Wolf_Mountain)",
     "https://oldschool.runescape.wiki/w/Crossbow_Shop_(Dwarven_Mine)",
-    "https://oldschool.runescape.wiki/w/Aggie",
-    "https://oldschool.runescape.wiki/w/Ali_the_dyer",
     "https://oldschool.runescape.wiki/w/Betty",
     "https://oldschool.runescape.wiki/w/Guinevere%27s_Dyes",
     "https://oldschool.runescape.wiki/w/Lletya_Seamstress",
@@ -171,7 +179,6 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Ishmael%27s_Fish_He_Sells",
     "https://oldschool.runescape.wiki/w/Island_Fishmonger",
     "https://oldschool.runescape.wiki/w/Lovecraft%27s_Tackle",
-    "https://oldschool.runescape.wiki/w/Mairin%27s_Market",
     "https://oldschool.runescape.wiki/w/Two_Feet_Charley%27s_Fish_Shop.",
     "https://oldschool.runescape.wiki/w/Tynan%27s_Fishing_Supplies",
     "https://oldschool.runescape.wiki/w/Warrens_Fish_Monger",
@@ -209,13 +216,9 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Jatix%27s_Herblore_Shop",
     "https://oldschool.runescape.wiki/w/Myths%27_Guild_Herbalist",
     "https://oldschool.runescape.wiki/w/Prifddinas_Herbal_Supplies",
-    "https://oldschool.runescape.wiki/w/Zahur",
     "https://oldschool.runescape.wiki/w/Aleck%27s_Hunter_Emporium.",
     "https://oldschool.runescape.wiki/w/Nardah_Hunter_Shop",
     "https://oldschool.runescape.wiki/w/Grum%27s_Gold_Exchange.",
-    "https://oldschool.runescape.wiki/w/Ali_the_Kebab_seller",
-    "https://oldschool.runescape.wiki/w/Kjut%27s_Kebabs",
-    "https://oldschool.runescape.wiki/w/Karim",
     "https://oldschool.runescape.wiki/w/Flynn%27s_Mace_Market.",
     "https://oldschool.runescape.wiki/w/Iwan%27s_Maces",
     "https://oldschool.runescape.wiki/w/Drogo%27s_Mining_Emporium",
@@ -238,9 +241,6 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Smithing_Smith%27s_Shop.",
     "https://oldschool.runescape.wiki/w/Cassie%27s_Shield_Shop.",
     "https://oldschool.runescape.wiki/w/Quality_Armour_Shop",
-    "https://oldschool.runescape.wiki/w/Silk_trader",
-    "https://oldschool.runescape.wiki/w/Silk_merchant",
-    "https://oldschool.runescape.wiki/w/Anwen",
     "https://oldschool.runescape.wiki/w/Vermundi%27s_Clothes_Stall",
     "https://oldschool.runescape.wiki/w/Ardougne_Silver_Stall.",
     "https://oldschool.runescape.wiki/w/Silver_Cog_Silver_Stall",
@@ -294,6 +294,15 @@ for(const store of stores){
     const response = await got(store);
     const $ = cheerio.load(response.body);
 
+    const changeMatch = response.body.match(/Change per: (.+?)%/);
+    let changeRate = 1;
+
+    if(!changeMatch){
+        console.log(`Couldn't find changerate for ${store}`);
+    } else {
+        changeRate = parseFloat(changeMatch[1])
+    }
+
     const data = await parseWikiTable($, keys, false, 'item');
 
     for(const item of data){
@@ -308,6 +317,7 @@ for(const store of stores){
             buyPrice: Number(item['buy-price']?.replace(',', '')),
             // gePrice: Number(item['ge-price']?.replace(',', '')),
             store,
+            storeChangeRate: changeRate,
         });
     }
 }

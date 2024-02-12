@@ -77,7 +77,7 @@ function StoreProfits({mapping, latest, volumes}) {
 
 
             // storeItem.storeProfit = storeItem.quantity * (storeItem.gePrice - storeItem.sellPrice);
-            storeItem.storeCost = calculateStoreProfit(storeItem.sellPrice, 1, storeItem.quantity)
+            storeItem.storeCost = calculateStoreProfit(storeItem.sellPrice, storeItem.storeChangeRate, storeItem.quantity)
             storeItem.storeProfit = storeItem.quantity * storeItem.gePrice - storeItem.storeCost;
 
             if(sellToStore){
