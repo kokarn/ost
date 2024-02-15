@@ -77,12 +77,24 @@ function CraftTable({latest, mapping, profits, filter}) {
                 });
             },
             renderCell: ({ value }) => {
-                const itemComponents = value.map((itemName) => {
+                const itemCounts = {};
+                for(const itemName of value){
+                    if(!itemCounts[itemName]){
+                        itemCounts[itemName] = 0;
+                    }
+
+                    itemCounts[itemName] = itemCounts[itemName] + 1;
+                }
+
+                const itemNames = [...new Set(value)];
+
+                const itemComponents = itemNames.map((itemName) => {
                     const item = Object.values(mapping).find((item) => item.name === itemName);
+                    const itemPrice = Math.min(latest[item.id]?.low, (profits[item.id]?.cost || 9999999));
                     return <div
                         key={item.id}
                     >
-                        {item.name}: {numberFormat(Math.min(latest[item.id]?.low, (profits[item.id]?.cost || 9999999)))}
+                        {itemCounts[itemName]}x {item.name}: {numberFormat(itemPrice * itemCounts[itemName])}
                     </div>;
                 });
 
@@ -112,7 +124,9 @@ function CraftTable({latest, mapping, profits, filter}) {
     ];
 
     const calculateRowHeight = (params) => {
-        return params.model.input.length * 20 + (16 * params.densityFactor);
+        const uniqueItems = [...new Set(params.model.input)];
+
+        return uniqueItems.length * 20 + (16 * params.densityFactor);
     };
 
     return <Container>
