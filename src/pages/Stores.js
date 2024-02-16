@@ -17,7 +17,7 @@ import numberFormat from '../modules/number-format.mjs';
 import ItemRow from '../components/ItemRow.js';
 import calculateStoreProfit from '../modules/calculate-store-profit.mjs';
 
-import stores from '../stores.json';
+import stores from '../data/stores.json';
 
 import '../App.css';
 

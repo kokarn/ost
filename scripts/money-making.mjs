@@ -143,5 +143,5 @@ try {
 // };
 
 // console.log(JSON.stringify(methods, null, 4));
-writeFile(join(__dirname, '..', 'src', 'money-making.json'), JSON.stringify(methods, null, 4));
+writeFile(join(__dirname, '..', 'src', 'data', 'money-making.json'), JSON.stringify(methods, null, 4));
 console.timeEnd('money-making');

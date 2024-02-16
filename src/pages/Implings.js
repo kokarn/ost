@@ -15,7 +15,7 @@ import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-d
 import numberFormat from '../modules/number-format.mjs';
 // import loadJSON from '../modules/load-json.mjs';
 
-import implings from '../implings.json';
+import implings from '../data/implings.json';
 
 import '../App.css';
 

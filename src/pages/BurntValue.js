@@ -7,7 +7,7 @@ import numberFormat from '../modules/number-format.mjs';
 
 import '../App.css';
 
-import burntPrices from '../burnt-prices.txt';
+import burntPrices from '../data/burnt-prices.txt';
 
 const convertKToThousand = (str) => {
     if (typeof str === 'string' && str.slice(-1).toLowerCase() === 'k') {

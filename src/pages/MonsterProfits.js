@@ -15,7 +15,7 @@ import TextField from '@mui/material/TextField';
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 
-import monsters from '../monsters.json';
+import monsters from '../data/monsters.json';
 
 import '../App.css';
 

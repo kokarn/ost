@@ -15,7 +15,7 @@ import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 
-import moneyMaking from '../money-making.json';
+import moneyMaking from '../data/money-making.json';
 
 import '../App.css';
 

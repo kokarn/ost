@@ -67,5 +67,5 @@ for(const category of categories){
 }
 
 // console.log(JSON.stringify(monsters, null, 4));
-writeFile(join(__dirname, '..', 'src', 'monsters.json'), JSON.stringify(monsters, null, 4));
+writeFile(join(__dirname, '..', 'src', 'data', 'monsters.json'), JSON.stringify(monsters, null, 4));
 console.timeEnd('monsters');

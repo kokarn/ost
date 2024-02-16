@@ -60,5 +60,5 @@ for(const impling of implings){
 }
 
 // console.log(JSON.stringify(implingDrops, null, 4));
-writeFile(join(__dirname, '..', 'src', 'implings.json'), JSON.stringify(implingDrops, null, 4));
+writeFile(join(__dirname, '..', 'src', 'data', 'implings.json'), JSON.stringify(implingDrops, null, 4));
 console.timeEnd('implings');

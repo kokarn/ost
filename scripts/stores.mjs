@@ -354,5 +354,5 @@ for(const item of allItems){
 profitableItems.sort((a, b) => b[5] - a[5]);
 
 // console.log(JSON.stringify(allItems, null, 4));
-writeFile(join(__dirname, '..', 'src', 'stores.json'), JSON.stringify(allItems, null, 4));
+writeFile(join(__dirname, '..', 'src', 'data', 'stores.json'), JSON.stringify(allItems, null, 4));
 console.timeEnd('stores');
