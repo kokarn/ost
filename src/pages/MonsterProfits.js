@@ -5,7 +5,7 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
@@ -18,17 +18,6 @@ import loadJSON from '../modules/load-json.mjs';
 import monsters from '../data/monsters.json';
 
 import '../App.css';
-
-const CustomToolbar = () => {
-    return (
-        <GridToolbarContainer>
-            {/* Include the quick filter input */}
-            <GridToolbarQuickFilter />
-
-            {/* Add any other desired toolbar components */}
-        </GridToolbarContainer>
-    );
-};
 
 function MonsterProfits({mapping, latest, filter}) {
     const [hideNonCombat, setHideNonCombat] = useState(true);

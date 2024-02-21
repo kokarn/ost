@@ -5,7 +5,7 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
@@ -18,17 +18,6 @@ import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 import moneyMaking from '../data/money-making.json';
 
 import '../App.css';
-
-const CustomToolbar = () => {
-    return (
-        <GridToolbarContainer>
-            {/* Include the quick filter input */}
-            <GridToolbarQuickFilter />
-
-            {/* Add any other desired toolbar components */}
-        </GridToolbarContainer>
-    );
-};
 
 function MoneyMaking({filter}) {
     const [playerStats, setPlayerStats] = useState({});

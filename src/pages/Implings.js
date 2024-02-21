@@ -19,17 +19,6 @@ import implings from '../data/implings.json';
 
 import '../App.css';
 
-const CustomToolbar = () => {
-    return (
-        <GridToolbarContainer>
-            {/* Include the quick filter input */}
-            <GridToolbarQuickFilter />
-
-            {/* Add any other desired toolbar components */}
-        </GridToolbarContainer>
-    );
-};
-
 function Implings({mapping, latest, filter}) {
     // const [hideNonCombat, setHideNonCombat] = useState(true);
     // const [playerStats, setPlayerStats] = useState({});

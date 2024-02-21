@@ -5,7 +5,7 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid, GridToolbarContainer, GridToolbarQuickFilter } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
@@ -21,17 +21,6 @@ import stores from '../data/stores.json';
 import itemProperties from '../data/item-properties.json';
 
 import '../App.css';
-
-const CustomToolbar = () => {
-    return (
-        <GridToolbarContainer>
-            {/* Include the quick filter input */}
-            <GridToolbarQuickFilter />
-
-            {/* Add any other desired toolbar components */}
-        </GridToolbarContainer>
-    );
-};
 
 function StoreProfits({mapping, latest, volumes, filter}) {
     const [sellToStore, setSellToStore] = useState(false);
