@@ -18,6 +18,7 @@ import ItemRow from '../components/ItemRow.js';
 import calculateStoreProfit from '../modules/calculate-store-profit.mjs';
 
 import stores from '../data/stores.json';
+import itemProperties from '../data/item-properties.json';
 
 import '../App.css';
 
@@ -34,12 +35,8 @@ const CustomToolbar = () => {
 
 function StoreProfits({mapping, latest, volumes}) {
     const [sellToStore, setSellToStore] = useState(false);
-    // const [playerStats, setPlayerStats] = useState({});
-    // const [hideUnqualified, setHideUnqualified] = useState(true);
-    // const [maxCombatLevel, setMaxCombatLevel] = useState(0);
+    const [onlyStackable, setOnlyStackable] = useState(true);
 
-    // console.log(mapping, latest);
-    // console.log(volumes);
     const rows = useMemo(() => {
         let storeItemRows = [];
         const mappingLookup = {};
@@ -62,6 +59,10 @@ function StoreProfits({mapping, latest, volumes}) {
             }
 
             if(storeItem.sellPrice <= 0){
+                continue;
+            }
+
+            if(onlyStackable && !itemProperties[mappingLookup[storeItem.name].id]?.stackable){
                 continue;
             }
 
@@ -93,7 +94,7 @@ function StoreProfits({mapping, latest, volumes}) {
         }
 
         return storeItemRows;
-    }, [mapping, latest, volumes, sellToStore]);
+    }, [mapping, latest, volumes, sellToStore, onlyStackable]);
 
     const columns = [
         {
@@ -156,14 +157,14 @@ function StoreProfits({mapping, latest, volumes}) {
     if(sellToStore){
         columns.splice(3, 0, {
             field: 'buyPrice',
-            headerName: 'Buy price',
+            headerName: 'Store buy price',
             renderCell: ({ value }) => numberFormat(value) || '',
             // width: 150,
         });
     } else {
         columns.splice(3, 0, {
             field: 'sellPrice',
-            headerName: 'Sell price',
+            headerName: 'Store price',
             renderCell: ({ value }) => numberFormat(value),
             // width: 150,
         });
@@ -209,25 +210,16 @@ function StoreProfits({mapping, latest, volumes}) {
                                 setSellToStore(event.target.checked);
                             }}
                         />
-                    } label="Set sell to store" />
-                    {/* <FormControlLabel control={
+                    } label="Sell to store" />
+                    <FormControlLabel control={
                         <Checkbox
-                            checked={hideUnqualified}
-                            label="Hide unqualified"
+                            checked={onlyStackable}
+                            label="Show only stackable"
                             onChange={(event) => {
-                                setHideUnqualified(event.target.checked);
+                                setOnlyStackable(event.target.checked);
                             }}
                         />
-                    } label="Hide unqualified" /> */}
-                    {/* <FormControlLabel control={
-                        <TextField
-                            label="Max combat level"
-                            onChange={(event) => {
-                                setMaxCombatLevel(event.target.value);
-                            }}
-                            type="number"
-                        />
-                    }/> */}
+                    } label="Show only stackable" />
                 </Stack>
             </FormGroup>
             <DataGrid
@@ -242,7 +234,7 @@ function StoreProfits({mapping, latest, volumes}) {
                     },
                     sorting: {
                         sortModel: [{
-                            field: 'jarProfit',
+                            field: 'storeProfit',
                             sort: 'desc',
                         }],
                     },
