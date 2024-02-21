@@ -33,7 +33,7 @@ const CustomToolbar = () => {
     );
 };
 
-function StoreProfits({mapping, latest, volumes}) {
+function StoreProfits({mapping, latest, volumes, filter}) {
     const [sellToStore, setSellToStore] = useState(false);
     const [onlyStackable, setOnlyStackable] = useState(true);
 
@@ -68,6 +68,10 @@ function StoreProfits({mapping, latest, volumes}) {
 
             storeItem.volume = volumes[mappingLookup[storeItem.name].id] || 0;
 
+            if(filter && !storeItem.name.toLowerCase().includes(filter.toLowerCase())){
+                continue;
+            }
+
             // Remove all items with a low volume
             if(volumes[mappingLookup[storeItem.name].id] < 1000){
                 continue;
@@ -94,7 +98,7 @@ function StoreProfits({mapping, latest, volumes}) {
         }
 
         return storeItemRows;
-    }, [mapping, latest, volumes, sellToStore, onlyStackable]);
+    }, [mapping, latest, volumes, sellToStore, onlyStackable, filter]);
 
     const columns = [
         {
@@ -242,7 +246,7 @@ function StoreProfits({mapping, latest, volumes}) {
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                slots={{ toolbar: CustomToolbar }}
+                // slots={{ toolbar: CustomToolbar }}
             />
         </Container>
     </Box>;

@@ -30,7 +30,7 @@ const CustomToolbar = () => {
     );
 };
 
-function Implings({mapping, latest}) {
+function Implings({mapping, latest, filter}) {
     // const [hideNonCombat, setHideNonCombat] = useState(true);
     // const [playerStats, setPlayerStats] = useState({});
     // const [hideUnqualified, setHideUnqualified] = useState(true);
@@ -112,11 +112,15 @@ function Implings({mapping, latest}) {
                 monsterData.jarProfit = totalLootValue - latest[itemId].low;
             }
 
+            if(filter && monsterData.name.toLowerCase().indexOf(filter.toLowerCase()) === -1){
+                continue;
+            }
+
             monsterRows.push(monsterData);
         }
 
         return monsterRows;
-    }, [mapping, latest]);
+    }, [mapping, latest, filter]);
 
     const columns = [
         {
@@ -226,7 +230,7 @@ function Implings({mapping, latest}) {
                 disableColumnSelector
                 disableDensitySelector
                 // hideFooter
-                slots={{ toolbar: CustomToolbar }}
+                // slots={{ toolbar: CustomToolbar }}
             // slotProps={{
             //     toolbar: {
             //         showQuickFilter: true,

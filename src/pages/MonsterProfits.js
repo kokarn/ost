@@ -30,7 +30,7 @@ const CustomToolbar = () => {
     );
 };
 
-function MonsterProfits({mapping, latest}) {
+function MonsterProfits({mapping, latest, filter}) {
     const [hideNonCombat, setHideNonCombat] = useState(true);
     const [playerStats, setPlayerStats] = useState({});
     const [hideUnqualified, setHideUnqualified] = useState(true);
@@ -92,6 +92,10 @@ function MonsterProfits({mapping, latest}) {
                 continue;
             }
 
+            if(filter && monsterData.name.toLowerCase().indexOf(filter.toLowerCase()) === -1){
+                continue;
+            }
+
             for(const drop of monsterData.drops){
                 let item = latest[itemMap[drop.item.toLowerCase()]];
 
@@ -127,7 +131,7 @@ function MonsterProfits({mapping, latest}) {
         }
 
         return monsterRows;
-    }, [mapping, latest, hideNonCombat, hideUnqualified, maxCombatLevel, playerStats]);
+    }, [mapping, latest, hideNonCombat, hideUnqualified, maxCombatLevel, playerStats, filter]);
 
     const columns = [
         {
@@ -237,7 +241,7 @@ function MonsterProfits({mapping, latest}) {
                 disableColumnSelector
                 disableDensitySelector
                 // hideFooter
-                slots={{ toolbar: CustomToolbar }}
+                // slots={{ toolbar: CustomToolbar }}
             // slotProps={{
             //     toolbar: {
             //         showQuickFilter: true,

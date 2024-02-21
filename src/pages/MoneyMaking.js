@@ -30,7 +30,7 @@ const CustomToolbar = () => {
     );
 };
 
-function MoneyMaking() {
+function MoneyMaking({filter}) {
     const [playerStats, setPlayerStats] = useState({});
     const [hideEmpty, setHideEmpty] = useState(true);
     const [hideUnqualified, setHideUnqualified] = useState(true);
@@ -85,11 +85,15 @@ function MoneyMaking() {
                 }
             }
 
+            if(filter && !row.methodName.toLowerCase().includes(filter.toLowerCase())){
+                return false;
+            }
+
             return true;
         });
 
         return returnRows;
-    }, [playerStats, hideEmpty, hideUnqualified]);
+    }, [playerStats, hideEmpty, hideUnqualified, filter]);
 
     const columns = [
         {
@@ -225,7 +229,7 @@ function MoneyMaking() {
                 disableColumnSelector
                 disableDensitySelector
                 // hideFooter
-                slots={{ toolbar: CustomToolbar }}
+                // slots={{ toolbar: CustomToolbar }}
             // slotProps={{
             //     toolbar: {
             //         showQuickFilter: true,

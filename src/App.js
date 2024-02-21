@@ -352,7 +352,9 @@ function App() {
                 />
                 <Route
                     path="money-making"
-                    element={<MoneyMaking />}
+                    element={<MoneyMaking
+                        filter={debouncedFilter}
+                    />}
                 />
                 <Route
                     path='crafts'
@@ -370,12 +372,14 @@ function App() {
                     element={<MonsterProfits
                         latest={latest}
                         mapping={mapping}
+                        filter={debouncedFilter}
                     />}
                 />
                 <Route
                     path="implings"
                     element={<Implings
                         latest={latest}
+                        filter={debouncedFilter}
                         mapping={mapping}
                     />}
                 />
@@ -387,6 +391,7 @@ function App() {
                     path="stores"
                     element={<Stores
                         latest={latest}
+                        filter={debouncedFilter}
                         mapping={mapping}
                         volumes={volumes}
                     />}
