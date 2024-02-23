@@ -5,7 +5,6 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
@@ -16,6 +15,7 @@ import numberFormat from '../modules/number-format.mjs';
 // import loadJSON from '../modules/load-json.mjs';
 import ItemRow from '../components/ItemRow.js';
 import calculateStoreProfit from '../modules/calculate-store-profit.mjs';
+import StickyTable from '../components/StickyTable.js';
 
 import stores from '../data/stores.json';
 import itemProperties from '../data/item-properties.json';
@@ -123,7 +123,7 @@ function StoreProfits({mapping, latest, volumes, filter}) {
         },
         {
             field: 'quantity',
-            headerName: 'Quantity',
+            headerName: 'Stock',
             renderCell: ({ value }) => numberFormat(value),
             width: 150,
         },
@@ -215,7 +215,7 @@ function StoreProfits({mapping, latest, volumes, filter}) {
                     } label="Show only stackable" />
                 </Stack>
             </FormGroup>
-            <DataGrid
+            <StickyTable
                 density="standard"
                 rows={rows}
                 columns={columns}
