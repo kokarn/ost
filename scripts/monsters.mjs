@@ -50,6 +50,10 @@ for(const category of categories){
 
         pageCache.push(url);
 
+        if(url.toLowerCase().includes('bloodthirsty')){
+            return;
+        }
+
         monsterPromises.push(async () => {
             const value = await getMonsterData(url, keys);
             const name = $(el).attr('title');
