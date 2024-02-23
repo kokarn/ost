@@ -224,7 +224,8 @@
                 "quantity": 0.00011111111111111112,
                 "item": "Draconic visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Alchemical Hydra",
@@ -593,13 +594,15 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Ikkle hydra"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Alvarg",
         "link": "https://oldschool.runescape.wiki/w/Alvarg",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ancient Wyvern",
@@ -968,7 +971,8 @@
                 "quantity": 0.0034285714285714284,
                 "item": "Unidentified rare fossil"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Baby black dragon",
@@ -983,7 +987,8 @@
                 "quantity": 0.006369426751592357,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Baby blue dragon",
@@ -1006,7 +1011,8 @@
                 "quantity": 0.0015625,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Baby green dragon",
@@ -1017,7 +1023,8 @@
                 "quantity": 1,
                 "item": "Babydragon bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Baby red dragon",
@@ -1048,13 +1055,15 @@
                 "quantity": 0.0015625,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Baby red dragon (Construction)",
         "link": "https://oldschool.runescape.wiki/w/Baby_red_dragon_(Construction)",
         "combatLevel": 65,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Black dragon",
@@ -1605,7 +1614,8 @@
                 "quantity": 0.0008,
                 "item": "Draconic visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Blue dragon",
@@ -1800,7 +1810,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bronze dragon",
@@ -2035,7 +2046,8 @@
                 "quantity": 0.0026455026455026454,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brutal black dragon",
@@ -2324,7 +2336,8 @@
                 "quantity": 0.005405405405405406,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brutal blue dragon",
@@ -2599,7 +2612,8 @@
                 "quantity": 0.00392156862745098,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brutal green dragon",
@@ -2870,7 +2884,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brutal red dragon",
@@ -3141,13 +3156,15 @@
                 "quantity": 0.004651162790697674,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chromatic dragons",
         "link": "https://oldschool.runescape.wiki/w/Chromatic_dragons",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Colossal Hydra",
@@ -3472,13 +3489,15 @@
                 "quantity": 0.00625,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Colossal Wyrm",
         "link": "https://oldschool.runescape.wiki/w/Colossal_Wyrm",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Drake",
@@ -3747,7 +3766,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Elvarg",
@@ -3758,49 +3778,57 @@
                 "quantity": 1,
                 "item": "Dragon bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Eski",
         "link": "https://oldschool.runescape.wiki/w/Eski",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Eski the Bloated",
         "link": "https://oldschool.runescape.wiki/w/Eski_the_Bloated",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Fairy dragon",
         "link": "https://oldschool.runescape.wiki/w/Fairy_dragon",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Forcae",
         "link": "https://oldschool.runescape.wiki/w/Forcae",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Galvek",
         "link": "https://oldschool.runescape.wiki/w/Galvek",
         "combatLevel": 608,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Garak",
         "link": "https://oldschool.runescape.wiki/w/Garak",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Great Olm",
         "link": "https://oldschool.runescape.wiki/w/Great_Olm",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Green dragon",
@@ -4291,7 +4319,8 @@
                 "quantity": 0.0005585656035301346,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guardian Drake",
@@ -4576,13 +4605,15 @@
                 "quantity": 0.002717391304347826,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Hekala",
         "link": "https://oldschool.runescape.wiki/w/Hekala",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Hydra",
@@ -4891,7 +4922,8 @@
                 "quantity": 0.001953125,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Iron dragon",
@@ -5122,43 +5154,50 @@
                 "quantity": 0.003278688524590164,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "K'klik",
         "link": "https://oldschool.runescape.wiki/w/K%27klik",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Karuulm",
         "link": "https://oldschool.runescape.wiki/w/Karuulm",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Kerapac",
         "link": "https://oldschool.runescape.wiki/w/Kerapac",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dragonkin",
         "link": "https://oldschool.runescape.wiki/w/Dragonkin",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dragonkin (A Tail of Two Cats)",
         "link": "https://oldschool.runescape.wiki/w/Dragonkin_(A_Tail_of_Two_Cats)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dragonkin (Dragon Slayer II)",
         "link": "https://oldschool.runescape.wiki/w/Dragonkin_(Dragon_Slayer_II)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "King Black Dragon",
@@ -5385,7 +5424,8 @@
                 "quantity": 0.0002,
                 "item": "Draconic visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lava dragon",
@@ -5684,7 +5724,8 @@
                 "quantity": 0.007352941176470588,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Long-tailed Wyvern",
@@ -5933,19 +5974,22 @@
                 "quantity": 0.00008333333333333333,
                 "item": "Wyvern visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Metal dragons",
         "link": "https://oldschool.runescape.wiki/w/Metal_dragons",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Miscellaneous dragons",
         "link": "https://oldschool.runescape.wiki/w/Miscellaneous_dragons",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Mithril dragon",
@@ -6180,25 +6224,29 @@
                 "quantity": 0.0001,
                 "item": "Draconic visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mr. Mordaut",
         "link": "https://oldschool.runescape.wiki/w/Mr._Mordaut",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dragon (race)",
         "link": "https://oldschool.runescape.wiki/w/Dragon_(race)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated dragon",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_dragon",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Red dragon",
@@ -6405,7 +6453,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant dragon",
@@ -6648,7 +6697,8 @@
                 "quantity": 0.00510204081632653,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rune dragon",
@@ -6883,7 +6933,8 @@
                 "quantity": 0.000125,
                 "item": "Draconic visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shadow Wyrm",
@@ -7152,13 +7203,15 @@
                 "quantity": 0.0013736263736263737,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Skeka",
         "link": "https://oldschool.runescape.wiki/w/Skeka",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Skeletal Wyvern",
@@ -7463,7 +7516,8 @@
                 "quantity": 0.0001,
                 "item": "Draconic visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spitting Wyvern",
@@ -7712,7 +7766,8 @@
                 "quantity": 0.00008333333333333333,
                 "item": "Wyvern visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Steel dragon",
@@ -7947,7 +8002,8 @@
                 "quantity": 0.004,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Taloned Wyvern",
@@ -8196,7 +8252,8 @@
                 "quantity": 0.00008333333333333333,
                 "item": "Wyvern visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vorkath",
@@ -8555,7 +8612,8 @@
                 "quantity": 0.0002,
                 "item": "Skeletal visage"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wyrm",
@@ -8808,19 +8866,22 @@
                 "quantity": 0.00390625,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zorgoth",
         "link": "https://oldschool.runescape.wiki/w/Zorgoth",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Demons",
         "link": "https://oldschool.runescape.wiki/w/Demons",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Abyssal demon",
@@ -9445,7 +9506,8 @@
                 "quantity": 0.0007207207207207207,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Abyssal Sire",
@@ -9802,7 +9864,8 @@
                 "quantity": 0.005555555555555556,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Agrith Naar",
@@ -9813,7 +9876,8 @@
                 "quantity": 1,
                 "item": "Vile ashes"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Balfrug Kreeyath",
@@ -9896,7 +9960,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Black demon",
@@ -10503,7 +10568,8 @@
                 "quantity": 0.0008198065256599442,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Blood Reaver",
@@ -10678,7 +10744,8 @@
                 "quantity": 0.008928571428571428,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bloodveld",
@@ -10903,13 +10970,15 @@
                 "quantity": 0.004694835680751174,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Demon butler",
         "link": "https://oldschool.runescape.wiki/w/Demon_butler",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Cerberus",
@@ -11186,7 +11255,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Hellpuppy"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaotic death spawn",
@@ -11197,13 +11267,15 @@
                 "quantity": 1,
                 "item": "Ashes"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chocolate demon",
         "link": "https://oldschool.runescape.wiki/w/Chocolate_demon",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Chronozon",
@@ -11222,13 +11294,15 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Demon (Construction)",
         "link": "https://oldschool.runescape.wiki/w/Demon_(Construction)",
         "combatLevel": 82,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Death spawn",
@@ -11239,13 +11313,15 @@
                 "quantity": 1,
                 "item": "Fiendish ashes"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Delrith",
         "link": "https://oldschool.runescape.wiki/w/Delrith",
         "combatLevel": 1,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Doomion",
@@ -11260,13 +11336,15 @@
                 "quantity": 1,
                 "item": "Amulet of doomion"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Duke Mephitis",
         "link": "https://oldschool.runescape.wiki/w/Duke_Mephitis",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Duke Sucellus",
@@ -11445,13 +11523,15 @@
                 "quantity": 1,
                 "item": "Ancient blood ornament kit"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dunce",
         "link": "https://oldschool.runescape.wiki/w/Dunce",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Flaming pyrelord",
@@ -11604,7 +11684,8 @@
                 "quantity": 0.0008741258741258741,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Greater abyssal demon",
@@ -11917,7 +11998,8 @@
                 "quantity": 0.002840909090909091,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Greater demon",
@@ -12300,7 +12382,8 @@
                 "quantity": 0.0006125949522175937,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Greater Nechryael",
@@ -12881,7 +12964,8 @@
                 "quantity": 0.0008288437629506838,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hell-Rat",
@@ -12956,7 +13040,8 @@
                 "quantity": 0.0625,
                 "item": "Yellow spice (1)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hell-Rat Behemoth",
@@ -12983,13 +13068,15 @@
                 "quantity": 1,
                 "item": "Yellow spice (4)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hellcat",
         "link": "https://oldschool.runescape.wiki/w/Hellcat",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Hellhound",
@@ -13196,7 +13283,8 @@
                 "quantity": 0.0007657554177195803,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Holthion",
@@ -13211,7 +13299,8 @@
                 "quantity": 1,
                 "item": "Amulet of holthion"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Demonic gorilla",
@@ -13506,7 +13595,8 @@
                 "quantity": 0.002,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice demon",
@@ -13517,7 +13607,8 @@
                 "quantity": 1,
                 "item": "Fiendish ashes"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Icefiend",
@@ -13600,7 +13691,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Imp",
@@ -13755,25 +13847,29 @@
                 "quantity": 0.0002,
                 "item": "Imp champion scroll(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Imp Champion",
         "link": "https://oldschool.runescape.wiki/w/Imp_Champion",
         "combatLevel": 14,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Imp defender",
         "link": "https://oldschool.runescape.wiki/w/Imp_defender",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Impling",
         "link": "https://oldschool.runescape.wiki/w/Impling",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Infernal pyrelord",
@@ -13918,7 +14014,8 @@
                 "quantity": 0.0008741258741258741,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Insatiable Bloodveld",
@@ -14135,7 +14232,8 @@
                 "quantity": 0.0011160714285714285,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Insatiable mutated Bloodveld",
@@ -14400,13 +14498,15 @@
                 "quantity": 0.0011160714285714285,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Judge of Yama",
         "link": "https://oldschool.runescape.wiki/w/Judge_of_Yama",
         "combatLevel": 168,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jungle Demon",
@@ -14417,7 +14517,8 @@
                 "quantity": 1,
                 "item": "Malicious ashes"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "K'ril Tsutsaroth",
@@ -14628,13 +14729,15 @@
                 "quantity": null,
                 "item": "Pet k'ril tsutsaroth"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kolodion",
         "link": "https://oldschool.runescape.wiki/w/Kolodion",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Lesser demon",
@@ -15101,25 +15204,29 @@
                 "quantity": 0.0005765682656826568,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lesser Demon Champion",
         "link": "https://oldschool.runescape.wiki/w/Lesser_Demon_Champion",
         "combatLevel": 162,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Lithil",
         "link": "https://oldschool.runescape.wiki/w/Lithil",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Mazchna",
         "link": "https://oldschool.runescape.wiki/w/Mazchna",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Mutated Bloodveld",
@@ -15380,7 +15487,8 @@
                 "quantity": 0.0030303030303030303,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Nechryael",
@@ -15637,7 +15745,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Nechryarch",
@@ -16186,13 +16295,15 @@
                 "quantity": 0.0022727272727272726,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Nezikchened",
         "link": "https://oldschool.runescape.wiki/w/Nezikchened",
         "combatLevel": 295,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Demon of Balance",
@@ -16207,7 +16318,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Demon of Darkness",
@@ -16222,7 +16334,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Demon of Light",
@@ -16237,7 +16350,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Othainian",
@@ -16252,7 +16366,8 @@
                 "quantity": 1,
                 "item": "Amulet of othanian"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Porazdir",
@@ -16275,7 +16390,8 @@
                 "quantity": 0.0125,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Pyrefiend",
@@ -16416,7 +16532,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Pyrelord",
@@ -16545,7 +16662,8 @@
                 "quantity": 0.009615384615384616,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant demon",
@@ -16792,7 +16910,8 @@
                 "quantity": 0.00390625,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant hellhound",
@@ -17039,7 +17158,8 @@
                 "quantity": 0.00390625,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant imp",
@@ -17286,7 +17406,8 @@
                 "quantity": 0.003205128205128205,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant pyrefiend",
@@ -17533,19 +17654,22 @@
                 "quantity": 0.0035460992907801418,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ripper Demon",
         "link": "https://oldschool.runescape.wiki/w/Ripper_Demon",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Sergeant Damien",
         "link": "https://oldschool.runescape.wiki/w/Sergeant_Damien",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Skotizo",
@@ -17688,31 +17812,36 @@
                 "quantity": 0.005,
                 "item": "Jar of darkness"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skotizo/Strategies",
         "link": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Skotos",
         "link": "https://oldschool.runescape.wiki/w/Skotos",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Spirit (2018 Halloween event)",
         "link": "https://oldschool.runescape.wiki/w/Spirit_(2018_Halloween_event)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Thammaron",
         "link": "https://oldschool.runescape.wiki/w/Thammaron",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Tortured gorilla",
@@ -18003,7 +18132,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tstanon Karlak",
@@ -18086,13 +18216,15 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Voice of Yama",
         "link": "https://oldschool.runescape.wiki/w/Voice_of_Yama",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Waterfiend",
@@ -18411,13 +18543,15 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Yama",
         "link": "https://oldschool.runescape.wiki/w/Yama",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Zakl'n Gritch",
@@ -18504,7 +18638,8 @@
                 "quantity": 0.0002,
                 "item": "Lesser demon champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zalcano",
@@ -18615,25 +18750,29 @@
                 "quantity": 0.000125,
                 "item": "Uncut onyx"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zimberfizz",
         "link": "https://oldschool.runescape.wiki/w/Zimberfizz",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Troll",
         "link": "https://oldschool.runescape.wiki/w/Troll",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Aga",
         "link": "https://oldschool.runescape.wiki/w/Aga",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Arrg",
@@ -18924,13 +19063,15 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ash",
         "link": "https://oldschool.runescape.wiki/w/Ash",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Berry",
@@ -19225,37 +19366,43 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Boulder",
         "link": "https://oldschool.runescape.wiki/w/Boulder",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Burntmeat",
         "link": "https://oldschool.runescape.wiki/w/Burntmeat",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Butterfly (troll)",
         "link": "https://oldschool.runescape.wiki/w/Butterfly_(troll)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Carol (Christmas 2016)",
         "link": "https://oldschool.runescape.wiki/w/Carol_(Christmas_2016)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Troll child",
         "link": "https://oldschool.runescape.wiki/w/Troll_child",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dad",
@@ -19274,43 +19421,50 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Don't Know What",
         "link": "https://oldschool.runescape.wiki/w/Don%27t_Know_What",
         "combatLevel": 163,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Driftwood",
         "link": "https://oldschool.runescape.wiki/w/Driftwood",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Drunken Dwarf's Leg",
         "link": "https://oldschool.runescape.wiki/w/Drunken_Dwarf%27s_Leg",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dung",
         "link": "https://oldschool.runescape.wiki/w/Dung",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Troll father",
         "link": "https://oldschool.runescape.wiki/w/Troll_father",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Flippa",
         "link": "https://oldschool.runescape.wiki/w/Flippa",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Frenzied ice troll female",
@@ -19329,7 +19483,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Frenzied ice troll grunt",
@@ -19348,7 +19503,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Frenzied ice troll male",
@@ -19367,7 +19523,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Frenzied ice troll runt",
@@ -19386,7 +19543,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Troll general",
@@ -19589,19 +19747,22 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Goat Poo",
         "link": "https://oldschool.runescape.wiki/w/Goat_Poo",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ice block",
         "link": "https://oldschool.runescape.wiki/w/Ice_block",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ice troll",
@@ -19780,13 +19941,15 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice troll (Desert Treasure I)",
         "link": "https://oldschool.runescape.wiki/w/Ice_troll_(Desert_Treasure_I)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ice troll female",
@@ -20077,7 +20240,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice troll grunt",
@@ -20356,13 +20520,15 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice Troll King",
         "link": "https://oldschool.runescape.wiki/w/Ice_Troll_King",
         "combatLevel": 122,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ice troll male",
@@ -20917,7 +21083,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice troll runt",
@@ -21472,25 +21639,29 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Icicle",
         "link": "https://oldschool.runescape.wiki/w/Icicle",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jelly (mountain troll)",
         "link": "https://oldschool.runescape.wiki/w/Jelly_(mountain_troll)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Kob",
         "link": "https://oldschool.runescape.wiki/w/Kob",
         "combatLevel": 185,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Kraka",
@@ -21689,25 +21860,29 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lalli",
         "link": "https://oldschool.runescape.wiki/w/Lalli",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Mother",
         "link": "https://oldschool.runescape.wiki/w/Mother",
         "combatLevel": 198,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Troll mother",
         "link": "https://oldschool.runescape.wiki/w/Troll_mother",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Mountain troll",
@@ -22002,37 +22177,43 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mushroom (mountain troll)",
         "link": "https://oldschool.runescape.wiki/w/Mushroom_(mountain_troll)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "My Arm",
         "link": "https://oldschool.runescape.wiki/w/My_Arm",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Odd Mushroom",
         "link": "https://oldschool.runescape.wiki/w/Odd_Mushroom",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Odd Stone",
         "link": "https://oldschool.runescape.wiki/w/Odd_Stone",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Pebble",
         "link": "https://oldschool.runescape.wiki/w/Pebble",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Pee Hat",
@@ -22231,7 +22412,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "River troll",
@@ -22302,7 +22484,8 @@
                 "quantity": 0.0390625,
                 "item": "Casket"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rock (Troll)",
@@ -22501,13 +22684,15 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Root",
         "link": "https://oldschool.runescape.wiki/w/Root",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Sea troll",
@@ -22530,25 +22715,29 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sea Troll General",
         "link": "https://oldschool.runescape.wiki/w/Sea_Troll_General",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Sea Troll Queen",
         "link": "https://oldschool.runescape.wiki/w/Sea_Troll_Queen",
         "combatLevel": 170,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Snowflake",
         "link": "https://oldschool.runescape.wiki/w/Snowflake",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Troll spectator",
@@ -22831,13 +23020,15 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Squirrel (troll)",
         "link": "https://oldschool.runescape.wiki/w/Squirrel_(troll)",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Stick",
@@ -23036,7 +23227,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Thrower Troll",
@@ -23327,7 +23519,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Thrower troll (Trollheim)",
@@ -23346,13 +23539,15 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tilt",
         "link": "https://oldschool.runescape.wiki/w/Tilt",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Twig",
@@ -23647,25 +23842,29 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ug",
         "link": "https://oldschool.runescape.wiki/w/Ug",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Wolfbone",
         "link": "https://oldschool.runescape.wiki/w/Wolfbone",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Yellow Snow",
         "link": "https://oldschool.runescape.wiki/w/Yellow_Snow",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Catch Of The Day",
@@ -23776,7 +23975,8 @@
                 "quantity": null,
                 "item": "Rune javelin"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaos Elemental",
@@ -24063,7 +24263,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaos Fanatic",
@@ -24302,7 +24503,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Commander Zilyana",
@@ -24517,7 +24719,8 @@
                 "quantity": 0.0002,
                 "item": "Pet zilyana"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crazy archaeologist",
@@ -24752,7 +24955,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cyclops",
@@ -25415,7 +25619,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Prime",
@@ -25758,7 +25963,8 @@
                 "quantity": 0.0002,
                 "item": "Pet dagannoth prime"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Rex",
@@ -26069,7 +26275,8 @@
                 "quantity": 0.0002,
                 "item": "Pet dagannoth rex"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Supreme",
@@ -26408,7 +26615,8 @@
                 "quantity": 0.0002,
                 "item": "Pet dagannoth supreme"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dark beast",
@@ -26737,7 +26945,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Deranged archaeologist",
@@ -27028,7 +27237,8 @@
                 "quantity": 0.005,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Elder Chaos druid",
@@ -27287,7 +27497,8 @@
                 "quantity": 0.005,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fire giant",
@@ -27574,7 +27785,8 @@
                 "quantity": 0.004310344827586207,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "General Graardor",
@@ -27789,7 +28001,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Giant Mole",
@@ -28000,7 +28213,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Goblin raider",
@@ -28131,7 +28345,8 @@
                 "quantity": null,
                 "item": "Rune javelin"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kalphite Guardian",
@@ -28374,7 +28589,8 @@
                 "quantity": 0.010869565217391304,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kalphite Queen",
@@ -28689,7 +28905,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Kalphite princess"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kree'arra",
@@ -28912,7 +29129,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lizardman shaman",
@@ -29203,7 +29421,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Locust rider",
@@ -29514,7 +29733,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mammoth",
@@ -29833,7 +30053,8 @@
                 "quantity": 0.004629629629629629,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mystery box",
@@ -30204,7 +30425,8 @@
                 "quantity": 0.00040690104166666663,
                 "item": "Rune javelin"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Night beast",
@@ -30545,7 +30767,8 @@
                 "quantity": 0.00390625,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Nuclear smoke devil",
@@ -30850,7 +31073,8 @@
                 "quantity": 0.005,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Phantom Muspah",
@@ -31241,7 +31465,8 @@
                 "quantity": 0.0004,
                 "item": "Muphin"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scarab Mage",
@@ -31548,7 +31773,8 @@
                 "quantity": 0.0046253041137454785,
                 "item": "Rune javelin"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Shayzien Crypts)",
@@ -31999,7 +32225,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Smoke devil",
@@ -32288,7 +32515,8 @@
                 "quantity": 0.0013333333333333333,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sourhog",
@@ -32645,7 +32873,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vyrewatch",
@@ -33100,7 +33329,8 @@
                 "quantity": null,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vyrewatch Sentinel",
@@ -33477,7 +33707,8 @@
                 "quantity": 0.01,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Shayzien Crypts)",
@@ -33928,7 +34159,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zulrah",
@@ -34227,7 +34459,8 @@
                 "quantity": 0.00025,
                 "item": "Pet snakeling"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Animated Iron Armour",
@@ -34250,7 +34483,8 @@
                 "quantity": 0.9,
                 "item": "Iron platelegs"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Animated Steel Armour",
@@ -34273,7 +34507,8 @@
                 "quantity": 1,
                 "item": "Steel platelegs"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ankou",
@@ -35016,7 +35251,8 @@
                 "quantity": 0.0005946010227137591,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Archer (Burthorpe)",
@@ -35111,7 +35347,8 @@
                 "quantity": 0.0078125,
                 "item": "Mithril ore"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Armadylean guard",
@@ -35278,7 +35515,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Armoured zombie",
@@ -35457,7 +35695,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Artio",
@@ -35652,7 +35891,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Aviansie",
@@ -35843,7 +36083,8 @@
                 "quantity": null,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bakery stall",
@@ -35862,7 +36103,8 @@
                 "quantity": 0.1,
                 "item": "Chocolate slice"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bandit (Bandit Camp)",
@@ -35981,7 +36223,8 @@
                 "quantity": 0.14285714285714285,
                 "item": "Lockpick"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bandosian guard",
@@ -36148,7 +36391,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Banshee",
@@ -36317,7 +36561,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Barronite deposit",
@@ -36360,7 +36605,8 @@
                 "quantity": 0.002857142857142857,
                 "item": "Ancient treatise"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Basilisk",
@@ -36549,7 +36795,8 @@
                 "quantity": 0.0005,
                 "item": "Basilisk head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Basilisk Knight",
@@ -36714,7 +36961,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Basilisk Sentinel",
@@ -36895,7 +37143,8 @@
                 "quantity": 0.0013157894736842105,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Big frog",
@@ -36946,7 +37195,8 @@
                 "quantity": 1,
                 "item": "Big frog leg"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bird nest (ring)",
@@ -36977,7 +37227,8 @@
                 "quantity": 0.01,
                 "item": "Diamond ring"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bird nest (seeds)",
@@ -37064,7 +37315,8 @@
                 "quantity": 0.005934718100890208,
                 "item": "Dragonfruit tree seed"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bird nest (Wyson)",
@@ -37179,7 +37431,8 @@
                 "quantity": 0.0014619883040935672,
                 "item": "Redwood tree seed"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Black Guard",
@@ -37474,7 +37727,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Black Guard Berserker",
@@ -37641,7 +37895,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Body Golem",
@@ -37708,7 +37963,8 @@
                 "quantity": 0.016129032258064516,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Boris",
@@ -37931,7 +38187,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Borrokar",
@@ -38138,7 +38395,8 @@
                 "quantity": 40,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 1)",
@@ -38189,7 +38447,8 @@
                 "quantity": 10,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 2)",
@@ -38240,7 +38499,8 @@
                 "quantity": 10,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 3)",
@@ -38291,7 +38551,8 @@
                 "quantity": 10,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 4)",
@@ -38342,7 +38603,8 @@
                 "quantity": 27.333333333333332,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 5)",
@@ -38393,7 +38655,8 @@
                 "quantity": 27.333333333333332,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 6)",
@@ -38444,7 +38707,8 @@
                 "quantity": 27.333333333333332,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 7)",
@@ -38495,7 +38759,8 @@
                 "quantity": 42.33333333333333,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 8)",
@@ -38546,7 +38811,8 @@
                 "quantity": 42.33333333333333,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bounty crate (tier 9)",
@@ -38597,7 +38863,8 @@
                 "quantity": 42.33333333333333,
                 "item": "Blighted manta ray"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brambickle",
@@ -38668,7 +38935,8 @@
                 "quantity": 0.0224609375,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brassican Mage",
@@ -38799,7 +39067,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bree",
@@ -38878,7 +39147,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brimstone chest",
@@ -39029,7 +39299,8 @@
                 "quantity": 0.001,
                 "item": "Mystic boots (dusk)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Brine rat",
@@ -39138,7 +39409,8 @@
                 "quantity": 0.004464285714285714,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Broken arrow",
@@ -39165,7 +39437,8 @@
                 "quantity": 0.0273972602739726,
                 "item": "Mithril arrow"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bryophyta",
@@ -39552,7 +39825,8 @@
                 "quantity": 0.0625,
                 "item": "Mossy key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Calvar'ion",
@@ -39751,7 +40025,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Capt' Arnav's Chest",
@@ -39774,7 +40049,8 @@
                 "quantity": 0.25,
                 "item": "Gold bar"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Captain Bleemadge",
@@ -39845,7 +40121,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Captain Daerkin",
@@ -39912,7 +40189,8 @@
                 "quantity": 0.029947916666666668,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Captain Dalbur",
@@ -39983,7 +40261,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Captain Klemfoodle",
@@ -40054,7 +40333,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Captain Ninto",
@@ -40121,7 +40401,8 @@
                 "quantity": 0.029947916666666668,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Casket",
@@ -40180,7 +40461,8 @@
                 "quantity": 0.0078125,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Casket (Reward pool)",
@@ -40383,7 +40665,8 @@
                 "quantity": 0.02,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Catablepon",
@@ -40590,7 +40873,8 @@
                 "quantity": 0.009900990099009901,
                 "item": "Clue scroll (medium)(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave abomination",
@@ -40867,7 +41151,8 @@
                 "quantity": 0.0012755102040816326,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Cave bug",
@@ -41112,7 +41397,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave crawler",
@@ -41305,7 +41591,8 @@
                 "quantity": 0.0000014305114677881647,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave goblin (Dorgesh-Kaan)",
@@ -41368,7 +41655,8 @@
                 "quantity": 0.05,
                 "item": "Unlit torch"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave goblin (monster)",
@@ -41439,7 +41727,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave horror",
@@ -41700,7 +41989,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave kraken",
@@ -41985,7 +42275,8 @@
                 "quantity": 0.0008333333333333334,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave slime",
@@ -42110,7 +42401,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Certer",
@@ -42177,7 +42469,8 @@
                 "quantity": 0.006666666666666667,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaos Golem",
@@ -42244,7 +42537,8 @@
                 "quantity": 0.01,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chasm Crawler",
@@ -42449,7 +42743,8 @@
                 "quantity": 0.0007485029940119761,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Chest (Barrows)",
@@ -42592,7 +42887,8 @@
                 "quantity": null,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chest (Dorgesh-Kaan Rich)",
@@ -42659,7 +42955,8 @@
                 "quantity": 0.06666666666666667,
                 "item": "Empty light orb"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chest (Isle of Souls Dungeon)",
@@ -42746,7 +43043,8 @@
                 "quantity": 0.005,
                 "item": "Dark key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chest (Maze)",
@@ -42793,7 +43091,8 @@
                 "quantity": 0.1,
                 "item": "Defence potion(2)(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chest (Maze)/Rewards",
@@ -42840,7 +43139,8 @@
                 "quantity": 0.1,
                 "item": "Defence potion(2)(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chest (Rogues' Castle)",
@@ -43075,7 +43375,8 @@
                 "quantity": 0.010101010101010102,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Choke devil",
@@ -43312,7 +43613,8 @@
                 "quantity": 0.0014705882352941176,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "City guard",
@@ -43435,7 +43737,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cockathrice",
@@ -43740,7 +44043,8 @@
                 "quantity": 0.0008389261744966443,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Cockatrice",
@@ -43957,7 +44261,8 @@
                 "quantity": 0.001,
                 "item": "Cockatrice head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Coffin (Hallowed Sepulchre)",
@@ -44112,7 +44417,8 @@
                 "quantity": 2125,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Corporeal Beast",
@@ -44315,7 +44621,8 @@
                 "quantity": 0.0002,
                 "item": "Pet dark core"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crab",
@@ -44354,7 +44661,8 @@
                 "quantity": 0.2,
                 "item": "Oyster"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crafting stall",
@@ -44373,7 +44681,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Ring mould"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crawling Hand",
@@ -44478,7 +44787,8 @@
                 "quantity": 0.002,
                 "item": "Crawling hand (item)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crossbow stall",
@@ -44497,7 +44807,8 @@
                 "quantity": 0.1,
                 "item": "Wooden stock"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crushing hand",
@@ -44614,7 +44925,8 @@
                 "quantity": 0.0007267441860465116,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Crystal chest",
@@ -44729,7 +45041,8 @@
                 "quantity": 0.0078125,
                 "item": "Rune plateskirt"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth (Waterbirth Island)",
@@ -45344,7 +45657,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth spawn",
@@ -45451,7 +45765,8 @@
                 "quantity": 0.0012953367875647669,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Damaged armour",
@@ -45478,7 +45793,8 @@
                 "quantity": 0.03209502148091989,
                 "item": "Mithril platebody"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dark Chest",
@@ -45601,7 +45917,8 @@
                 "quantity": 0.0016774770744799822,
                 "item": "Shield left half"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Deadman: Apocalypse/Global loot table",
@@ -45864,7 +46181,8 @@
                 "quantity": null,
                 "item": "Seers ring"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Deadman: Reborn drop table",
@@ -46535,7 +46853,8 @@
                 "quantity": null,
                 "item": "3rd age axe"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Death wing",
@@ -46546,7 +46865,8 @@
                 "quantity": null,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Desert Lizard",
@@ -46731,7 +47051,8 @@
                 "quantity": 0.000008583069175074356,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Deviant spectre",
@@ -46952,7 +47273,8 @@
                 "quantity": 0.0032258064516129032,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dust devil",
@@ -47445,7 +47767,8 @@
                 "quantity": 0.0005765682656826568,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Earth elemental",
@@ -47592,7 +47915,8 @@
                 "quantity": 1,
                 "item": "Elemental ore"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Earth wizard",
@@ -47611,7 +47935,8 @@
                 "quantity": 0.05,
                 "item": "Earth talisman"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Eduard",
@@ -47834,7 +48159,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Elf (Thieving)",
@@ -47877,7 +48203,8 @@
                 "quantity": 0.0009765625,
                 "item": "Enhanced crystal teleport seed"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Elf Archer",
@@ -48056,7 +48383,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Elf Warrior",
@@ -48235,7 +48563,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Elven Crystal Chest",
@@ -48418,7 +48747,8 @@
                 "quantity": 0.00390625,
                 "item": "Shield left half"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Enclave guard",
@@ -48541,7 +48871,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Experiment No.2",
@@ -48688,7 +49019,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Farmer",
@@ -48915,7 +49247,8 @@
                 "quantity": 0.0390625,
                 "item": "Potato seed"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fever spider",
@@ -48932,7 +49265,8 @@
                 "quantity": 0.0625,
                 "item": "Grimy kwuarm"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fire elemental",
@@ -49075,7 +49409,8 @@
                 "quantity": 0.0000028610229765035913,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fire wizard",
@@ -49094,7 +49429,8 @@
                 "quantity": 0.05,
                 "item": "Fire talisman"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fish stall",
@@ -49113,7 +49449,8 @@
                 "quantity": 0.05,
                 "item": "Raw lobster"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Flawed Golem",
@@ -49168,7 +49505,8 @@
                 "quantity": null,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Flesh Crawler",
@@ -49315,7 +49653,8 @@
                 "quantity": 0.0000036621093302965172,
                 "item": "Dragon spear(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Flight Kilisa",
@@ -49406,7 +49745,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Flockleader Geerin",
@@ -49497,7 +49837,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Forgotten Soul",
@@ -49684,7 +50025,8 @@
                 "quantity": 0.0000014305114677881647,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fox",
@@ -49699,7 +50041,8 @@
                 "quantity": null,
                 "item": "Copper's crimson collar"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Freidir",
@@ -49906,7 +50249,8 @@
                 "quantity": 40,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Frogeel",
@@ -49929,7 +50273,8 @@
                 "quantity": 0.1,
                 "item": "Tea flask"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Frozen cache",
@@ -50028,7 +50373,8 @@
                 "quantity": 10.1875,
                 "item": "Coal"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fruit Stall",
@@ -50079,7 +50425,8 @@
                 "quantity": 0.01,
                 "item": "Papaya fruit"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "G.L.O. Caranock",
@@ -50150,7 +50497,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Galina",
@@ -50373,7 +50721,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gang boss",
@@ -50500,7 +50849,8 @@
                 "quantity": 0.015384615384615385,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gangster",
@@ -50627,7 +50977,8 @@
                 "quantity": 0.015384615384615385,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Garkor",
@@ -50698,7 +51049,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "General Stall",
@@ -50717,7 +51069,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Tinderbox"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Georgy",
@@ -50940,7 +51293,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ghast",
@@ -51111,7 +51465,8 @@
                 "quantity": 0.0000014305114677881647,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Giant frog",
@@ -51206,7 +51561,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Giant lobster",
@@ -51305,7 +51661,8 @@
                 "quantity": 0.0078125,
                 "item": "Casket"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Giant Rock Crab",
@@ -51572,7 +51929,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Giant rockslug",
@@ -51801,7 +52159,8 @@
                 "quantity": 0.0008064516129032258,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Giant skeleton (Shadow Dungeon)",
@@ -51984,7 +52343,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gnome",
@@ -52019,7 +52379,8 @@
                 "quantity": 0.015625,
                 "item": "Fire orb"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gnome child",
@@ -52054,7 +52415,8 @@
                 "quantity": 0.015625,
                 "item": "Fire orb"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gnome Restaurant",
@@ -52197,7 +52559,8 @@
                 "quantity": 0.763671875,
                 "item": "Coal"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gnome woman",
@@ -52232,7 +52595,8 @@
                 "quantity": 0.015625,
                 "item": "Fire orb"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gnormadium Avlafrim",
@@ -52303,7 +52667,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Goblin guard",
@@ -52406,7 +52771,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Golem (Zalcano)",
@@ -52417,7 +52783,8 @@
                 "quantity": 20,
                 "item": "Imbued tephra"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gorad",
@@ -52548,7 +52915,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gorak",
@@ -52815,7 +53183,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Grand Hallowed Coffin",
@@ -52874,7 +53243,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Clue scroll (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Grasslegs",
@@ -52889,7 +53259,8 @@
                 "quantity": 10,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Grotesque Guardians",
@@ -53060,7 +53431,8 @@
                 "quantity": 0.0002,
                 "item": "Jar of stone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Growler",
@@ -53139,7 +53511,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Grubby Chest",
@@ -53250,7 +53623,8 @@
                 "quantity": 0.04,
                 "item": "Blue egg sac"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard (Burthorpe)",
@@ -53349,7 +53723,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard (H.A.M. Storerooms)",
@@ -53532,7 +53907,8 @@
                 "quantity": 0.012,
                 "item": "Uncut jade"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard (Prifddinas)",
@@ -53719,7 +54095,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "H.A.M. Guard",
@@ -53922,7 +54299,8 @@
                 "quantity": 0.01818181818181818,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "H.A.M. Member",
@@ -54089,7 +54467,8 @@
                 "quantity": 0.02,
                 "item": "Uncut jade"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Harpie Bug Swarm",
@@ -54214,7 +54593,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hazelmere",
@@ -54285,7 +54665,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hespori",
@@ -54440,7 +54821,8 @@
                 "quantity": null,
                 "item": "Tangleroot"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hoop Snake",
@@ -54475,7 +54857,8 @@
                 "quantity": 0.0008571428571428571,
                 "item": "Unidentified rare fossil"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice giant",
@@ -55122,7 +55505,8 @@
                 "quantity": 0.0006576783952647156,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Imre",
@@ -55345,7 +55729,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Infernal Mage",
@@ -55446,7 +55831,8 @@
                 "quantity": 0.6796875,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Iorwerth Archer",
@@ -55681,7 +56067,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Iorwerth Warrior",
@@ -56096,7 +56483,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Irina",
@@ -56319,7 +56707,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jelly",
@@ -56636,7 +57025,8 @@
                 "quantity": 0.0006846970215679561,
                 "item": "Looting bag note"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jennella",
@@ -56843,7 +57233,8 @@
                 "quantity": 40,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Joseph",
@@ -57066,7 +57457,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jubster",
@@ -57089,7 +57481,8 @@
                 "quantity": 0.1,
                 "item": "Tea flask"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jungle horror",
@@ -57288,7 +57681,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jungle spider (Ape Atoll)",
@@ -57299,7 +57693,8 @@
                 "quantity": null,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kalphite Soldier",
@@ -57474,7 +57869,8 @@
                 "quantity": 0.006896551724137931,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kalphite Worker",
@@ -57657,7 +58053,8 @@
                 "quantity": 0.0008802816901408451,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Killerwatt",
@@ -57846,7 +58243,8 @@
                 "quantity": 0.000006539481169335092,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "King Bolren",
@@ -57917,7 +58315,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "King kurask",
@@ -58178,7 +58577,8 @@
                 "quantity": 0.0016666666666666668,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "King Sand Crab",
@@ -58461,7 +58861,8 @@
                 "quantity": 0.0033333333333333335,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kraken",
@@ -58678,7 +59079,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Pet kraken"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ksenia",
@@ -58901,7 +59303,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kurask",
@@ -59150,7 +59553,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Kurask head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lanzig",
@@ -59357,7 +59761,8 @@
                 "quantity": 40,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Larran's big chest",
@@ -59496,7 +59901,8 @@
                 "quantity": 0.08333333333333333,
                 "item": "Ranarr seed"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Larran's small chest",
@@ -59623,7 +60029,8 @@
                 "quantity": 225.75,
                 "item": "Pure essence"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lensa",
@@ -59830,7 +60237,8 @@
                 "quantity": 40,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lev",
@@ -60053,7 +60461,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "The Leviathan",
@@ -60236,7 +60645,8 @@
                 "quantity": 1,
                 "item": "Ancient blood ornament kit"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lieutenant Schepbur",
@@ -60307,7 +60717,8 @@
                 "quantity": 0.0359375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Liliya",
@@ -60530,7 +60941,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lizard",
@@ -60727,7 +61139,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lizardman",
@@ -60974,7 +61387,8 @@
                 "quantity": 0.002577319587628866,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lizardman brute",
@@ -61101,7 +61515,8 @@
                 "quantity": 0.004081632653061225,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lobstrosity",
@@ -61444,7 +61859,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Malevolent Mage",
@@ -61561,7 +61977,8 @@
                 "quantity": 0.0010416666666666667,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Man (East Ardougne)",
@@ -61576,7 +61993,8 @@
                 "quantity": 3,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Maniacal monkey",
@@ -61627,7 +62045,8 @@
                 "quantity": 0.05,
                 "item": "Rope"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Maniacal Monkey Archer",
@@ -61678,7 +62097,8 @@
                 "quantity": 0.05,
                 "item": "Rope"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Market Guard",
@@ -61865,7 +62285,8 @@
                 "quantity": null,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Market stall (wine)",
@@ -61892,7 +62313,8 @@
                 "quantity": 0.13,
                 "item": "Jug of wine"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Maze",
@@ -61975,7 +62397,8 @@
                 "quantity": 0.1,
                 "item": "Defence potion(2)(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Milla",
@@ -62198,7 +62621,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mind Golem",
@@ -62265,7 +62689,8 @@
                 "quantity": 0.01,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Minotaur",
@@ -62392,7 +62817,8 @@
                 "quantity": 0.009900990099009901,
                 "item": "Clue scroll (easy)(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mogre",
@@ -62589,7 +63015,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Molanisk",
@@ -62730,7 +63157,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Monstrous basilisk",
@@ -62927,7 +63355,8 @@
                 "quantity": 0.0009765625,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Monumental chest",
@@ -63142,7 +63571,8 @@
                 "quantity": 0.0015384615384615385,
                 "item": "Lil' zik"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mourner",
@@ -63381,7 +63811,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mudskipper",
@@ -63396,7 +63827,8 @@
                 "quantity": 0.171875,
                 "item": "Oyster"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mutated Terrorbird",
@@ -63557,7 +63989,8 @@
                 "quantity": 0.0012254901960784314,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Mutated Tortoise",
@@ -63722,7 +64155,8 @@
                 "quantity": 0.0012254901960784314,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Mysterious Old Man",
@@ -63789,7 +64223,8 @@
                 "quantity": 0.006666666666666667,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Newtroost",
@@ -63812,7 +64247,8 @@
                 "quantity": 0.15,
                 "item": "Rune satchel"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Nex",
@@ -63955,7 +64391,8 @@
                 "quantity": null,
                 "item": "Nexling"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "The Nightmare",
@@ -64114,7 +64551,8 @@
                 "quantity": 0.0005263157894736842,
                 "item": "Jar of dreams"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Nikita",
@@ -64337,7 +64775,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Nikolai",
@@ -64560,7 +64999,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Obor",
@@ -64679,7 +65119,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ogre chieftain",
@@ -64802,7 +65243,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ogre Coffin",
@@ -64925,7 +65367,8 @@
                 "quantity": 0.0390625,
                 "item": "Ourg bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ogress Shaman",
@@ -65152,7 +65595,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ogress Warrior",
@@ -65383,7 +65827,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ore pack (Volcanic Mine)",
@@ -65422,7 +65867,8 @@
                 "quantity": 0.01,
                 "item": "Dragon pickaxe (broken)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Outlaw",
@@ -65533,7 +65979,8 @@
                 "quantity": 0.0078125,
                 "item": "Knife"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Panning tray",
@@ -65564,7 +66011,8 @@
                 "quantity": 0.075,
                 "item": "Special cup"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Penwie",
@@ -65635,7 +66083,8 @@
                 "quantity": 0.0224609375,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Phosani's Nightmare",
@@ -65798,7 +66247,8 @@
                 "quantity": 0.00025,
                 "item": "Jar of dreams"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Pinball",
@@ -65821,7 +66271,8 @@
                 "quantity": 0.2,
                 "item": "Diamond"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Prison Pete",
@@ -65884,7 +66335,8 @@
                 "quantity": 0.56,
                 "item": "Grimy snapdragon(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Professor Imblewyn",
@@ -65975,7 +66427,8 @@
                 "quantity": 0.009982638888888888,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Professor Manglethorp",
@@ -66046,7 +66499,8 @@
                 "quantity": 0.0224609375,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Professor Onglewip",
@@ -66137,7 +66591,8 @@
                 "quantity": 0.009982638888888888,
                 "item": "Tooth half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Repugnant spectre",
@@ -66366,7 +66821,8 @@
                 "quantity": 0.0013157894736842105,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Reward Chest (The Gauntlet)",
@@ -66737,7 +67193,8 @@
                 "quantity": 0.00125,
                 "item": "Youngllef"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Reward pool",
@@ -66952,7 +67409,8 @@
                 "quantity": 15,
                 "item": "Fishing bait"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rick Turpentine",
@@ -67019,7 +67477,8 @@
                 "quantity": 0.006666666666666667,
                 "item": "Loop half of key(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rock lobster",
@@ -67234,7 +67693,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rockslug",
@@ -67375,7 +67835,8 @@
                 "quantity": 0.000008583069175074356,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rogue",
@@ -67546,7 +68007,8 @@
                 "quantity": 0.0390625,
                 "item": "Lockpick"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Rooster",
@@ -67573,7 +68035,8 @@
                 "quantity": 0.0033333333333333335,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sand Crab",
@@ -67728,7 +68191,8 @@
                 "quantity": 0.0006472491909385113,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sarachnis",
@@ -68031,7 +68495,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Sraracha"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Saradomin wizard",
@@ -68134,7 +68599,8 @@
                 "quantity": 5.625,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scavenger beast",
@@ -68193,7 +68659,8 @@
                 "quantity": 0.4444444444444444,
                 "item": "Mallignum root plank"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scimitar Stall",
@@ -68208,7 +68675,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Steel scimitar"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Screaming banshee",
@@ -68393,7 +68861,8 @@
                 "quantity": 0.0007763975155279503,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Screaming twisted banshee",
@@ -68662,7 +69131,8 @@
                 "quantity": 0.0007763975155279503,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Scurrius",
@@ -68833,7 +69303,8 @@
                 "quantity": 0.030303030303030304,
                 "item": "Scurrius' spine"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Seed Stall",
@@ -68908,7 +69379,8 @@
                 "quantity": 0.01218026796589525,
                 "item": "Wildblood seed"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sergeant Grimspike",
@@ -69007,7 +69479,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sergeant Steelwill",
@@ -69106,7 +69579,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sergeant Strongstack",
@@ -69205,7 +69679,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Serum 208",
@@ -69284,7 +69759,8 @@
                 "quantity": 0.015625,
                 "item": "Fat snail"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shaeded Beast",
@@ -69295,7 +69771,8 @@
                 "quantity": 1,
                 "item": "Temple coin"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Forthos Ruin)",
@@ -69310,7 +69787,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton fremennik",
@@ -69537,7 +70015,8 @@
                 "quantity": 0.0000028610229765035913,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton Mage",
@@ -69688,7 +70167,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Small chest",
@@ -69871,7 +70351,8 @@
                 "quantity": 0.02666666666666667,
                 "item": "Sapphire ring"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Small Lizard",
@@ -70056,7 +70537,8 @@
                 "quantity": 0.000008583069175074356,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Snailneck",
@@ -70071,7 +70553,8 @@
                 "quantity": 1,
                 "item": "Goblin mail"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sofiya",
@@ -70294,7 +70777,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Soil",
@@ -70505,7 +70989,8 @@
                 "quantity": 0.0000035714285714285714,
                 "item": "Unidentified rare fossil"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Soldier (Burthorpe)",
@@ -70656,7 +71141,8 @@
                 "quantity": 0.0000028610229765035913,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sorebones",
@@ -70855,7 +71341,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sotetseg",
@@ -70874,7 +71361,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Specimen tray",
@@ -70913,7 +71401,8 @@
                 "quantity": 0.09090909090909091,
                 "item": "Cracked sample"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spider (Ape Atoll)",
@@ -70924,7 +71413,8 @@
                 "quantity": null,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spider (Ungael)",
@@ -70935,7 +71425,8 @@
                 "quantity": null,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spidine",
@@ -70958,7 +71449,8 @@
                 "quantity": 0.1,
                 "item": "Tea flask"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spiked Turoth",
@@ -71195,7 +71687,8 @@
                 "quantity": 0.001201923076923077,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Spindel",
@@ -71382,7 +71875,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spiritual mage",
@@ -71719,7 +72213,8 @@
                 "quantity": 0.0078125,
                 "item": "Dragon boots"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spiritual ranger",
@@ -71992,7 +72487,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spiritual warrior",
@@ -72313,7 +72809,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Starlight",
@@ -72392,7 +72889,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Stone chest",
@@ -72567,7 +73065,8 @@
                 "quantity": 0.0033333333333333335,
                 "item": "Xeric's talisman (inert)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Strange shrine",
@@ -72610,7 +73109,8 @@
                 "quantity": 2.5555555555555554,
                 "item": "Mithril ore"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sulphur Lizard",
@@ -72831,7 +73331,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Supply crate (Mahogany Homes)",
@@ -72910,7 +73411,8 @@
                 "quantity": 0.4444444444444444,
                 "item": "Teak plank"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Suqah",
@@ -72997,7 +73499,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Svetlana",
@@ -73220,7 +73723,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Swamp Crab",
@@ -73371,7 +73875,8 @@
                 "quantity": 0.010416666666666666,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Swordchick",
@@ -73394,7 +73899,8 @@
                 "quantity": 0.15,
                 "item": "Black satchel"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Temple Spider",
@@ -73681,7 +74187,8 @@
                 "quantity": 0.005,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Thermonuclear smoke devil",
@@ -73918,7 +74425,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Pet smoke devil"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tree spirit",
@@ -74113,7 +74621,8 @@
                 "quantity": 0.000011444092233432473,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Turoth",
@@ -74334,7 +74843,8 @@
                 "quantity": null,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Twisted Banshee",
@@ -74587,7 +75097,8 @@
                 "quantity": 0.0025575447570332483,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tyras guard",
@@ -74714,7 +75225,8 @@
                 "quantity": 0.000007152557543577136,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "TzHaar-Ket",
@@ -74809,7 +75321,8 @@
                 "quantity": 0.04,
                 "item": "Ensouled tzhaar head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Uncleaned find",
@@ -74952,7 +75465,8 @@
                 "quantity": 0.010256410256410256,
                 "item": "Antique lamp"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Undead Druid",
@@ -75311,7 +75825,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Undead tree",
@@ -75326,7 +75841,8 @@
                 "quantity": 0.004081632653061225,
                 "item": "Bird nest (empty)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Unicow",
@@ -75349,7 +75865,8 @@
                 "quantity": 0.1,
                 "item": "Tea flask"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vardorvis",
@@ -75532,7 +76049,8 @@
                 "quantity": 0.0003333333333333333,
                 "item": "Butch"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Veg stall",
@@ -75559,7 +76077,8 @@
                 "quantity": 0.1,
                 "item": "Garlic"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Venenatis",
@@ -75774,7 +76293,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vera",
@@ -75997,7 +76517,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vet'ion",
@@ -76220,7 +76741,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vitreous Jelly",
@@ -76365,7 +76887,8 @@
                 "quantity": 0.0011467889908256881,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Vitreous warped Jelly",
@@ -76526,7 +77049,8 @@
                 "quantity": 0.0011467889908256881,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Vyre",
@@ -76565,7 +77089,8 @@
                 "quantity": 0.0002,
                 "item": "Blood shard"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wall beast",
@@ -76654,7 +77179,8 @@
                 "quantity": 0.0390625,
                 "item": "Bullseye lantern (unf)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wallasalki",
@@ -76917,7 +77443,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Warped Jelly",
@@ -77062,7 +77589,8 @@
                 "quantity": 0.002777777777777778,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Warped Terrorbird",
@@ -77207,7 +77735,8 @@
                 "quantity": 0.012195121951219513,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Warped Tortoise",
@@ -77356,7 +77885,8 @@
                 "quantity": 0.013157894736842105,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Warrior (Rellekka)",
@@ -77543,7 +78073,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Water elemental",
@@ -77682,7 +78213,8 @@
                 "quantity": 0.0000028610229765035913,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Water wizard",
@@ -77701,7 +78233,8 @@
                 "quantity": 0.05,
                 "item": "Water talisman"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Werewolf",
@@ -77892,7 +78425,8 @@
                 "quantity": 0.001953125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "The Whisperer",
@@ -78075,7 +78609,8 @@
                 "quantity": 0.0005,
                 "item": "Wisp"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wingman Skree",
@@ -78166,7 +78701,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wingstone",
@@ -78237,7 +78773,8 @@
                 "quantity": 0.0224609375,
                 "item": "Loop half of key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Woman (East Ardougne)",
@@ -78252,7 +78789,8 @@
                 "quantity": 3,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Yadviga",
@@ -78475,7 +79013,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Yuri",
@@ -78698,7 +79237,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zamorak crafter",
@@ -78761,7 +79301,8 @@
                 "quantity": 7.142857142857142,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zamorak mage",
@@ -78800,7 +79341,8 @@
                 "quantity": 80,
                 "item": "Coins"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zamorak ranger",
@@ -78839,7 +79381,8 @@
                 "quantity": 0.4,
                 "item": "Bow string"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zamorak warrior",
@@ -78878,7 +79421,8 @@
                 "quantity": 0.12,
                 "item": "Lobster"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zamorak wizard",
@@ -78985,7 +79529,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zoja",
@@ -79208,7 +79753,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie",
@@ -79847,7 +80393,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie pirate",
@@ -80206,7 +80753,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zygomite",
@@ -80463,25 +81011,29 @@
                 "quantity": 0.009009009009009009,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Category:Slayer monster images",
         "link": "https://oldschool.runescape.wiki/w/Category:Slayer_monster_images",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Category:Slayer monsters that can only be fought on task",
         "link": "https://oldschool.runescape.wiki/w/Category:Slayer_monsters_that_can_only_be_fought_on_task",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Slayer monsters",
         "link": "https://oldschool.runescape.wiki/w/Slayer_monsters",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Aberrant spectre",
@@ -80682,7 +81234,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Abhorrent spectre",
@@ -80887,7 +81440,8 @@
                 "quantity": 0.0013157894736842105,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Ahrim the Blighted",
@@ -80898,7 +81452,8 @@
                 "quantity": 0.01,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Albino bat",
@@ -80909,7 +81464,8 @@
                 "quantity": 1,
                 "item": "Bat bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ancient Zygomite",
@@ -81122,7 +81678,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Asyn Shade",
@@ -81133,7 +81690,8 @@
                 "quantity": 1,
                 "item": "Asyn remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Asyn shadow (Temple Trekking)",
@@ -81144,7 +81702,8 @@
                 "quantity": 1,
                 "item": "Asyn remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Baby Roc",
@@ -81155,7 +81714,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bandit",
@@ -81694,7 +82254,8 @@
                 "quantity": 0.00510204081632653,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Basilisk Youngling",
@@ -81707,7 +82268,8 @@
                 "quantity": 1,
                 "item": "Unsealed letter"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bat",
@@ -81722,7 +82284,8 @@
                 "quantity": 0.25,
                 "item": "Bat wing"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bear Cub",
@@ -81753,7 +82316,8 @@
                 "quantity": 0.011111111111111112,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Big Wolf",
@@ -81768,13 +82332,15 @@
                 "quantity": 0.25,
                 "item": "Wolf bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Bird",
         "link": "https://oldschool.runescape.wiki/w/Bird",
         "combatLevel": 5,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Black bear",
@@ -81805,13 +82371,15 @@
                 "quantity": 0.011111111111111112,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Black demon (The Grand Tree)",
         "link": "https://oldschool.runescape.wiki/w/Black_demon_(The_Grand_Tree)",
         "combatLevel": 172,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Black Heather",
@@ -81994,7 +82562,8 @@
                 "quantity": 0.003436426116838488,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Black Knight",
@@ -82233,7 +82802,8 @@
                 "quantity": 0.003484320557491289,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Blessed giant rat",
@@ -82244,242 +82814,15 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Blessed spider",
         "link": "https://oldschool.runescape.wiki/w/Blessed_spider",
         "combatLevel": 39,
-        "drops": []
-    },
-    {
-        "name": "Bloodthirst rockslug",
-        "link": "https://oldschool.runescape.wiki/w/Bloodthirst_rockslug",
-        "combatLevel": 86,
-        "slayerMonster": true,
-        "slayerLevel": 20,
-        "drops": [
-            {
-                "quantity": 0.017578125,
-                "item": "Mystic gloves (light)"
-            },
-            {
-                "quantity": 10.546875,
-                "item": "Earth rune"
-            },
-            {
-                "quantity": 11.8125,
-                "item": "Earth rune"
-            },
-            {
-                "quantity": 0.5625,
-                "item": "Chaos rune"
-            },
-            {
-                "quantity": 0.9140625,
-                "item": "Coal"
-            },
-            {
-                "quantity": 1.546875,
-                "item": "Iron ore"
-            },
-            {
-                "quantity": 0.140625,
-                "item": "Bronze bar"
-            },
-            {
-                "quantity": 0.2109375,
-                "item": "Iron bar"
-            },
-            {
-                "quantity": 0.2109375,
-                "item": "Copper ore"
-            },
-            {
-                "quantity": 0.5625,
-                "item": "Tin ore"
-            },
-            {
-                "quantity": 0.0703125,
-                "item": "Mithril ore"
-            },
-            {
-                "quantity": 0.057971014492753624,
-                "item": "Potato seed"
-            },
-            {
-                "quantity": 0.043478260869565216,
-                "item": "Onion seed"
-            },
-            {
-                "quantity": 0.028985507246376812,
-                "item": "Cabbage seed"
-            },
-            {
-                "quantity": 0.010869565217391304,
-                "item": "Tomato seed"
-            },
-            {
-                "quantity": 0.005434782608695652,
-                "item": "Sweetcorn seed"
-            },
-            {
-                "quantity": 0.0018099547511312218,
-                "item": "Strawberry seed"
-            },
-            {
-                "quantity": 0.0008658008658008658,
-                "item": "Watermelon seed"
-            },
-            {
-                "quantity": 0.0006295247088448222,
-                "item": "Snape grass seed"
-            },
-            {
-                "quantity": 0.0182648401826484,
-                "item": "Barley seed"
-            },
-            {
-                "quantity": 0.013636363636363636,
-                "item": "Hammerstone seed"
-            },
-            {
-                "quantity": 0.010273972602739725,
-                "item": "Asgarnian seed"
-            },
-            {
-                "quantity": 0.006802721088435374,
-                "item": "Jute seed"
-            },
-            {
-                "quantity": 0.0045351473922902496,
-                "item": "Yanillian seed"
-            },
-            {
-                "quantity": 0.0022650056625141564,
-                "item": "Krandorian seed"
-            },
-            {
-                "quantity": 0.0005763688760806917,
-                "item": "Wildblood seed"
-            },
-            {
-                "quantity": 0.0037593984962406013,
-                "item": "Marigold seed"
-            },
-            {
-                "quantity": 0.0024875621890547263,
-                "item": "Nasturtium seed"
-            },
-            {
-                "quantity": 0.001607717041800643,
-                "item": "Rosemary seed"
-            },
-            {
-                "quantity": 0.0011876484560570072,
-                "item": "Woad seed"
-            },
-            {
-                "quantity": 0.0009478672985781991,
-                "item": "Limpwurt seed"
-            },
-            {
-                "quantity": 0.00032711808963035657,
-                "item": "Redberry seed"
-            },
-            {
-                "quantity": 0.00022893772893772894,
-                "item": "Cadavaberry seed"
-            },
-            {
-                "quantity": 0.00016353229762878168,
-                "item": "Dwellberry seed"
-            },
-            {
-                "quantity": 0.00006541077969649399,
-                "item": "Jangerberry seed"
-            },
-            {
-                "quantity": 0.000023710166919575115,
-                "item": "Whiteberry seed"
-            },
-            {
-                "quantity": 0.000008993533649306148,
-                "item": "Poison ivy seed"
-            },
-            {
-                "quantity": 0.9140625,
-                "item": "Dwarven stout"
-            },
-            {
-                "quantity": 0.703125,
-                "item": "Hammer"
-            },
-            {
-                "quantity": 0.10547287003398571,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.05273334505185446,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.026367444994580026,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.009887719452440068,
-                "item": "Chaos talisman"
-            },
-            {
-                "quantity": 0.009887719452440068,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.006591812968293379,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.003295894414191389,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.003295894414191389,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.016479472070956944,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.00020599363662768277,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.00010299683010089225,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000772476225756692,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.00847457627118644,
-                "item": "Mist battlestaff"
-            },
-            {
-                "quantity": 0.00847457627118644,
-                "item": "Dust battlestaff"
-            },
-            {
-                "quantity": 0.0024193548387096775,
-                "item": "Eternal gem"
-            },
-            {
-                "quantity": 0.0024193548387096775,
-                "item": "Imbued heart"
-            }
-        ]
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Bouncer",
@@ -82490,7 +82833,8 @@
                 "quantity": 1,
                 "item": "Vile ashes"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Callisto",
@@ -82709,13 +83053,15 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Callisto (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Callisto_(PvM_Arena)",
         "combatLevel": 470,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Cave goblin guard",
@@ -82758,7 +83104,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cave goblin miner",
@@ -82797,7 +83144,8 @@
                 "quantity": 0.25,
                 "item": "Cave goblin skull"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaos druid",
@@ -82976,7 +83324,8 @@
                 "quantity": 0.003289473684210526,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaos dwarf",
@@ -83127,13 +83476,15 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chaos Elemental (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Chaos_Elemental_(PvM_Arena)",
         "combatLevel": 305,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Chicken",
@@ -83164,7 +83515,8 @@
                 "quantity": 0.0033333333333333335,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Chompy bird",
@@ -83187,7 +83539,8 @@
                 "quantity": 0.002,
                 "item": "Chompy chick"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Commander Zilyana (Deadman: Apocalypse)",
@@ -83482,13 +83835,15 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Commander Zilyana (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Commander_Zilyana_(PvM_Arena)",
         "combatLevel": 596,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Corrupt Lizardman",
@@ -83503,13 +83858,15 @@
                 "quantity": 3,
                 "item": "Xerician fabric"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Count Draynor",
         "link": "https://oldschool.runescape.wiki/w/Count_Draynor",
         "combatLevel": 34,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Cow",
@@ -83532,13 +83889,15 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cow (Nightmare Zone)",
         "link": "https://oldschool.runescape.wiki/w/Cow_(Nightmare_Zone)",
         "combatLevel": 2,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Cow calf",
@@ -83561,7 +83920,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crocodile",
@@ -83580,7 +83940,8 @@
                 "quantity": 1,
                 "item": "Reward casket (elite)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crypt rat",
@@ -83595,13 +83956,15 @@
                 "quantity": 0.25,
                 "item": "Rat bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Crypt spider",
         "link": "https://oldschool.runescape.wiki/w/Crypt_spider",
         "combatLevel": 56,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Cyclops (Ardougne Zoo)",
@@ -83872,7 +84235,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cyclops (Catacombs of Kourend)",
@@ -84183,7 +84547,8 @@
                 "quantity": 0.002352941176470588,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Cyclops (God Wars Dungeon)",
@@ -84478,7 +84843,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth",
@@ -84713,7 +85079,8 @@
                 "quantity": 0.002325581395348837,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth fledgeling",
@@ -84728,7 +85095,8 @@
                 "quantity": 0.0035714285714285713,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Prime (Deadman: Apocalypse)",
@@ -85023,13 +85391,15 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Prime (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Dagannoth_Prime_(PvM_Arena)",
         "combatLevel": 303,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dagannoth Rex (Deadman: Apocalypse)",
@@ -85324,13 +85694,15 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Rex (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Dagannoth_Rex_(PvM_Arena)",
         "combatLevel": 303,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dagannoth Supreme (Deadman: Apocalypse)",
@@ -85625,25 +85997,29 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dagannoth Supreme (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Dagannoth_Supreme_(PvM_Arena)",
         "combatLevel": 303,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Damien Leucurte",
         "link": "https://oldschool.runescape.wiki/w/Damien_Leucurte",
         "combatLevel": 204,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dark Ankou",
         "link": "https://oldschool.runescape.wiki/w/Dark_Ankou",
         "combatLevel": 95,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dark warrior",
@@ -86050,7 +86426,8 @@
                 "quantity": 0.004739336492890996,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dawn",
@@ -86058,7 +86435,8 @@
         "combatLevel": 228,
         "slayerMonster": true,
         "slayerLevel": 75,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Deadly red spider",
@@ -86081,7 +86459,8 @@
                 "quantity": 0.003424657534246575,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Desert Wolf",
@@ -86096,7 +86475,8 @@
                 "quantity": 0.25,
                 "item": "Wolf bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dessous",
@@ -86107,7 +86487,8 @@
                 "quantity": 1,
                 "item": "Vampyre dust"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dharok the Wretched",
@@ -86118,7 +86499,8 @@
                 "quantity": 0.010309278350515464,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dharok the Wretched (Deadman: Apocalypse)",
@@ -86413,7 +86795,8 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dire Wolf",
@@ -86428,7 +86811,8 @@
                 "quantity": 0.25,
                 "item": "Wolf bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Donny the lad",
@@ -86611,19 +86995,22 @@
                 "quantity": 0.003436426116838488,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Duck",
         "link": "https://oldschool.runescape.wiki/w/Duck",
         "combatLevel": 1,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Duckling",
         "link": "https://oldschool.runescape.wiki/w/Duckling",
         "combatLevel": 1,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dungeon rat",
@@ -86650,7 +87037,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dusk",
@@ -86658,7 +87046,8 @@
         "combatLevel": 248,
         "slayerMonster": true,
         "slayerLevel": 75,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Dwarf",
@@ -86905,7 +87294,8 @@
                 "quantity": 0.0000014305114677881647,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Dwarf gang member",
@@ -86916,7 +87306,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Earth warrior",
@@ -87167,7 +87558,8 @@
                 "quantity": 0.0036101083032490976,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ent",
@@ -87202,7 +87594,8 @@
                 "quantity": 0.00423728813559322,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Entrana firebird",
@@ -87217,7 +87610,8 @@
                 "quantity": 1,
                 "item": "Fire feather"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Evil Chicken",
@@ -87236,7 +87630,8 @@
                 "quantity": 150,
                 "item": "Feather"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Evil Chicken (Recipe for Disaster)",
@@ -87259,7 +87654,8 @@
                 "quantity": 1,
                 "item": "Evil chicken's egg"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Feral Vampyre",
@@ -87506,7 +87902,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Fiyr Shade",
@@ -87517,7 +87914,8 @@
                 "quantity": 1,
                 "item": "Fiyr remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Gargoyle",
@@ -87670,7 +88068,8 @@
                 "quantity": 0.006666666666666667,
                 "item": "Brittle key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "General Graardor (Deadman: Apocalypse)",
@@ -87965,13 +88364,15 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "General Graardor (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/General_Graardor_(PvM_Arena)",
         "combatLevel": 624,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ghost",
@@ -87986,7 +88387,8 @@
                 "quantity": 0.011111111111111112,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Greater Skeleton Hellhound (Calvar'ion)",
@@ -88013,7 +88415,8 @@
                 "quantity": 0.0033783783783783786,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Greater Skeleton Hellhound (Vet'ion)",
@@ -88040,7 +88443,8 @@
                 "quantity": 0.005952380952380952,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Grizzly bear",
@@ -88083,13 +88487,15 @@
                 "quantity": 0.0033444816053511705,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Grizzly bear (Escape Caves)",
         "link": "https://oldschool.runescape.wiki/w/Grizzly_bear_(Escape_Caves)",
         "combatLevel": 83,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Grizzly bear cub",
@@ -88120,7 +88526,8 @@
                 "quantity": 0.011111111111111112,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard (Cave goblin)",
@@ -88159,7 +88566,8 @@
                 "quantity": 0.0002,
                 "item": "Goblin champion scroll(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard (dwarf)",
@@ -88170,7 +88578,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard Bandit",
@@ -88193,7 +88602,8 @@
                 "quantity": 0.0033444816053511705,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guard dog",
@@ -88212,7 +88622,8 @@
                 "quantity": 0.04,
                 "item": "Ensouled dog head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Guthan the Infested",
@@ -88223,7 +88634,8 @@
                 "quantity": 0.010309278350515464,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hill Giant",
@@ -88494,7 +88906,8 @@
                 "quantity": 0.003424657534246575,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hill Giant (Dark)",
@@ -88757,7 +89170,8 @@
                 "quantity": 0.002150537634408602,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hill Giant (Giants' Plateau)",
@@ -89008,7 +89422,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Hobgoblin",
@@ -89567,7 +89982,8 @@
                 "quantity": 0.0002,
                 "item": "Hobgoblin champion scroll(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice spider",
@@ -89590,7 +90006,8 @@
                 "quantity": 0.0037313432835820895,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice warrior",
@@ -89857,7 +90274,8 @@
                 "quantity": 0.003663003663003663,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ice wolf",
@@ -89872,7 +90290,8 @@
                 "quantity": 0.25,
                 "item": "Wolf bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Icelord",
@@ -89891,7 +90310,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jackal",
@@ -89906,37 +90326,43 @@
                 "quantity": 0.25,
                 "item": "Jackal bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jal-Ak",
         "link": "https://oldschool.runescape.wiki/w/Jal-Ak",
         "combatLevel": 165,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-AkRek-Ket",
         "link": "https://oldschool.runescape.wiki/w/Jal-AkRek-Ket",
         "combatLevel": 70,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-AkRek-Mej",
         "link": "https://oldschool.runescape.wiki/w/Jal-AkRek-Mej",
         "combatLevel": 70,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-AkRek-Xil",
         "link": "https://oldschool.runescape.wiki/w/Jal-AkRek-Xil",
         "combatLevel": 70,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-ImKot",
         "link": "https://oldschool.runescape.wiki/w/Jal-ImKot",
         "combatLevel": 240,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-ImKot (Deadman: Apocalypse)",
@@ -90231,43 +90657,50 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jal-MejJak",
         "link": "https://oldschool.runescape.wiki/w/Jal-MejJak",
         "combatLevel": 250,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-MejRah",
         "link": "https://oldschool.runescape.wiki/w/Jal-MejRah",
         "combatLevel": 85,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-Nib",
         "link": "https://oldschool.runescape.wiki/w/Jal-Nib",
         "combatLevel": 32,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-Xil",
         "link": "https://oldschool.runescape.wiki/w/Jal-Xil",
         "combatLevel": 370,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jal-Zek",
         "link": "https://oldschool.runescape.wiki/w/Jal-Zek",
         "combatLevel": 490,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "JalTok-Jad",
         "link": "https://oldschool.runescape.wiki/w/JalTok-Jad",
         "combatLevel": 900,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "The Jormungand",
@@ -90275,7 +90708,8 @@
         "combatLevel": 363,
         "slayerMonster": true,
         "slayerLevel": 40,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Jungle spider",
@@ -90286,7 +90720,8 @@
                 "quantity": 1,
                 "item": "Spider carcass"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Jungle Wolf",
@@ -90301,7 +90736,8 @@
                 "quantity": 0.25,
                 "item": "Wolf bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "K'ril Tsutsaroth (Deadman: Apocalypse)",
@@ -90596,19 +91032,22 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "K'ril Tsutsaroth (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth_(PvM_Arena)",
         "combatLevel": 650,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Kalphite Queen (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Kalphite_Queen_(PvM_Arena)",
         "combatLevel": 333,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Kamil",
@@ -90623,7 +91062,8 @@
                 "quantity": 1,
                 "item": "Super restore(4)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Karil the Tainted",
@@ -90634,13 +91074,15 @@
                 "quantity": 0.01,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ket-Zek",
         "link": "https://oldschool.runescape.wiki/w/Ket-Zek",
         "combatLevel": 360,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "King Black Dragon (Deadman: Apocalypse)",
@@ -90935,13 +91377,15 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "King Black Dragon (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/King_Black_Dragon_(PvM_Arena)",
         "combatLevel": 276,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "King Scorpion",
@@ -90968,19 +91412,22 @@
                 "quantity": 0.0033783783783783786,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Kree'arra (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Kree%27arra_(PvM_Arena)",
         "combatLevel": 580,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Kroy",
         "link": "https://oldschool.runescape.wiki/w/Kroy",
         "combatLevel": 133,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Lesser demon (Melzar's Maze)",
@@ -90995,13 +91442,15 @@
                 "quantity": 1,
                 "item": "Key (green)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Lesser demon (The Scar)",
         "link": "https://oldschool.runescape.wiki/w/Lesser_demon_(The_Scar)",
         "combatLevel": 39,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Lizardman shaman (Chambers of Xeric)",
@@ -91032,7 +91481,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Loar Shade",
@@ -91043,7 +91493,8 @@
                 "quantity": 1,
                 "item": "Loar remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Magic axe",
@@ -91106,7 +91557,8 @@
                 "quantity": 0.002197802197802198,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Marble gargoyle",
@@ -91271,7 +91723,8 @@
                 "quantity": 0.0019230769230769232,
                 "item": "Imbued heart"
             }
-        ]
+        ],
+        "superior": true
     },
     {
         "name": "Monkey (monster)",
@@ -91294,7 +91747,8 @@
                 "quantity": 0.02857142857142857,
                 "item": "Ensouled monkey head(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Monkey Archer",
@@ -91309,7 +91763,8 @@
                 "quantity": 0.02857142857142857,
                 "item": "Ensouled monkey head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Monkey Guard",
@@ -91328,7 +91783,8 @@
                 "quantity": 0.02857142857142857,
                 "item": "Ensouled monkey head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Monkey Zombie",
@@ -91347,7 +91803,8 @@
                 "quantity": 1,
                 "item": "Monkey paw"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Monstrous Basilisk (The Fremennik Exiles)",
@@ -91355,7 +91812,8 @@
         "combatLevel": 135,
         "slayerMonster": true,
         "slayerLevel": 40,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Moss giant",
@@ -92030,7 +92488,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Mounted terrorbird gnome",
@@ -92041,7 +92500,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Nazastarool",
@@ -92060,7 +92520,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Night beast (Deadman: Apocalypse)",
@@ -92355,7 +92816,8 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ogre",
@@ -92490,7 +92952,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Oomlie bird",
@@ -92505,7 +92968,8 @@
                 "quantity": 1,
                 "item": "Raw oomlie"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Otherworldly being",
@@ -92640,7 +93104,8 @@
                 "quantity": 0.000004291534403364494,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Penguin (monster)",
@@ -92651,7 +93116,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Phrin Shade",
@@ -92662,7 +93128,8 @@
                 "quantity": 1,
                 "item": "Phrin remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Pirate",
@@ -92825,7 +93292,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Pit Scorpion",
@@ -92840,7 +93308,8 @@
                 "quantity": 0.01,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Poison Scorpion",
@@ -92855,7 +93324,8 @@
                 "quantity": 0.01,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Poison spider",
@@ -92878,13 +93348,15 @@
                 "quantity": 0.0037174721189591076,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Poison spider (Escape Caves)",
         "link": "https://oldschool.runescape.wiki/w/Poison_spider_(Escape_Caves)",
         "combatLevel": 48,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Porazdir (Deadman: Apocalypse)",
@@ -93179,13 +93651,15 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Ranis Drakan",
         "link": "https://oldschool.runescape.wiki/w/Ranis_Drakan",
         "combatLevel": 233,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Rat",
@@ -93212,7 +93686,8 @@
                 "quantity": 1,
                 "item": "Rat's tail"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Reanimated abyssal",
@@ -93220,19 +93695,22 @@
         "combatLevel": null,
         "slayerMonster": true,
         "slayerLevel": 85,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated aviansie",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_aviansie",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated bear",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_bear",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated bloodveld",
@@ -93240,103 +93718,120 @@
         "combatLevel": null,
         "slayerMonster": true,
         "slayerLevel": 50,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated chaos druid",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_chaos_druid",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated dagannoth",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_dagannoth",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated demon",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_demon",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated dog",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_dog",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated elf",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_elf",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated giant",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_giant",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated goblin",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_goblin",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated hellhound",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_hellhound",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated horror",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_horror",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated kalphite",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_kalphite",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated minotaur",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_minotaur",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated monkey",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_monkey",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated ogre",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_ogre",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated scorpion",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_scorpion",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated troll",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_troll",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Reanimated TzHaar",
         "link": "https://oldschool.runescape.wiki/w/Reanimated_TzHaar",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Respiratory system",
@@ -93344,7 +93839,8 @@
         "combatLevel": null,
         "slayerMonster": true,
         "slayerLevel": 85,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Revenant cyclops",
@@ -93591,7 +94087,8 @@
                 "quantity": 0.004310344827586207,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant dark beast",
@@ -93838,7 +94335,8 @@
                 "quantity": 0.004807692307692308,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant goblin",
@@ -94085,7 +94583,8 @@
                 "quantity": 0.003236245954692557,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant hobgoblin",
@@ -94332,7 +94831,8 @@
                 "quantity": 0.0038022813688212928,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant knight",
@@ -94579,7 +95079,8 @@
                 "quantity": 0.0048543689320388345,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant maledictus",
@@ -94822,7 +95323,8 @@
                 "quantity": 0.00510204081632653,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Revenant ork",
@@ -95069,7 +95571,8 @@
                 "quantity": 0.00423728813559322,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Riyl Shade",
@@ -95080,7 +95583,8 @@
                 "quantity": 1,
                 "item": "Riyl remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Riyl shadow (Temple Trekking)",
@@ -95091,7 +95595,8 @@
                 "quantity": 1,
                 "item": "Riyl remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scarab Swarm",
@@ -95102,13 +95607,15 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scarabs",
         "link": "https://oldschool.runescape.wiki/w/Scarabs",
         "combatLevel": 92,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Scorpia",
@@ -95267,7 +95774,8 @@
                 "quantity": 0.03333333333333333,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scorpia's guardian",
@@ -95290,7 +95798,8 @@
                 "quantity": 0.003787878787878788,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scorpia's offspring (monster)",
@@ -95317,7 +95826,8 @@
                 "quantity": 0.003134796238244514,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Scorpion",
@@ -95348,7 +95858,8 @@
                 "quantity": 0.003257328990228013,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sea Snake Hatchling",
@@ -95481,7 +95992,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sea Snake Young",
@@ -95766,7 +96278,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Seagull",
@@ -95781,7 +96294,8 @@
                 "quantity": 0.25,
                 "item": "Seagull wing(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Seagull (Icyene Graveyard)",
@@ -95796,7 +96310,8 @@
                 "quantity": 1,
                 "item": "Feather"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shade",
@@ -95827,7 +96342,8 @@
                 "quantity": 0.0025974025974025974,
                 "item": "Dark totem top(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shade (Temple Trekking)",
@@ -95838,7 +96354,8 @@
                 "quantity": 1,
                 "item": "Fiyr remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shadow Hound",
@@ -95849,7 +96366,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shadow spider",
@@ -95872,7 +96390,8 @@
                 "quantity": 0.0036231884057971015,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Shadow warrior",
@@ -96015,7 +96534,8 @@
                 "quantity": 0.000011444092233432473,
                 "item": "Dragon spear"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeletal miner",
@@ -96190,7 +96710,8 @@
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeletal Mystic",
@@ -96221,7 +96742,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton",
@@ -96632,7 +97154,8 @@
                 "quantity": null,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Ape Atoll)",
@@ -96647,7 +97170,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Barrows)",
@@ -96662,7 +97186,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Catacombs of Kourend)",
@@ -96853,13 +97378,15 @@
                 "quantity": 0.0021231422505307855,
                 "item": "Dark totem top"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Draynor Manor)",
         "link": "https://oldschool.runescape.wiki/w/Skeleton_(Draynor_Manor)",
         "combatLevel": 22,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Skeleton (mage)",
@@ -97126,7 +97653,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Melzar's Maze)",
@@ -97157,7 +97685,8 @@
                 "quantity": null,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Stronghold of Security)",
@@ -97172,7 +97701,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton (Tarn's Lair)",
@@ -97947,7 +98477,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton brute",
@@ -98194,7 +98725,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton heavy",
@@ -98441,7 +98973,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton Hellhound",
@@ -98468,7 +99001,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton Hellhound (Calvar'ion)",
@@ -98495,7 +99029,8 @@
                 "quantity": 0.0033783783783783786,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton Hellhound (Vet'ion)",
@@ -98526,7 +99061,8 @@
                 "quantity": 0.004310344827586207,
                 "item": "Slayer's enchantment"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton hero",
@@ -98773,7 +99309,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton thug",
@@ -99020,7 +99557,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skeleton warlord",
@@ -99267,7 +99805,8 @@
                 "quantity": 0.0002,
                 "item": "Skeleton champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Skogre",
@@ -99290,7 +99829,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Slash Bash",
@@ -99313,19 +99853,22 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Slayer task tips",
         "link": "https://oldschool.runescape.wiki/w/Slayer_task_tips",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Spawn of Sarachnis",
         "link": "https://oldschool.runescape.wiki/w/Spawn_of_Sarachnis",
         "combatLevel": 68,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Speedy Keith",
@@ -99508,7 +100051,8 @@
                 "quantity": 0.003436426116838488,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spider",
@@ -99531,7 +100075,8 @@
                 "quantity": 0.003134796238244514,
                 "item": "Slayer's enchantment(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Spider (araxyte)",
@@ -99954,7 +100499,8 @@
                 "quantity": 0.005208333333333333,
                 "item": "Clue scroll (hard)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Sulphur Lizard (Deadman: Apocalypse)",
@@ -100249,7 +100795,8 @@
                 "quantity": 0.09876543209876543,
                 "item": "Onyx bolt tips"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Summoned Zombie",
@@ -100260,19 +100807,22 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Superior slayer monster",
         "link": "https://oldschool.runescape.wiki/w/Superior_slayer_monster",
         "combatLevel": null,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Temple Guardian",
         "link": "https://oldschool.runescape.wiki/w/Temple_Guardian",
         "combatLevel": 30,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Terror dog",
@@ -100633,7 +101183,8 @@
                 "quantity": 0.00019950124688279303,
                 "item": "Curved bone"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Terrorbird",
@@ -100648,13 +101199,15 @@
                 "quantity": 0.25,
                 "item": "Terrorbird wing"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tok-Xil",
         "link": "https://oldschool.runescape.wiki/w/Tok-Xil",
         "combatLevel": 90,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Torag the Corrupted",
@@ -100665,7 +101218,8 @@
                 "quantity": 0.010309278350515464,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tortured soul",
@@ -100836,13 +101390,15 @@
                 "quantity": 0.0078125,
                 "item": "Vial of water"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Tree spirit (Lost City)",
         "link": "https://oldschool.runescape.wiki/w/Tree_spirit_(Lost_City)",
         "combatLevel": 101,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Treus Dayth",
@@ -100853,7 +101409,8 @@
                 "quantity": 0.011111111111111112,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Typhor",
@@ -100861,19 +101418,22 @@
         "combatLevel": 218,
         "slayerMonster": true,
         "slayerLevel": 40,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Tz-Kek",
         "link": "https://oldschool.runescape.wiki/w/Tz-Kek",
         "combatLevel": 45,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Tz-Kih",
         "link": "https://oldschool.runescape.wiki/w/Tz-Kih",
         "combatLevel": 22,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "TzHaar-Hur",
@@ -100940,7 +101500,8 @@
                 "quantity": 0.005128205128205128,
                 "item": "Uncut diamond"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "TzHaar-Mej (monster)",
@@ -100999,7 +101560,8 @@
                 "quantity": null,
                 "item": "Uncut diamond"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "TzHaar-Xil",
@@ -101042,7 +101604,8 @@
                 "quantity": null,
                 "item": "Uncut diamond"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "TzKal-Zuk",
@@ -101053,7 +101616,8 @@
                 "quantity": 0.01,
                 "item": "Jal-nib-rek"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "TzTok-Jad",
@@ -101064,13 +101628,15 @@
                 "quantity": 0.005,
                 "item": "Tzrek-jad"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "TzTok-Jad (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/TzTok-Jad_(PvM_Arena)",
         "combatLevel": 702,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Ulfric",
@@ -101081,7 +101647,8 @@
                 "quantity": 1,
                 "item": "Bones"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Undead chicken",
@@ -101104,7 +101671,8 @@
                 "quantity": 3.75,
                 "item": "Feather"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Undead cow",
@@ -101127,7 +101695,8 @@
                 "quantity": 0.25,
                 "item": "Undead cow ribs"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Undead Lumberjack",
@@ -101162,7 +101731,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Undead one",
@@ -101181,7 +101751,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Urium Shade",
@@ -101192,7 +101763,8 @@
                 "quantity": 1,
                 "item": "Urium remains"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vampyre Juvenile",
@@ -101207,7 +101779,8 @@
                 "quantity": 0.0014184397163120568,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vampyre Juvinate",
@@ -101358,19 +101931,22 @@
                 "quantity": null,
                 "item": "Clue scroll (medium)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vanstrom Klause",
         "link": "https://oldschool.runescape.wiki/w/Vanstrom_Klause",
         "combatLevel": 459,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Venenatis (PvM Arena)",
         "link": "https://oldschool.runescape.wiki/w/Venenatis_(PvM_Arena)",
         "combatLevel": 464,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Verac the Defiled",
@@ -101381,7 +101957,8 @@
                 "quantity": 0.010309278350515464,
                 "item": "Brimstone key"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Vulture",
@@ -101396,7 +101973,8 @@
                 "quantity": 0.25,
                 "item": "Vulture wing"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "White wolf",
@@ -101415,7 +101993,8 @@
                 "quantity": 0.3333333333333333,
                 "item": "Looting bag"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wild dog",
@@ -101430,7 +102009,8 @@
                 "quantity": 0.04,
                 "item": "Ensouled dog head"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wolf",
@@ -101457,7 +102037,8 @@
                 "quantity": null,
                 "item": "Clue scroll (beginner)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Wormbrain",
@@ -101468,19 +102049,22 @@
                 "quantity": 1,
                 "item": "Map part (Lozar)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Yt-HurKot",
         "link": "https://oldschool.runescape.wiki/w/Yt-HurKot",
         "combatLevel": 108,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Yt-MejKot",
         "link": "https://oldschool.runescape.wiki/w/Yt-MejKot",
         "combatLevel": 180,
-        "drops": []
+        "drops": [],
+        "superior": false
     },
     {
         "name": "Zogre",
@@ -101503,7 +102087,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Entrana Dungeon)",
@@ -101606,7 +102191,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Melzar's Maze)",
@@ -101625,7 +102211,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Sepulchre of Death)",
@@ -101720,7 +102307,8 @@
                 "quantity": 0.0025,
                 "item": "Long bone(m)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Tarn's Lair)",
@@ -102471,7 +103059,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Temple Trekking)",
@@ -102486,7 +103075,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie (Zogre Flesh Eaters)",
@@ -102505,7 +103095,8 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie rat",
@@ -102520,7 +103111,8 @@
                 "quantity": 1,
                 "item": "Key (red)"
             }
-        ]
+        ],
+        "superior": false
     },
     {
         "name": "Zombie swab",
@@ -102703,6 +103295,7 @@
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
             }
-        ]
+        ],
+        "superior": false
     }
 ]

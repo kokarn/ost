@@ -24,6 +24,7 @@ function MonsterProfits({mapping, latest, filter}) {
     const [playerStats, setPlayerStats] = useState({});
     const [hideUnqualified, setHideUnqualified] = useState(true);
     const [maxCombatLevel, setMaxCombatLevel] = useState(0);
+    const [hideSuperior, setHideSuperior] = useState(true);
 
     useEffect(() => {
         const loadInitialData = async () => {
@@ -58,7 +59,7 @@ function MonsterProfits({mapping, latest, filter}) {
             itemMap[mapping[itemId].name.toLowerCase()] = itemId;
         }
 
-        console.log(maxCombatLevel);
+        // console.log(maxCombatLevel);
 
         for (const result of monsters) {
             const monsterData = {
@@ -82,6 +83,10 @@ function MonsterProfits({mapping, latest, filter}) {
             }
 
             if(filter && monsterData.name.toLowerCase().indexOf(filter.toLowerCase()) === -1){
+                continue;
+            }
+
+            if(hideSuperior && monsterData.superior){
                 continue;
             }
 
@@ -115,12 +120,13 @@ function MonsterProfits({mapping, latest, filter}) {
             }
 
             monsterData.lootValue = totalLootValue;
+            monsterData.lootRatio = totalLootValue / monsterData.combatLevel;
 
             monsterRows.push(monsterData);
         }
 
         return monsterRows;
-    }, [mapping, latest, hideNonCombat, hideUnqualified, maxCombatLevel, playerStats, filter]);
+    }, [mapping, latest, hideNonCombat, hideUnqualified, maxCombatLevel, playerStats, filter, hideSuperior]);
 
     const columns = [
         {
@@ -143,21 +149,27 @@ function MonsterProfits({mapping, latest, filter}) {
         },
         {
             field: 'lootValue',
-            headerName: 'Avg. Loot Value',
+            headerName: 'Avg. Loot',
             renderCell: ({ value }) => numberFormat(value),
-            width: 150,
+            // width: 150,
+        },
+        {
+            field: 'lootRatio',
+            headerName: 'Loot ratio',
+            renderCell: ({ value }) => numberFormat(value),
+            // width: 150,
         },
         {
             field: 'combatLevel',
             headerName: 'Combat Level',
             renderCell: ({ value }) => numberFormat(value),
-            width: 150,
+            // width: 150,
         },
         {
             field: 'slayerLevel',
             headerName: 'Slayer Level',
             renderCell: ({ value }) => numberFormat(value) || '',
-            width: 150,
+            // width: 150,
         },
     ];
 
@@ -197,6 +209,15 @@ function MonsterProfits({mapping, latest, filter}) {
                         />
                     } label="Hide unqualified" />
                     <FormControlLabel control={
+                        <Checkbox
+                            checked={hideSuperior}
+                            label="Hide superior"
+                            onChange={(event) => {
+                                setHideSuperior(event.target.checked);
+                            }}
+                        />
+                    } label="Hide superior" />
+                    <FormControlLabel control={
                         <TextField
                             label="Max combat level"
                             onChange={(event) => {
@@ -220,7 +241,7 @@ function MonsterProfits({mapping, latest, filter}) {
                     },
                     sorting: {
                         sortModel: [{
-                            field: 'lootValue',
+                            field: 'lootRatio',
                             sort: 'desc',
                         }],
                     },

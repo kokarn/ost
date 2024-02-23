@@ -49,6 +49,8 @@ const getMonsterData = async (url, keys) => {
         console.log(url);
     }
 
+    returnData.superior = false;
+
     return returnData;
 };
 

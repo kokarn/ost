@@ -6,6 +6,7 @@ import got from 'got';
 import * as cheerio from 'cheerio';
 
 import getMonsterData from './modules/monster-data.mjs';
+import parseWikiTable from './modules/parse-wiki-table.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -35,6 +36,24 @@ let pageCache = [];
 console.log('Loading monster data');
 console.time('monsters');
 
+const superiorPageResponse = await got('https://oldschool.runescape.wiki/w/Superior_slayer_monster');
+let $ = cheerio.load(superiorPageResponse.body);
+let superiorMonsters = [];
+let superiorKeys = [
+    'level',
+    'normal',
+    'superior',
+    'image',
+];
+try {
+    let superiorMonsterData = await parseWikiTable($, superiorKeys, false, 'normal variant', false, 1);
+    superiorMonsters = superiorMonsterData.map((monster) => {
+        return monster.superior?.toLowerCase();
+    }).filter(Boolean);
+} catch (error) {
+    console.error(error);
+}
+
 for(const category of categories){
     const response = await got(category);
     const $ = cheerio.load(response.body);
@@ -50,13 +69,19 @@ for(const category of categories){
 
         pageCache.push(url);
 
-        if(url.toLowerCase().includes('bloodthirsty')){
+        // Can't be the full name because of the rockslug
+        if(url.toLowerCase().includes('bloodthirst')){
             return;
         }
 
         monsterPromises.push(async () => {
             const value = await getMonsterData(url, keys);
-            const name = $(el).attr('title');
+            const name = $(el).attr('title').trim();
+
+
+            if(superiorMonsters.includes(name.toLowerCase())){
+                value.superior = true;
+            }
 
             return {
                 name: name,
