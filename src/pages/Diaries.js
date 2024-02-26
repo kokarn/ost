@@ -1,0 +1,242 @@
+import {
+    useMemo,
+    useState,
+    useEffect,
+} from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import { DataGrid } from '@mui/x-data-grid';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+import { Stack } from '@mui/material';
+
+// import numberFormat from '../modules/number-format.mjs';
+import loadJSON from '../modules/load-json.mjs';
+import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
+import ucFirst from '../modules/uc-first.mjs';
+
+import diaryData from '../data/diaries.json';
+
+import '../App.css';
+
+function Diaries({filter}) {
+    const [playerStats, setPlayerStats] = useState({});
+    const [hideCompleted, setHideCompleted] = useState(true);
+    // const [hideUnqualified, setHideUnqualified] = useState(true);
+
+    useEffect(() => {
+        const loadInitialData = async () => {
+            const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
+            const gamePlayerStats = mappingData.levels;
+
+            gamePlayerStats['Quests'] = mappingData.quests;
+            gamePlayerStats['Achievement diaries'] = mappingData.achievement_diaries;
+            gamePlayerStats['Achievement diaries']['Kourend'] = gamePlayerStats['Achievement diaries']['Kourend & Kebos'];
+            gamePlayerStats['Achievement diaries']['Lumbridge'] = gamePlayerStats['Achievement diaries']['Lumbridge & Draynor'];
+            gamePlayerStats['Achievement diaries']['Western'] = gamePlayerStats['Achievement diaries']['Western Provinces'];
+
+            gamePlayerStats['Quest points'] = 0;
+            gamePlayerStats['Skills'] = 0;
+
+            for(const skill in mappingData.levels){
+                if(skill === 'Skills'){
+                    continue;
+                }
+
+                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
+            }
+
+            for(const quest in mappingData.quests){
+                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
+            }
+
+            gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
+
+            setPlayerStats(gamePlayerStats);
+        }
+
+        loadInitialData();
+    }, []);
+
+    const rows = useMemo(() => {
+        let returnRows = [];
+
+        for (const diaryRegion in diaryData) {
+            for(const difficulty in diaryData[diaryRegion]){
+                if(playerStats['Achievement diaries'] && playerStats['Achievement diaries'][ucFirst(diaryRegion)][ucFirst(difficulty)].complete && hideCompleted){
+                    continue;
+                }
+
+                if(filter && (!difficulty.includes(filter) && !diaryRegion.includes(filter))){
+                    continue;
+                }
+
+                returnRows.push({
+                    id: `${diaryRegion}-${difficulty}`,
+                    region: diaryRegion,
+                    difficulty: difficulty,
+                    ...diaryData[diaryRegion][difficulty],
+                });
+            }
+        }
+
+        returnRows = returnRows.filter((row) => {
+            if(Object.keys(row.skills).length === 0 && hideCompleted){
+                return false;
+            }
+
+            return true;
+        });
+
+        return returnRows;
+    }, [playerStats, filter, hideCompleted]);
+
+    const columns = [
+        {
+            field: 'id',
+            headerName: 'ID',
+            // width: 70,
+        },
+        {
+            field: 'region',
+            flex: 1,
+            headerName: 'Region',
+            renderCell: ({row}) => {
+                return <a
+                    href={`https://oldschool.runescape.wiki/w/${row.region}_Diary`}
+                >
+                    {row.region}
+                </a>;
+            },
+        },
+        {
+            field: 'difficulty',
+            headerName: 'Difficulty',
+        },
+        {
+            field: 'quests',
+            headerName: 'Quests',
+            renderCell: ({ value }) => {
+                const questRequirements = [];
+                for(const quest of value){
+                    let questKey = ucFirst(quest.name);
+                    let isQualifiedClass = 'skill-ok';
+                    if(playerStats['Quests'][questKey] === 0){
+                        isQualifiedClass = 'skill-not-ok';
+                    }
+
+                    questRequirements.push(<div
+                        key={quest.name}
+                    >
+                        <span
+                            className={isQualifiedClass}
+                        >
+                            {quest.name}
+                        </span>
+                    </div>);
+                };
+
+                return <div>
+                    {questRequirements}
+                </div>;
+            },
+            width: 200,
+        },
+        {
+            field: 'skills',
+            headerName: 'Skills',
+            renderCell: ({ value }) => {
+                const skillRequirements = [];
+                for(const skill in value){
+                    let skillKey = ucFirst(skill);
+                    let isQualifiedClass = 'skill-ok';
+                    if(playerStats[skillKey] < value[skill]){
+                        isQualifiedClass = 'skill-not-ok';
+                    }
+
+                    skillRequirements.push(<div
+                        key={skill}
+                    >
+                        <span
+                            className={isQualifiedClass}
+                        >
+                            {skill}: {value[skill]}
+                        </span>
+                    </div>);
+                };
+
+                return <div>
+                    {skillRequirements}
+                </div>;
+            },
+            width: 200,
+        },
+    ];
+
+    const calculateRowHeight = (params) => {
+        return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
+    };
+
+    return <Box
+        component="form"
+        sx={{
+            '& .MuiTextField-root': { m: 1, width: '25ch' },
+        }}
+        noValidate
+        autoComplete="off"
+    >
+        <Container>
+            <FormGroup>
+                <Stack
+                    direction="row"
+                >
+                    <FormControlLabel control={
+                        <Checkbox
+                            checked={hideCompleted}
+                            label="Hide completed"
+                            onChange={(event) => {
+                                setHideCompleted(event.target.checked);
+                            }}
+                        />
+                    } label="Hide completed" />
+                    {/* <FormControlLabel control={
+                        <Checkbox
+                            checked={hideUnqualified}
+                            label="Hide unqualified"
+                            onChange={(event) => {
+                                setHideUnqualified(event.target.checked);
+                            }}
+                        />
+                    } label="Hide unqualified" /> */}
+                </Stack>
+            </FormGroup>
+            <DataGrid
+                density="standard"
+                rows={rows}
+                columns={columns}
+                // getRowHeight={() => 'auto'}
+                initialState={{
+                    columns: {
+                        columnVisibilityModel: {
+                            id: false,
+                        },
+                    },
+                }}
+                getRowHeight={calculateRowHeight}
+                disableColumnFilter
+                disableColumnSelector
+                disableDensitySelector
+                // hideFooter
+                // slots={{ toolbar: CustomToolbar }}
+            // slotProps={{
+            //     toolbar: {
+            //         showQuickFilter: true,
+            //     },
+            // }}
+            />
+        </Container>
+    </Box>;
+}
+
+export default Diaries;

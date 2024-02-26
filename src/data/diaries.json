@@ -1,0 +1,1246 @@
+{
+    "ardougne": {
+        "easy": {
+            "skills": {
+                "thieving": 5
+            },
+            "quests": [
+                {
+                    "name": "RUNE MYSTERIES",
+                    "status": "completed"
+                },
+                {
+                    "name": "BIOHAZARD",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "agility": 39,
+                "strength": 38,
+                "ranged": 21,
+                "farming": 31,
+                "magic": 51,
+                "firemaking": 50,
+                "crafting": 49,
+                "thieving": 38,
+                "attack": 50
+            },
+            "quests": [
+                {
+                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "status": "started"
+                },
+                {
+                    "name": "PLAGUE CITY",
+                    "status": "completed"
+                },
+                {
+                    "name": "ENLIGHTENED JOURNEY",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE HAND IN THE SAND",
+                    "status": "completed"
+                },
+                {
+                    "name": "SEA SLUG",
+                    "status": "started"
+                },
+                {
+                    "name": "WATCHTOWER",
+                    "status": "started"
+                },
+                {
+                    "name": "TOWER OF LIFE",
+                    "status": "completed"
+                },
+                {
+                    "name": "UNDERGROUND PASS",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "magic": 66,
+                "thieving": 72,
+                "hunter": 59,
+                "farming": 70,
+                "smithing": 68,
+                "construction": 50,
+                "runecraft": 65
+            },
+            "quests": [
+                {
+                    "name": "LEGENDS QUEST",
+                    "status": "completed"
+                },
+                {
+                    "name": "MONKEY MADNESS I",
+                    "status": "started"
+                },
+                {
+                    "name": "WATCHTOWER",
+                    "status": "completed"
+                },
+                {
+                    "name": "MOURNINGS END PART II",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "fishing": 81,
+                "cooking": 91,
+                "thieving": 82,
+                "crafting": 10,
+                "smithing": 91,
+                "fletching": 69,
+                "farming": 85,
+                "agility": 90,
+                "magic": 94
+            },
+            "quests": [
+                {
+                    "name": "HAUNTED MINE",
+                    "status": "completed"
+                },
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "desert": {
+        "easy": {
+            "skills": {
+                "hunter": 5,
+                "mining": 5,
+                "thieving": 21
+            },
+            "quests": [
+                {
+                    "name": "ICTHLARINS LITTLE HELPER",
+                    "status": "started"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "agility": 30,
+                "slayer": 22,
+                "hunter": 47,
+                "thieving": 25,
+                "herblore": 36,
+                "construction": 20,
+                "woodcutting": 35
+            },
+            "quests": [
+                {
+                    "name": "THE GOLEM",
+                    "status": "completed"
+                },
+                {
+                    "name": "EAGLES PEAK",
+                    "status": "completed"
+                },
+                {
+                    "name": "SPIRITS OF THE ELID",
+                    "status": "completed"
+                },
+                {
+                    "name": "ENAKHRAS LAMENT",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "thieving": 65,
+                "mining": 45,
+                "magic": 68,
+                "agility": 70,
+                "slayer": 65,
+                "defence": 10,
+                "crafting": 55,
+                "attack": 50,
+                "firemaking": 60,
+                "smithing": 68
+            },
+            "quests": [
+                {
+                    "name": "THE FEUD",
+                    "status": "completed"
+                },
+                {
+                    "name": "DREAM MENTOR",
+                    "status": "completed"
+                },
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "started"
+                },
+                {
+                    "name": "CONTACT",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "cooking": 85,
+                "magic": 94,
+                "fletching": 95,
+                "construction": 78,
+                "thieving": 91,
+                "prayer": 85
+            },
+            "quests": [
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE TOURIST TRAP",
+                    "status": "completed"
+                },
+                {
+                    "name": "PRIEST IN PERIL",
+                    "status": "completed"
+                },
+                {
+                    "name": "ICTHLARINS LITTLE HELPER",
+                    "status": "started"
+                }
+            ]
+        }
+    },
+    "falador": {
+        "easy": {
+            "skills": {
+                "construction": 16,
+                "agility": 5,
+                "mining": 10,
+                "smithing": 13
+            },
+            "quests": [
+                {
+                    "name": "THE KNIGHTS SWORD)",
+                    "status": "completed"
+                },
+                {
+                    "name": "DORICS QUEST",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "firemaking": 49,
+                "magic": 37,
+                "farming": 23,
+                "slayer": 32,
+                "agility": 42,
+                "strength": 37,
+                "ranged": 19,
+                "thieving": 40,
+                "prayer": 10,
+                "defence": 20,
+                "crafting": 40,
+                "mining": 40,
+                "woodcutting": 30
+            },
+            "quests": [
+                {
+                    "name": "SKIPPY AND THE MOGRES",
+                    "status": "completed"
+                },
+                {
+                    "name": "RATCATCHERS",
+                    "status": "started"
+                },
+                {
+                    "name": "RECRUITMENT DRIVE",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "runecraft": 56,
+                "prayer": 70,
+                "slayer": 72,
+                "agility": 50,
+                "mining": 60,
+                "thieving": 50,
+                "defence": 50
+            },
+            "quests": [
+                {
+                    "name": "HEROES QUEST",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE SLUG MENACE",
+                    "status": "completed"
+                },
+                {
+                    "name": "GRIM TALES",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "runecraft": 88,
+                "farming": 91,
+                "woodcutting": 75,
+                "agility": 80,
+                "herblore": 81
+            },
+            "quests": [
+                {
+                    "name": "WANTED",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "fremennik": {
+        "easy": {
+            "skills": {
+                "hunter": 11,
+                "crafting": 23,
+                "mining": 20,
+                "smithing": 20,
+                "thieving": 5,
+                "woodcutting": 15,
+                "firemaking": 15
+            },
+            "quests": [
+                {
+                    "name": "THE FREMENNIK TRIALS",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE GIANT DWARF",
+                    "status": "started"
+                },
+                {
+                    "name": "DEATH PLATEAU)",
+                    "status": "completed"
+                },
+                {
+                    "name": "TROLL STRONGHOLD",
+                    "status": "started"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "slayer": 47,
+                "mining": 40,
+                "thieving": 42,
+                "hunter": 35,
+                "construction": 37
+            },
+            "quests": [
+                {
+                    "name": "OLAFS QUEST",
+                    "status": "started"
+                },
+                {
+                    "name": "EAGLES PEAK",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE FREMENNIK TRIALS",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE FREMENNIK TRIALS)",
+                    "status": "completed"
+                },
+                {
+                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "status": "started"
+                },
+                {
+                    "name": "HORROR FROM THE DEEP)",
+                    "status": "completed"
+                },
+                {
+                    "name": "BETWEEN A ROCK",
+                    "status": "started"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "magic": 72,
+                "hunter": 55,
+                "herblore": 66,
+                "thieving": 75,
+                "woodcutting": 56,
+                "mining": 70,
+                "smithing": 60
+            },
+            "quests": [
+                {
+                    "name": "EADGARS RUSE",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE GIANT DWARF",
+                    "status": "started"
+                },
+                {
+                    "name": "THE FREMENNIK ISLES",
+                    "status": "completed"
+                },
+                {
+                    "name": "THRONE OF MISCELLANIA",
+                    "status": "completed"
+                },
+                {
+                    "name": "LUNAR DIPLOMACY",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "runecraft": 82,
+                "crafting": 80,
+                "agility": 80,
+                "strength": 70,
+                "hitpoints": 70,
+                "ranged": 70,
+                "slayer": 83
+            },
+            "quests": [
+                {
+                    "name": "LUNAR DIPLOMACY",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE FREMENNIK ISLES",
+                    "status": "started"
+                },
+                {
+                    "name": "TROLL STRONGHOLD",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "kandarin": {
+        "easy": {
+            "skills": {
+                "fishing": 16,
+                "farming": 13,
+                "agility": 20
+            },
+            "quests": [
+                {
+                    "name": "ELEMENTAL WORKSHOP I",
+                    "status": "started"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "agility": 36,
+                "herblore": 48,
+                "ranged": 40,
+                "strength": 22,
+                "fishing": 46,
+                "cooking": 43,
+                "magic": 45,
+                "fletching": 50,
+                "farming": 26,
+                "thieving": 47,
+                "mining": 30
+            },
+            "quests": [
+                {
+                    "name": "ALFRED GRIMHANDS BARCRAWL",
+                    "status": "completed"
+                },
+                {
+                    "name": "ELEMENTAL WORKSHOP II",
+                    "status": "completed"
+                },
+                {
+                    "name": "WATERFALL QUEST",
+                    "status": "started"
+                },
+                {
+                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "status": "started"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "fishing": 70,
+                "agility": 60,
+                "strength": 50,
+                "woodcutting": 60,
+                "fletching": 70,
+                "crafting": 10,
+                "prayer": 70,
+                "defence": 70,
+                "magic": 56,
+                "firemaking": 65,
+                "thieving": 53,
+                "construction": 50,
+                "smithing": 75
+            },
+            "quests": [
+                {
+                    "name": "KINGS RANSOM",
+                    "status": "completed"
+                },
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "started"
+                },
+                {
+                    "name": "TAI BWO WANNAI TRIO",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "farming": 79,
+                "fishing": 76,
+                "cooking": 80,
+                "herblore": 86,
+                "agility": 60,
+                "smithing": 90,
+                "firemaking": 85,
+                "crafting": 85,
+                "magic": 87
+            },
+            "quests": [
+                {
+                    "name": "FAMILY CREST",
+                    "status": "completed"
+                },
+                {
+                    "name": "LUNAR DIPLOMACY",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "karamja": {
+        "easy": {
+            "skills": {
+                "agility": 15,
+                "mining": 40
+            },
+            "quests": []
+        },
+        "medium": {
+            "skills": {
+                "agility": 30,
+                "woodcutting": 50,
+                "cooking": 16,
+                "fishing": 65,
+                "farming": 27,
+                "hunter": 41,
+                "mining": 40
+            },
+            "quests": [
+                {
+                    "name": "DRAGON SLAYER I",
+                    "status": "started"
+                },
+                {
+                    "name": "SHILO VILLAGE",
+                    "status": "completed"
+                },
+                {
+                    "name": "JUNGLE POTION",
+                    "status": "completed"
+                },
+                {
+                    "name": "TAI BWO WANNAI TRIO",
+                    "status": "started"
+                },
+                {
+                    "name": "THE GRAND TREE",
+                    "status": "completed"
+                },
+                {
+                    "name": "SHILO VILLAGE)",
+                    "status": "completed"
+                },
+                {
+                    "name": "JUNGLE POTION)",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "runecraft": 44,
+                "cooking": 30,
+                "woodcutting": 15,
+                "strength": 50,
+                "agility": 53,
+                "thieving": 50,
+                "mining": 52,
+                "ranged": 42,
+                "slayer": 50
+            },
+            "quests": [
+                {
+                    "name": "TAI BWO WANNAI TRIO",
+                    "status": "completed"
+                },
+                {
+                    "name": "LEGENDS QUEST",
+                    "status": "completed"
+                },
+                {
+                    "name": "SHILO VILLAGE",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "runecraft": 91,
+                "farming": 72,
+                "herblore": 87
+            },
+            "quests": []
+        }
+    },
+    "kourend": {
+        "easy": {
+            "skills": {
+                "mining": 15,
+                "thieving": 25,
+                "construction": 25,
+                "agility": 5,
+                "herblore": 12,
+                "fishing": 20
+            },
+            "quests": []
+        },
+        "medium": {
+            "skills": {
+                "mining": 42,
+                "farming": 45,
+                "crafting": 30,
+                "construction": 30,
+                "fishing": 43,
+                "hunter": 53,
+                "agility": 49,
+                "firemaking": 50,
+                "woodcutting": 50
+            },
+            "quests": [
+                {
+                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "status": "started"
+                },
+                {
+                    "name": "THE DEPTHS OF DESPAIR)",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE QUEEN OF THIEVES)",
+                    "status": "completed"
+                },
+                {
+                    "name": "TALE OF THE RIGHTEOUS)",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE FORSAKEN TOWER)",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE ASCENT OF ARCEUUS",
+                    "status": "completed"
+                },
+                {
+                    "name": "EAGLES PEAK",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "woodcutting": 60,
+                "smithing": 70,
+                "mining": 65,
+                "farming": 74,
+                "thieving": 49,
+                "slayer": 62,
+                "magic": 66
+            },
+            "quests": [
+                {
+                    "name": "THE FORSAKEN TOWER",
+                    "status": "started"
+                },
+                {
+                    "name": "DREAM MENTOR",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "runecraft": 77,
+                "mining": 38,
+                "crafting": 38,
+                "woodcutting": 90,
+                "fishing": 82,
+                "cooking": 84,
+                "slayer": 95,
+                "magic": 90,
+                "farming": 85,
+                "fletching": 40
+            },
+            "quests": []
+        }
+    },
+    "lumbridge": {
+        "easy": {
+            "skills": {
+                "agility": 10,
+                "slayer": 7,
+                "runecraft": 5,
+                "woodcutting": 15,
+                "firemaking": 15,
+                "fishing": 15,
+                "mining": 15
+            },
+            "quests": [
+                {
+                    "name": "RUNE MYSTERIES",
+                    "status": "completed"
+                },
+                {
+                    "name": "COOKS ASSISTANT",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "agility": 20,
+                "strength": 19,
+                "ranged": 50,
+                "magic": 31,
+                "fishing": 30,
+                "crafting": 38,
+                "woodcutting": 30,
+                "thieving": 38,
+                "hunter": 42,
+                "runecraft": 23
+            },
+            "quests": [
+                {
+                    "name": "ANIMAL MAGNETISM",
+                    "status": "completed"
+                },
+                {
+                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "status": "started"
+                },
+                {
+                    "name": "LOST CITY",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "magic": 60,
+                "agility": 46,
+                "runecraft": 59,
+                "woodcutting": 57,
+                "farming": 63,
+                "firemaking": 65,
+                "prayer": 52,
+                "crafting": 70
+            },
+            "quests": [
+                {
+                    "name": "LOST CITY",
+                    "status": "completed"
+                },
+                {
+                    "name": "TEARS OF GUTHIX",
+                    "status": "completed"
+                },
+                {
+                    "name": "ANOTHER SLICE OF HAM",
+                    "status": "completed"
+                },
+                {
+                    "name": "RECIPE FOR DISASTER",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "thieving": 78,
+                "agility": 70,
+                "ranged": 70,
+                "strength": 70,
+                "woodcutting": 75,
+                "smithing": 88,
+                "runecraft": 76
+            },
+            "quests": [
+                {
+                    "name": "DEATH TO THE DORGESHUUN",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "morytania": {
+        "easy": {
+            "skills": {
+                "crafting": 15,
+                "cooking": 12,
+                "slayer": 15,
+                "farming": 23
+            },
+            "quests": [
+                {
+                    "name": "PRIEST IN PERIL",
+                    "status": "completed"
+                },
+                {
+                    "name": "NATURE SPIRIT",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "hunter": 29,
+                "agility": 40,
+                "woodcutting": 45,
+                "slayer": 42,
+                "cooking": 40,
+                "smithing": 35,
+                "herblore": 22
+            },
+            "quests": [
+                {
+                    "name": "LAIR OF TARN RAZORLOR",
+                    "status": "completed"
+                },
+                {
+                    "name": "CABIN FEVER",
+                    "status": "completed"
+                },
+                {
+                    "name": "DWARF CANNON",
+                    "status": "completed"
+                },
+                {
+                    "name": "RUM DEAL",
+                    "status": "completed"
+                },
+                {
+                    "name": "GHOSTS AHOY",
+                    "status": "completed"
+                },
+                {
+                    "name": "IN AID OF THE MYREQUE",
+                    "status": "started"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "magic": 66,
+                "construction": 50,
+                "agility": 71,
+                "farming": 53,
+                "woodcutting": 50,
+                "firemaking": 50,
+                "slayer": 58,
+                "prayer": 70,
+                "defence": 70,
+                "mining": 55
+            },
+            "quests": [
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE GREAT BRAIN ROBBERY",
+                    "status": "started"
+                },
+                {
+                    "name": "CABIN FEVER",
+                    "status": "completed"
+                },
+                {
+                    "name": "IN AID OF THE MYREQUE",
+                    "status": "completed"
+                },
+                {
+                    "name": "NATURE SPIRIT)",
+                    "status": "completed"
+                },
+                {
+                    "name": "KINGS RANSOM",
+                    "status": "completed"
+                },
+                {
+                    "name": "HAUNTED MINE",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "fishing": 96,
+                "strength": 76,
+                "firemaking": 80,
+                "magic": 83,
+                "crafting": 84,
+                "slayer": 85,
+                "defence": 70,
+                "attack": 70,
+                "ranged": 70
+            },
+            "quests": [
+                {
+                    "name": "IN AID OF THE MYREQUE",
+                    "status": "completed"
+                },
+                {
+                    "name": "SHADES OF MORTTON",
+                    "status": "completed"
+                },
+                {
+                    "name": "LUNAR DIPLOMACY",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "varrock": {
+        "easy": {
+            "skills": {
+                "mining": 15,
+                "agility": 13,
+                "crafting": 8,
+                "runecraft": 9,
+                "fishing": 20,
+                "thieving": 5
+            },
+            "quests": [
+                {
+                    "name": "RUNE MYSTERIES",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "magic": 25,
+                "farming": 25,
+                "firemaking": 40,
+                "agility": 30
+            },
+            "quests": [
+                {
+                    "name": "GARDEN OF TRANQUILLITY",
+                    "status": "started"
+                },
+                {
+                    "name": "GERTRUDES CAT",
+                    "status": "completed"
+                },
+                {
+                    "name": "TREE GNOME VILLAGE",
+                    "status": "completed"
+                },
+                {
+                    "name": "A SOULS BANE",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE DIG SITE",
+                    "status": "completed"
+                },
+                {
+                    "name": "ENLIGHTENED JOURNEY",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "hunter": 66,
+                "woodcutting": 60,
+                "magic": 54,
+                "firemaking": 60,
+                "construction": 50,
+                "farming": 68,
+                "prayer": 52,
+                "agility": 51
+            },
+            "quests": [
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "herblore": 90,
+                "magic": 86,
+                "cooking": 95,
+                "smithing": 89,
+                "fletching": 81,
+                "runecraft": 78
+            },
+            "quests": [
+                {
+                    "name": "DRUIDIC RITUAL",
+                    "status": "completed"
+                },
+                {
+                    "name": "DREAM MENTOR",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE TOURIST TRAP",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "western": {
+        "easy": {
+            "skills": {
+                "hunter": 9,
+                "mining": 15,
+                "fletching": 20
+            },
+            "quests": [
+                {
+                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "status": "completed"
+                },
+                {
+                    "name": "RUNE MYSTERIES",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "agility": 37,
+                "hunter": 31,
+                "fishing": 46,
+                "woodcutting": 35,
+                "firemaking": 35,
+                "cooking": 42,
+                "mining": 40
+            },
+            "quests": [
+                {
+                    "name": "TREE GNOME VILLAGE)",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE GRAND TREE",
+                    "status": "completed"
+                },
+                {
+                    "name": "TREE GNOME VILLAGE",
+                    "status": "completed"
+                },
+                {
+                    "name": "MONKEY MADNESS I",
+                    "status": "started"
+                },
+                {
+                    "name": "ONE SMALL FAVOUR)",
+                    "status": "completed"
+                },
+                {
+                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "status": "completed"
+                },
+                {
+                    "name": "EAGLES PEAK",
+                    "status": "completed"
+                },
+                {
+                    "name": "THE EYES OF GLOUPHRIE",
+                    "status": "completed"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "ranged": 70,
+                "agility": 56,
+                "fishing": 62,
+                "cooking": 62,
+                "hunter": 69,
+                "woodcutting": 50,
+                "firemaking": 50,
+                "mining": 70,
+                "farming": 68,
+                "construction": 65,
+                "magic": 64,
+                "thieving": 75
+            },
+            "quests": [
+                {
+                    "name": "ROVING ELVES",
+                    "status": "completed"
+                },
+                {
+                    "name": "SWAN SONG",
+                    "status": "completed"
+                },
+                {
+                    "name": "MONKEY MADNESS I",
+                    "status": "completed"
+                },
+                {
+                    "name": "REGICIDE",
+                    "status": "completed"
+                },
+                {
+                    "name": "MOURNINGS END PART I",
+                    "status": "started"
+                },
+                {
+                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "status": "completed"
+                },
+                {
+                    "name": "RECIPE FOR DISASTER",
+                    "status": "started"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "fletching": 85,
+                "slayer": 93,
+                "farming": 75,
+                "agility": 85,
+                "thieving": 85
+            },
+            "quests": [
+                {
+                    "name": "MOURNINGS END PART I",
+                    "status": "completed"
+                },
+                {
+                    "name": "UNDERGROUND PASS",
+                    "status": "completed"
+                },
+                {
+                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "status": "completed"
+                }
+            ]
+        }
+    },
+    "wilderness": {
+        "easy": {
+            "skills": {
+                "magic": 21,
+                "agility": 15,
+                "mining": 15
+            },
+            "quests": [
+                {
+                    "name": "ENTER THE ABYSS",
+                    "status": "completed"
+                }
+            ]
+        },
+        "medium": {
+            "skills": {
+                "mining": 55,
+                "woodcutting": 61,
+                "agility": 60,
+                "strength": 60,
+                "magic": 60,
+                "slayer": 50,
+                "smithing": 50
+            },
+            "quests": [
+                {
+                    "name": "BETWEEN A ROCK",
+                    "status": "started"
+                }
+            ]
+        },
+        "hard": {
+            "skills": {
+                "magic": 66,
+                "hunter": 67,
+                "smithing": 75,
+                "agility": 64,
+                "slayer": 68,
+                "fishing": 53
+            },
+            "quests": [
+                {
+                    "name": "MAGE ARENA I",
+                    "status": "completed"
+                },
+                {
+                    "name": "DEATH PLATEAU",
+                    "status": "completed"
+                }
+            ]
+        },
+        "elite": {
+            "skills": {
+                "magic": 96,
+                "fishing": 85,
+                "cooking": 90,
+                "mining": 85,
+                "smithing": 90,
+                "thieving": 84,
+                "slayer": 83,
+                "agility": 60,
+                "strength": 60,
+                "woodcutting": 75,
+                "firemaking": 75
+            },
+            "quests": [
+                {
+                    "name": "DESERT TREASURE I",
+                    "status": "completed"
+                }
+            ]
+        }
+    }
+}

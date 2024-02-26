@@ -36,6 +36,7 @@ import Implings from './pages/Implings.js';
 import BurntValue from './pages/BurntValue.js';
 import Admin from './pages/Admin.js';
 import Stores from './pages/Stores.js';
+import Diaries from './pages/Diaries.js';
 
 import './App.css';
 
