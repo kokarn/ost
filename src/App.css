@@ -34,7 +34,8 @@
 }
 
 .skill-ok {
-    color: green;
+    /* Stolen from health bar */
+    color: #088c39;
 }
 
 .skill-boost-ok {
