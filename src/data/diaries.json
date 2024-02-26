@@ -1,21 +1,21 @@
 {
-    "ardougne": {
-        "easy": {
+    "Ardougne": {
+        "Easy": {
             "skills": {
                 "thieving": 5
             },
             "quests": [
                 {
-                    "name": "RUNE MYSTERIES",
+                    "name": "Rune Mysteries",
                     "status": "completed"
                 },
                 {
-                    "name": "BIOHAZARD",
+                    "name": "Biohazard",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "agility": 39,
                 "strength": 38,
@@ -29,40 +29,40 @@
             },
             "quests": [
                 {
-                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "name": "Fairytale II - Cure a Queen",
                     "status": "started"
                 },
                 {
-                    "name": "PLAGUE CITY",
+                    "name": "Plague City",
                     "status": "completed"
                 },
                 {
-                    "name": "ENLIGHTENED JOURNEY",
+                    "name": "Enlightened Journey",
                     "status": "completed"
                 },
                 {
-                    "name": "THE HAND IN THE SAND",
+                    "name": "The Hand in the Sand",
                     "status": "completed"
                 },
                 {
-                    "name": "SEA SLUG",
+                    "name": "Sea Slug",
                     "status": "started"
                 },
                 {
-                    "name": "WATCHTOWER",
+                    "name": "Watchtower",
                     "status": "started"
                 },
                 {
-                    "name": "TOWER OF LIFE",
+                    "name": "Tower of Life",
                     "status": "completed"
                 },
                 {
-                    "name": "UNDERGROUND PASS",
+                    "name": "Underground Pass",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "magic": 66,
                 "thieving": 72,
@@ -74,24 +74,24 @@
             },
             "quests": [
                 {
-                    "name": "LEGENDS QUEST",
+                    "name": "Legends' Quest",
                     "status": "completed"
                 },
                 {
-                    "name": "MONKEY MADNESS I",
+                    "name": "Monkey Madness I",
                     "status": "started"
                 },
                 {
-                    "name": "WATCHTOWER",
+                    "name": "Watchtower",
                     "status": "completed"
                 },
                 {
-                    "name": "MOURNINGS END PART II",
+                    "name": "Mourning's End Part II",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "fishing": 81,
                 "cooking": 91,
@@ -105,18 +105,18 @@
             },
             "quests": [
                 {
-                    "name": "HAUNTED MINE",
+                    "name": "Haunted Mine",
                     "status": "completed"
                 },
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "completed"
                 }
             ]
         }
     },
-    "desert": {
-        "easy": {
+    "Desert": {
+        "Easy": {
             "skills": {
                 "hunter": 5,
                 "mining": 5,
@@ -124,12 +124,12 @@
             },
             "quests": [
                 {
-                    "name": "ICTHLARINS LITTLE HELPER",
+                    "name": "Icthlarin's Little Helper",
                     "status": "started"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "agility": 30,
                 "slayer": 22,
@@ -141,24 +141,24 @@
             },
             "quests": [
                 {
-                    "name": "THE GOLEM",
+                    "name": "The Golem",
                     "status": "completed"
                 },
                 {
-                    "name": "EAGLES PEAK",
+                    "name": "Eagles' Peak",
                     "status": "completed"
                 },
                 {
-                    "name": "SPIRITS OF THE ELID",
+                    "name": "Spirits of the Elid",
                     "status": "completed"
                 },
                 {
-                    "name": "ENAKHRAS LAMENT",
+                    "name": "Enakhra's Lament",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "thieving": 65,
                 "mining": 45,
@@ -173,24 +173,24 @@
             },
             "quests": [
                 {
-                    "name": "THE FEUD",
+                    "name": "The Feud",
                     "status": "completed"
                 },
                 {
-                    "name": "DREAM MENTOR",
+                    "name": "Dream Mentor",
                     "status": "completed"
                 },
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "started"
                 },
                 {
-                    "name": "CONTACT",
+                    "name": "Contact!",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "cooking": 85,
                 "magic": 94,
@@ -201,26 +201,26 @@
             },
             "quests": [
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "completed"
                 },
                 {
-                    "name": "THE TOURIST TRAP",
+                    "name": "The Tourist Trap",
                     "status": "completed"
                 },
                 {
-                    "name": "PRIEST IN PERIL",
+                    "name": "Priest in Peril",
                     "status": "completed"
                 },
                 {
-                    "name": "ICTHLARINS LITTLE HELPER",
+                    "name": "Icthlarin's Little Helper",
                     "status": "started"
                 }
             ]
         }
     },
-    "falador": {
-        "easy": {
+    "Falador": {
+        "Easy": {
             "skills": {
                 "construction": 16,
                 "agility": 5,
@@ -229,16 +229,16 @@
             },
             "quests": [
                 {
-                    "name": "THE KNIGHTS SWORD)",
+                    "name": "The Knight's Sword",
                     "status": "completed"
                 },
                 {
-                    "name": "DORICS QUEST",
+                    "name": "Doric's Quest",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "firemaking": 49,
                 "magic": 37,
@@ -256,20 +256,20 @@
             },
             "quests": [
                 {
-                    "name": "SKIPPY AND THE MOGRES",
+                    "name": "Skippy and the Mogres",
                     "status": "completed"
                 },
                 {
-                    "name": "RATCATCHERS",
+                    "name": "Ratcatchers",
                     "status": "started"
                 },
                 {
-                    "name": "RECRUITMENT DRIVE",
+                    "name": "Recruitment Drive",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "runecraft": 56,
                 "prayer": 70,
@@ -281,20 +281,20 @@
             },
             "quests": [
                 {
-                    "name": "HEROES QUEST",
+                    "name": "Heroes' Quest",
                     "status": "completed"
                 },
                 {
-                    "name": "THE SLUG MENACE",
+                    "name": "The Slug Menace",
                     "status": "completed"
                 },
                 {
-                    "name": "GRIM TALES",
+                    "name": "Grim Tales",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "runecraft": 88,
                 "farming": 91,
@@ -304,14 +304,14 @@
             },
             "quests": [
                 {
-                    "name": "WANTED",
+                    "name": "Wanted!",
                     "status": "completed"
                 }
             ]
         }
     },
-    "fremennik": {
-        "easy": {
+    "Fremennik": {
+        "Easy": {
             "skills": {
                 "hunter": 11,
                 "crafting": 23,
@@ -323,24 +323,24 @@
             },
             "quests": [
                 {
-                    "name": "THE FREMENNIK TRIALS",
+                    "name": "The Fremennik Trials",
                     "status": "completed"
                 },
                 {
-                    "name": "THE GIANT DWARF",
+                    "name": "The Giant Dwarf",
                     "status": "started"
                 },
                 {
-                    "name": "DEATH PLATEAU)",
+                    "name": "Death Plateau",
                     "status": "completed"
                 },
                 {
-                    "name": "TROLL STRONGHOLD",
+                    "name": "Troll Stronghold",
                     "status": "started"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "slayer": 47,
                 "mining": 40,
@@ -350,36 +350,32 @@
             },
             "quests": [
                 {
-                    "name": "OLAFS QUEST",
+                    "name": "Olaf's Quest",
                     "status": "started"
                 },
                 {
-                    "name": "EAGLES PEAK",
+                    "name": "Eagles' Peak",
                     "status": "completed"
                 },
                 {
-                    "name": "THE FREMENNIK TRIALS",
+                    "name": "The Fremennik Trials",
                     "status": "completed"
                 },
                 {
-                    "name": "THE FREMENNIK TRIALS)",
-                    "status": "completed"
-                },
-                {
-                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "name": "Fairytale II - Cure a Queen",
                     "status": "started"
                 },
                 {
-                    "name": "HORROR FROM THE DEEP)",
+                    "name": "Horror from the Deep",
                     "status": "completed"
                 },
                 {
-                    "name": "BETWEEN A ROCK",
+                    "name": "Between a Rock...",
                     "status": "started"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "magic": 72,
                 "hunter": 55,
@@ -391,28 +387,28 @@
             },
             "quests": [
                 {
-                    "name": "EADGARS RUSE",
+                    "name": "Eadgar's Ruse",
                     "status": "completed"
                 },
                 {
-                    "name": "THE GIANT DWARF",
+                    "name": "The Giant Dwarf",
                     "status": "started"
                 },
                 {
-                    "name": "THE FREMENNIK ISLES",
+                    "name": "The Fremennik Isles",
                     "status": "completed"
                 },
                 {
-                    "name": "THRONE OF MISCELLANIA",
+                    "name": "Throne of Miscellania",
                     "status": "completed"
                 },
                 {
-                    "name": "LUNAR DIPLOMACY",
+                    "name": "Lunar Diplomacy",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "runecraft": 82,
                 "crafting": 80,
@@ -424,22 +420,22 @@
             },
             "quests": [
                 {
-                    "name": "LUNAR DIPLOMACY",
+                    "name": "Lunar Diplomacy",
                     "status": "completed"
                 },
                 {
-                    "name": "THE FREMENNIK ISLES",
+                    "name": "The Fremennik Isles",
                     "status": "started"
                 },
                 {
-                    "name": "TROLL STRONGHOLD",
+                    "name": "Troll Stronghold",
                     "status": "completed"
                 }
             ]
         }
     },
-    "kandarin": {
-        "easy": {
+    "Kandarin": {
+        "Easy": {
             "skills": {
                 "fishing": 16,
                 "farming": 13,
@@ -447,12 +443,12 @@
             },
             "quests": [
                 {
-                    "name": "ELEMENTAL WORKSHOP I",
+                    "name": "Elemental Workshop I",
                     "status": "started"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "agility": 36,
                 "herblore": 48,
@@ -468,24 +464,24 @@
             },
             "quests": [
                 {
-                    "name": "ALFRED GRIMHANDS BARCRAWL",
+                    "name": "Alfred Grimhand's Barcrawl",
                     "status": "completed"
                 },
                 {
-                    "name": "ELEMENTAL WORKSHOP II",
+                    "name": "Elemental Workshop II",
                     "status": "completed"
                 },
                 {
-                    "name": "WATERFALL QUEST",
+                    "name": "Waterfall Quest",
                     "status": "started"
                 },
                 {
-                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "name": "Fairytale II - Cure a Queen",
                     "status": "started"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "fishing": 70,
                 "agility": 60,
@@ -503,20 +499,20 @@
             },
             "quests": [
                 {
-                    "name": "KINGS RANSOM",
+                    "name": "King's Ransom",
                     "status": "completed"
                 },
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "started"
                 },
                 {
-                    "name": "TAI BWO WANNAI TRIO",
+                    "name": "Tai Bwo Wannai Trio",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "farming": 79,
                 "fishing": 76,
@@ -530,25 +526,25 @@
             },
             "quests": [
                 {
-                    "name": "FAMILY CREST",
+                    "name": "Family Crest",
                     "status": "completed"
                 },
                 {
-                    "name": "LUNAR DIPLOMACY",
+                    "name": "Lunar Diplomacy",
                     "status": "completed"
                 }
             ]
         }
     },
-    "karamja": {
-        "easy": {
+    "Karamja": {
+        "Easy": {
             "skills": {
                 "agility": 15,
                 "mining": 40
             },
             "quests": []
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "agility": 30,
                 "woodcutting": 50,
@@ -560,36 +556,28 @@
             },
             "quests": [
                 {
-                    "name": "DRAGON SLAYER I",
+                    "name": "Dragon Slayer I",
                     "status": "started"
                 },
                 {
-                    "name": "SHILO VILLAGE",
+                    "name": "Shilo Village",
                     "status": "completed"
                 },
                 {
-                    "name": "JUNGLE POTION",
+                    "name": "Jungle Potion",
                     "status": "completed"
                 },
                 {
-                    "name": "TAI BWO WANNAI TRIO",
+                    "name": "Tai Bwo Wannai Trio",
                     "status": "started"
                 },
                 {
-                    "name": "THE GRAND TREE",
-                    "status": "completed"
-                },
-                {
-                    "name": "SHILO VILLAGE)",
-                    "status": "completed"
-                },
-                {
-                    "name": "JUNGLE POTION)",
+                    "name": "The Grand Tree",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "runecraft": 44,
                 "cooking": 30,
@@ -599,24 +587,25 @@
                 "thieving": 50,
                 "mining": 52,
                 "ranged": 42,
+                "combat level": "100",
                 "slayer": 50
             },
             "quests": [
                 {
-                    "name": "TAI BWO WANNAI TRIO",
+                    "name": "Tai Bwo Wannai Trio",
                     "status": "completed"
                 },
                 {
-                    "name": "LEGENDS QUEST",
+                    "name": "Legends' Quest",
                     "status": "completed"
                 },
                 {
-                    "name": "SHILO VILLAGE",
+                    "name": "Shilo Village",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "runecraft": 91,
                 "farming": 72,
@@ -625,8 +614,8 @@
             "quests": []
         }
     },
-    "kourend": {
-        "easy": {
+    "Kourend & Kebos": {
+        "Easy": {
             "skills": {
                 "mining": 15,
                 "thieving": 25,
@@ -637,7 +626,7 @@
             },
             "quests": []
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "mining": 42,
                 "farming": 45,
@@ -651,36 +640,36 @@
             },
             "quests": [
                 {
-                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "name": "Fairytale II - Cure a Queen",
                     "status": "started"
                 },
                 {
-                    "name": "THE DEPTHS OF DESPAIR)",
+                    "name": "The Depths of Despair",
                     "status": "completed"
                 },
                 {
-                    "name": "THE QUEEN OF THIEVES)",
+                    "name": "The Queen of Thieves",
                     "status": "completed"
                 },
                 {
-                    "name": "TALE OF THE RIGHTEOUS)",
+                    "name": "Tale of the Righteous",
                     "status": "completed"
                 },
                 {
-                    "name": "THE FORSAKEN TOWER)",
+                    "name": "The Forsaken Tower",
                     "status": "completed"
                 },
                 {
-                    "name": "THE ASCENT OF ARCEUUS",
+                    "name": "The Ascent of Arceuus",
                     "status": "completed"
                 },
                 {
-                    "name": "EAGLES PEAK",
+                    "name": "Eagles' Peak",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "woodcutting": 60,
                 "smithing": 70,
@@ -692,16 +681,16 @@
             },
             "quests": [
                 {
-                    "name": "THE FORSAKEN TOWER",
+                    "name": "The Forsaken Tower",
                     "status": "started"
                 },
                 {
-                    "name": "DREAM MENTOR",
+                    "name": "Dream Mentor",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "runecraft": 77,
                 "mining": 38,
@@ -717,8 +706,8 @@
             "quests": []
         }
     },
-    "lumbridge": {
-        "easy": {
+    "Lumbridge & Draynor": {
+        "Easy": {
             "skills": {
                 "agility": 10,
                 "slayer": 7,
@@ -730,16 +719,16 @@
             },
             "quests": [
                 {
-                    "name": "RUNE MYSTERIES",
+                    "name": "Rune Mysteries",
                     "status": "completed"
                 },
                 {
-                    "name": "COOKS ASSISTANT",
+                    "name": "Cook's Assistant",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "agility": 20,
                 "strength": 19,
@@ -749,25 +738,26 @@
                 "crafting": 38,
                 "woodcutting": 30,
                 "thieving": 38,
+                "combat level": "70",
                 "hunter": 42,
                 "runecraft": 23
             },
             "quests": [
                 {
-                    "name": "ANIMAL MAGNETISM",
+                    "name": "Animal Magnetism",
                     "status": "completed"
                 },
                 {
-                    "name": "FAIRYTALE II  CURE A QUEEN",
+                    "name": "Fairytale II - Cure a Queen",
                     "status": "started"
                 },
                 {
-                    "name": "LOST CITY",
+                    "name": "Lost City",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "magic": 60,
                 "agility": 46,
@@ -780,24 +770,24 @@
             },
             "quests": [
                 {
-                    "name": "LOST CITY",
+                    "name": "Lost City",
                     "status": "completed"
                 },
                 {
-                    "name": "TEARS OF GUTHIX",
+                    "name": "Tears of Guthix",
                     "status": "completed"
                 },
                 {
-                    "name": "ANOTHER SLICE OF HAM",
+                    "name": "Another Slice of H.A.M.",
                     "status": "completed"
                 },
                 {
-                    "name": "RECIPE FOR DISASTER",
+                    "name": "Recipe for Disaster",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "thieving": 78,
                 "agility": 70,
@@ -809,32 +799,33 @@
             },
             "quests": [
                 {
-                    "name": "DEATH TO THE DORGESHUUN",
+                    "name": "Death to the Dorgeshuun",
                     "status": "completed"
                 }
             ]
         }
     },
-    "morytania": {
-        "easy": {
+    "Morytania": {
+        "Easy": {
             "skills": {
                 "crafting": 15,
                 "cooking": 12,
+                "combat level": "20",
                 "slayer": 15,
                 "farming": 23
             },
             "quests": [
                 {
-                    "name": "PRIEST IN PERIL",
+                    "name": "Priest in Peril",
                     "status": "completed"
                 },
                 {
-                    "name": "NATURE SPIRIT",
+                    "name": "Nature Spirit",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "hunter": 29,
                 "agility": 40,
@@ -846,32 +837,32 @@
             },
             "quests": [
                 {
-                    "name": "LAIR OF TARN RAZORLOR",
+                    "name": "Lair of Tarn Razorlor",
                     "status": "completed"
                 },
                 {
-                    "name": "CABIN FEVER",
+                    "name": "Cabin Fever",
                     "status": "completed"
                 },
                 {
-                    "name": "DWARF CANNON",
+                    "name": "Dwarf Cannon",
                     "status": "completed"
                 },
                 {
-                    "name": "RUM DEAL",
+                    "name": "Rum Deal",
                     "status": "completed"
                 },
                 {
-                    "name": "GHOSTS AHOY",
+                    "name": "Ghosts Ahoy",
                     "status": "completed"
                 },
                 {
-                    "name": "IN AID OF THE MYREQUE",
+                    "name": "In Aid of the Myreque",
                     "status": "started"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "magic": 66,
                 "construction": 50,
@@ -886,36 +877,36 @@
             },
             "quests": [
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "completed"
                 },
                 {
-                    "name": "THE GREAT BRAIN ROBBERY",
+                    "name": "The Great Brain Robbery",
                     "status": "started"
                 },
                 {
-                    "name": "CABIN FEVER",
+                    "name": "Cabin Fever",
                     "status": "completed"
                 },
                 {
-                    "name": "IN AID OF THE MYREQUE",
+                    "name": "In Aid of the Myreque",
                     "status": "completed"
                 },
                 {
-                    "name": "NATURE SPIRIT)",
+                    "name": "Nature Spirit",
                     "status": "completed"
                 },
                 {
-                    "name": "KINGS RANSOM",
+                    "name": "King's Ransom",
                     "status": "completed"
                 },
                 {
-                    "name": "HAUNTED MINE",
+                    "name": "Haunted Mine",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "fishing": 96,
                 "strength": 76,
@@ -929,22 +920,22 @@
             },
             "quests": [
                 {
-                    "name": "IN AID OF THE MYREQUE",
+                    "name": "In Aid of the Myreque",
                     "status": "completed"
                 },
                 {
-                    "name": "SHADES OF MORTTON",
+                    "name": "Shades of Mort'ton",
                     "status": "completed"
                 },
                 {
-                    "name": "LUNAR DIPLOMACY",
+                    "name": "Lunar Diplomacy",
                     "status": "completed"
                 }
             ]
         }
     },
-    "varrock": {
-        "easy": {
+    "Varrock": {
+        "Easy": {
             "skills": {
                 "mining": 15,
                 "agility": 13,
@@ -955,46 +946,47 @@
             },
             "quests": [
                 {
-                    "name": "RUNE MYSTERIES",
+                    "name": "Rune Mysteries",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "magic": 25,
+                "combat level": "40",
                 "farming": 25,
                 "firemaking": 40,
                 "agility": 30
             },
             "quests": [
                 {
-                    "name": "GARDEN OF TRANQUILLITY",
+                    "name": "Garden of Tranquillity",
                     "status": "started"
                 },
                 {
-                    "name": "GERTRUDES CAT",
+                    "name": "Gertrude's Cat",
                     "status": "completed"
                 },
                 {
-                    "name": "TREE GNOME VILLAGE",
+                    "name": "Tree Gnome Village",
                     "status": "completed"
                 },
                 {
-                    "name": "A SOULS BANE",
+                    "name": "A Soul's Bane",
                     "status": "completed"
                 },
                 {
-                    "name": "THE DIG SITE",
+                    "name": "The Dig Site",
                     "status": "completed"
                 },
                 {
-                    "name": "ENLIGHTENED JOURNEY",
+                    "name": "Enlightened Journey",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "hunter": 66,
                 "woodcutting": 60,
@@ -1007,12 +999,12 @@
             },
             "quests": [
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "herblore": 90,
                 "magic": 86,
@@ -1023,89 +1015,88 @@
             },
             "quests": [
                 {
-                    "name": "DRUIDIC RITUAL",
+                    "name": "Druidic Ritual",
                     "status": "completed"
                 },
                 {
-                    "name": "DREAM MENTOR",
+                    "name": "Dream Mentor",
                     "status": "completed"
                 },
                 {
-                    "name": "THE TOURIST TRAP",
+                    "name": "The Tourist Trap",
                     "status": "completed"
                 }
             ]
         }
     },
-    "western": {
-        "easy": {
+    "Western Provinces": {
+        "Easy": {
             "skills": {
                 "hunter": 9,
+                "combat level": "40",
                 "mining": 15,
                 "fletching": 20
             },
             "quests": [
                 {
-                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "name": "Big Chompy Bird Hunting",
                     "status": "completed"
                 },
                 {
-                    "name": "RUNE MYSTERIES",
+                    "name": "Rune Mysteries",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "agility": 37,
                 "hunter": 31,
                 "fishing": 46,
                 "woodcutting": 35,
                 "firemaking": 35,
+                "combat level": "70",
                 "cooking": 42,
                 "mining": 40
             },
             "quests": [
                 {
-                    "name": "TREE GNOME VILLAGE)",
+                    "name": "Tree Gnome Village",
                     "status": "completed"
                 },
                 {
-                    "name": "THE GRAND TREE",
+                    "name": "The Grand Tree",
                     "status": "completed"
                 },
                 {
-                    "name": "TREE GNOME VILLAGE",
-                    "status": "completed"
-                },
-                {
-                    "name": "MONKEY MADNESS I",
+                    "name": "Monkey Madness I",
                     "status": "started"
                 },
                 {
-                    "name": "ONE SMALL FAVOUR)",
+                    "name": "One Small Favour",
                     "status": "completed"
                 },
                 {
-                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "name": "Big Chompy Bird Hunting",
                     "status": "completed"
                 },
                 {
-                    "name": "EAGLES PEAK",
+                    "name": "Eagles' Peak",
                     "status": "completed"
                 },
                 {
-                    "name": "THE EYES OF GLOUPHRIE",
+                    "name": "The Eyes of Glouphrie",
                     "status": "completed"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "ranged": 70,
                 "agility": 56,
                 "fishing": 62,
                 "cooking": 62,
+                "combat level": "100",
                 "hunter": 69,
                 "woodcutting": 50,
                 "firemaking": 50,
@@ -1117,36 +1108,36 @@
             },
             "quests": [
                 {
-                    "name": "ROVING ELVES",
+                    "name": "Roving Elves",
                     "status": "completed"
                 },
                 {
-                    "name": "SWAN SONG",
+                    "name": "Swan Song",
                     "status": "completed"
                 },
                 {
-                    "name": "MONKEY MADNESS I",
+                    "name": "Monkey Madness I",
                     "status": "completed"
                 },
                 {
-                    "name": "REGICIDE",
+                    "name": "Regicide",
                     "status": "completed"
                 },
                 {
-                    "name": "MOURNINGS END PART I",
+                    "name": "Mourning's End Part I",
                     "status": "started"
                 },
                 {
-                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "name": "Big Chompy Bird Hunting",
                     "status": "completed"
                 },
                 {
-                    "name": "RECIPE FOR DISASTER",
+                    "name": "Recipe for Disaster",
                     "status": "started"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "fletching": 85,
                 "slayer": 93,
@@ -1156,22 +1147,22 @@
             },
             "quests": [
                 {
-                    "name": "MOURNINGS END PART I",
+                    "name": "Mourning's End Part I",
                     "status": "completed"
                 },
                 {
-                    "name": "UNDERGROUND PASS",
+                    "name": "Underground Pass",
                     "status": "completed"
                 },
                 {
-                    "name": "BIG CHOMPY BIRD HUNTING",
+                    "name": "Big Chompy Bird Hunting",
                     "status": "completed"
                 }
             ]
         }
     },
-    "wilderness": {
-        "easy": {
+    "Wilderness": {
+        "Easy": {
             "skills": {
                 "magic": 21,
                 "agility": 15,
@@ -1179,12 +1170,12 @@
             },
             "quests": [
                 {
-                    "name": "ENTER THE ABYSS",
+                    "name": "Enter the Abyss",
                     "status": "completed"
                 }
             ]
         },
-        "medium": {
+        "Medium": {
             "skills": {
                 "mining": 55,
                 "woodcutting": 61,
@@ -1196,12 +1187,12 @@
             },
             "quests": [
                 {
-                    "name": "BETWEEN A ROCK",
+                    "name": "Between a Rock...",
                     "status": "started"
                 }
             ]
         },
-        "hard": {
+        "Hard": {
             "skills": {
                 "magic": 66,
                 "hunter": 67,
@@ -1212,16 +1203,16 @@
             },
             "quests": [
                 {
-                    "name": "MAGE ARENA I",
+                    "name": "Mage Arena I",
                     "status": "completed"
                 },
                 {
-                    "name": "DEATH PLATEAU",
+                    "name": "Death Plateau",
                     "status": "completed"
                 }
             ]
         },
-        "elite": {
+        "Elite": {
             "skills": {
                 "magic": 96,
                 "fishing": 85,
@@ -1237,7 +1228,7 @@
             },
             "quests": [
                 {
-                    "name": "DESERT TREASURE I",
+                    "name": "Desert Treasure I",
                     "status": "completed"
                 }
             ]

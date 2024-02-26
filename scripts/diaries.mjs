@@ -22,6 +22,12 @@ let diaries = [
     'Western',
     'Wilderness',
 ];
+let diaryNameMap = {
+    'Kourend': 'Kourend & Kebos',
+    'Lumbridge': 'Lumbridge & Draynor',
+    'Western': 'Western Provinces',
+};
+let quests = {};
 
 const parseQuests = async () => {
     return new Promise((resolve, reject) => {
@@ -33,10 +39,13 @@ const parseQuests = async () => {
         });
 
         rl.on('line', (line) => {
-            if (line.includes('public static final Quest')) {
-                let quest = line.split('Quest.')[1].split(';')[0].replace(/_/g, ' ');
-                console.log(quest);
-            }
+            const matches = line.match(/(?<key>[A-Z_]+)\((?<id>\d+), "(?<name>.+?)"\)/);
+            if(matches && matches.groups.key) {
+                quests[matches.groups.key] = {
+                    name: matches.groups.name,
+                    id: parseInt(matches.groups.id)
+                };
+            };
         });
 
         rl.on('close', () => {
@@ -53,7 +62,7 @@ const parseDiary = async (diary) => {
             output: process.stdout,
             terminal: false
         });
-        const key = diary.toLowerCase();
+        const key = diaryNameMap[diary] || diary;
         let currentSection = '';
 
         result[key] = {};
@@ -61,16 +70,16 @@ const parseDiary = async (diary) => {
         rl.on('line', (line) => {
             try {
                 if (line.includes('// EASY') || line.includes('//EASY')) {
-                    currentSection = 'easy';
+                    currentSection = 'Easy';
                     result[key][currentSection] = {skills: {}, quests: []};
                 } else if (line.includes('// MEDIUM') || line.includes('//MEDIUM')) {
-                    currentSection = 'medium';
+                    currentSection = 'Medium';
                     result[key][currentSection] = {skills: {}, quests: []};
                 } else if (line.includes('// HARD') || line.includes('//HARD')) {
-                    currentSection = 'hard';
+                    currentSection = 'Hard';
                     result[key][currentSection] = {skills: {}, quests: []};
                 } else if (line.includes('// ELITE') || line.includes('//ELITE')) {
-                    currentSection = 'elite';
+                    currentSection = 'Elite';
                     result[key][currentSection] = {skills: {}, quests: []};
                 }
 
@@ -86,12 +95,25 @@ const parseDiary = async (diary) => {
                     }
                 }
 
+                if (line.includes('CombatLevelRequirement') && currentSection) {
+                    let combatLevel = line.match(/CombatLevelRequirement\((\d+)\)/)[1];
+                    result[key][currentSection].skills['combat level'] = combatLevel;
+                }
+
                 if (line.includes('QuestRequirement') && currentSection) {
-                    let quest = line.split('Quest.')[1].split(',')[0].replace(/_/g, ' ').replace('));', '');
+                    let quest = line
+                        .split('Quest.')[1]
+                        .split(',')[0]
+                        .replace('));', '')
+                        .replace(')', '');
+                        
                     let status = line.includes('true') ? 'started' : 'completed';
 
-                    if (!result[key][currentSection].quests.some(q => q.name === quest)) {
-                        result[key][currentSection].quests.push({name: quest, status});
+                    if (!result[key][currentSection].quests.some(q => q.name === quests[quest].name)) {
+                        result[key][currentSection].quests.push({
+                            name: quests[quest].name, 
+                            status
+                        });
                     }
                 }
             } catch (parseError) {
@@ -109,6 +131,7 @@ const parseDiary = async (diary) => {
 };
 
 console.time('diaries');
+await parseQuests();
 for (let diary of diaries) {
     console.log(`Parsing ${diary} diary...`);
 

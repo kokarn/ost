@@ -404,7 +404,7 @@ function App() {
                 />
                 <Route
                     path="diaries"
-                    element={<Stores
+                    element={<Diaries
                         filter={debouncedFilter}
                     />}
                 />

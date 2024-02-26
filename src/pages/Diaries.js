@@ -17,6 +17,7 @@ import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 import ucFirst from '../modules/uc-first.mjs';
 
 import diaryData from '../data/diaries.json';
+import boostData from '../data/boosts.json';
 
 import '../App.css';
 
@@ -32,9 +33,6 @@ function Diaries({filter}) {
 
             gamePlayerStats['Quests'] = mappingData.quests;
             gamePlayerStats['Achievement diaries'] = mappingData.achievement_diaries;
-            gamePlayerStats['Achievement diaries']['Kourend'] = gamePlayerStats['Achievement diaries']['Kourend & Kebos'];
-            gamePlayerStats['Achievement diaries']['Lumbridge'] = gamePlayerStats['Achievement diaries']['Lumbridge & Draynor'];
-            gamePlayerStats['Achievement diaries']['Western'] = gamePlayerStats['Achievement diaries']['Western Provinces'];
 
             gamePlayerStats['Quest points'] = 0;
             gamePlayerStats['Skills'] = 0;
@@ -68,7 +66,7 @@ function Diaries({filter}) {
                     continue;
                 }
 
-                if(filter && (!difficulty.includes(filter) && !diaryRegion.includes(filter))){
+                if(filter && (!difficulty.toLowerCase().includes(filter.toLowerCase()) && !diaryRegion.toLowerCase().includes(filter.toLowerCase()))){
                     continue;
                 }
 
@@ -117,17 +115,16 @@ function Diaries({filter}) {
         {
             field: 'quests',
             headerName: 'Quests',
-            renderCell: ({ value }) => {
+            renderCell: ({row, value}) => {
                 const questRequirements = [];
                 for(const quest of value){
-                    let questKey = ucFirst(quest.name);
                     let isQualifiedClass = 'skill-ok';
-                    if(playerStats['Quests'][questKey] === 0){
+                    if(playerStats.Quests && playerStats['Quests'][quest.name] === 0){
                         isQualifiedClass = 'skill-not-ok';
                     }
 
                     questRequirements.push(<div
-                        key={quest.name}
+                        key={`${row.region}-${row.difficulty}-${quest.name}`}
                     >
                         <span
                             className={isQualifiedClass}
@@ -145,14 +142,22 @@ function Diaries({filter}) {
         },
         {
             field: 'skills',
-            headerName: 'Skills',
+            headerName: 'Stats',
             renderCell: ({ value }) => {
                 const skillRequirements = [];
                 for(const skill in value){
                     let skillKey = ucFirst(skill);
-                    let isQualifiedClass = 'skill-ok';
-                    if(playerStats[skillKey] < value[skill]){
-                        isQualifiedClass = 'skill-not-ok';
+                    let isQualifiedClass = 'skill-not-ok';
+                    if(playerStats[skillKey] >= value[skill]){
+                        isQualifiedClass = 'skill-ok';
+                    } else if(playerStats[skillKey] + boostData[skill] >= value[skill]){
+                        isQualifiedClass = 'skill-boost-ok';
+                    }
+
+                    let skillNote = '';
+
+                    if(isQualifiedClass !== 'skill-ok'){
+                        skillNote = ` (${value[skill] - playerStats[skillKey]})`;
                     }
 
                     skillRequirements.push(<div
@@ -161,7 +166,7 @@ function Diaries({filter}) {
                         <span
                             className={isQualifiedClass}
                         >
-                            {skill}: {value[skill]}
+                            {skillKey}: {value[skill]} {skillNote}
                         </span>
                     </div>);
                 };
