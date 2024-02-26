@@ -135,6 +135,11 @@ function Layout({handleFilterChange}) {
             label: 'Stores',
             path: '/stores',
         },
+        {
+            key: 'diaries',
+            label: 'Diaries',
+            path: '/diaries',
+        },
         // {
         //     key: 'admin',
         //     label: 'Admin',
@@ -395,6 +400,12 @@ function App() {
                         filter={debouncedFilter}
                         mapping={mapping}
                         volumes={volumes}
+                    />}
+                />
+                <Route
+                    path="diaries"
+                    element={<Stores
+                        filter={debouncedFilter}
                     />}
                 />
                 <Route
