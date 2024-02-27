@@ -53,7 +53,7 @@ function CraftTable({latest, mapping, profits, filter}) {
             flex: 1,
             headerName: 'Output',
             renderCell: ({ value }) => {
-                const itemData = craftRows.find((row) => row.name === value);
+                const itemData = Object.values(mapping).find((row) => row.name === value);
                 return <ItemRow
                     name={value}
                     icon={itemData?.icon}

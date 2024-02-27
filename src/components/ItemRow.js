@@ -1,35 +1,4 @@
-const ignoreList = [
-    'super_attack',
-    'super_strength',
-    'super_defence',
-    'super_energy',
-    'super_restore',
-    'superantipoison',
-    'antipoison',
-    'zamorak_brew',
-    'saradomin_brew',
-    'menaphite_remedy',
-    'antidote+',
-    'ancient_brew',
-];
-
 const ItemRow = function({name, icon, id}) {
-    if(!icon){
-        icon = `${name.replace(/\(\d\)/, '')}.png`;
-
-        if(name.includes('potion')){
-            icon = `${name}.png`;
-        }
-
-        let formattedName = name.toLowerCase().replace(/ /g, '_');
-
-        for(const ignore of ignoreList){
-            if(formattedName.includes(ignore)){
-                icon = `${name}.png`;
-            }
-        }
-    }
-
     icon = icon.replace(/ /g, '_');
 
     return <div
