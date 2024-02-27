@@ -24,7 +24,7 @@ import '../App.css';
 function Diaries({filter}) {
     const [playerStats, setPlayerStats] = useState({});
     const [hideCompleted, setHideCompleted] = useState(true);
-    // const [hideUnqualified, setHideUnqualified] = useState(true);
+    const [onlyCompletable, setOnlyCompletable] = useState(false);
 
     useEffect(() => {
         const loadInitialData = async () => {
@@ -70,6 +70,31 @@ function Diaries({filter}) {
                     continue;
                 }
 
+                if(onlyCompletable && playerStats['Achievement diaries']){
+                    let isCompletable = true;
+
+                    // for(const quest of diaryData[diaryRegion][difficulty].quests){
+                    //     if(playerStats['Quests'] && playerStats['Quests'][quest.name] < quest.status){
+                    //         isCompletable = false;
+
+                    //         break;
+                    //     }
+                    // }
+
+                    for(const skill in diaryData[diaryRegion][difficulty].skills){
+                        if((playerStats[ucFirst(skill)] + boostData[ucFirst(skill)]) < diaryData[diaryRegion][difficulty].skills[skill]){
+                            isCompletable = false;
+                            break;
+                        }
+                    }
+
+                    // console.log(`${diaryRegion}-${difficulty}`, isCompletable, diaryData[diaryRegion][difficulty], playerStats)
+
+                    if(!isCompletable){
+                        continue;
+                    }
+                }
+
                 returnRows.push({
                     id: `${diaryRegion}-${difficulty}`,
                     region: diaryRegion,
@@ -88,7 +113,7 @@ function Diaries({filter}) {
         });
 
         return returnRows;
-    }, [playerStats, filter, hideCompleted]);
+    }, [playerStats, filter, hideCompleted, onlyCompletable]);
 
     const columns = [
         {
@@ -99,18 +124,14 @@ function Diaries({filter}) {
         {
             field: 'region',
             flex: 1,
-            headerName: 'Region',
+            headerName: 'Diary',
             renderCell: ({row}) => {
                 return <a
-                    href={`https://oldschool.runescape.wiki/w/${row.region}_Diary`}
+                    href={`https://oldschool.runescape.wiki/w/${encodeURIComponent(row.region.replace(/ /g, '_'))}_Diary#${row.difficulty}`}
                 >
-                    {row.region}
+                    {row.region} - {row.difficulty}
                 </a>;
             },
-        },
-        {
-            field: 'difficulty',
-            headerName: 'Difficulty',
         },
         {
             field: 'quests',
@@ -119,7 +140,8 @@ function Diaries({filter}) {
                 const questRequirements = [];
                 for(const quest of value){
                     let isQualifiedClass = 'skill-ok';
-                    if(playerStats.Quests && playerStats['Quests'][quest.name] === 0){
+
+                    if(playerStats.Quests && playerStats['Quests'][quest.name] < quest.status){
                         isQualifiedClass = 'skill-not-ok';
                     }
 
@@ -150,7 +172,7 @@ function Diaries({filter}) {
                     let isQualifiedClass = 'skill-not-ok';
                     if(playerStats[skillKey] >= value[skill]){
                         isQualifiedClass = 'skill-ok';
-                    } else if(playerStats[skillKey] + boostData[skill] >= value[skill]){
+                    } else if(playerStats[skillKey] + boostData[skillKey] >= value[skill]){
                         isQualifiedClass = 'skill-boost-ok';
                     }
 
@@ -205,15 +227,15 @@ function Diaries({filter}) {
                             }}
                         />
                     } label="Hide completed" />
-                    {/* <FormControlLabel control={
+                    <FormControlLabel control={
                         <Checkbox
-                            checked={hideUnqualified}
-                            label="Hide unqualified"
+                            checked={onlyCompletable}
+                            label="Only completable"
                             onChange={(event) => {
-                                setHideUnqualified(event.target.checked);
+                                setOnlyCompletable(event.target.checked);
                             }}
                         />
-                    } label="Hide unqualified" /> */}
+                    } label="Show only completable" />
                 </Stack>
             </FormGroup>
             <DataGrid

@@ -106,12 +106,12 @@ const parseDiary = async (diary) => {
                         .split(',')[0]
                         .replace('));', '')
                         .replace(')', '');
-                        
-                    let status = line.includes('true') ? 'started' : 'completed';
+
+                    let status = line.includes('true') ? 1 : 2;
 
                     if (!result[key][currentSection].quests.some(q => q.name === quests[quest].name)) {
                         result[key][currentSection].quests.push({
-                            name: quests[quest].name, 
+                            name: quests[quest].name,
                             status
                         });
                     }

@@ -7,11 +7,11 @@
             "quests": [
                 {
                     "name": "Rune Mysteries",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Biohazard",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -30,35 +30,35 @@
             "quests": [
                 {
                     "name": "Fairytale II - Cure a Queen",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Plague City",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Enlightened Journey",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Hand in the Sand",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Sea Slug",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Watchtower",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Tower of Life",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Underground Pass",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -75,19 +75,19 @@
             "quests": [
                 {
                     "name": "Legends' Quest",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Monkey Madness I",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Watchtower",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Mourning's End Part II",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -106,11 +106,11 @@
             "quests": [
                 {
                     "name": "Haunted Mine",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Desert Treasure I",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -125,7 +125,7 @@
             "quests": [
                 {
                     "name": "Icthlarin's Little Helper",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -142,19 +142,19 @@
             "quests": [
                 {
                     "name": "The Golem",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Eagles' Peak",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Spirits of the Elid",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Enakhra's Lament",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -174,19 +174,19 @@
             "quests": [
                 {
                     "name": "The Feud",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Dream Mentor",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Desert Treasure I",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Contact!",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -202,19 +202,19 @@
             "quests": [
                 {
                     "name": "Desert Treasure I",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Tourist Trap",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Priest in Peril",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Icthlarin's Little Helper",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         }
@@ -230,11 +230,11 @@
             "quests": [
                 {
                     "name": "The Knight's Sword",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Doric's Quest",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -257,15 +257,15 @@
             "quests": [
                 {
                     "name": "Skippy and the Mogres",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Ratcatchers",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Recruitment Drive",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -282,15 +282,15 @@
             "quests": [
                 {
                     "name": "Heroes' Quest",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Slug Menace",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Grim Tales",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -305,7 +305,7 @@
             "quests": [
                 {
                     "name": "Wanted!",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -324,19 +324,19 @@
             "quests": [
                 {
                     "name": "The Fremennik Trials",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Giant Dwarf",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Death Plateau",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Troll Stronghold",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -351,27 +351,27 @@
             "quests": [
                 {
                     "name": "Olaf's Quest",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Eagles' Peak",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Fremennik Trials",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Fairytale II - Cure a Queen",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Horror from the Deep",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Between a Rock...",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -388,23 +388,23 @@
             "quests": [
                 {
                     "name": "Eadgar's Ruse",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Giant Dwarf",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "The Fremennik Isles",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Throne of Miscellania",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Lunar Diplomacy",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -421,15 +421,15 @@
             "quests": [
                 {
                     "name": "Lunar Diplomacy",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Fremennik Isles",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Troll Stronghold",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -444,7 +444,7 @@
             "quests": [
                 {
                     "name": "Elemental Workshop I",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -465,19 +465,19 @@
             "quests": [
                 {
                     "name": "Alfred Grimhand's Barcrawl",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Elemental Workshop II",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Waterfall Quest",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Fairytale II - Cure a Queen",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -500,15 +500,15 @@
             "quests": [
                 {
                     "name": "King's Ransom",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Desert Treasure I",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Tai Bwo Wannai Trio",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -527,11 +527,11 @@
             "quests": [
                 {
                     "name": "Family Crest",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Lunar Diplomacy",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -557,23 +557,23 @@
             "quests": [
                 {
                     "name": "Dragon Slayer I",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Shilo Village",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Jungle Potion",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Tai Bwo Wannai Trio",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "The Grand Tree",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -593,15 +593,15 @@
             "quests": [
                 {
                     "name": "Tai Bwo Wannai Trio",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Legends' Quest",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Shilo Village",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -641,31 +641,31 @@
             "quests": [
                 {
                     "name": "Fairytale II - Cure a Queen",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "The Depths of Despair",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Queen of Thieves",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Tale of the Righteous",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Forsaken Tower",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Ascent of Arceuus",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Eagles' Peak",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -682,11 +682,11 @@
             "quests": [
                 {
                     "name": "The Forsaken Tower",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Dream Mentor",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -720,11 +720,11 @@
             "quests": [
                 {
                     "name": "Rune Mysteries",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Cook's Assistant",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -745,15 +745,15 @@
             "quests": [
                 {
                     "name": "Animal Magnetism",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Fairytale II - Cure a Queen",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Lost City",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -771,19 +771,19 @@
             "quests": [
                 {
                     "name": "Lost City",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Tears of Guthix",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Another Slice of H.A.M.",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Recipe for Disaster",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -800,7 +800,7 @@
             "quests": [
                 {
                     "name": "Death to the Dorgeshuun",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -817,11 +817,11 @@
             "quests": [
                 {
                     "name": "Priest in Peril",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Nature Spirit",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -838,27 +838,27 @@
             "quests": [
                 {
                     "name": "Lair of Tarn Razorlor",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Cabin Fever",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Dwarf Cannon",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Rum Deal",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Ghosts Ahoy",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "In Aid of the Myreque",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -878,31 +878,31 @@
             "quests": [
                 {
                     "name": "Desert Treasure I",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Great Brain Robbery",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Cabin Fever",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "In Aid of the Myreque",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Nature Spirit",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "King's Ransom",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Haunted Mine",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -921,15 +921,15 @@
             "quests": [
                 {
                     "name": "In Aid of the Myreque",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Shades of Mort'ton",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Lunar Diplomacy",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -947,7 +947,7 @@
             "quests": [
                 {
                     "name": "Rune Mysteries",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -962,27 +962,27 @@
             "quests": [
                 {
                     "name": "Garden of Tranquillity",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Gertrude's Cat",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Tree Gnome Village",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "A Soul's Bane",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Dig Site",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Enlightened Journey",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -1000,7 +1000,7 @@
             "quests": [
                 {
                     "name": "Desert Treasure I",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -1016,15 +1016,15 @@
             "quests": [
                 {
                     "name": "Druidic Ritual",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Dream Mentor",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Tourist Trap",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -1040,11 +1040,11 @@
             "quests": [
                 {
                     "name": "Big Chompy Bird Hunting",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Rune Mysteries",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -1062,31 +1062,31 @@
             "quests": [
                 {
                     "name": "Tree Gnome Village",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Grand Tree",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Monkey Madness I",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "One Small Favour",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Big Chompy Bird Hunting",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Eagles' Peak",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "The Eyes of Glouphrie",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -1109,31 +1109,31 @@
             "quests": [
                 {
                     "name": "Roving Elves",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Swan Song",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Monkey Madness I",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Regicide",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Mourning's End Part I",
-                    "status": "started"
+                    "status": 1
                 },
                 {
                     "name": "Big Chompy Bird Hunting",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Recipe for Disaster",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -1148,15 +1148,15 @@
             "quests": [
                 {
                     "name": "Mourning's End Part I",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Underground Pass",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Big Chompy Bird Hunting",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
@@ -1171,7 +1171,7 @@
             "quests": [
                 {
                     "name": "Enter the Abyss",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -1188,7 +1188,7 @@
             "quests": [
                 {
                     "name": "Between a Rock...",
-                    "status": "started"
+                    "status": 1
                 }
             ]
         },
@@ -1204,11 +1204,11 @@
             "quests": [
                 {
                     "name": "Mage Arena I",
-                    "status": "completed"
+                    "status": 2
                 },
                 {
                     "name": "Death Plateau",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         },
@@ -1229,7 +1229,7 @@
             "quests": [
                 {
                     "name": "Desert Treasure I",
-                    "status": "completed"
+                    "status": 2
                 }
             ]
         }
