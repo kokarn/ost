@@ -6,7 +6,7 @@ const calculateCombatLevel = (skills) => {
     const range = 0.325 * (Math.floor(3 * Ranged / 2));
     const mage = 0.325 * (Math.floor(3 * Magic / 2));
 
-    return base + Math.max(melee, range, mage);
+    return Math.floor(base + Math.max(melee, range, mage));
 };
 
 export default calculateCombatLevel;
