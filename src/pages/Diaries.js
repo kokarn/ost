@@ -148,11 +148,12 @@ function Diaries({filter}) {
                     questRequirements.push(<div
                         key={`${row.region}-${row.difficulty}-${quest.name}`}
                     >
-                        <span
+                        <a
                             className={isQualifiedClass}
+                            href={`https://oldschool.runescape.wiki/w/${encodeURI(quest.name.replace(/ /g, '_'))}`}
                         >
                             {quest.name}
-                        </span>
+                        </a>
                     </div>);
                 };
 
