@@ -193,6 +193,7 @@ function MonsterProfits({mapping, latest, filter}) {
             <FormGroup>
                 <Stack
                     direction="row"
+                    flexWrap={'wrap'}
                 >
                     <FormControlLabel control={
                         <Checkbox
