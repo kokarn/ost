@@ -229,6 +229,7 @@ function MonsterProfits({mapping, latest, filter}) {
                                 setMaxCombatLevel(event.target.value);
                             }}
                             type="number"
+                            size="small"
                         />
                     }/>
                 </Stack>
