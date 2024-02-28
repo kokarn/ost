@@ -10729,14 +10729,6 @@
     },
     {
         "name": "Candle",
-        "quantity": null,
-        "sellPrice": null,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Candle_seller",
-        "storeChangeRate": 1
-    },
-    {
-        "name": "Candle",
         "quantity": 10,
         "sellPrice": 3,
         "buyPrice": 1,
@@ -18474,7 +18466,7 @@
     {
         "name": "Fur",
         "quantity": null,
-        "sellPrice": 493,
+        "sellPrice": 528,
         "buyPrice": null,
         "store": "https://oldschool.runescape.wiki/w/Baraek",
         "storeChangeRate": 1
@@ -18482,7 +18474,7 @@
     {
         "name": "Bear fur",
         "quantity": 20,
-        "sellPrice": 204,
+        "sellPrice": 300,
         "buyPrice": null,
         "store": "https://oldschool.runescape.wiki/w/Baraek",
         "storeChangeRate": 1
@@ -18490,7 +18482,7 @@
     {
         "name": "Grey wolf fur",
         "quantity": null,
-        "sellPrice": 52,
+        "sellPrice": 56,
         "buyPrice": null,
         "store": "https://oldschool.runescape.wiki/w/Baraek",
         "storeChangeRate": 1
@@ -18498,7 +18490,7 @@
     {
         "name": "Fur",
         "quantity": null,
-        "sellPrice": 493,
+        "sellPrice": 528,
         "buyPrice": null,
         "store": "https://oldschool.runescape.wiki/w/Baraek",
         "storeChangeRate": 1
@@ -18506,7 +18498,7 @@
     {
         "name": "Bear fur",
         "quantity": 20,
-        "sellPrice": 204,
+        "sellPrice": 300,
         "buyPrice": null,
         "store": "https://oldschool.runescape.wiki/w/Baraek",
         "storeChangeRate": 1
@@ -18514,7 +18506,7 @@
     {
         "name": "Grey wolf fur",
         "quantity": null,
-        "sellPrice": 52,
+        "sellPrice": 56,
         "buyPrice": null,
         "store": "https://oldschool.runescape.wiki/w/Baraek",
         "storeChangeRate": 1
