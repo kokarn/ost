@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 // import TextField from '@mui/material/TextField';
 
 import numberFormat from '../modules/number-format.mjs';
@@ -178,10 +178,6 @@ function StoreProfits({mapping, latest, volumes, filter}) {
         });
     }
 
-    // const calculateRowHeight = (params) => {
-    //     return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
-    // };
-
     return <Box
         component="form"
         sx={{
@@ -191,6 +187,11 @@ function StoreProfits({mapping, latest, volumes, filter}) {
         autoComplete="off"
     >
         <Container>
+            <Typography
+                variant='h1'
+            >
+                {`Stores`}
+            </Typography>
             <FormGroup>
                 <Stack
                     direction="row"
@@ -235,7 +236,6 @@ function StoreProfits({mapping, latest, volumes, filter}) {
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                // slots={{ toolbar: CustomToolbar }}
             />
         </Container>
     </Box>;

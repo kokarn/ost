@@ -100,8 +100,8 @@ function Admin({latest, mapping, profits, dayData, volumes, filter}) {
     >
         <Container>
             <Typography
-                variant="h4"
-                component="h4"
+                variant="h1"
+                component="h1"
             >
                 Admin
             </Typography>

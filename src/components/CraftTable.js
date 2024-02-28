@@ -1,12 +1,10 @@
 import {
     useMemo,
 } from 'react';
-import { DataGrid } from '@mui/x-data-grid';
-import Container from '@mui/material/Container';
-import { Typography } from '@mui/material';
 
 import CustomNoRowsOverlay from './NoRows.js';
 import ItemRow from './ItemRow.js';
+import StickyTable from './StickyTable.js';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -126,48 +124,43 @@ function CraftTable({latest, mapping, profits, filter}) {
     const calculateRowHeight = (params) => {
         const uniqueItems = [...new Set(params.model.input)];
 
-        return uniqueItems.length * 20 + (16 * params.densityFactor);
+        return uniqueItems.length * 25 + (16 * params.densityFactor);
     };
 
-    return <Container>
-        <Typography variant="h4" component="h4">
-            Crafting
-        </Typography>
-        <DataGrid
-            autoHeight
-            rows={renderCraftRows}
-            columns={craftColumns}
-            getRowHeight={calculateRowHeight}
-            initialState={{
-                columns: {
-                    columnVisibilityModel: {
-                        id: false,
-                    },
+    return <StickyTable
+        autoHeight
+        rows={renderCraftRows}
+        columns={craftColumns}
+        getRowHeight={calculateRowHeight}
+        initialState={{
+            columns: {
+                columnVisibilityModel: {
+                    id: false,
                 },
-                sorting: {
-                    sortModel: [{
-                        field: 'profit',
-                        sort: 'desc',
-                    }],
+            },
+            sorting: {
+                sortModel: [{
+                    field: 'profit',
+                    sort: 'desc',
+                }],
+            },
+            pagination: {
+                paginationModel: {
+                    pageSize: 20,
+                    page: 0,
                 },
-                pagination: {
-                    paginationModel: {
-                        pageSize: 10,
-                        page: 0,
-                    },
-                },
-            }}
-            pageSizeOptions={[10]}
-            disableColumnFilter
-            disableColumnSelector
-            disableDensitySelector
-            slots={{
-                noRowsOverlay: CustomNoRowsOverlay,
-                noResultsOverlay: CustomNoRowsOverlay,
-            }}
-            // hideFooter
-        />
-    </Container>
+            },
+        }}
+        pageSizeOptions={[20]}
+        disableColumnFilter
+        disableColumnSelector
+        disableDensitySelector
+        slots={{
+            noRowsOverlay: CustomNoRowsOverlay,
+            noResultsOverlay: CustomNoRowsOverlay,
+        }}
+        // hideFooter
+    />
     ;
 }
 

@@ -61,7 +61,7 @@ function Level({mapping, latest}) {
     >
         <Container>
             <Typography
-                variant='h4'
+                variant='h1'
             >
                 {`Level calculator`}
             </Typography>

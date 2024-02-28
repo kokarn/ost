@@ -26,17 +26,19 @@ import ClearIcon from '@mui/icons-material/Clear';
 
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
+import urlFrieldlyName from './modules/urlfriendly-name.mjs';
 
-import LevelCalculator from './pages/LevelCalculator.js';
-import Items from './pages/Items.js';
-import MoneyMaking from './pages/MoneyMaking.js';
-import Crafts from './pages/Crafts.js';
-import MonsterProfits from './pages/MonsterProfits.js';
-import Implings from './pages/Implings.js';
-import BurntValue from './pages/BurntValue.js';
 import Admin from './pages/Admin.js';
-import Stores from './pages/Stores.js';
+import BurntValue from './pages/BurntValue.js';
+import Crafting from './pages/Crafting.js';
 import Diaries from './pages/Diaries.js';
+import Implings from './pages/Implings.js';
+
+import Items from './pages/Items.js';
+import LevelCalculator from './pages/LevelCalculator.js';
+import MoneyMaking from './pages/MoneyMaking.js';
+import MonsterProfits from './pages/MonsterProfits.js';
+import Stores from './pages/Stores.js';
 
 import './App.css';
 
@@ -96,34 +98,9 @@ function Layout({handleFilterChange}) {
 
     const pages = [
         {
-            key: 'items',
-            label: 'Items',
+            key: 'grand-exchange',
+            label: 'Grand Exchange',
             path: '/',
-        },
-        {
-            key: 'money-making',
-            label: 'Money Making',
-            path: '/money-making',
-        },
-        {
-            key: 'level',
-            label: 'Level Calculator',
-            path: '/level-calculator',
-        },
-        {
-            key: 'crafts',
-            label: 'Crafts',
-            path: '/crafts',
-        },
-        {
-            key: 'monster-profit',
-            label: 'Monsters',
-            path: '/monsters',
-        },
-        {
-            key: 'implings',
-            label: 'Implings',
-            path: '/implings',
         },
         {
             key: 'burnt-value',
@@ -131,14 +108,39 @@ function Layout({handleFilterChange}) {
             path: '/burnt-value',
         },
         {
-            key: 'stores',
-            label: 'Stores',
-            path: '/stores',
+            key: 'crafting',
+            label: 'Crafting',
+            path: '/crafting',
         },
         {
             key: 'diaries',
             label: 'Diaries',
             path: '/diaries',
+        },
+        {
+            key: 'implings',
+            label: 'Implings',
+            path: '/implings',
+        },
+        {
+            key: 'level',
+            label: 'Level Calculator',
+            path: '/level-calculator',
+        },
+        {
+            key: 'money-making',
+            label: 'Money Making',
+            path: '/money-making',
+        },
+        {
+            key: 'monster-profits',
+            label: 'Monster profits',
+            path: '/monster-profits',
+        },
+        {
+            key: 'stores',
+            label: 'Stores',
+            path: '/stores',
         },
         // {
         //     key: 'admin',
@@ -291,7 +293,10 @@ function App() {
             const fullMap = {};
 
             for(const item of mappingData) {
-                fullMap[item.id] = item;
+                fullMap[item.id] = {
+                    ...item,
+                    urlName: urlFrieldlyName(item.name),
+                };
             }
 
             setMapping(fullMap);
@@ -363,8 +368,8 @@ function App() {
                     />}
                 />
                 <Route
-                    path='crafts'
-                    element={<Crafts
+                    path='crafting'
+                    element={<Crafting
                         dayData={lastDayData}
                         filter={debouncedFilter}
                         latest={latest}
@@ -374,7 +379,7 @@ function App() {
                     />}
                 />
                 <Route
-                    path="monsters"
+                    path="monster-profits"
                     element={<MonsterProfits
                         latest={latest}
                         mapping={mapping}

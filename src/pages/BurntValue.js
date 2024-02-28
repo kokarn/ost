@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Container from '@mui/material/Container';
+import { Typography } from '@mui/material';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -90,9 +91,16 @@ function BurntValue() {
         autoComplete="off"
     >
         <Container>
-            <h2>
-                {`Total value: ${numberFormat(lowTotal)} - ${numberFormat(highTotal)}`}
-            </h2>
+            <Typography
+                variant='h1'
+            >
+                {`Burnt Value`}
+            </Typography>
+            <Typography
+                variant='h2'
+            >
+                {`Total value: From ${numberFormat(lowTotal)} to ${numberFormat(highTotal)}`}
+            </Typography>
             {Object.entries(prices).map(([key, value], index) => (
                 <TextField
                     type="number"

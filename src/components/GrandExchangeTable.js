@@ -2,19 +2,16 @@ import {
     useMemo,
     useState,
 } from 'react';
-import { DataGrid } from '@mui/x-data-grid';
-import Container from '@mui/material/Container';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Stack from '@mui/material/Stack';
 import TimeAgo from 'timeago-react';
 import en_short from 'timeago.js/lib/lang/en_short';
 import * as timeago from 'timeago.js';
-import { Typography } from '@mui/material';
 
 import ItemRow from '../components/ItemRow.js';
 import CustomNoRowsOverlay from '../components/NoRows.js';
+import StickyTable from './StickyTable.js';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -140,67 +137,57 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
         },
     ];
 
-    return <Container>
-        <Stack
-            direction="row"
-            justifyContent="space-between"
-        >
-            <Typography variant="h4" component="h4">
-                Grand Exchange
-            </Typography>
-            <FormGroup>
-                <FormControlLabel control={
-                    <Checkbox
-                        checked={highAlch}
-                        label="High alch"
-                        onChange={(event) => {
-                            setHighAlch(event.target.checked);
-                        }}
-                    />
-                } label="High alc" />
-            </FormGroup>
-        </Stack>
-        <DataGrid
-            autoHeight
-            rows={renderItemRows}
-            columns={columns}
-            columnVisibilityModel={{
-                lowAlchProfit: !highAlch,
-                lowalch: !highAlch,
-                highAlchProfit: highAlch,
-                highalch: highAlch,
-                id: false,
-            }}
-            initialState={{
-                columns: {
-                    columnVisibilityModel: {
-                        id: false,
-                    },
+    return [<FormGroup>
+        <FormControlLabel control={
+            <Checkbox
+                checked={highAlch}
+                label="High alch"
+                onChange={(event) => {
+                    setHighAlch(event.target.checked);
+                }}
+            />
+        } label="High alc" />
+    </FormGroup>,
+    <StickyTable
+        autoHeight
+        rows={renderItemRows}
+        columns={columns}
+        columnVisibilityModel={{
+            lowAlchProfit: !highAlch,
+            lowalch: !highAlch,
+            highAlchProfit: highAlch,
+            highalch: highAlch,
+            id: false,
+        }}
+        initialState={{
+            columns: {
+                columnVisibilityModel: {
+                    id: false,
                 },
-                sorting: {
-                    sortModel: [{
-                        field: 'highAlchProfit',
-                        sort: 'desc',
-                    }],
+            },
+            sorting: {
+                sortModel: [{
+                    field: 'highAlchProfit',
+                    sort: 'desc',
+                }],
+            },
+            pagination: {
+                paginationModel: {
+                    pageSize: 20,
+                    page: 0,
                 },
-                pagination: {
-                    paginationModel: {
-                        pageSize: 10,
-                        page: 0,
-                    },
-                },
-            }}
-            disableColumnFilter
-            disableColumnSelector
-            disableDensitySelector
-            pageSizeOptions={[10]}
-            // hideFooter
-            slots={{
-                noRowsOverlay: CustomNoRowsOverlay,
-                noResultsOverlay: CustomNoRowsOverlay,
-            }}
-        />
-    </Container>;
+            },
+        }}
+        disableColumnFilter
+        disableColumnSelector
+        disableDensitySelector
+        pageSizeOptions={[20]}
+        // hideFooter
+        slots={{
+            noRowsOverlay: CustomNoRowsOverlay,
+            noResultsOverlay: CustomNoRowsOverlay,
+        }}
+    />];
 
 }
 

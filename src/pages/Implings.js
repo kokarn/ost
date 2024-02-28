@@ -5,51 +5,16 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid } from '@mui/x-data-grid';
-// import FormGroup from '@mui/material/FormGroup';
-// import FormControlLabel from '@mui/material/FormControlLabel';
-// import Checkbox from '@mui/material/Checkbox';
-// import { Stack } from '@mui/material';
-// import TextField from '@mui/material/TextField';
+import { Typography } from '@mui/material';
+
+import StickyTable from '../components/StickyTable';
 
 import numberFormat from '../modules/number-format.mjs';
-// import loadJSON from '../modules/load-json.mjs';
-
 import implings from '../data/implings.json';
 
 import '../App.css';
 
 function Implings({mapping, latest, filter}) {
-    // const [hideNonCombat, setHideNonCombat] = useState(true);
-    // const [playerStats, setPlayerStats] = useState({});
-    // const [hideUnqualified, setHideUnqualified] = useState(true);
-    // const [maxCombatLevel, setMaxCombatLevel] = useState(0);
-
-    // useEffect(() => {
-    //     const loadInitialData = async () => {
-    //         const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
-    //         const gamePlayerStats = mappingData.levels;
-    //         gamePlayerStats['Quest points'] = 0;
-    //         gamePlayerStats['Skills'] = 0;
-
-    //         for(const skill in mappingData.levels){
-    //             if(skill === 'Skills'){
-    //                 continue;
-    //             }
-
-    //             gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
-    //         }
-
-    //         for(const quest in mappingData.quests){
-    //             gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
-    //         }
-
-    //         setPlayerStats(gamePlayerStats);
-    //     }
-
-    //     loadInitialData();
-    // }, []);
-
     const rows = useMemo(() => {
         const itemMap = {};
         let monsterRows = [];
@@ -150,10 +115,6 @@ function Implings({mapping, latest, filter}) {
         },
     ];
 
-    // const calculateRowHeight = (params) => {
-    //     return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
-    // };
-
     return <Box
         component="form"
         sx={{
@@ -163,40 +124,12 @@ function Implings({mapping, latest, filter}) {
         autoComplete="off"
     >
         <Container>
-            {/* <FormGroup>
-                <Stack
-                    direction="row"
-                >
-                    <FormControlLabel control={
-                        <Checkbox
-                            checked={hideNonCombat}
-                            label="Hide non-combat things"
-                            onChange={(event) => {
-                                setHideNonCombat(event.target.checked);
-                            }}
-                        />
-                    } label="Hide non-combat" />
-                    <FormControlLabel control={
-                        <Checkbox
-                            checked={hideUnqualified}
-                            label="Hide unqualified"
-                            onChange={(event) => {
-                                setHideUnqualified(event.target.checked);
-                            }}
-                        />
-                    } label="Hide unqualified" />
-                    <FormControlLabel control={
-                        <TextField
-                            label="Max combat level"
-                            onChange={(event) => {
-                                setMaxCombatLevel(event.target.value);
-                            }}
-                            type="number"
-                        />
-                    }/>
-                </Stack>
-            </FormGroup> */}
-            <DataGrid
+            <Typography
+                variant='h1'
+            >
+                {`Implings`}
+            </Typography>
+            <StickyTable
                 density="standard"
                 rows={rows}
                 columns={columns}
@@ -214,17 +147,10 @@ function Implings({mapping, latest, filter}) {
                         }],
                     },
                 }}
-                // getRowHeight={calculateRowHeight}
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                // hideFooter
-                // slots={{ toolbar: CustomToolbar }}
-            // slotProps={{
-            //     toolbar: {
-            //         showQuickFilter: true,
-            //     },
-            // }}
+                hideFooter
             />
         </Container>
     </Box>;

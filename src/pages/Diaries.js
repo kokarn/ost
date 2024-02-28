@@ -5,11 +5,12 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
+
+import StickyTable from '../components/StickyTable.js';
 
 // import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
@@ -203,7 +204,7 @@ function Diaries({filter}) {
     ];
 
     const calculateRowHeight = (params) => {
-        return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
+        return (Object.keys(params.model.skills).length || 1) * 25 + (16 * params.densityFactor);
     };
 
     return <Box
@@ -215,6 +216,11 @@ function Diaries({filter}) {
         autoComplete="off"
     >
         <Container>
+            <Typography
+                variant='h1'
+            >
+                {`Diaries`}
+            </Typography>
             <FormGroup>
                 <Stack
                     direction="row"
@@ -239,7 +245,7 @@ function Diaries({filter}) {
                     } label="Show only completable" />
                 </Stack>
             </FormGroup>
-            <DataGrid
+            <StickyTable
                 density="standard"
                 rows={rows}
                 columns={columns}

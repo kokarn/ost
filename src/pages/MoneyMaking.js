@@ -9,7 +9,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
@@ -165,7 +165,7 @@ function MoneyMaking({filter}) {
     ];
 
     const calculateRowHeight = (params) => {
-        return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
+        return (Object.keys(params.model.skills).length || 1) * 25 + (16 * params.densityFactor);
     };
 
     return <Box
@@ -177,6 +177,11 @@ function MoneyMaking({filter}) {
         autoComplete="off"
     >
         <Container>
+            <Typography
+                variant='h1'
+            >
+                {`Money making`}
+            </Typography>
             <FormGroup>
                 <Stack
                     direction="row"
@@ -205,7 +210,6 @@ function MoneyMaking({filter}) {
                 density="standard"
                 rows={rows}
                 columns={columns}
-                // getRowHeight={() => 'auto'}
                 initialState={{
                     columns: {
                         columnVisibilityModel: {
@@ -217,13 +221,6 @@ function MoneyMaking({filter}) {
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                // hideFooter
-                // slots={{ toolbar: CustomToolbar }}
-            // slotProps={{
-            //     toolbar: {
-            //         showQuickFilter: true,
-            //     },
-            // }}
             />
         </Container>
     </Box>;

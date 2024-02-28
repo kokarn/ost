@@ -5,12 +5,13 @@ import {
 } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { DataGrid } from '@mui/x-data-grid';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
+
+import StickyTable from '../components/StickyTable';
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
@@ -173,10 +174,6 @@ function MonsterProfits({mapping, latest, filter}) {
         },
     ];
 
-    // const calculateRowHeight = (params) => {
-    //     return (Object.keys(params.model.skills).length || 1) * 20 + (16 * params.densityFactor);
-    // };
-
     return <Box
         component="form"
         sx={{
@@ -186,6 +183,11 @@ function MonsterProfits({mapping, latest, filter}) {
         autoComplete="off"
     >
         <Container>
+            <Typography
+                variant='h1'
+            >
+                {`Monsters`}
+            </Typography>
             <FormGroup>
                 <Stack
                     direction="row"
@@ -228,11 +230,10 @@ function MonsterProfits({mapping, latest, filter}) {
                     }/>
                 </Stack>
             </FormGroup>
-            <DataGrid
+            <StickyTable
                 density="standard"
                 rows={rows}
                 columns={columns}
-                // getRowHeight={() => 'auto'}
                 initialState={{
                     columns: {
                         columnVisibilityModel: {
@@ -246,17 +247,9 @@ function MonsterProfits({mapping, latest, filter}) {
                         }],
                     },
                 }}
-                // getRowHeight={calculateRowHeight}
                 disableColumnFilter
                 disableColumnSelector
                 disableDensitySelector
-                // hideFooter
-                // slots={{ toolbar: CustomToolbar }}
-            // slotProps={{
-            //     toolbar: {
-            //         showQuickFilter: true,
-            //     },
-            // }}
             />
         </Container>
     </Box>;
