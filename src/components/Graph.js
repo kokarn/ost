@@ -4,8 +4,6 @@ import { LineChart } from '@mui/x-charts/LineChart';
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 
-// import timeseries from '../data/timeseries.json';
-
 export default function Graph({itemId}) {
     const [xData, setXData] = useState([]);
     const [lowData, setLowData] = useState([]);
