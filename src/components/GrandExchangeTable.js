@@ -14,6 +14,7 @@ import CustomNoRowsOverlay from '../components/NoRows.js';
 import StickyTable from './StickyTable.js';
 
 import numberFormat from '../modules/number-format.mjs';
+import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
 import '../App.css';
 
@@ -107,7 +108,7 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
         {
             field: 'volume',
             headerName: 'Volume',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: ({ value }) => runescapeNumberFormat(value),
             width: 120,
         },
         {

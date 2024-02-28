@@ -7,6 +7,7 @@ import ItemRow from './ItemRow.js';
 import StickyTable from './StickyTable.js';
 
 import numberFormat from '../modules/number-format.mjs';
+import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
 import '../App.css';
 
@@ -63,7 +64,7 @@ function CraftTable({latest, mapping, profits, filter}) {
         {
             field: 'volume',
             headerName: 'Volume',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: ({ value }) => runescapeNumberFormat(value),
             width: 120,
         },
         {
