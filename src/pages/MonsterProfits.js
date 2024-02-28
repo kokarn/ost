@@ -188,7 +188,7 @@ function MonsterProfits({mapping, latest, filter}) {
             <Typography
                 variant='h1'
             >
-                {`Monsters`}
+                {`Monster Profits`}
             </Typography>
             <FormGroup>
                 <Stack
