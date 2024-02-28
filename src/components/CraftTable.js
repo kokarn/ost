@@ -58,6 +58,7 @@ function CraftTable({latest, mapping, profits, filter}) {
                     id={itemData?.id}
                 />;
             },
+            minWidth: 200,
         },
         {
             field: 'volume',

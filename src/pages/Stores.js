@@ -120,12 +120,13 @@ function StoreProfits({mapping, latest, volumes, filter}) {
                     </a>
                 </div>;
             },
+            minWidth: 200,
         },
         {
             field: 'quantity',
             headerName: 'Stock',
             renderCell: ({ value }) => numberFormat(value),
-            width: 150,
+            // width: 150,
         },
         {
             field: 'gePrice',

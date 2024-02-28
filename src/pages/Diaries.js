@@ -134,6 +134,7 @@ function Diaries({filter}) {
                     {row.region} - {row.difficulty}
                 </a>;
             },
+            minWidth: 200,
         },
         {
             field: 'quests',

@@ -148,6 +148,7 @@ function MonsterProfits({mapping, latest, filter}) {
                     {row.name}
                 </a>;
             },
+            minWidth: 200,
         },
         {
             field: 'lootValue',

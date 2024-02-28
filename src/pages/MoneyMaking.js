@@ -103,6 +103,7 @@ function MoneyMaking({filter}) {
                     {value}
                 </a>;
             },
+            minWidth: 200,
         },
         {
             field: 'hourlyProfit',
