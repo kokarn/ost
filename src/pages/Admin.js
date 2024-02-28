@@ -3,7 +3,6 @@ import {
     useState,
     useRef,
 } from 'react';
-import { Typography, Stack, FormControlLabel } from '@mui/material';
 
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
@@ -18,6 +17,9 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import FormGroup from '@mui/material/FormGroup';
 import Switch from '@mui/material/Switch';
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+import FormControlLabel from '@mui/material/FormControlLabel';
 
 import numberFormat from '../modules/number-format.mjs';
 import addRecipe from '../modules/add-recipe.mjs';
@@ -101,7 +103,6 @@ function Admin({latest, mapping, profits, dayData, volumes, filter}) {
         <Container>
             <Typography
                 variant="h1"
-                component="h1"
             >
                 Admin
             </Typography>

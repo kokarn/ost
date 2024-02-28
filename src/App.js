@@ -16,24 +16,28 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
-import SearchIcon from '@mui/icons-material/Search';
 import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+
+// Icons
+import SearchIcon from '@mui/icons-material/Search';
+import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 
+// Modules
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
 import urlFrieldlyName from './modules/urlfriendly-name.mjs';
 
+// Pages
 import Admin from './pages/Admin.js';
 import BurntValue from './pages/BurntValue.js';
 import Crafting from './pages/Crafting.js';
 import Diaries from './pages/Diaries.js';
 import Implings from './pages/Implings.js';
-
+import Item from './pages/Item.js';
 import Items from './pages/Items.js';
 import LevelCalculator from './pages/LevelCalculator.js';
 import MoneyMaking from './pages/MoneyMaking.js';
@@ -411,6 +415,17 @@ function App() {
                     path="diaries"
                     element={<Diaries
                         filter={debouncedFilter}
+                    />}
+                />
+                <Route
+                    path="/item/:id"
+                    element={<Item
+                        dayData={lastDayData}
+                        filter={debouncedFilter}
+                        latest={latest}
+                        mapping={mapping}
+                        profits={profits}
+                        volumes={volumes}
                     />}
                 />
                 <Route

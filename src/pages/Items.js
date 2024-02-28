@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 
 import GrandExchangeTable from '../components/GrandExchangeTable.js';
 
@@ -12,7 +12,6 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
         <Container>
             <Typography
                 variant="h1"
-                component="h1"
             >
                 {'Grand Exchange'}
             </Typography>
