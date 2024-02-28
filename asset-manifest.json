@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.438bab0c.css",
-    "main.js": "/static/js/main.867b52c8.js",
+    "main.js": "/static/js/main.3be39ba7.js",
     "static/js/453.94917b5a.chunk.js": "/static/js/453.94917b5a.chunk.js",
+    "static/media/runescape.woff2": "/static/media/runescape.439f24490799ef608e08.woff2",
     "index.html": "/index.html",
     "static/media/burnt-prices.txt": "/static/media/burnt-prices.5f1aef070b03c3434f8f.txt",
     "main.438bab0c.css.map": "/static/css/main.438bab0c.css.map",
-    "main.867b52c8.js.map": "/static/js/main.867b52c8.js.map",
+    "main.3be39ba7.js.map": "/static/js/main.3be39ba7.js.map",
     "453.94917b5a.chunk.js.map": "/static/js/453.94917b5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.438bab0c.css",
-    "static/js/main.867b52c8.js"
+    "static/js/main.3be39ba7.js"
   ]
 }
