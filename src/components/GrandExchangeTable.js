@@ -138,7 +138,9 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
         },
     ];
 
-    return [<FormGroup>
+    return [<FormGroup
+        key = 'high-alch-checkbox'
+    >
         <FormControlLabel control={
             <Checkbox
                 checked={highAlch}
@@ -182,6 +184,7 @@ function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}
         disableColumnFilter
         disableColumnSelector
         disableDensitySelector
+        key = 'grand-exchange-table'
         pageSizeOptions={[20]}
         // hideFooter
         slots={{
