@@ -122,7 +122,7 @@ function MonsterProfits({mapping, latest, filter}) {
             }
 
             monsterData.lootValue = totalLootValue;
-            monsterData.lootRatio = totalLootValue / monsterData.combatLevel;
+            monsterData.lootRatio = Math.floor(totalLootValue / monsterData.combatLevel);
 
             monsterRows.push(monsterData);
         }
