@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 
 import numberFormat from '../modules/number-format.mjs';
-// import loadJSON from '../modules/load-json.mjs';
+import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 import ItemRow from '../components/ItemRow.js';
 import calculateStoreProfit from '../modules/calculate-store-profit.mjs';
 import StickyTable from '../components/StickyTable.js';
@@ -137,7 +137,7 @@ function StoreProfits({mapping, latest, volumes, filter}) {
         {
             field: 'volume',
             headerName: 'GE volume',
-            renderCell: ({ value }) => numberFormat(value) || '',
+            renderCell: ({ value }) => runescapeNumberFormat(value) || '',
             // width: 150,
         },
         {
@@ -171,7 +171,7 @@ function StoreProfits({mapping, latest, volumes, filter}) {
                         <span
                             className='subtext'
                         >
-                            {`Hourly: ${numberFormat(row.storeProfit * 240)}`}
+                            {`Hourly: ${runescapeNumberFormat(row.storeProfit * 240)}`}
                         </span>
                     </div>;
                 },
