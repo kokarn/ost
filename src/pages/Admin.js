@@ -91,12 +91,6 @@ function Admin({latest, mapping, profits, dayData, volumes, filter}) {
 
     return <Box
         component="form"
-        sx={{
-            '& .MuiTextField-root': {
-                m: 1,
-                width: '25ch',
-            },
-        }}
         noValidate
         autoComplete="off"
     >

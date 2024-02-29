@@ -8,6 +8,7 @@ import TextField from '@mui/material/TextField';
 import Container from '@mui/material/Container';
 import Autocomplete from '@mui/material/Autocomplete';
 import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -53,9 +54,6 @@ function Level({mapping, latest}) {
 
     return <Box
         component="form"
-        sx={{
-            '& .MuiTextField-root': { m: 1, width: '25ch' },
-        }}
         noValidate
         autoComplete="off"
     >
@@ -65,25 +63,30 @@ function Level({mapping, latest}) {
             >
                 {`Level calculator`}
             </Typography>
-            <TextField
-                type="number"
-                name="current-level"
-                placeholder="Current Level"
-                label="Current Level"
-                value={currentLevel || ''}
-                onChange={(event) => setCurrentLevel(Number(event.target.value))}
-                sx = {{
-                    ml: 0,
-                }}
-            />
-            <TextField
-                type="number"
-                name="target-level"
-                placeholder="Target Level"
-                label="Target Level"
-                value={targetLevel || ''}
-                onChange={(event) => setTargetLevel(Number(event.target.value))}
-            />
+            <Stack
+                direction={'row'}
+                spacing={2}
+            >
+                <TextField
+                    type="number"
+                    name="current-level"
+                    placeholder="Current Level"
+                    label="Current Level"
+                    value={currentLevel || ''}
+                    onChange={(event) => setCurrentLevel(Number(event.target.value))}
+                    sx = {{
+                        ml: 0,
+                    }}
+                />
+                <TextField
+                    type="number"
+                    name="target-level"
+                    placeholder="Target Level"
+                    label="Target Level"
+                    value={targetLevel || ''}
+                    onChange={(event) => setTargetLevel(Number(event.target.value))}
+                />
+            </Stack>
             <Typography
                 variant='h5'
             >
@@ -102,32 +105,40 @@ function Level({mapping, latest}) {
             >
                 {`Actions Needed: ${numberFormat(Math.round(expNeeded / experiencePerAction))}`}
             </Typography>
-            <TextField
-                type="number"
-                name="cost-per-action"
-                placeholder="Cost per Action"
-                label="Cost per Action"
-                value={costPerAction || ''}
-                onChange={(event) => setCostPerAction(Number(event.target.value))}
-            />
-            <Autocomplete
-                disablePortal
-                options={availableItems}
-                onChange={(event, value) => {
-                    const itemId = Object.values(mapping).find((item) => item.name === value)?.id;
+            <Stack
+                direction={'row'}
+                spacing={2}
+            >
+                <TextField
+                    type="number"
+                    name="cost-per-action"
+                    placeholder="Cost per Action"
+                    label="Cost per Action"
+                    value={costPerAction || ''}
+                    onChange={(event) => setCostPerAction(Number(event.target.value))}
+                />
+                <Autocomplete
+                    disablePortal
+                    options={availableItems}
+                    onChange={(event, value) => {
+                        const itemId = Object.values(mapping).find((item) => item.name === value)?.id;
 
-                    if(!itemId) {
-                        return true;
-                    }
+                        if(!itemId) {
+                            return true;
+                        }
 
-                    setCostPerAction(latest[itemId].low);
-                }}
-                renderInput={(params) => <TextField
-                    {...params}
-                    inputRef={itemRef}
-                    label="Input item"
-                />}
-            />
+                        setCostPerAction(latest[itemId].low);
+                    }}
+                    renderInput={(params) => <TextField
+                        {...params}
+                        inputRef={itemRef}
+                        label="Input item"
+                    />}
+                    sx={{
+                        width: 300,
+                    }}
+                />
+            </Stack>
             <Typography
                 variant='h5'
             >

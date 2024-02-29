@@ -118,9 +118,6 @@ function Implings({mapping, latest, filter}) {
 
     return <Box
         component="form"
-        sx={{
-            '& .MuiTextField-root': { m: 1, width: '25ch' },
-        }}
         noValidate
         autoComplete="off"
     >

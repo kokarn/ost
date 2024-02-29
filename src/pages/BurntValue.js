@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -84,9 +85,6 @@ function BurntValue() {
 
     return <Box
         component="form"
-        sx={{
-            '& .MuiTextField-root': { m: 1, width: '25ch' },
-        }}
         noValidate
         autoComplete="off"
     >
@@ -101,19 +99,27 @@ function BurntValue() {
             >
                 {`Total value: From ${numberFormat(lowTotal)} to ${numberFormat(highTotal)}`}
             </Typography>
+            <Grid
+                container
+                spacing={2}
+                justifyContent={'space-between'}
+            >
             {Object.entries(prices).map(([key, value], index) => (
-                <TextField
-                    type="number"
-                    name={key}
-                    key = {key}
-                    placeholder={key}
-                    label={`${key} (${numberFormat(value.low)} - ${numberFormat(value.high)})`}
-                    value={currentBank[key] || ''}
-                    onChange={(event) => {
-                        updateBank(key, Number(event.target.value));
-                    }}
-                />
+                <Grid>
+                    <TextField
+                        type="number"
+                        name={key}
+                        key = {key}
+                        placeholder={key}
+                        label={`${key} (${numberFormat(value.low)} - ${numberFormat(value.high)})`}
+                        value={currentBank[key] || ''}
+                        onChange={(event) => {
+                            updateBank(key, Number(event.target.value));
+                        }}
+                    />
+                </Grid>
             ))}
+            </Grid>
         </Container>
     </Box>;
 }
