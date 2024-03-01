@@ -9,6 +9,8 @@ import Container from '@mui/material/Container';
 import Autocomplete from '@mui/material/Autocomplete';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 
 import numberFormat from '../modules/number-format.mjs';
 
@@ -57,93 +59,120 @@ function Level({mapping, latest}) {
         noValidate
         autoComplete="off"
     >
-        <Container>
+        <Container
+            maxWidth="sm"
+        >
             <Typography
                 variant='h1'
             >
                 {`Level calculator`}
             </Typography>
-            <Stack
-                direction={'row'}
-                spacing={2}
+            <Card
+                variant="outlined"
             >
-                <TextField
-                    type="number"
-                    name="current-level"
-                    placeholder="Current Level"
-                    label="Current Level"
-                    value={currentLevel || ''}
-                    onChange={(event) => setCurrentLevel(Number(event.target.value))}
-                    sx = {{
-                        ml: 0,
-                    }}
-                />
-                <TextField
-                    type="number"
-                    name="target-level"
-                    placeholder="Target Level"
-                    label="Target Level"
-                    value={targetLevel || ''}
-                    onChange={(event) => setTargetLevel(Number(event.target.value))}
-                />
-            </Stack>
-            <Typography
-                variant='h5'
-            >
-                {`Exp Needed: ${numberFormat(Math.round(expNeeded))}`}
-            </Typography>
-            <TextField
-                type="number"
-                name="experience-per-action"
-                placeholder="Experience per Action"
-                label="Experience per Action"
-                value={experiencePerAction || ''}
-                onChange={(event) => setExperiencePerAction(Number(event.target.value))}
-            />
-            <Typography
-                variant='h5'
-            >
-                {`Actions Needed: ${numberFormat(Math.round(expNeeded / experiencePerAction))}`}
-            </Typography>
-            <Stack
-                direction={'row'}
-                spacing={2}
-            >
-                <TextField
-                    type="number"
-                    name="cost-per-action"
-                    placeholder="Cost per Action"
-                    label="Cost per Action"
-                    value={costPerAction || ''}
-                    onChange={(event) => setCostPerAction(Number(event.target.value))}
-                />
-                <Autocomplete
-                    disablePortal
-                    options={availableItems}
-                    onChange={(event, value) => {
-                        const itemId = Object.values(mapping).find((item) => item.name === value)?.id;
+                <CardContent
+                    bgcolor="background.paper"
+                >
+                    <Stack
+                        direction={'row'}
+                        spacing={2}
+                    >
+                        <TextField
+                            type="number"
+                            name="current-level"
+                            placeholder="Current Level"
+                            label="Current Level"
+                            value={currentLevel || ''}
+                            onChange={(event) => setCurrentLevel(Number(event.target.value))}
+                            sx = {{
+                                width: '50%',
+                            }}
+                            size="small"
+                        />
+                        <TextField
+                            type="number"
+                            name="target-level"
+                            placeholder="Target Level"
+                            label="Target Level"
+                            value={targetLevel || ''}
+                            onChange={(event) => setTargetLevel(Number(event.target.value))}
+                            sx = {{
+                                width: '50%',
+                            }}
+                            size="small"
+                        />
+                    </Stack>
+                    <Typography
+                        variant="h2"
+                        sx={{
+                            marginBottom: 4,
+                        }}
+                    >
+                        {`Exp Needed: ${numberFormat(Math.round(expNeeded))}`}
+                    </Typography>
+                    <TextField
+                        type="number"
+                        name="experience-per-action"
+                        placeholder="Experience per Action"
+                        label="Experience per Action"
+                        value={experiencePerAction || ''}
+                        onChange={(event) => setExperiencePerAction(Number(event.target.value))}
+                        size="small"
+                    />
+                    <Typography
+                        variant="h2"
+                        sx={{
+                            marginBottom: 4,
+                        }}
+                    >
+                        {`Actions Needed: ${numberFormat(Math.round(expNeeded / experiencePerAction))}`}
+                    </Typography>
+                    <Stack
+                        direction={'row'}
+                        spacing={2}
+                    >
+                        <TextField
+                            type="number"
+                            name="cost-per-action"
+                            placeholder="Cost per Action"
+                            label="Cost per Action"
+                            value={costPerAction || ''}
+                            onChange={(event) => setCostPerAction(Number(event.target.value))}
+                            sx={{
+                                width: '50%',
+                            }}
+                            size="small"
+                        />
+                        <Autocomplete
+                            disablePortal
+                            options={availableItems}
+                            onChange={(event, value) => {
+                                const itemId = Object.values(mapping).find((item) => item.name === value)?.id;
 
-                        if(!itemId) {
-                            return true;
-                        }
+                                if(!itemId) {
+                                    return true;
+                                }
 
-                        setCostPerAction(latest[itemId].low);
-                    }}
-                    renderInput={(params) => <TextField
-                        {...params}
-                        inputRef={itemRef}
-                        label="Input item"
-                    />}
-                    sx={{
-                        width: 300,
-                    }}
-                />
-            </Stack>
-            <Typography
-                variant='h5'
-            >
-                {`Total cost: ${numberFormat(Math.round(expNeeded / experiencePerAction) * costPerAction)}`}
-            </Typography>
+                                setCostPerAction(latest[itemId].low);
+                            }}
+                            renderInput={(params) => <TextField
+                                {...params}
+                                inputRef={itemRef}
+                                label="Input item"
+                            />}
+                            sx={{
+                                width: '50%',
+                            }}
+                            size="small"
+                        />
+                    </Stack>
+                    <Typography
+                        variant="h2"
+                    >
+                        {`Total cost: ${numberFormat(Math.round(expNeeded / experiencePerAction) * costPerAction)}`}
+                    </Typography>
+                </CardContent>
+            </Card>
         </Container>
     </Box>;
 }

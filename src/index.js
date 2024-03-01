@@ -52,6 +52,13 @@ const theme = createTheme({
                 }
             `,
         },
+        MuiCard: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: '#d6c7aa',
+                }
+            }
+        },
     },
 });
 
