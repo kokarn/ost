@@ -42,6 +42,7 @@ import Items from './pages/Items.js';
 import LevelCalculator from './pages/LevelCalculator.js';
 import MoneyMaking from './pages/MoneyMaking.js';
 import MonsterProfits from './pages/MonsterProfits.js';
+import Profile from './pages/Profile.js';
 import Stores from './pages/Stores.js';
 
 import './App.css';
@@ -427,6 +428,10 @@ function App() {
                         profits={profits}
                         volumes={volumes}
                     />}
+                />
+                <Route
+                    path="profile"
+                    element={<Profile />}
                 />
                 <Route
                     path="admin"

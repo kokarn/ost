@@ -56,3 +56,32 @@ body {
 .skill-boost-ok {
     color: orange;
 }
+
+.skill-wrapper {
+    background-color: #4e4e4a;
+    /* border: 1px solid #706350; */
+    color: #f0f008;
+    font-size: 0.8rem;
+    background:
+     -webkit-radial-gradient(0 100%, circle, rgba(204,0,0,0) 2px, #4e4e4a 3px),
+     -webkit-radial-gradient(100% 100%, circle, rgba(204,0,0,0) 2px, #4e4e4a 3px),
+     -webkit-radial-gradient(100% 0, circle, rgba(204,0,0,0) 2px, #4e4e4a 3px),
+     -webkit-radial-gradient(0 0, circle, rgba(204,0,0,0) 2px, #4e4e4a 3px);
+    background-position: bottom left, bottom right, top right, top left;
+    -moz-background-size: 50% 50%;
+    -webkit-background-size: 50% 50%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 2px 8px;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+.skill-icon {
+    max-height: 22px;
+    /* width: 24px; */
+}
+
+.skill-level-text-wrapper {
+    line-height: 24px;
+}
