@@ -11,7 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const data = JSON.parse(fs.readFileSync('data/mapping.json', 'utf8'));
 
-const currentData = JSON.parse(fs.readFileSync(join(__dirname, '../src/data/item-properties.json'), 'utf8'));
+const currentData = JSON.parse(fs.readFileSync(join(__dirname, '../src/data/item-properties-raw.json'), 'utf8'));
 
 let itemData = {};
 
@@ -21,6 +21,7 @@ for(const itemId in data){
     index = index + 1;
 
     if(currentData[itemId]){
+        itemData[itemId] = currentData[itemId];
         continue;
     };
 
@@ -50,5 +51,15 @@ for(const itemId in data){
         itemData[itemId][camelCase(key)] = value;
     });
 
-    fs.writeFileSync(join(__dirname, '..', 'src', 'data', 'item-properties.json'), JSON.stringify(itemData, null, 4));
+    fs.writeFileSync(join(__dirname, '..', 'src', 'data', 'item-properties-raw.json'), JSON.stringify(itemData, null, 4));
 }
+
+let minimalItemData = {};
+
+for(const itemId in itemData){
+    minimalItemData[itemId] = {
+        stackable: itemData[itemId].stackable,
+    };
+}
+
+fs.writeFileSync(join(__dirname, '..', 'src', 'data', 'item-properties.json'), JSON.stringify(minimalItemData, null, 4));
