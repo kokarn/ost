@@ -61,10 +61,10 @@ function Profile({filter}) {
             <Skills
                 skills = {playerStats}
             ></Skills>
-            <img
+            {/* <img
                 alt = 'Skills tab'
                 src = {`${process.env.PUBLIC_URL}/Skills_tab.png`}
-            />
+            /> */}
         </Container>
     </Box>;
 }
