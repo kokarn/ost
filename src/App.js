@@ -20,11 +20,16 @@ import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import IconButton from '@mui/material/IconButton';
 import MenuItem from '@mui/material/MenuItem';
+import Modal from '@mui/material/Modal';
+import Container from '@mui/material/Container';
+
+import Skills from './components/Skills.js';
 
 // Icons
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
+import PersonIcon from '@mui/icons-material/Person';
 
 // Modules
 import loadJSON from './modules/load-json.mjs';
@@ -42,7 +47,6 @@ import Items from './pages/Items.js';
 import LevelCalculator from './pages/LevelCalculator.js';
 import MoneyMaking from './pages/MoneyMaking.js';
 import MonsterProfits from './pages/MonsterProfits.js';
-import Profile from './pages/Profile.js';
 import Stores from './pages/Stores.js';
 
 import './App.css';
@@ -92,6 +96,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 function Layout({handleFilterChange}) {
     const [anchorElNav, setAnchorElNav] = useState(null);
     const inputRef = useRef(null);
+    const [modalOpen, setModalOpen] = useState(false);
 
     const handleOpenNavMenu = (event) => {
       setAnchorElNav(event.currentTarget);
@@ -100,6 +105,9 @@ function Layout({handleFilterChange}) {
     const handleCloseNavMenu = () => {
       setAnchorElNav(null);
     };
+
+    const handleOpen = () => setModalOpen(true);
+    const handleClose = () => setModalOpen(false);
 
     const pages = [
         {
@@ -234,6 +242,48 @@ function Layout({handleFilterChange}) {
                         </Button>
                     ))}
                 </Box>
+                <IconButton
+                    size="large"
+                    aria-label="account of current user"
+                    aria-controls="menu-appbar"
+                    aria-haspopup="true"
+                    onClick={handleOpen}
+                    color="inherit"
+                >
+                        <PersonIcon />
+                </IconButton>
+                <Modal
+                    open={modalOpen}
+                    onClose={handleClose}
+                    aria-labelledby="modal-modal-title"
+                    aria-describedby="modal-modal-description"
+                >
+                    <Box
+                        autoComplete="off"
+                        // component="form"
+                        noValidate
+                        sx={{
+                            bgcolor: 'background.paper',
+                            border: '2px solid #000',
+                            boxShadow: 24,
+                            left: '50%',
+                            outline: 0,
+                            p: 2,
+                            position: 'absolute',
+                            top: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            // width: 400,
+                        }}
+                    >
+                        <Container
+                            sx={{
+                                padding: 0,
+                            }}
+                        >
+                            <Skills />
+                        </Container>
+                    </Box>
+                </Modal>
                 <Box
                     sx={{
                         marginRight: '12px',
@@ -428,10 +478,6 @@ function App() {
                         profits={profits}
                         volumes={volumes}
                     />}
-                />
-                <Route
-                    path="profile"
-                    element={<Profile />}
                 />
                 <Route
                     path="admin"
