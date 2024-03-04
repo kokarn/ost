@@ -11,11 +11,12 @@ import Checkbox from '@mui/material/Checkbox';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 
+import ItemRow from '../components/ItemRow.js';
+import StickyTable from '../components/StickyTable.js';
+
 import numberFormat from '../modules/number-format.mjs';
 import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
-import ItemRow from '../components/ItemRow.js';
 import calculateStoreProfit from '../modules/calculate-store-profit.mjs';
-import StickyTable from '../components/StickyTable.js';
 
 import stores from '../data/stores.json';
 import itemProperties from '../data/item-properties.json';
