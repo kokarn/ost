@@ -86,7 +86,7 @@ export default function Skills() {
                 spacing={0.5}
                 sx={{
                     backgroundColor: '#3f3529',
-                    maxWidth: 204,
+                    width: 204,
                 }}
             >
                 {skillOrder.map((skill, index) => {
