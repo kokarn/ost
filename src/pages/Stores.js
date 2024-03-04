@@ -75,7 +75,12 @@ function StoreProfits({mapping, latest, volumes, filter}) {
 
             // storeItem.storeProfit = storeItem.quantity * (storeItem.gePrice - storeItem.sellPrice);
             storeItem.storeCost = calculateStoreProfit(storeItem.sellPrice, storeItem.storeChangeRate, storeItem.quantity)
-            storeItem.storeProfit = storeItem.quantity * storeItem.gePrice - storeItem.storeCost;
+
+            if(itemProperties[mappingLookup[storeItem.name].id]?.stackable){
+                storeItem.storeProfit = storeItem.quantity * storeItem.gePrice - storeItem.storeCost;
+            } else {
+                storeItem.storeProfit = Math.min(28, storeItem.quantity) * storeItem.gePrice - storeItem.storeCost;
+            }
 
             if(sellToStore){
                 storeItem.profitRatio = storeItem.buyPrice / storeItem.gePrice;
