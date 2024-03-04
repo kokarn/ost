@@ -1,12 +1,17 @@
 import {
     useEffect,
     useState,
+    useRef,
 } from 'react';
 
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+
+import useStateWithLocalStorage from '../hooks/useStateWithLocalStorage';
 
 import loadJSON from '../modules/load-json.mjs';
 import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
@@ -38,41 +43,9 @@ let skillOrder = [
     'Combat level',
 ];
 
-export default function Skills() {
-    const [playerStats, setPlayerStats] = useState({});
-
-    const playerName  = 'superkokarn';
-
-    useEffect(() => {
-        const loadInitialData = async () => {
-            const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/${playerName}/STANDARD`);
-            const gamePlayerStats = mappingData.levels;
-
-            gamePlayerStats['Quests'] = mappingData.quests;
-            gamePlayerStats['Achievement diaries'] = mappingData.achievement_diaries;
-
-            gamePlayerStats['Quest points'] = 0;
-            gamePlayerStats['Skills'] = 0;
-
-            for(const skill in mappingData.levels){
-                if(skill === 'Skills'){
-                    continue;
-                }
-
-                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
-            }
-
-            for(const quest in mappingData.quests){
-                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
-            }
-
-            gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
-
-            setPlayerStats(gamePlayerStats);
-        }
-
-        loadInitialData();
-    }, []);
+export default function Skills({playerName, playerStats}) {
+    const [localPlayerName, setPlayerName] = useStateWithLocalStorage('playerName', playerName);
+    const inputRef = useRef(null);
 
     return (
         <Box>
@@ -81,7 +54,24 @@ export default function Skills() {
             >
                 {playerName}
             </Typography>
-            <Grid
+            <Stack
+                direction={'row'}
+                spacing={1}
+            >
+                <TextField
+                    label='Set a player name'
+                    onChange={(event) => {
+                        setPlayerName(event.target.value);
+                    }}
+                    size='small'
+                />
+                <Button
+                    variant="contained"
+                >
+                    {'Set player'}
+                </Button>
+            </Stack>
+            {playerName && <Grid
                 container
                 spacing={0.5}
                 sx={{
@@ -128,6 +118,7 @@ export default function Skills() {
                     );
                 })}
             </Grid>
+        }
         </Box>
     );
 }

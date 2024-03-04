@@ -35,6 +35,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import loadJSON from './modules/load-json.mjs';
 import calculateProfit from './modules/calculate-profit.mjs';
 import urlFrieldlyName from './modules/urlfriendly-name.mjs';
+import useStateWithLocalStorage from './hooks/useStateWithLocalStorage';
+import calculateCombatLevel from './modules/calculate-combat-level.mjs';
 
 // Pages
 import Admin from './pages/Admin.js';
@@ -93,7 +95,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-function Layout({handleFilterChange}) {
+function Layout({handleFilterChange, playerName, playerStats}) {
     const [anchorElNav, setAnchorElNav] = useState(null);
     const inputRef = useRef(null);
     const [modalOpen, setModalOpen] = useState(false);
@@ -280,7 +282,10 @@ function Layout({handleFilterChange}) {
                                 padding: 0,
                             }}
                         >
-                            <Skills />
+                            <Skills 
+                                playerName={playerName}
+                                playerStats={playerStats}
+                            />
                         </Container>
                     </Box>
                 </Modal>
@@ -337,6 +342,8 @@ function App() {
     const [volumes, setVolumes] = useState({});
     const [itemFilter, setItemFilter] = useState('');
     const [debouncedFilter, setDebouncedFilter] = useState('');
+    const [playerName] = useStateWithLocalStorage('playerName', '');
+    const [playerStats, setPlayerStats] = useState({});
 
     useEffect(() => {
         const loadInitialData = async () => {
@@ -361,10 +368,37 @@ function App() {
 
             const currentProfit = await calculateProfit(latestData.data, fullMap, dayData.data);
             setProfit(currentProfit);
+
+            if(playerName) {
+                const playerData = await loadJSON(`https://sync.runescape.wiki/runelite/player/${playerName}/STANDARD`);
+                const gamePlayerStats = playerData.levels;
+
+                gamePlayerStats['Quests'] = playerData.quests;
+                gamePlayerStats['Achievement diaries'] = playerData.achievement_diaries;
+
+                gamePlayerStats['Quest points'] = 0;
+                gamePlayerStats['Skills'] = 0;
+
+                for(const skill in playerData.levels){
+                    if(skill === 'Skills'){
+                        continue;
+                    }
+
+                    gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + playerData.levels[skill];
+                }
+
+                for(const quest in playerData.quests){
+                    gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + playerData.quests[quest];
+                }
+
+                gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
+
+                setPlayerStats(gamePlayerStats);
+            }
         }
 
         loadInitialData();
-    }, []);
+    }, [playerName]);
 
     useEffect(() =>{
         let interval = setInterval(async () => {
@@ -396,6 +430,8 @@ function App() {
                     handleFilterChange={(e) => {
                         setItemFilter(e.target.value);
                     }}
+                    playerStats={playerStats}
+                    playerName={playerName}
                 />}
             >
                 <Route
