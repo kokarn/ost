@@ -18464,54 +18464,6 @@
         "storeChangeRate": 2
     },
     {
-        "name": "Fur",
-        "quantity": null,
-        "sellPrice": 528,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Baraek",
-        "storeChangeRate": 1
-    },
-    {
-        "name": "Bear fur",
-        "quantity": 20,
-        "sellPrice": 289,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Baraek",
-        "storeChangeRate": 1
-    },
-    {
-        "name": "Grey wolf fur",
-        "quantity": null,
-        "sellPrice": 56,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Baraek",
-        "storeChangeRate": 1
-    },
-    {
-        "name": "Fur",
-        "quantity": null,
-        "sellPrice": 528,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Baraek",
-        "storeChangeRate": 1
-    },
-    {
-        "name": "Bear fur",
-        "quantity": 20,
-        "sellPrice": 289,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Baraek",
-        "storeChangeRate": 1
-    },
-    {
-        "name": "Grey wolf fur",
-        "quantity": null,
-        "sellPrice": 56,
-        "buyPrice": null,
-        "store": "https://oldschool.runescape.wiki/w/Baraek",
-        "storeChangeRate": 1
-    },
-    {
         "name": "Bear fur",
         "quantity": 3,
         "sellPrice": 12,
@@ -22630,5 +22582,133 @@
         "buyPrice": 1,
         "store": "https://oldschool.runescape.wiki/w/Sawmill_operator",
         "storeChangeRate": 0
+    },
+    {
+        "name": "Relicym's balm(3)",
+        "quantity": 100,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Sanfew serum(3)",
+        "quantity": 0,
+        "sellPrice": 240,
+        "buyPrice": 144,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Achey tree logs",
+        "quantity": 100,
+        "sellPrice": 4,
+        "buyPrice": 2,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Bow string",
+        "quantity": 10,
+        "sellPrice": 10,
+        "buyPrice": 6,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Raw chompy",
+        "quantity": 0,
+        "sellPrice": 85,
+        "buyPrice": 51,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Cooked chompy",
+        "quantity": 10,
+        "sellPrice": 130,
+        "buyPrice": 78,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Ogre coffin key",
+        "quantity": 0,
+        "sellPrice": 100,
+        "buyPrice": 60,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Knife",
+        "quantity": 5,
+        "sellPrice": 6,
+        "buyPrice": 3,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Bronze brutal",
+        "quantity": 0,
+        "sellPrice": 5,
+        "buyPrice": 3,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Iron brutal",
+        "quantity": 0,
+        "sellPrice": 10,
+        "buyPrice": 6,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Steel brutal",
+        "quantity": 0,
+        "sellPrice": 20,
+        "buyPrice": 12,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Black brutal",
+        "quantity": 0,
+        "sellPrice": 35,
+        "buyPrice": 21,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Mithril brutal",
+        "quantity": 0,
+        "sellPrice": 50,
+        "buyPrice": 30,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Adamant brutal",
+        "quantity": 0,
+        "sellPrice": 95,
+        "buyPrice": 57,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Rune brutal",
+        "quantity": 0,
+        "sellPrice": 450,
+        "buyPrice": 270,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
+    },
+    {
+        "name": "Comp ogre bow",
+        "quantity": 0,
+        "sellPrice": 180,
+        "buyPrice": 108,
+        "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "storeChangeRate": 2
     }
 ]

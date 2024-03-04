@@ -40,6 +40,7 @@ function StoreProfits({mapping, latest, volumes, filter}) {
             }
 
             if (!mappingLookup[storeItem.name]) {
+                // console.log(`No mapping for ${storeItem.name}`);
                 continue;
             }
 
@@ -61,8 +62,9 @@ function StoreProfits({mapping, latest, volumes, filter}) {
                 continue;
             }
 
-            // Remove all items with a low volume
+            // // Remove all items with a low volume
             if(volumes[mappingLookup[storeItem.name].id] < 1000){
+                // console.log(`Low volume: ${storeItem.name} (${volumes[mappingLookup[storeItem.name].id]})`);
                 continue;
             }
 

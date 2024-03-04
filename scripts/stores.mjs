@@ -29,6 +29,7 @@ const weirdStores = [
     // "https://oldschool.runescape.wiki/w/Silk_merchant",
     // "https://oldschool.runescape.wiki/w/Anwen",
     // 'https://oldschool.runescape.wiki/w/Candle_seller',
+    // "https://oldschool.runescape.wiki/w/Baraek",
 ];
 
 let stores = [
@@ -200,7 +201,6 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Solihib%27s_Food_Stall",
     "https://oldschool.runescape.wiki/w/The_Shrimp_and_Parrot",
     "https://oldschool.runescape.wiki/w/Warrior_Guild_Food_Shop",
-    "https://oldschool.runescape.wiki/w/Baraek",
     "https://oldschool.runescape.wiki/w/Fur_trader_(East_Ardougne)",
     "https://oldschool.runescape.wiki/w/Fur_trader_(Rellekka)",
     "https://oldschool.runescape.wiki/w/Gem_Trader",
@@ -268,6 +268,7 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Island_Greengrocer",
     "https://oldschool.runescape.wiki/w/Logava_Gricoller%27s_Cooking_Supplies",
     "https://oldschool.runescape.wiki/w/Sawmill_operator",
+    "https://oldschool.runescape.wiki/w/Uglug_Nar",
 ];
 
 const keys = [
