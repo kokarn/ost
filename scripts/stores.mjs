@@ -106,7 +106,7 @@ let stores = [
     'https://oldschool.runescape.wiki/w/Zanaris_General_Store',
     'https://oldschool.runescape.wiki/w/Aubury%27s_Rune_Shop',
     'https://oldschool.runescape.wiki/w/Betty%27s_Magic_Emporium',
-    'https://oldschool.runescape.wiki/w/Ali%27s_Discount_Wares.#Runes',
+    'https://oldschool.runescape.wiki/w/Ali%27s_Discount_Wares.',
     'https://oldschool.runescape.wiki/w/Amlodd%27s_Magical_Supplies',
     'https://oldschool.runescape.wiki/w/Baba_Yaga%27s_Magic_Shop',
     'https://oldschool.runescape.wiki/w/Battle_Runes',
