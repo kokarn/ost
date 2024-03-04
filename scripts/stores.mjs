@@ -270,7 +270,8 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Sawmill_operator",
     "https://oldschool.runescape.wiki/w/Uglug_Nar",
     "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
-    "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants."
+    "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
+    "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
 ];
 
 const keys = [

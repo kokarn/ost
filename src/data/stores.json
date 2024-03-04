@@ -22790,5 +22790,221 @@
         "buyPrice": 0,
         "store": "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
         "storeChangeRate": 4
+    },
+    {
+        "name": "Enchanted gem",
+        "quantity": 50,
+        "sellPrice": 1,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Mirror shield",
+        "quantity": 100,
+        "sellPrice": 5000,
+        "buyPrice": 3000,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Leaf-bladed spear",
+        "quantity": 50,
+        "sellPrice": 31000,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Broad arrows",
+        "quantity": 50000,
+        "sellPrice": 60,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Bag of salt",
+        "quantity": 5000,
+        "sellPrice": 10,
+        "buyPrice": 6,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Rock hammer",
+        "quantity": 50,
+        "sellPrice": 500,
+        "buyPrice": 300,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Facemask",
+        "quantity": 50,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Earmuffs",
+        "quantity": 50,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Nose peg",
+        "quantity": 50,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Slayer's staff",
+        "quantity": 50,
+        "sellPrice": 21000,
+        "buyPrice": 12600,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Spiny helmet",
+        "quantity": 50,
+        "sellPrice": 650,
+        "buyPrice": 390,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Fishing explosive",
+        "quantity": 5000,
+        "sellPrice": 60,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Ice cooler",
+        "quantity": 5000,
+        "sellPrice": 1,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Slayer gloves",
+        "quantity": 50,
+        "sellPrice": 200,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Unlit bug lantern",
+        "quantity": 50,
+        "sellPrice": 130,
+        "buyPrice": 78,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Insulated boots",
+        "quantity": 50,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Fungicide spray 10",
+        "quantity": 50,
+        "sellPrice": 300,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Fungicide",
+        "quantity": 5000,
+        "sellPrice": 10,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Witchwood icon",
+        "quantity": 50,
+        "sellPrice": 900,
+        "buyPrice": 540,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Slayer bell",
+        "quantity": 50,
+        "sellPrice": 150,
+        "buyPrice": 90,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Broad arrowheads",
+        "quantity": 3000,
+        "sellPrice": 55,
+        "buyPrice": 33,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Broad arrowhead pack",
+        "quantity": 800,
+        "sellPrice": 5500,
+        "buyPrice": 3300,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Unfinished broad bolts",
+        "quantity": 5000,
+        "sellPrice": 55,
+        "buyPrice": 33,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Unfinished broad bolt pack",
+        "quantity": 1000,
+        "sellPrice": 5500,
+        "buyPrice": 3300,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Rock thrownhammer",
+        "quantity": 5000,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Boots of stone",
+        "quantity": 50,
+        "sellPrice": 200,
+        "buyPrice": 120,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
+    },
+    {
+        "name": "Reinforced goggles",
+        "quantity": 50,
+        "sellPrice": 100,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+        "storeChangeRate": 0.1
     }
 ]
