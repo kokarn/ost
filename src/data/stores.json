@@ -22710,5 +22710,85 @@
         "buyPrice": 108,
         "store": "https://oldschool.runescape.wiki/w/Uglug_Nar",
         "storeChangeRate": 2
+    },
+    {
+        "name": "Limestone brick",
+        "quantity": 1000,
+        "sellPrice": 26,
+        "buyPrice": 10,
+        "store": "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
+        "storeChangeRate": 3
+    },
+    {
+        "name": "Marble block",
+        "quantity": 20,
+        "sellPrice": 325000,
+        "buyPrice": 125000,
+        "store": "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
+        "storeChangeRate": 3
+    },
+    {
+        "name": "Gold leaf",
+        "quantity": 20,
+        "sellPrice": 130000,
+        "buyPrice": 50000,
+        "store": "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
+        "storeChangeRate": 3
+    },
+    {
+        "name": "Magic stone",
+        "quantity": 10,
+        "sellPrice": 975000,
+        "buyPrice": 375000,
+        "store": "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
+        "storeChangeRate": 3
+    },
+    {
+        "name": "Condensed gold",
+        "quantity": 10,
+        "sellPrice": null,
+        "buyPrice": null,
+        "store": "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
+        "storeChangeRate": 3
+    },
+    {
+        "name": "Limestone",
+        "quantity": 1000,
+        "sellPrice": 10,
+        "buyPrice": 9,
+        "store": "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
+        "storeChangeRate": 4
+    },
+    {
+        "name": "Limestone brick",
+        "quantity": 1000,
+        "sellPrice": 21,
+        "buyPrice": 19,
+        "store": "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
+        "storeChangeRate": 4
+    },
+    {
+        "name": "Timber beam",
+        "quantity": 1000,
+        "sellPrice": 1,
+        "buyPrice": 0,
+        "store": "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
+        "storeChangeRate": 4
+    },
+    {
+        "name": "Swamp paste",
+        "quantity": 1000,
+        "sellPrice": 31,
+        "buyPrice": 28,
+        "store": "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
+        "storeChangeRate": 4
+    },
+    {
+        "name": "Plank",
+        "quantity": 10,
+        "sellPrice": 1,
+        "buyPrice": 0,
+        "store": "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
+        "storeChangeRate": 4
     }
 ]

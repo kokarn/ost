@@ -269,6 +269,8 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Logava_Gricoller%27s_Cooking_Supplies",
     "https://oldschool.runescape.wiki/w/Sawmill_operator",
     "https://oldschool.runescape.wiki/w/Uglug_Nar",
+    "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
+    "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants."
 ];
 
 const keys = [
