@@ -134,13 +134,18 @@ try {
     console.error(error);
 }
 
-// for(const craft of crafts){
-//     // Add a cosmic rune
-//     console.log(craft);
-//     craft.input.push(564);
+// sort all methods by the key methodName
+methods.sort((a, b) => {
+    if(a.methodName < b.methodName){
+        return -1;
+    }
 
-//     await addRecipe(craft);
-// };
+    if(a.methodName > b.methodName){
+        return 1;
+    }
+
+    return 0;
+});
 
 // console.log(JSON.stringify(methods, null, 4));
 writeFile(join(__dirname, '..', 'src', 'data', 'money-making.json'), JSON.stringify(methods, null, 4));
