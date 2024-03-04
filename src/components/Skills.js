@@ -98,7 +98,7 @@ export default function Skills() {
 
                     return (
                         <Grid
-                            md = {4}
+                            xs = {4}
                             key = {index}
                         >
                             <Stack
