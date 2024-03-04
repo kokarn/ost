@@ -11,6 +11,7 @@ import Checkbox from '@mui/material/Checkbox';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
+import Alert from '@mui/material/Alert';
 
 import StickyTable from '../components/StickyTable';
 
@@ -187,6 +188,14 @@ function MonsterProfits({mapping, latest, filter}) {
             >
                 {`Monster Profits`}
             </Typography>
+            <Alert
+                severity="warning"
+                sx = {{
+                    my: 2
+                }}
+            >
+                All of these prices are rough estimates and might be <i>very</i> off. Always verify with the wiki!
+            </Alert>
             <FormGroup>
                 <Stack
                     direction="row"
