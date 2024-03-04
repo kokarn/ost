@@ -1,8 +1,29 @@
 import { DataGrid, gridClasses } from '@mui/x-data-grid';
 
+import CustomNoRowsOverlay from './NoRows.js';
+
 function StickyTable(props) {
+    let renderProps = {...props};
+    if(!renderProps?.slots?.noRowsOverlay){
+        if(!renderProps.slots) {
+            renderProps.slots = {};
+        }
+
+        renderProps.slots.noRowsOverlay = CustomNoRowsOverlay;
+    }
+
+    if(!renderProps?.slots?.noResultsOverlay){
+        if(!renderProps.slots) {
+            renderProps.slots = {};
+        }
+
+        renderProps.slots.noResultsOverlay = CustomNoRowsOverlay;
+    }
+
+    renderProps.autoHeight = true;
+
     return <DataGrid
-        {...props}
+        {...renderProps}
         sx={(theme) => ({
             [`.${gridClasses.main}`]: {
                 overflow: "unset"
