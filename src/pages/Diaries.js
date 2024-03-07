@@ -14,8 +14,8 @@ import Stack from '@mui/material/Stack';
 import StickyTable from '../components/StickyTable.js';
 
 // import numberFormat from '../modules/number-format.mjs';
-import loadJSON from '../modules/load-json.mjs';
-import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
+// import loadJSON from '../modules/load-json.mjs';
+// import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 import ucFirst from '../modules/uc-first.mjs';
 
 import diaryData from '../data/diaries.json';
@@ -23,41 +23,9 @@ import boostData from '../data/boosts.json';
 
 import '../App.css';
 
-function Diaries({filter}) {
-    const [playerStats, setPlayerStats] = useState({});
+function Diaries({filter, playerStats}) {
     const [hideCompleted, setHideCompleted] = useState(true);
     const [onlyCompletable, setOnlyCompletable] = useState(false);
-
-    useEffect(() => {
-        const loadInitialData = async () => {
-            const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
-            const gamePlayerStats = mappingData.levels;
-
-            gamePlayerStats['Quests'] = mappingData.quests;
-            gamePlayerStats['Achievement diaries'] = mappingData.achievement_diaries;
-
-            gamePlayerStats['Quest points'] = 0;
-            gamePlayerStats['Skills'] = 0;
-
-            for(const skill in mappingData.levels){
-                if(skill === 'Skills'){
-                    continue;
-                }
-
-                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
-            }
-
-            for(const quest in mappingData.quests){
-                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
-            }
-
-            gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
-
-            setPlayerStats(gamePlayerStats);
-        }
-
-        loadInitialData();
-    }, []);
 
     const rows = useMemo(() => {
         let returnRows = [];

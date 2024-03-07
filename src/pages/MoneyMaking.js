@@ -13,46 +13,14 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 
 import numberFormat from '../modules/number-format.mjs';
-import loadJSON from '../modules/load-json.mjs';
-import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 
 import moneyMaking from '../data/money-making.json';
 
 import '../App.css';
 
-function MoneyMaking({filter}) {
-    const [playerStats, setPlayerStats] = useState({});
+function MoneyMaking({filter, playerStats}) {
     const [hideEmpty, setHideEmpty] = useState(true);
     const [hideUnqualified, setHideUnqualified] = useState(true);
-
-    useEffect(() => {
-        const loadInitialData = async () => {
-            const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
-            const gamePlayerStats = mappingData.levels;
-            gamePlayerStats['Quest points'] = 0;
-            gamePlayerStats['Skills'] = 0;
-
-            for(const skill in mappingData.levels){
-                if(skill === 'Skills'){
-                    continue;
-                }
-
-                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
-            }
-
-            for(const quest in mappingData.quests){
-                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
-            }
-
-            gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
-
-            // console.log(gamePlayerStats['Combat level']);
-
-            setPlayerStats(gamePlayerStats);
-        }
-
-        loadInitialData();
-    }, []);
 
     const rows = useMemo(() => {
         let returnRows = [];

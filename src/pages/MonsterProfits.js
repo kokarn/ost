@@ -16,43 +16,16 @@ import Alert from '@mui/material/Alert';
 import StickyTable from '../components/StickyTable';
 
 import numberFormat from '../modules/number-format.mjs';
-import loadJSON from '../modules/load-json.mjs';
 
 import monsters from '../data/monsters.json';
 
 import '../App.css';
 
-function MonsterProfits({mapping, latest, filter}) {
+function MonsterProfits({mapping, latest, filter, playerStats}) {
     const [hideNonCombat, setHideNonCombat] = useState(true);
-    const [playerStats, setPlayerStats] = useState({});
     const [hideUnqualified, setHideUnqualified] = useState(true);
     const [maxCombatLevel, setMaxCombatLevel] = useState(0);
     const [hideSuperior, setHideSuperior] = useState(true);
-
-    useEffect(() => {
-        const loadInitialData = async () => {
-            const mappingData = await loadJSON(`https://sync.runescape.wiki/runelite/player/superkokarn/STANDARD`);
-            const gamePlayerStats = mappingData.levels;
-            gamePlayerStats['Quest points'] = 0;
-            gamePlayerStats['Skills'] = 0;
-
-            for(const skill in mappingData.levels){
-                if(skill === 'Skills'){
-                    continue;
-                }
-
-                gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + mappingData.levels[skill];
-            }
-
-            for(const quest in mappingData.quests){
-                gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + mappingData.quests[quest];
-            }
-
-            setPlayerStats(gamePlayerStats);
-        }
-
-        loadInitialData();
-    }, []);
 
     const rows = useMemo(() => {
         const itemMap = {};
