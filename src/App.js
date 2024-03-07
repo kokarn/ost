@@ -50,6 +50,7 @@ import LevelCalculator from './pages/LevelCalculator.js';
 import MoneyMaking from './pages/MoneyMaking.js';
 import MonsterProfits from './pages/MonsterProfits.js';
 import Stores from './pages/Stores.js';
+import ZahurCalculator from './pages/ZahurCalculator.js';
 
 import './App.css';
 
@@ -157,6 +158,11 @@ function Layout({handleFilterChange, playerName, playerStats, handlePlayerNameCh
             label: 'Stores',
             path: '/stores',
         },
+        {
+            key: 'zahur-calculator',
+            label: 'Zahur Calculator',
+            path: '/zahur-calculator',
+        }
         // {
         //     key: 'admin',
         //     label: 'Admin',
@@ -525,6 +531,16 @@ function App() {
                         mapping={mapping}
                         profits={profits}
                         volumes={volumes}
+                    />}
+                />
+                <Route
+                    path="zahur-calculator"
+                    element={<ZahurCalculator
+                        latest={latest}
+                        filter={debouncedFilter}
+                        mapping={mapping}
+                        volumes={volumes}
+                        crafts={profits}
                     />}
                 />
                 <Route
