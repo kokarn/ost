@@ -32,7 +32,6 @@ const zahurPotions = [
 ]
 
 function Zahur({mapping, latest, filter, crafts}) {
-    console.log(crafts);
     const rows = useMemo(() => {
         const itemMap = {};
         let potionRows = [];
