@@ -147,6 +147,12 @@ function Zahur({mapping, latest, filter, crafts}) {
         },
     ];
 
+    const calculateRowHeight = (params) => {
+        const uniqueItems = [...new Set(params.model.input)];
+
+        return uniqueItems.length * 25 + (16 * params.densityFactor);
+    };
+
     return <Box
         component="form"
         noValidate
@@ -156,13 +162,13 @@ function Zahur({mapping, latest, filter, crafts}) {
             <Typography
                 variant='h1'
             >
-                {`Implings`}
+                {`Zahur Calculator`}
             </Typography>
             <StickyTable
                 density="standard"
                 rows={rows}
                 columns={columns}
-                // getRowHeight={() => 'auto'}
+                getRowHeight={calculateRowHeight}
                 initialState={{
                     columns: {
                         columnVisibilityModel: {
