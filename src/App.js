@@ -95,7 +95,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-function Layout({handleFilterChange, playerName, playerStats}) {
+function Layout({handleFilterChange, playerName, playerStats, handlePlayerNameChange}) {
     const [anchorElNav, setAnchorElNav] = useState(null);
     const inputRef = useRef(null);
     const [modalOpen, setModalOpen] = useState(false);
@@ -282,9 +282,10 @@ function Layout({handleFilterChange, playerName, playerStats}) {
                                 padding: 0,
                             }}
                         >
-                            <Skills 
+                            <Skills
                                 playerName={playerName}
                                 playerStats={playerStats}
+                                setPlayerName={handlePlayerNameChange}
                             />
                         </Container>
                     </Box>
@@ -342,7 +343,7 @@ function App() {
     const [volumes, setVolumes] = useState({});
     const [itemFilter, setItemFilter] = useState('');
     const [debouncedFilter, setDebouncedFilter] = useState('');
-    const [playerName] = useStateWithLocalStorage('playerName', '');
+    const [playerName, setPlayerName] = useStateWithLocalStorage('playerName', '');
     const [playerStats, setPlayerStats] = useState({});
 
     useEffect(() => {
@@ -371,29 +372,32 @@ function App() {
 
             if(playerName) {
                 const playerData = await loadJSON(`https://sync.runescape.wiki/runelite/player/${playerName}/STANDARD`);
-                const gamePlayerStats = playerData.levels;
 
-                gamePlayerStats['Quests'] = playerData.quests;
-                gamePlayerStats['Achievement diaries'] = playerData.achievement_diaries;
+                if(playerData.code !== 'NO_USER_DATA'){
+                    const gamePlayerStats = playerData.levels;
 
-                gamePlayerStats['Quest points'] = 0;
-                gamePlayerStats['Skills'] = 0;
+                    gamePlayerStats['Quests'] = playerData.quests;
+                    gamePlayerStats['Achievement diaries'] = playerData.achievement_diaries;
 
-                for(const skill in playerData.levels){
-                    if(skill === 'Skills'){
-                        continue;
+                    gamePlayerStats['Quest points'] = 0;
+                    gamePlayerStats['Skills'] = 0;
+
+                    for(const skill in playerData.levels){
+                        if(skill === 'Skills'){
+                            continue;
+                        }
+
+                        gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + playerData.levels[skill];
                     }
 
-                    gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + playerData.levels[skill];
+                    for(const quest in playerData.quests){
+                        gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + playerData.quests[quest];
+                    }
+
+                    gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
+
+                    setPlayerStats(gamePlayerStats);
                 }
-
-                for(const quest in playerData.quests){
-                    gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + playerData.quests[quest];
-                }
-
-                gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
-
-                setPlayerStats(gamePlayerStats);
             }
         }
 
@@ -430,6 +434,11 @@ function App() {
                     handleFilterChange={(e) => {
                         setItemFilter(e.target.value);
                     }}
+                    handlePlayerNameChange={(value) => {
+                        if(value){
+                            setPlayerName(value);
+                        }
+                    }}
                     playerStats={playerStats}
                     playerName={playerName}
                 />}
@@ -456,6 +465,7 @@ function App() {
                     path="money-making"
                     element={<MoneyMaking
                         filter={debouncedFilter}
+                        playerStats={playerStats}
                     />}
                 />
                 <Route
@@ -475,6 +485,7 @@ function App() {
                         latest={latest}
                         mapping={mapping}
                         filter={debouncedFilter}
+                        playerStats={playerStats}
                     />}
                 />
                 <Route
@@ -502,6 +513,7 @@ function App() {
                     path="diaries"
                     element={<Diaries
                         filter={debouncedFilter}
+                        playerStats={playerStats}
                     />}
                 />
                 <Route

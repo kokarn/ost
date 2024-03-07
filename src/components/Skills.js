@@ -1,6 +1,4 @@
 import {
-    useEffect,
-    useState,
     useRef,
 } from 'react';
 
@@ -12,9 +10,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 import useStateWithLocalStorage from '../hooks/useStateWithLocalStorage';
-
-import loadJSON from '../modules/load-json.mjs';
-import calculateCombatLevel from '../modules/calculate-combat-level.mjs';
 
 let skillOrder = [
     'Attack',
@@ -43,8 +38,7 @@ let skillOrder = [
     'Combat level',
 ];
 
-export default function Skills({playerName, playerStats}) {
-    const [localPlayerName, setPlayerName] = useStateWithLocalStorage('playerName', playerName);
+export default function Skills({playerName, playerStats, setPlayerName}) {
     const inputRef = useRef(null);
 
     return (
@@ -54,23 +48,32 @@ export default function Skills({playerName, playerStats}) {
             >
                 {playerName}
             </Typography>
-            <Stack
-                direction={'row'}
+            <Grid
+                container
                 spacing={1}
             >
-                <TextField
-                    label='Set a player name'
-                    onChange={(event) => {
-                        setPlayerName(event.target.value);
-                    }}
-                    size='small'
-                />
-                <Button
-                    variant="contained"
+                <Grid
+                    xs = {8}
                 >
-                    {'Set player'}
-                </Button>
-            </Stack>
+                    <TextField
+                        label='Set a player name'
+                        size='small'
+                        inputRef={inputRef}
+                    />
+                </Grid>
+                <Grid
+                    xs = {4}
+                >
+                    <Button
+                        onClick={(event) => {
+                            setPlayerName(inputRef.current.value);
+                        }}
+                        variant="contained"
+                    >
+                        {'Set'}
+                    </Button>
+                </Grid>
+            </Grid>
             {playerName && <Grid
                 container
                 spacing={0.5}
