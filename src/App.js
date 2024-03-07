@@ -50,6 +50,7 @@ import LevelCalculator from './pages/LevelCalculator.js';
 import MoneyMaking from './pages/MoneyMaking.js';
 import MonsterProfits from './pages/MonsterProfits.js';
 import Stores from './pages/Stores.js';
+import ZahurCalculator from './pages/ZahurCalculator.js';
 
 import './App.css';
 
@@ -157,6 +158,11 @@ function Layout({handleFilterChange, playerName, playerStats}) {
             label: 'Stores',
             path: '/stores',
         },
+        {
+            key: 'zahur-calculator',
+            label: 'Zahur Calculator',
+            path: '/zahur-calculator',
+        }
         // {
         //     key: 'admin',
         //     label: 'Admin',
@@ -371,29 +377,31 @@ function App() {
 
             if(playerName) {
                 const playerData = await loadJSON(`https://sync.runescape.wiki/runelite/player/${playerName}/STANDARD`);
-                const gamePlayerStats = playerData.levels;
-
-                gamePlayerStats['Quests'] = playerData.quests;
-                gamePlayerStats['Achievement diaries'] = playerData.achievement_diaries;
-
-                gamePlayerStats['Quest points'] = 0;
-                gamePlayerStats['Skills'] = 0;
-
-                for(const skill in playerData.levels){
-                    if(skill === 'Skills'){
-                        continue;
+                if(playerData.levels){
+                    const gamePlayerStats = playerData.levels;
+    
+                    gamePlayerStats['Quests'] = playerData.quests;
+                    gamePlayerStats['Achievement diaries'] = playerData.achievement_diaries;
+    
+                    gamePlayerStats['Quest points'] = 0;
+                    gamePlayerStats['Skills'] = 0;
+    
+                    for(const skill in playerData.levels){
+                        if(skill === 'Skills'){
+                            continue;
+                        }
+    
+                        gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + playerData.levels[skill];
                     }
-
-                    gamePlayerStats['Skills'] = gamePlayerStats['Skills'] + playerData.levels[skill];
+    
+                    for(const quest in playerData.quests){
+                        gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + playerData.quests[quest];
+                    }
+    
+                    gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
+    
+                    setPlayerStats(gamePlayerStats);
                 }
-
-                for(const quest in playerData.quests){
-                    gamePlayerStats['Quest points'] = gamePlayerStats['Quest points'] + playerData.quests[quest];
-                }
-
-                gamePlayerStats['Combat level'] = calculateCombatLevel(gamePlayerStats);
-
-                setPlayerStats(gamePlayerStats);
             }
         }
 
@@ -513,6 +521,16 @@ function App() {
                         mapping={mapping}
                         profits={profits}
                         volumes={volumes}
+                    />}
+                />
+                <Route
+                    path="zahur-calculator"
+                    element={<ZahurCalculator
+                        latest={latest}
+                        filter={debouncedFilter}
+                        mapping={mapping}
+                        volumes={volumes}
+                        crafts={profits}
                     />}
                 />
                 <Route
