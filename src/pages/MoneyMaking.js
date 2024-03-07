@@ -183,6 +183,12 @@ function MoneyMaking({filter, playerStats}) {
                             id: false,
                         },
                     },
+                    sorting: {
+                        sortModel: [{
+                            field: 'hourlyProfit',
+                            sort: 'desc',
+                        }],
+                    },
                 }}
                 getRowHeight={calculateRowHeight}
                 disableColumnFilter
