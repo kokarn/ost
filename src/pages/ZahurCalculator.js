@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import StickyTable from '../components/StickyTable';
 
 import numberFormat from '../modules/number-format.mjs';
+import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
 import '../App.css';
 
@@ -31,7 +32,7 @@ const zahurPotions = [
     22443,
 ]
 
-function Zahur({mapping, latest, filter, crafts}) {
+function Zahur({mapping, latest, filter, crafts, volumes}) {
     const rows = useMemo(() => {
         const itemMap = {};
         let potionRows = [];
@@ -57,12 +58,13 @@ function Zahur({mapping, latest, filter, crafts}) {
                 profit: profit,
                 roi: profit / totalCost,
                 profit1M: Math.floor(1000000 / totalCost) * profit,
+                volume: volumes[itemId] || 0,
             });
         }
 
 
         return potionRows;
-    }, [mapping, crafts]);
+    }, [mapping, crafts, volumes]);
 
     const columns = [
         {
@@ -144,6 +146,11 @@ function Zahur({mapping, latest, filter, crafts}) {
             headerName: 'Profit 1M',
             renderCell: ({ value }) => numberFormat(value),
         },
+        {
+            field: 'volume',
+            headerName: 'Volume',
+            renderCell: ({ value }) => runescapeNumberFormat(value),
+        }
     ];
 
     const calculateRowHeight = (params) => {
