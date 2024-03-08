@@ -183,7 +183,7 @@ function Zahur({mapping, latest, filter, crafts, volumes}) {
                     },
                     sorting: {
                         sortModel: [{
-                            field: 'jarProfit',
+                            field: 'roi',
                             sort: 'desc',
                         }],
                     },
