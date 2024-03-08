@@ -8,6 +8,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
 import StickyTable from '../components/StickyTable';
+import ItemRow from '../components/ItemRow';
 
 import numberFormat from '../modules/number-format.mjs';
 import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
@@ -50,7 +51,6 @@ function Zahur({mapping, latest, filter, crafts, volumes}) {
             potionRows.push({
                 id: itemId,
                 name: mapping[itemId]?.name,
-                link: `https://oldschool.runescape.wiki/w/${mapping[itemId]?.name}`,
                 input: crafts[itemId]?.input || [],
                 zahurFee: 200,
                 totalCost: totalCost,
@@ -59,6 +59,7 @@ function Zahur({mapping, latest, filter, crafts, volumes}) {
                 roi: profit / totalCost,
                 profit1M: Math.floor(1000000 / totalCost) * profit,
                 volume: volumes[itemId] || 0,
+                icon: mapping[itemId]?.icon,
             });
         }
 
@@ -77,12 +78,11 @@ function Zahur({mapping, latest, filter, crafts, volumes}) {
             flex: 1,
             headerName: 'Name',
             renderCell: ({row}) => {
-                // console.log(row);
-                return <a
-                    href={row.link}
-                >
-                    {row.name}
-                </a>;
+                return <ItemRow
+                    name={row.name}
+                    icon={row?.icon}
+                    id={row?.id}
+                />;
             },
             minWidth: 200,
         },
