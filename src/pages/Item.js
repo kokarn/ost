@@ -142,7 +142,7 @@ function Item({latest, mapping, profits, dayData, volumes, filter}) {
                             </TableRow>
                         {storeLocations.map((row) => (
                             <TableRow
-                                key={row.name}
+                                key={`${row.store}-${row.name}-${row.quantity}-${row.sellPrice}`}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                             >
                                 <TableCell component="th" scope="row">
