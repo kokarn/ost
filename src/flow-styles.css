@@ -1,0 +1,8 @@
+.react-flow__node-default,
+.react-flow__node-input,
+.react-flow__node-output,
+.react-flow__node-group {
+    font-size: 10px;
+    padding: 2px;
+    width: 125px;
+}

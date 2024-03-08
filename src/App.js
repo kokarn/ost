@@ -529,7 +529,7 @@ function App() {
                         filter={debouncedFilter}
                         latest={latest}
                         mapping={mapping}
-                        profits={profits}
+                        crafts={profits}
                         volumes={volumes}
                     />}
                 />
