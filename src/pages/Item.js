@@ -26,7 +26,7 @@ import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
 // import CraftTable from '../components/CraftTable.js';
 import Graph from '../components/Graph.js';
-// import CustomNode from '../components/CustomNode';
+import ItemNode from '../components/ItemNode';
 
 import stores from '../data/stores.json';
 
@@ -134,9 +134,11 @@ const initialEdges = [
     // },
 ];
 
-// const nodeTypes = {
-//     custom: CustomNode,
-// };
+const nodeTypes = {
+    itemInput: ItemNode,
+    itemOutput: ItemNode,
+    item: ItemNode,
+};
 
 function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     const routeParams = useParams();
@@ -167,9 +169,10 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             if(resultItemId.toString() === itemData?.id.toString()) {
                 nodesCopy.push({
                     id: resultItemId,
-                    type: 'output',
+                    type: 'itemOutput',
                     data: {
                         label: mapping[resultItemId].name,
+                        icon: mapping[resultItemId].icon,
                     },
                     position: { x: 50, y: 0 + craftOffset },
                     // sourcePosition: 'right',
@@ -180,9 +183,10 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                 for(const inputItemId of crafts[resultItemId].input) {
                     nodesCopy.push({
                         id: inputItemId.toString(),
-                        type: 'input',
+                        type: 'itemInput',
                         data: {
                             label: mapping[inputItemId].name,
+                            icon: mapping[inputItemId].icon,
                         },
                         position: { x: -150, y: 50 * index + craftOffset},
                         sourcePosition: 'right',
@@ -205,9 +209,10 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             if(crafts[resultItemId].input.includes(itemData?.id)) {
                 nodesCopy.push({
                     id: resultItemId,
-                    type: 'output',
+                    type: 'itemOutput',
                     data: {
                         label: mapping[resultItemId].name,
+                        icon: mapping[resultItemId].icon,
                     },
                     position: { x: 50, y: 0 + craftOffset },
                     // sourcePosition: 'right',
@@ -218,9 +223,10 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                 for(const inputItemId of crafts[resultItemId].input) {
                     nodesCopy.push({
                         id: inputItemId.toString(),
-                        type: 'input',
+                        type: 'itemInput',
                         data: {
                             label: mapping[inputItemId].name,
+                            icon: mapping[inputItemId].icon,
                         },
                         position: { x: -150, y: 25 * index + craftOffset},
                         sourcePosition: 'right',
@@ -241,9 +247,22 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         }
         // console.log(nodesCopy);
         // console.log(edgesCopy);
+        // nodesCopy.push({
+        //     id: '4',
+        //     data: {
+        //         label: 'Test item',
+        //         icon: itemData?.icon,
+        //         id: itemData?.id,
+        //     },
+        //     position: {
+        //         x: 0,
+        //         y: 0,
+        //     },
+        //     type: 'custom',
+        // });
         setNodes(nodesCopy);
         setEdges(edgesCopy);
-    }, [itemData, crafts, mapping, setEdges, setNodes]);
+    }, [itemData, crafts, mapping, setNodes, setEdges]);
     // const storeLocations = Object.keys(stores).filter((storeItem) => stores[storeItem].name.includes(itemData?.name));
 
     // console.log(storeLocations);
@@ -282,7 +301,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                     onEdgesChange={onEdgesChange}
                     onConnect={onConnect}
                     fitView
-                    // nodeTypes={nodeTypes}
+                    nodeTypes={nodeTypes}
                 />
             </Grid>
             <Grid

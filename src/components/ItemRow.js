@@ -1,7 +1,7 @@
 import urlFriendlyName from '../modules/urlfriendly-name.mjs';
 
-const ItemRow = function({name, icon, id}) {
-    icon = icon.replace(/ /g, '_');
+const ItemRow = function({name, icon}) {
+    icon = icon?.replace(/ /g, '_');
 
     return <div
         className='item-wrapper'
@@ -14,24 +14,11 @@ const ItemRow = function({name, icon, id}) {
                 src={`https://oldschool.runescape.wiki/images/${icon}?cache`}
             />
         </div>
-        {/* <a
-            href={`https://oldschool.runescape.wiki/w/Special:Lookup?type=item&id=${id}`}
-        > */}
         <a
             href={`/item/${urlFriendlyName(name)}`}
         >
             {name}
         </a>
-        {/* <a
-            href = {`https://www.osrs.exchange/item/${name.toLowerCase().replace(/ /g, '-')}`}
-        >
-            G
-        </a>
-        <a
-            href = {`/item/${name.toLowerCase().replace(/ /g, '-')}`}
-        >
-            Data
-        </a> */}
     </div>;
 };
 
