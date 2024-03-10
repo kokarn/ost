@@ -23,6 +23,7 @@ import ReactFlow, {
 } from 'reactflow';
 
 import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
+import craftsToNodes from '../modules/crafts-to-nodes.mjs';
 
 // import CraftTable from '../components/CraftTable.js';
 import Graph from '../components/Graph.js';
@@ -43,97 +44,6 @@ const TableBackground = ({children}) => {
     </Paper>);
 };
 
-const initialNodes = [
-    // {
-    //     id: '1',
-    //     type: 'input',
-    //     data: {
-    //         label: 'Cadantine',
-    //     },
-    //     position: { x: -200, y: 5 },
-    //     sourcePosition: 'right',
-    // },
-    // {
-    //     id: '2',
-    //     type: 'input',
-    //     data: {
-    //         label: 'Vial of Water',
-    //     },
-    //     position: { x: -200, y: 50 },
-    //     sourcePosition: 'right',
-    // },
-    // {
-    //     id: '3',
-    //     data: {
-    //         label: 'Cadantine Potion (unf)',
-    //     },
-    //     position: {
-    //         x: -30,
-    //         y: 5,
-    //     },
-    //     targetPosition: 'left',
-    //     sourcePosition: 'right',
-    // },
-    // {
-    //     id: '4',
-    //     type: 'input',
-    //     data: {
-    //         label: 'White Berries',
-    //     },
-    //     position: {
-    //         x: -30,
-    //         y: 50,
-    //     },
-    //     sourcePosition: 'right',
-    // },
-    // {
-    //     id: '5',
-    //     data: {
-    //         label: 'Super defence (3)',
-    //     },
-    //     position: {
-    //         x: 150,
-    //         y: 5,
-    //     },
-    //     targetPosition: 'left',
-    //     type: 'output',
-    //     // sourcePosition: 'right',
-    // },
-    // {
-    //     id: '4',
-    //     data: { label: 'Node 4' },
-    //     position: { x: 400, y: 200 },
-    //     type: 'custom',
-    // },
-];
-
-const initialEdges = [
-    // {
-    //     id: 'e2-1',
-    //     source: '1',
-    //     target: '3',
-    //     animated: true,
-    // },
-    // {
-    //     id: 'e1-3',
-    //     source: '2',
-    //     target: '3',
-    //     animated: true,
-    // },
-    // {
-    //     id: 'e1-3',
-    //     source: '4',
-    //     target: '5',
-    //     animated: true,
-    // },
-    // {
-    //     id: 'e1-3',
-    //     source: '3',
-    //     target: '5',
-    //     animated: true,
-    // },
-];
-
 const nodeTypes = {
     itemInput: ItemNode,
     itemOutput: ItemNode,
@@ -143,8 +53,8 @@ const nodeTypes = {
 function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     const routeParams = useParams();
     const itemData = Object.values(mapping).find((data) => data.urlName === routeParams.id);
-    const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-    const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+    const [nodes, setNodes, onNodesChange] = useNodesState([]);
+    const [edges, setEdges, onEdgesChange] = useEdgesState([]);
     const onConnect = useCallback(
       (params) => setEdges((eds) => addEdge(params, eds)),
       [setEdges]
@@ -161,107 +71,9 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     }
 
     useEffect(() => {
-        let nodesCopy = [];
-        let edgesCopy = [];
-        let craftOffset = 0;
-        for(const resultItemId in crafts) {
-            // console.log(resultItemId, itemData?.id);
-            if(resultItemId.toString() === itemData?.id.toString()) {
-                nodesCopy.push({
-                    id: resultItemId,
-                    type: 'itemOutput',
-                    data: {
-                        label: mapping[resultItemId].name,
-                        icon: mapping[resultItemId].icon,
-                    },
-                    position: { x: 50, y: 0 + craftOffset },
-                    // sourcePosition: 'right',
-                    targetPosition: 'left',
-                });
-
-                let index = 0;
-                for(const inputItemId of crafts[resultItemId].input) {
-                    nodesCopy.push({
-                        id: inputItemId.toString(),
-                        type: 'itemInput',
-                        data: {
-                            label: mapping[inputItemId].name,
-                            icon: mapping[inputItemId].icon,
-                        },
-                        position: { x: -150, y: 50 * index + craftOffset},
-                        sourcePosition: 'right',
-                    });
-
-                    edgesCopy.push({
-                        id: `${inputItemId}-${resultItemId}`,
-                        source: inputItemId.toString(),
-                        target: resultItemId.toString(),
-                        animated: true,
-                    });
-
-                    index = index + 1;
-                }
-
-                craftOffset = craftOffset + (index * 25);
-                continue;
-            }
-
-            if(crafts[resultItemId].input.includes(itemData?.id)) {
-                nodesCopy.push({
-                    id: resultItemId,
-                    type: 'itemOutput',
-                    data: {
-                        label: mapping[resultItemId].name,
-                        icon: mapping[resultItemId].icon,
-                    },
-                    position: { x: 50, y: 0 + craftOffset },
-                    // sourcePosition: 'right',
-                    targetPosition: 'left',
-                });
-
-                let index = 0;
-                for(const inputItemId of crafts[resultItemId].input) {
-                    nodesCopy.push({
-                        id: inputItemId.toString(),
-                        type: 'itemInput',
-                        data: {
-                            label: mapping[inputItemId].name,
-                            icon: mapping[inputItemId].icon,
-                        },
-                        position: { x: -150, y: 25 * index + craftOffset},
-                        sourcePosition: 'right',
-                    });
-
-                    edgesCopy.push({
-                        id: `${inputItemId}-${resultItemId}`,
-                        source: inputItemId.toString(),
-                        target: resultItemId.toString(),
-                        animated: true,
-                    });
-
-                    index = index + 1;
-                }
-
-                craftOffset = craftOffset + (index * 25);
-            }
-        }
-        // console.log(nodesCopy);
-        // console.log(edgesCopy);
-        // nodesCopy.push({
-        //     id: '4',
-        //     data: {
-        //         label: 'Test item',
-        //         icon: itemData?.icon,
-        //         id: itemData?.id,
-        //     },
-        //     position: {
-        //         x: 0,
-        //         y: 0,
-        //     },
-        //     type: 'custom',
-        // });
-        setNodes(nodesCopy);
-        setEdges(edgesCopy);
+        const results = craftsToNodes(itemData, crafts, mapping);
+        setNodes(results.nodes);
+        setEdges(results.edges);
     }, [itemData, crafts, mapping, setNodes, setEdges]);
     // const storeLocations = Object.keys(stores).filter((storeItem) => stores[storeItem].name.includes(itemData?.name));
 
@@ -288,7 +100,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         <Grid
             container
         >
-            <Grid
+            {nodes.length > 0 && <Grid
                 md = {12}
                 sx={{
                     height: 300,
@@ -303,7 +115,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                     fitView
                     nodeTypes={nodeTypes}
                 />
-            </Grid>
+            </Grid>}
             <Grid
                 md = {4}
             >
