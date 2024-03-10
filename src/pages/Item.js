@@ -1,5 +1,4 @@
 import {
-    useCallback,
     useEffect,
     useState,
     useMemo,
@@ -20,7 +19,6 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import ReactFlow, {
-    addEdge,
     useNodesState,
     useEdgesState,
 } from 'reactflow';
@@ -58,12 +56,8 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     const routeParams = useParams();
     const itemData = Object.values(mapping).find((data) => data.urlName === routeParams.id);
     const [displayCraft, setDisplayCraft] = useState(0);
-    const [nodes, setNodes, onNodesChange] = useNodesState([]);
-    const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-    const onConnect = useCallback(
-        (params) => setEdges((eds) => addEdge(params, eds)),
-        [setEdges]
-    );
+    const [nodes, setNodes] = useNodesState([]);
+    const [edges, setEdges] = useEdgesState([]);
 
     let storeLocations = [];
 
