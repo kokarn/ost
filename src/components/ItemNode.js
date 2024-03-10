@@ -7,6 +7,8 @@ import {
 
 import ItemRow from './ItemRow';
 
+import numberFormat from '../modules/number-format.mjs';
+
 import '../item-node.css';
 
 const ItemNode = ({data, type, sourcePosition, targetPosition}) => {
@@ -26,6 +28,11 @@ const ItemNode = ({data, type, sourcePosition, targetPosition}) => {
             icon={data.icon}
             id={data.id}
         />
+        <div
+            className='item-price'
+        >
+            {numberFormat(data.price)}gp
+        </div>
     </div>);
 };
 

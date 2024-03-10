@@ -1,7 +1,9 @@
-const craftsToNodes = (itemData, crafts, mapping) => {
+const ITEM_HEIGHT = 35;
+
+const craftsToNodes = (itemData, crafts, mapping, latest) => {
     let nodes = [];
     let edges = [];
-    let craftOffset = 0;
+    let recipes = [];
 
     if(itemData){
         nodes.push({
@@ -10,6 +12,7 @@ const craftsToNodes = (itemData, crafts, mapping) => {
             data: {
                 label: mapping[itemData?.id]?.name,
                 icon: mapping[itemData?.id]?.icon,
+                price: latest[itemData?.id].low,
             },
             position: {
                 x: 0,
@@ -19,6 +22,9 @@ const craftsToNodes = (itemData, crafts, mapping) => {
             sourcePosition: 'right',
         })
     }
+
+    let isSource = false;
+    let isTarget = false;
 
     for(const resultItemId in crafts) {
         // If the result of the craft is the item we are looking at
@@ -31,10 +37,11 @@ const craftsToNodes = (itemData, crafts, mapping) => {
                     data: {
                         label: mapping[inputItemId].name,
                         icon: mapping[inputItemId].icon,
+                        price: latest[inputItemId].low,
                     },
                     position: {
                         x: -150,
-                        y: 25 * index + craftOffset,
+                        y: ITEM_HEIGHT * index,
                     },
                     sourcePosition: 'right',
                 });
@@ -49,54 +56,60 @@ const craftsToNodes = (itemData, crafts, mapping) => {
                 index = index + 1;
             }
 
-            craftOffset = craftOffset + (index * 25);
+            isTarget = true;
             continue;
         }
 
         // If the item we are looking at is an input to the craft
         if(crafts[resultItemId].input.includes(itemData?.id)) {
-            nodes.push({
+            let recipeNodes = [];
+            let recipeEdges = [];
+
+            isSource = true;
+            recipeNodes.push({
                 id: resultItemId,
                 type: 'itemOutput',
                 data: {
                     label: mapping[resultItemId].name,
                     icon: mapping[resultItemId].icon,
+                    price: latest[resultItemId].low,
                 },
                 position: {
                     x: 100,
-                    y: 0 + craftOffset,
+                    y: 0,
                 },
                 targetPosition: 'left',
             });
 
-            edges.push({
+            recipeEdges.push({
                 id: `${itemData.id}-${resultItemId}`,
                 source: itemData.id.toString(),
                 target: resultItemId.toString(),
                 animated: true,
             });
 
-            let index = 0;
+            let index = 1;
             for(const inputItemId of crafts[resultItemId].input) {
                 if(inputItemId.toString() === itemData?.id.toString()) {
                     continue;
                 }
 
-                nodes.push({
+                recipeNodes.push({
                     id: inputItemId.toString(),
                     type: 'itemInput',
                     data: {
                         label: mapping[inputItemId].name,
                         icon: mapping[inputItemId].icon,
+                        price: latest[inputItemId].low,
                     },
                     position: {
                         x: 0,
-                        y: 25 * index + craftOffset,
+                        y: ITEM_HEIGHT * index,
                     },
                     sourcePosition: 'right',
                 });
 
-                edges.push({
+                recipeEdges.push({
                     id: `${inputItemId}-${resultItemId}`,
                     source: inputItemId.toString(),
                     target: resultItemId.toString(),
@@ -106,16 +119,25 @@ const craftsToNodes = (itemData, crafts, mapping) => {
                 index = index + 1;
             }
 
-            craftOffset = craftOffset + (index * 25);
+            recipes[resultItemId] = {
+                nodes: recipeNodes,
+                edges: recipeEdges,
+            };
         }
     }
 
-    // console.log(nodes);
-    // console.log(edges);
+    if(!isSource && nodes[0]) {
+        nodes[0].type = 'itemOutput';
+    }
+
+    if(!isTarget && nodes[0]) {
+        nodes[0].type = 'itemInput';
+    }
 
     return {
         nodes: nodes,
         edges: edges,
+        recipes: recipes,
     }
 };
 

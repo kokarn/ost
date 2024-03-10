@@ -44,11 +44,6 @@ export default function Graph({itemId}) {
         // </ToggleButton>,
     ];
 
-    const control = {
-        value: historicalDays,
-        onChange: handleChange,
-        exclusive: true,
-    };
 
     useEffect(() => {
         const loadData = async () => {
@@ -90,7 +85,9 @@ export default function Graph({itemId}) {
         <div>
             <ToggleButtonGroup
                 size="small"
-                {...control}
+                value={historicalDays}
+                onChange = {handleChange}
+                exclusive
                 aria-label="Small sizes"
             >
                 {children}

@@ -1,5 +1,8 @@
 import {
-    useCallback, useEffect,
+    useCallback,
+    useEffect,
+    useState,
+    useMemo,
 } from 'react';
 
 import {
@@ -28,6 +31,7 @@ import craftsToNodes from '../modules/crafts-to-nodes.mjs';
 // import CraftTable from '../components/CraftTable.js';
 import Graph from '../components/Graph.js';
 import ItemNode from '../components/ItemNode';
+import CraftSelector from '../components/CraftSelector.js';
 
 import stores from '../data/stores.json';
 
@@ -53,11 +57,12 @@ const nodeTypes = {
 function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     const routeParams = useParams();
     const itemData = Object.values(mapping).find((data) => data.urlName === routeParams.id);
+    const [displayCraft, setDisplayCraft] = useState(0);
     const [nodes, setNodes, onNodesChange] = useNodesState([]);
     const [edges, setEdges, onEdgesChange] = useEdgesState([]);
     const onConnect = useCallback(
-      (params) => setEdges((eds) => addEdge(params, eds)),
-      [setEdges]
+        (params) => setEdges((eds) => addEdge(params, eds)),
+        [setEdges]
     );
 
     let storeLocations = [];
@@ -70,14 +75,44 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         storeLocations.push(storeItem);
     }
 
+    const itemCrafts = useMemo(() => {
+        let itemCrafts = [];
+        let initialSelectionDone = false;
+        for(const resultItemId in crafts) {
+            if(!crafts[resultItemId].input.includes(itemData?.id)) {
+                continue;
+            }
+
+            if(!initialSelectionDone) {
+                setDisplayCraft(resultItemId);
+                initialSelectionDone = true;
+            }
+
+            itemCrafts.push({
+                key: resultItemId,
+                value: mapping[resultItemId].name,
+            });
+        }
+
+        return itemCrafts;
+    }, [crafts, itemData, mapping]);
+
     useEffect(() => {
-        const results = craftsToNodes(itemData, crafts, mapping);
-        setNodes(results.nodes);
-        setEdges(results.edges);
-    }, [itemData, crafts, mapping, setNodes, setEdges]);
+        const results = craftsToNodes(itemData, crafts, mapping, latest);
+
+        setNodes(results.nodes.concat(results.recipes[displayCraft]?.nodes || []));
+        setEdges(results.edges.concat(results.recipes[displayCraft]?.edges || []));
+    }, [itemData, crafts, mapping, setNodes, setEdges, latest, displayCraft]);
     // const storeLocations = Object.keys(stores).filter((storeItem) => stores[storeItem].name.includes(itemData?.name));
 
     // console.log(storeLocations);
+
+    const handleCraftChange = (event, newDisplayCraft) => {
+        console.log(newDisplayCraft);
+        if(newDisplayCraft !== null) {
+            setDisplayCraft(newDisplayCraft);
+        }
+    };
 
     return <Container>
         <Typography
@@ -101,19 +136,32 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             container
         >
             {nodes.length > 0 && <Grid
+            md = {12}>
+                <CraftSelector
+                    handleCraftChange={handleCraftChange}
+                    displayCraft={displayCraft}
+                    itemCrafts={itemCrafts}
+                />
+            </Grid>}
+            {nodes.length > 0 && <Grid
                 md = {12}
                 sx={{
-                    height: 300,
+                    height: crafts[displayCraft]?.input.length * 80,
                 }}
             >
                 <ReactFlow
-                    nodes={nodes}
-                    onNodesChange={onNodesChange}
+                    defaultViewport={{
+                        x: 550,
+                        y: 20,
+                        zoom: 2,
+                    }}
                     edges={edges}
-                    onEdgesChange={onEdgesChange}
-                    onConnect={onConnect}
-                    fitView
+                    nodes={nodes}
                     nodeTypes={nodeTypes}
+                    // onNodesChange={onNodesChange}
+                    // onEdgesChange={onEdgesChange}
+                    // onConnect={onConnect}
+                    // fitView
                 />
             </Grid>}
             <Grid

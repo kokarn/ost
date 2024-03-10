@@ -13,3 +13,9 @@
 .item-node .item-image-wrapper {
     width: auto;
 }
+
+.item-node .item-price {
+    position: absolute;
+    text-align: right;
+    top: 20px;
+}
