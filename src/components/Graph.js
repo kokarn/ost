@@ -74,6 +74,9 @@ export default function Graph({itemId}) {
                     showMark: ({ index }) => index % 10 === 0,
                 }
             ]}
+            grid={{
+                horizontal: true,
+            }}
             height={300}
         />
     );
