@@ -8,7 +8,9 @@ export default function Graph({itemId}) {
     const [xData, setXData] = useState([]);
     const [lowData, setLowData] = useState([]);
     const [highData, setHighData] = useState([]);
-    const [historicalDays] = useState(2);
+    const [historicalDays] = useState(1);
+    const [scaleMax, setScaleMax] = useState(0);
+    const [scaleMin, setScaleMin] = useState(0);
 
     useEffect(() => {
         const loadData = async () => {
@@ -32,6 +34,12 @@ export default function Graph({itemId}) {
                 setXData(xData);
                 setLowData(lowData);
                 setHighData(highData);
+
+                const localMax = Math.max(...highData.filter((value) => value !== null));
+                const localMin = Math.min(...lowData.filter((value) => value !== null));
+
+                setScaleMax(localMax * 1.1);
+                setScaleMin(localMin * 0.9);
             }
         }
 
@@ -49,6 +57,8 @@ export default function Graph({itemId}) {
             yAxis={[{
                 scaleType: 'linear',
                 valueFormatter: numberFormat,
+                max: scaleMax,
+                min: scaleMin,
             }]}
             series={[
                 {
