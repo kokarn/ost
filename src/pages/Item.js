@@ -140,7 +140,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             {nodes.length > 0 && <Grid
                 md = {12}
                 sx={{
-                    height: crafts[displayCraft]?.input.length * 80 + 20,
+                    height: crafts[displayCraft]?.input.length || crafts[itemData?.id]?.input.length * 80 + 20,
                 }}
             >
                 <ReactFlow
@@ -156,6 +156,8 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                     // onEdgesChange={onEdgesChange}
                     // onConnect={onConnect}
                     // fitView
+                    panOnDrag={false}
+                    zoomOnScroll={false}
                 />
             </Grid>}
             <Grid

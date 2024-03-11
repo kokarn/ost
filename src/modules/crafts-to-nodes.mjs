@@ -57,7 +57,7 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
             }
 
             isTarget = true;
-            continue;
+            // continue;
         }
 
         // If the item we are looking at is an input to the craft
