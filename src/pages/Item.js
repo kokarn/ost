@@ -91,6 +91,21 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         return itemCrafts;
     }, [crafts, itemData, mapping]);
 
+    const recipeItemHeight = useMemo(() => {
+        let recipeItemHeight = 1;
+        let resultInputHeight = 1;
+        let resultOutputHeight = 1;
+        if(crafts[displayCraft]) {
+            resultInputHeight = crafts[displayCraft].input.length;
+        }
+
+        if(crafts[itemData?.id]) {
+            resultOutputHeight = crafts[itemData?.id].input.length;
+        }
+
+        return Math.max(recipeItemHeight, resultInputHeight, resultOutputHeight);
+    }, [crafts, displayCraft, itemData]);
+
     useEffect(() => {
         const results = craftsToNodes(itemData, crafts, mapping, latest);
 
@@ -140,7 +155,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             {nodes.length > 0 && <Grid
                 md = {12}
                 sx={{
-                    height: crafts[displayCraft]?.input.length || crafts[itemData?.id]?.input.length * 80 + 20,
+                    height: recipeItemHeight * 80 + 20,
                 }}
             >
                 <ReactFlow
