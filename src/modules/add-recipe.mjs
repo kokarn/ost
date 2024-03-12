@@ -1,13 +1,13 @@
 import loadJSON from "./load-json.mjs";
 
 const addRecipe = async (recipe) => {
-    const currentRecipes = await loadJSON('https://jsonblob.com/api/jsonBlob/1144240622516690944');
+    const currentRecipes = await loadJSON('https://jsonblob.com/api/jsonBlob/1216679464741494784');
 
-    if(currentRecipes[recipe.result]){
-        console.error(`Recipe for ${recipe.result} already exists`);
+    // if(currentRecipes[recipe.result]){
+    //     console.error(`Recipe for ${recipe.result} already exists`);
 
-        return false;
-    }
+    //     return false;
+    // }
 
     if(recipe.input.length < 1){
         console.error(`Can't add a recipe without any inputs`);
@@ -15,24 +15,22 @@ const addRecipe = async (recipe) => {
         return false;
     }
 
-    for(const inputId of recipe.input){
-        if(inputId === null){
-            console.error(`Can't add a recipe with a null input`);
+    // for(const inputId of recipe.input){
+    //     if(inputId === null){
+    //         console.error(`Can't add a recipe with a null input`);
 
-            return false;
-        }
-    }
+    //         return false;
+    //     }
+    // }
 
     console.log(`Adding recipe for ${recipe.result}`);
 
-    currentRecipes[recipe.result] = {
-        input: recipe.input,
-    };
+    currentRecipes.push(recipe);
 
-    console.log(currentRecipes[recipe.result]);
+    console.log(recipe);
     console.log(currentRecipes);
 
-    await fetch('https://jsonblob.com/api/jsonBlob/1144240622516690944', {
+    await fetch('https://jsonblob.com/api/jsonBlob/1216679464741494784', {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',

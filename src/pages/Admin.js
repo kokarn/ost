@@ -43,7 +43,7 @@ function renderRow(props) {
         ...style,
         top: style.top + LISTBOX_PADDING,
     };
-  
+
     if (dataSet.hasOwnProperty('group')) {
       return (
             <ListSubheader key={dataSet.key} component="div" style={inlineStyle}>
@@ -51,21 +51,21 @@ function renderRow(props) {
             </ListSubheader>
       );
     }
-  
+
     return (
         <Typography component="li" {...dataSet[0]} noWrap style={inlineStyle}>
             {`${dataSet[1]}`}
         </Typography>
     );
 }
-  
+
 const OuterElementContext = React.createContext({});
-  
+
 const OuterElementType = React.forwardRef((props, ref) => {
     const outerProps = React.useContext(OuterElementContext);
     return <div ref={ref} {...props} {...outerProps} />;
 });
-  
+
 function useResetCache(data) {
     const ref = React.useRef(null);
     React.useEffect(() => {
@@ -76,7 +76,7 @@ function useResetCache(data) {
 
     return ref;
 }
-  
+
   // Adapter for react-window
 const ListboxComponent = React.forwardRef(function ListboxComponent(props, ref) {
     const { children, ...other } = props;
@@ -130,12 +130,12 @@ const ListboxComponent = React.forwardRef(function ListboxComponent(props, ref) 
         </div>
     );
 });
-  
+
 ListboxComponent.propTypes = {
     children: PropTypes.node,
 };
-  
-  
+
+
 const StyledPopper = styled(Popper)({
     [`& .${autocompleteClasses.listbox}`]: {
         boxSizing: 'border-box',
@@ -183,9 +183,10 @@ function Admin({latest, mapping, profits, dayData, volumes, filter}) {
 
         const currentRecipeItems = [...newRecipeItems];
 
-        for(let i = 0; i < countRef.current.value; i = i + 1){
-            currentRecipeItems.push(inputItem.id);
-        }
+        currentRecipeItems.push({
+            id: inputItem.id,
+            count: Number(countRef.current.value),
+        });
 
         setNewRecipeItems(currentRecipeItems);
 
@@ -194,11 +195,32 @@ function Admin({latest, mapping, profits, dayData, volumes, filter}) {
 
     const switchLabel = isResult ? 'Result' : 'Input';
 
+    /*
+        {
+        "resultItemId": "1683",
+        "requirements": [],
+        "input": [
+            {
+                "id": "1615",
+                "count": 1
+            },
+            {
+                "id": "2357",
+                "count": 1
+            }
+        ]
+    },
+    */
+
     const saveRecipe = () => {
-        addRecipe({
+        const newRecipe = {
+            resultItemId: newRecipeResult,
+            requirements: [],
             input: newRecipeItems,
-            result: newRecipeResult,
-        });
+        };
+
+        console.log(newRecipe);
+        addRecipe(newRecipe);
 
         setNewRecipeItems([]);
         setNewRecipeResult(null);
@@ -298,35 +320,49 @@ function Admin({latest, mapping, profits, dayData, volumes, filter}) {
                             <TableCell>
                                 Name
                             </TableCell>
-                            <TableCell align="right">
+                            <TableCell
+                                align="right"
+                            >
+                                Count
+                            </TableCell>
+                            <TableCell
+                                align="right"
+                            >
                                 Value
                             </TableCell>
-                            <TableCell align="right">
-                                    Id
+                            <TableCell
+                                align="right"
+                            >
+                                Id
                             </TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
                     {newRecipeItems.map((row) => (
                         <TableRow
-                            key={row}
+                            key={row.id}
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
                             <TableCell
-                                component="th" 
+                                component="th"
                                 scope="row"
                             >
-                                {mapping[row].name}
+                                {mapping[row.id].name}
                             </TableCell>
-                            <TableCell 
-                                lign="right"
-                            >
-                                {numberFormat(latest[row].high)}
-                            </TableCell>
-                            <TableCell 
+                            <TableCell
                                 align="right"
                             >
-                                {row}
+                                {row.count}
+                            </TableCell>
+                            <TableCell
+                                align="right"
+                            >
+                                {numberFormat(latest[row.id].high * row.count)}
+                            </TableCell>
+                            <TableCell
+                                align="right"
+                            >
+                                {row.id}
                             </TableCell>
                         </TableRow>
                     ))}

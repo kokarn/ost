@@ -13,7 +13,7 @@ const calculateProfit = async () => {
     // const recipesData = await fs.readFile('./recipes.json', 'utf-8');
     // const recipes = JSON.parse(recipesData);
 
-    const recipesResponse = await got('https://jsonblob.com/api/jsonBlob/1144240622516690944', {
+    const recipesResponse = await got('https://jsonblob.com/api/jsonBlob/1216679464741494784', {
         responseType: 'json',
     });
 
