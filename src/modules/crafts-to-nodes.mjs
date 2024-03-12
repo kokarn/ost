@@ -26,18 +26,18 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
     let isSource = false;
     let isTarget = false;
 
-    for(const resultItemId in crafts) {
+    for(const craft of crafts) {
         // If the result of the craft is the item we are looking at
-        if(resultItemId.toString() === itemData?.id.toString()) {
+        if(craft.resultItemId.toString() === itemData?.id.toString()) {
             let index = 0;
-            for(const inputItemId of crafts[resultItemId].input) {
+            for(const input of craft.input) {
                 nodes.push({
-                    id: inputItemId.toString(),
+                    id: input.id.toString(),
                     type: 'itemInput',
                     data: {
-                        label: mapping[inputItemId].name,
-                        icon: mapping[inputItemId].icon,
-                        price: latest[inputItemId].low,
+                        label: mapping[input.id].name,
+                        icon: mapping[input.id].icon,
+                        price: latest[input.id].low,
                     },
                     position: {
                         x: -150,
@@ -47,9 +47,9 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                 });
 
                 edges.push({
-                    id: `${inputItemId}-${resultItemId}`,
-                    source: inputItemId.toString(),
-                    target: resultItemId.toString(),
+                    id: `${input.id}-${craft.resultItemId}`,
+                    source: input.id.toString(),
+                    target: craft.resultItemId.toString(),
                     animated: true,
                 });
 
@@ -61,18 +61,18 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
         }
 
         // If the item we are looking at is an input to the craft
-        if(crafts[resultItemId].input.includes(itemData?.id)) {
+        if(craft.input.find((input) => input.id.toString() === itemData?.id.toString())) {
             let recipeNodes = [];
             let recipeEdges = [];
 
             isSource = true;
             recipeNodes.push({
-                id: resultItemId,
+                id: craft.resultItemId,
                 type: 'itemOutput',
                 data: {
-                    label: mapping[resultItemId].name,
-                    icon: mapping[resultItemId].icon,
-                    price: latest[resultItemId].low,
+                    label: mapping[craft.resultItemId].name,
+                    icon: mapping[craft.resultItemId].icon,
+                    price: latest[craft.resultItemId].low,
                 },
                 position: {
                     x: 100,
@@ -82,25 +82,25 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
             });
 
             recipeEdges.push({
-                id: `${itemData.id}-${resultItemId}`,
+                id: `${itemData.id}-${craft.resultItemId}`,
                 source: itemData.id.toString(),
-                target: resultItemId.toString(),
+                target: craft.resultItemId.toString(),
                 animated: true,
             });
 
             let index = 1;
-            for(const inputItemId of crafts[resultItemId].input) {
-                if(inputItemId.toString() === itemData?.id.toString()) {
+            for(const input of craft.input) {
+                if(input.id.toString() === itemData?.id.toString()) {
                     continue;
                 }
 
                 recipeNodes.push({
-                    id: inputItemId.toString(),
+                    id: input.id.toString(),
                     type: 'itemInput',
                     data: {
-                        label: mapping[inputItemId].name,
-                        icon: mapping[inputItemId].icon,
-                        price: latest[inputItemId].low,
+                        label: mapping[input.id].name,
+                        icon: mapping[input.id].icon,
+                        price: latest[input.id].low,
                     },
                     position: {
                         x: 0,
@@ -110,16 +110,16 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                 });
 
                 recipeEdges.push({
-                    id: `${inputItemId}-${resultItemId}`,
-                    source: inputItemId.toString(),
-                    target: resultItemId.toString(),
+                    id: `${input.id}-${craft.resultItemId}`,
+                    source: input.id.toString(),
+                    target: craft.resultItemId.toString(),
                     animated: true,
                 });
 
                 index = index + 1;
             }
 
-            recipes[resultItemId] = {
+            recipes[craft.resultItemId] = {
                 nodes: recipeNodes,
                 edges: recipeEdges,
             };
@@ -133,6 +133,8 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
     if(!isTarget && nodes[0]) {
         nodes[0].type = 'itemInput';
     }
+
+    // console.log(nodes, edges, recipes);
 
     return {
         nodes: nodes,

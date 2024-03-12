@@ -72,19 +72,19 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     const itemCrafts = useMemo(() => {
         let itemCrafts = [];
         let initialSelectionDone = false;
-        for(const resultItemId in crafts) {
-            if(!crafts[resultItemId].input.includes(itemData?.id)) {
+        for(const craft of crafts) {
+            if(!craft.input.find((input) => input.id.toString() === itemData?.id.toString())) {
                 continue;
             }
 
             if(!initialSelectionDone) {
-                setDisplayCraft(resultItemId);
+                setDisplayCraft(craft.resultItemId);
                 initialSelectionDone = true;
             }
 
             itemCrafts.push({
-                key: resultItemId,
-                value: mapping[resultItemId].name,
+                key: craft.resultItemId,
+                value: mapping[craft.resultItemId].name,
             });
         }
 
@@ -92,18 +92,22 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     }, [crafts, itemData, mapping]);
 
     const recipeItemHeight = useMemo(() => {
-        let recipeItemHeight = 1;
+        // let recipeItemHeight = 1;
         let resultInputHeight = 1;
         let resultOutputHeight = 1;
-        if(crafts[displayCraft]) {
-            resultInputHeight = crafts[displayCraft].input.length;
+
+        for(const craft of crafts) {
+            // Check if the result of the craft is the item we are looking at
+            if(craft.resultItemId.toString() === itemData?.id.toString()) {
+                resultInputHeight = Math.max(craft.input.length, resultInputHeight);
+            }
+
+            if(craft.resultItemId.toString() === displayCraft.toString()) {
+                resultOutputHeight = Math.max(craft.input.length, resultOutputHeight);
+            }
         }
 
-        if(crafts[itemData?.id]) {
-            resultOutputHeight = crafts[itemData?.id].input.length;
-        }
-
-        return Math.max(recipeItemHeight, resultInputHeight, resultOutputHeight);
+        return Math.max(resultInputHeight, resultOutputHeight);
     }, [crafts, displayCraft, itemData]);
 
     useEffect(() => {
@@ -112,12 +116,8 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         setNodes(results.nodes.concat(results.recipes[displayCraft]?.nodes || []));
         setEdges(results.edges.concat(results.recipes[displayCraft]?.edges || []));
     }, [itemData, crafts, mapping, setNodes, setEdges, latest, displayCraft]);
-    // const storeLocations = Object.keys(stores).filter((storeItem) => stores[storeItem].name.includes(itemData?.name));
-
-    // console.log(storeLocations);
 
     const handleCraftChange = (event, newDisplayCraft) => {
-        console.log(newDisplayCraft);
         if(newDisplayCraft !== null) {
             setDisplayCraft(newDisplayCraft);
         }

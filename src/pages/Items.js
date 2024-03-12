@@ -7,7 +7,7 @@ import GrandExchangeTable from '../components/GrandExchangeTable.js';
 import '../App.css';
 
 
-function Items({latest, mapping, profits, dayData, volumes, filter}) {
+function Items({latest, mapping, dayData, volumes, filter}) {
     return <Box sx={{ flexGrow: 1 }}>
         <Container>
             <Typography
@@ -18,7 +18,6 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
             <GrandExchangeTable
                 latest={latest}
                 mapping={mapping}
-                profits={profits}
                 filter={filter}
                 dayData={dayData}
                 volumes={volumes}

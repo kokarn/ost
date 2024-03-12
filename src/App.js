@@ -344,7 +344,7 @@ function Layout({handleFilterChange, playerName, playerStats, handlePlayerNameCh
 function App() {
     const [latest, setLatest] = useState([]);
     const [mapping, setMapping] = useState({});
-    const [profits, setProfit] = useState({});
+    const [crafts, setCrafts] = useState([]);
     const [lastDayData, setLastDayData] = useState({});
     const [volumes, setVolumes] = useState({});
     const [itemFilter, setItemFilter] = useState('');
@@ -374,7 +374,7 @@ function App() {
             setVolumes(volumeData.data);
 
             const currentProfit = await calculateProfit(latestData.data, fullMap, dayData.data);
-            setProfit(currentProfit);
+            setCrafts(currentProfit);
 
             if(playerName) {
                 const playerData = await loadJSON(`https://sync.runescape.wiki/runelite/player/${playerName}/STANDARD`);
@@ -456,7 +456,6 @@ function App() {
                         filter={debouncedFilter}
                         latest={latest}
                         mapping={mapping}
-                        profits={profits}
                         volumes={volumes}
                     />}
                 />
@@ -481,7 +480,7 @@ function App() {
                         filter={debouncedFilter}
                         latest={latest}
                         mapping={mapping}
-                        profits={profits}
+                        crafts={crafts}
                         volumes={volumes}
                     />}
                 />
@@ -529,7 +528,7 @@ function App() {
                         filter={debouncedFilter}
                         latest={latest}
                         mapping={mapping}
-                        crafts={profits}
+                        crafts={crafts}
                         volumes={volumes}
                     />}
                 />
@@ -540,7 +539,7 @@ function App() {
                         filter={debouncedFilter}
                         mapping={mapping}
                         volumes={volumes}
-                        crafts={profits}
+                        crafts={crafts}
                     />}
                 />
                 <Route
@@ -550,7 +549,7 @@ function App() {
                         filter={debouncedFilter}
                         latest={latest}
                         mapping={mapping}
-                        profits={profits}
+                        crafts={crafts}
                         volumes={volumes}
                     />}
                 />

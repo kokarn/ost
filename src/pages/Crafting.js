@@ -7,7 +7,7 @@ import CraftTable from '../components/CraftTable.js';
 import '../App.css';
 
 
-function Items({latest, mapping, profits, dayData, volumes, filter}) {
+function Items({latest, mapping, crafts, dayData, volumes, filter}) {
     return <Box sx={{ flexGrow: 1 }}>
         <Container>
             <Typography
@@ -18,7 +18,7 @@ function Items({latest, mapping, profits, dayData, volumes, filter}) {
             <CraftTable
                 latest={latest}
                 mapping={mapping}
-                profits={profits}
+                crafts={crafts}
                 filter={filter}
             />
         </Container>

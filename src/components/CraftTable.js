@@ -11,35 +11,34 @@ import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
 import '../App.css';
 
-function CraftTable({latest, mapping, profits, filter}) {
-    const craftRows = useMemo(() => {
-        let returnRows = [];
-
-        for (const result in profits) {
-            returnRows.push({
-                id: result,
-                ...profits[result],
-            });
-        }
-
-        return returnRows;
-    }, [profits]);
-
+function CraftTable({latest, mapping, crafts, filter}) {
+    // console.log(crafts);
     const renderCraftRows = useMemo(() => {
-        return craftRows.filter((row) => {
-            if(row.name.toLowerCase().includes(filter.toLowerCase())){
-                return true;
-            }
-
-            for(const rowInput of row.input){
-                if(mapping[rowInput].name.toLowerCase().includes(filter.toLowerCase())){
+        // Data grid needs the id property
+        return crafts
+            .map((craft) => {
+                return {
+                    id: craft.resultItemId,
+                    ...craft,
+                };
+            })
+            .filter((row) => {
+                if(row.name.toLowerCase().includes(filter.toLowerCase())){
                     return true;
                 }
-            }
 
-            return false;
-        });
-    }, [craftRows, filter, mapping]);
+                for(const rowInput of row.input){
+                    if(mapping[rowInput].name.toLowerCase().includes(filter.toLowerCase())){
+                        return true;
+                    }
+                }
+
+                return false;
+            }
+        );
+    }, [crafts, filter, mapping]);
+
+    // console.log(renderCraftRows);
 
     const craftColumns = [
         {
@@ -71,30 +70,19 @@ function CraftTable({latest, mapping, profits, filter}) {
             field: 'input',
             headerName: 'Input',
             width: 200,
-            valueGetter: ({ value }) => {
-                return value.map((itemId) => {
-                    return mapping[itemId]?.name;
-                });
-            },
+            // valueGetter: ({ value }) => {
+            //     return value.map((itemId) => {
+            //         return mapping[itemId]?.name;
+            //     });
+            // },
             renderCell: ({ value }) => {
-                const itemCounts = {};
-                for(const itemName of value){
-                    if(!itemCounts[itemName]){
-                        itemCounts[itemName] = 0;
-                    }
-
-                    itemCounts[itemName] = itemCounts[itemName] + 1;
-                }
-
-                const itemNames = [...new Set(value)];
-
-                const itemComponents = itemNames.map((itemName) => {
-                    const item = Object.values(mapping).find((item) => item.name === itemName);
-                    const itemPrice = Math.min(latest[item.id]?.low, (profits[item.id]?.cost || 9999999));
+                const itemComponents = value.map((itemRequirement) => {
+                    const item = Object.values(mapping).find((item) => item.id.toString() === itemRequirement.id);
+                    const itemPrice = Math.min(latest[item.id]?.low, (crafts[item.id]?.cost || 9999999));
                     return <div
                         key={item.id}
                     >
-                        {itemCounts[itemName]}x {item.name}: {numberFormat(itemPrice * itemCounts[itemName])}
+                        {itemRequirement.count}x {item.name}: {numberFormat(itemPrice * itemRequirement.count)}
                     </div>;
                 });
 

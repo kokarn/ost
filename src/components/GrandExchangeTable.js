@@ -20,7 +20,7 @@ import '../App.css';
 
 timeago.register('en_short', en_short);
 
-function GrandExchangeTable({latest, mapping, profits, filter, dayData, volumes}) {
+function GrandExchangeTable({latest, mapping, filter, dayData, volumes}) {
     const [highAlch, setHighAlch] = useState(true);
     const rows = useMemo(() => {
         let returnRows = [];
