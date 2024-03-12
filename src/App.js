@@ -415,7 +415,7 @@ function App() {
             const latestData = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/latest`);
             setLatest(latestData.data);
             const currentProfit = await calculateProfit(latestData.data, mapping, lastDayData);
-            setProfit(currentProfit);
+            setCrafts(currentProfit);
         }, 1000 * 60);
 
         //destroy interval on unmount
