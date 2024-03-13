@@ -38,7 +38,7 @@ const ItemNode = ({data, type, sourcePosition, targetPosition}) => {
         <div
             className='item-price'
         >
-            {numberFormat(data.price)}gp
+            Cost: {numberFormat(data.price)}gp
         </div>
     </div>);
 };
