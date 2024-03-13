@@ -18,6 +18,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import Skeleton from '@mui/material/Skeleton';
 import ReactFlow, {
     useNodesState,
     useEdgesState,
@@ -128,20 +129,33 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     };
 
     return <Container>
-        <Typography
-            variant="h1"
-        >
-            {itemData?.name}
-            <img
-                alt = {`${itemData?.name} icon`}
-                src={`https://oldschool.runescape.wiki/images/${itemData?.icon.replace(/ /g, '_')}?cache`}
-            />
-        </Typography>
-        <Typography
+        {itemData && <Typography
+                variant="h1"
+            >
+                {itemData?.name}
+                <img
+                    alt = {`${itemData?.name} icon`}
+                    src={`https://oldschool.runescape.wiki/images/${itemData?.icon.replace(/ /g, '_')}?cache`}
+                    style={{
+                        float: 'right',
+                        height: '54px',
+                        padding: '10px',
+                    }}
+                />
+            </Typography>
+        }
+        {itemData && <Typography
             variant="subtitle2"
-        >
-            {itemData?.id}
-        </Typography>
+            >
+                {itemData?.id}
+            </Typography>
+        }
+        {!itemData && <Skeleton
+                variant="text"
+                sx={{ fontSize: '1rem' }}
+                width={400} height={60}
+            />
+        }
         <Graph
             itemId={itemData?.id}
         />
