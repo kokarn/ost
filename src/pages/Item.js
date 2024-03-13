@@ -178,7 +178,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             >
                 <ReactFlow
                     defaultViewport={{
-                        x: 550,
+                        x: 500,
                         y: 20,
                         zoom: 2,
                     }}
