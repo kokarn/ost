@@ -148,7 +148,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         <Grid
             container
         >
-            {nodes.length > 0 && <Grid
+            {nodes.length > 1 && <Grid
             md = {12}>
                 <CraftSelector
                     handleCraftChange={handleCraftChange}
@@ -156,7 +156,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                     itemCrafts={itemCrafts}
                 />
             </Grid>}
-            {nodes.length > 0 && <Grid
+            {nodes.length > 1 && <Grid
                 md = {12}
                 sx={{
                     height: recipeItemHeight * 120 + 20,
