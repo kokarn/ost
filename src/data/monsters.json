@@ -11496,6 +11496,10 @@
                 "item": "Soul rune"
             },
             {
+                "quantity": 1,
+                "item": "Odd key"
+            },
+            {
                 "quantity": 0.02,
                 "item": "Brimstone key"
             },
@@ -76026,6 +76030,10 @@
                 "item": "Soul rune"
             },
             {
+                "quantity": 1,
+                "item": "Temple key (Desert Treasure II)"
+            },
+            {
                 "quantity": 0.02,
                 "item": "Brimstone key"
             },
@@ -98990,12 +98998,12 @@
                 "item": "Big bones"
             },
             {
-                "quantity": 4,
-                "item": "Big bones"
+                "quantity": null,
+                "item": "Item"
             },
             {
-                "quantity": 2,
-                "item": "Uncut ruby"
+                "quantity": null,
+                "item": "Item"
             },
             {
                 "quantity": 0.0025,
