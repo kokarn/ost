@@ -37,6 +37,7 @@ import calculateProfit from './modules/calculate-profit.mjs';
 import urlFrieldlyName from './modules/urlfriendly-name.mjs';
 import useStateWithLocalStorage from './hooks/useStateWithLocalStorage';
 import calculateCombatLevel from './modules/calculate-combat-level.mjs';
+import lowestPrice from './modules/get-lowest-price.mjs';
 
 // Pages
 import Admin from './pages/Admin.js';
@@ -365,6 +366,11 @@ function App() {
                 fullMap[item.id] = {
                     ...item,
                     urlName: urlFrieldlyName(item.name),
+                    lowestPrice: lowestPrice({
+                        itemId: item.id,
+                        crafts: [],
+                        latest: latestData.data || [],
+                    }),
                 };
             }
 

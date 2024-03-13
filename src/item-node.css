@@ -19,3 +19,8 @@
     text-align: right;
     top: 20px;
 }
+
+.item-node .item-cost {
+    position: absolute;
+    top: -15px;
+}

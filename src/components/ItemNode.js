@@ -23,11 +23,18 @@ const ItemNode = ({data, type, sourcePosition, targetPosition}) => {
             type="source"
             position={sourcePosition}
         />}
+        {data.cost && <div
+            className='item-cost'
+        >
+            Profit: {numberFormat(data.price - data.cost)}gp
+        </div>
+        }
         <ItemRow
             name={data.label}
             icon={data.icon}
             id={data.id}
         />
+
         <div
             className='item-price'
         >

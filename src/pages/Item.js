@@ -25,6 +25,7 @@ import ReactFlow, {
 
 import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 import craftsToNodes from '../modules/crafts-to-nodes.mjs';
+import getCraftCost from '../modules/get-craft-cost.mjs';
 
 // import CraftTable from '../components/CraftTable.js';
 import Graph from '../components/Graph.js';
@@ -82,9 +83,12 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                 initialSelectionDone = true;
             }
 
+            let cost = getCraftCost(craft.resultItemId, crafts, mapping);
+
             itemCrafts.push({
                 key: craft.resultItemId,
-                value: mapping[craft.resultItemId].name,
+                value: `${mapping[craft.resultItemId].name} ${craft.reward - cost}gp`,
+                // craft: craft,
             });
         }
 
@@ -155,7 +159,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             {nodes.length > 0 && <Grid
                 md = {12}
                 sx={{
-                    height: recipeItemHeight * 80 + 20,
+                    height: recipeItemHeight * 120 + 20,
                 }}
             >
                 <ReactFlow

@@ -1,4 +1,6 @@
-const ITEM_HEIGHT = 35;
+import getCraftCost from './get-craft-cost.mjs';
+
+const ITEM_HEIGHT = 65;
 
 const craftsToNodes = (itemData, crafts, mapping, latest) => {
     let nodes = [];
@@ -13,10 +15,11 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                 label: mapping[itemData?.id]?.name,
                 icon: mapping[itemData?.id]?.icon,
                 price: latest[itemData?.id].low,
+                cost: getCraftCost(itemData?.id, crafts, mapping),
             },
             position: {
                 x: 0,
-                y: 0,
+                y: 15,
             },
             targetPosition: 'left',
             sourcePosition: 'right',
@@ -38,10 +41,11 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                         label: mapping[input.id].name,
                         icon: mapping[input.id].icon,
                         price: latest[input.id].low,
+                        cost: getCraftCost(input.id, crafts, mapping),
                     },
                     position: {
                         x: -150,
-                        y: ITEM_HEIGHT * index,
+                        y: ITEM_HEIGHT * index + 15,
                     },
                     sourcePosition: 'right',
                 });
@@ -73,10 +77,11 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                     label: mapping[craft.resultItemId].name,
                     icon: mapping[craft.resultItemId].icon,
                     price: latest[craft.resultItemId].low,
+                    cost: getCraftCost(craft.resultItemId, crafts, mapping),
                 },
                 position: {
-                    x: 100,
-                    y: 0,
+                    x: 140,
+                    y: 15,
                 },
                 targetPosition: 'left',
             });
