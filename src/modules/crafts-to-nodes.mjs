@@ -1,6 +1,7 @@
 import getCraftCost from './get-craft-cost.mjs';
 
 const ITEM_HEIGHT = 65;
+const ITEM_TOP_MARGIN = 15;
 
 const craftsToNodes = (itemData, crafts, mapping, latest) => {
     let nodes = [];
@@ -19,7 +20,7 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
             },
             position: {
                 x: 0,
-                y: 15,
+                y: ITEM_TOP_MARGIN,
             },
             targetPosition: 'left',
             sourcePosition: 'right',
@@ -45,7 +46,7 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                     },
                     position: {
                         x: -150,
-                        y: ITEM_HEIGHT * index + 15,
+                        y: ITEM_HEIGHT * index + ITEM_TOP_MARGIN,
                     },
                     sourcePosition: 'right',
                 });
@@ -109,7 +110,7 @@ const craftsToNodes = (itemData, crafts, mapping, latest) => {
                     },
                     position: {
                         x: 0,
-                        y: ITEM_HEIGHT * index,
+                        y: ITEM_HEIGHT * index + ITEM_TOP_MARGIN,
                     },
                     sourcePosition: 'right',
                 });
