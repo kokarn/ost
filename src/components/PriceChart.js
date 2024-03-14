@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
+import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
 const MAX_DATA_POINTS = 48;
 
@@ -167,7 +168,7 @@ export default function PriceChart({itemId}) {
                     }]}
                     yAxis={[{
                         scaleType: 'linear',
-                        valueFormatter: numberFormat,
+                        valueFormatter: runescapeNumberFormat,
                         max: scaleMax,
                         min: scaleMin,
                     }]}
