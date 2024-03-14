@@ -6,7 +6,7 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 
-export default function Graph({itemId}) {
+export default function PriceChart({itemId}) {
     const [xData, setXData] = useState([]);
     const [lowData, setLowData] = useState([]);
     const [highData, setHighData] = useState([]);
@@ -124,6 +124,12 @@ export default function Graph({itemId}) {
                     horizontal: true,
                 }}
                 height={300}
+                margin={{
+                    // top: 10,
+                    right: 0,
+                    // bottom: 10,
+                    left: 25,
+                }}
             />
         </div>
     );

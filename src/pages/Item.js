@@ -29,7 +29,7 @@ import craftsToNodes from '../modules/crafts-to-nodes.mjs';
 import getCraftCost from '../modules/get-craft-cost.mjs';
 
 // import CraftTable from '../components/CraftTable.js';
-import Graph from '../components/Graph.js';
+import PriceChart from '../components/PriceChart.js';
 import ItemNode from '../components/ItemNode';
 import CraftSelector from '../components/CraftSelector.js';
 
@@ -158,7 +158,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                 width={400} height={60}
             />
         }
-        <Graph
+        <PriceChart
             itemId={itemData?.id}
         />
         <Grid
