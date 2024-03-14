@@ -4,7 +4,7 @@ import {
 
 // import ToggleButton from '@mui/material/ToggleButton';
 // import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-import FormControl from '@mui/material/FormControl';
+// import FormControl from '@mui/material/FormControl';
 // import InputLabel from '@mui/material/InputLabel';
 // import MenuItem from '@mui/material/MenuItem';
 import Autocomplete from '@mui/material/Autocomplete';
@@ -30,81 +30,79 @@ function CraftSelector({handleCraftChange, displayCraft, itemCrafts}) {
         });
     }, [displayCraft, sortedCrafts]);
 
-    return (<FormControl>
-        <Autocomplete
-            autoHighlight
-            disablePortal
-            label="Craft"
-            onChange={handleChange}
-            value={selectedCraft}
-            options={sortedCrafts}
-            getOptionLabel={(option) => {
-                if(typeof option === 'string'){
-                    return option;
-                }
+    return (<Autocomplete
+        autoHighlight
+        disablePortal
+        label="Craft"
+        onChange={handleChange}
+        value={selectedCraft}
+        options={sortedCrafts}
+        getOptionLabel={(option) => {
+            if(typeof option === 'string'){
+                return option;
+            }
 
-                return option.name;
-            }}
-            size='small'
-            sx = {{
-                minWidth: 400,
-            }}
-            renderOption={(props, craft) => {
-                return (<Box
-                    // key={craft.key}
-                    // value={craft.key}
-                    {...props}
-                >
-                    <ItemIcon
-                        name={craft.name}
-                        icon={craft.icon}
-                    />
-                    {craft.name}
-                    <span
-                        style={{
-                            flexGrow: 1,
-                            textAlign: 'right',
-                        }}
-                    >
-                        {numberFormat(craft.profit)}gp
-                    </span>
-                </Box>)
-            }}
-            renderInput={(params) => (
-                <TextField
-                    {...params}
-                    label="Craft"
-                    inputProps={{
-                        ...params.inputProps,
-                        autoComplete: 'new-password', // disable autocomplete and autofill
-                    }}
+            return option.name;
+        }}
+        size='small'
+        sx = {{
+            minWidth: 350,
+        }}
+        renderOption={(props, craft) => {
+            return (<Box
+                // key={craft.key}
+                // value={craft.key}
+                {...props}
+            >
+                <ItemIcon
+                    name={craft.name}
+                    icon={craft.icon}
                 />
-            )}
-        />
-            {/* {sortedCrafts.map((craft) => (
-                <MenuItem
-                    key={craft.key}
-                    sx={{
-                        display: 'flex',
+                {craft.name}
+                <span
+                    style={{
+                        flexGrow: 1,
+                        textAlign: 'right',
                     }}
-                    value={craft.key}
                 >
-                    <ItemIcon
-                        name={craft.name}
-                        icon={craft.icon}
-                    />
-                    {craft.name}
-                    <span
-                        style={{
-                            flexGrow: 1,
-                            textAlign: 'right',
-                        }}
-                    >
-                        {numberFormat(craft.profit)}gp
-                    </span>
-                </MenuItem>
-            ))} */}
-    </FormControl>);
+                    {numberFormat(craft.profit)}gp
+                </span>
+            </Box>)
+        }}
+        renderInput={(params) => (
+            <TextField
+                {...params}
+                label="Craft"
+                inputProps={{
+                    ...params.inputProps,
+                    autoComplete: 'new-password', // disable autocomplete and autofill
+                }}
+            />
+        )}
+    />);
+        {/* {sortedCrafts.map((craft) => (
+            <MenuItem
+                key={craft.key}
+                sx={{
+                    display: 'flex',
+                }}
+                value={craft.key}
+            >
+                <ItemIcon
+                    name={craft.name}
+                    icon={craft.icon}
+                />
+                {craft.name}
+                <span
+                    style={{
+                        flexGrow: 1,
+                        textAlign: 'right',
+                    }}
+                >
+                    {numberFormat(craft.profit)}gp
+                </span>
+            </MenuItem>
+        ))} */}
     // if(itemCrafts.length > 5){
     // } else {
     //     return (<ToggleButtonGroup
