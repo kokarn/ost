@@ -163,8 +163,26 @@ export default function PriceChart({itemId}) {
                     xAxis={[{
                         data: xData,
                         scaleType: 'time',
-                        // tickMinStep: 3600 * 1000 * ,
-                        valueFormatter: (value) => new Date(value).toLocaleTimeString(),
+                        valueFormatter: (unixTimestamp, context) => {
+                            const time = new Date(unixTimestamp);
+
+                            if(context.location === 'tick') {
+                                // return time in local short form
+                                return time.toLocaleTimeString(navigator.language, {
+                                    hour: '2-digit',
+                                    minute: '2-digit',
+                                });
+
+                            }
+
+                            // return time in local short form
+                            return time.toLocaleTimeString(navigator.language, {
+                                month: 'short',
+                                day: 'numeric',
+                                hour: '2-digit',
+                                minute: '2-digit',
+                            });
+                        },
                     }]}
                     yAxis={[{
                         scaleType: 'linear',
