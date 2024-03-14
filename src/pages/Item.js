@@ -88,7 +88,9 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
 
             itemCrafts.push({
                 key: craft.resultItemId,
-                value: `${mapping[craft.resultItemId].name} ${craft.reward - cost}gp`,
+                name: mapping[craft.resultItemId].name,
+                profit: craft.reward - cost,
+                icon: mapping[craft.resultItemId].icon,
                 // craft: craft,
             });
         }
