@@ -45,23 +45,19 @@ export default function PriceChart({itemId}) {
         >
             24h
         </ToggleButton>,
-        <ToggleButton
-            value={7}
-            key="center"
-        >
-            7d
-        </ToggleButton>,
-        <ToggleButton
-            value={30}
-            key="right"
-        >
-            30d
-        </ToggleButton>,
-        // <ToggleButton value="justify" key="justify">
-        //   <FormatAlignJustifyIcon />
+        // <ToggleButton
+        //     value={7}
+        //     key="center"
+        // >
+        //     7d
+        // </ToggleButton>,
+        // <ToggleButton
+        //     value={30}
+        //     key="right"
+        // >
+        //     30d
         // </ToggleButton>,
     ];
-
 
     useEffect(() => {
         const loadData = async () => {
