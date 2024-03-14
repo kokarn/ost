@@ -7,6 +7,23 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 
+const MAX_DATA_POINTS = 48;
+
+const sampleSeries = (data, interval) => {
+    // Initialize sampledItems array
+    let sampledItems = [data[0]];  // Include the first item
+
+    for(let i = 1; i < MAX_DATA_POINTS - 1; i++) {
+        // For each segment, select the first item
+        let segmentItem = data[i * interval];
+        sampledItems.push(segmentItem);
+    }
+
+    sampledItems.push(data[data.length - 1]);  // Include the last item
+
+    return sampledItems;
+};
+
 export default function PriceChart({itemId}) {
     const [xData, setXData] = useState([]);
     const [lowData, setLowData] = useState([]);
@@ -48,35 +65,47 @@ export default function PriceChart({itemId}) {
 
     useEffect(() => {
         const loadData = async () => {
-            if(itemId){
-                const timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=5m&id=${itemId}`);
-                let xData = [];
-                let lowData = [];
-                let highData = [];
-                let currentTime = Date.now() / 1000;
+            if(!itemId){
+                return true;
+            }
 
-                for(const datapoint of timeSeries.data){
-                    if(datapoint.timestamp < currentTime - (3600 * 24 * historicalDays)){
-                        continue;
-                    }
+            const timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=5m&id=${itemId}`);
+            let xData = [];
+            let lowData = [];
+            let highData = [];
+            let currentTime = Date.now() / 1000;
 
-                    xData.push(datapoint.timestamp * 1000);
-                    lowData.push(datapoint.avgLowPrice || null);
-                    highData.push(datapoint.avgHighPrice || null);
+            for(const datapoint of timeSeries.data){
+                if(datapoint.timestamp < currentTime - (3600 * 24 * historicalDays)){
+                    continue;
                 }
 
-                setXData(xData);
-                setLowData(lowData);
-                setHighData(highData);
-
-                const localMax = Math.max(...highData.filter((value) => value !== null));
-                const localMin = Math.min(...lowData.filter((value) => value !== null));
-
-                setLocalMax(localMax);
-                setLocalMin(localMin);
-                setScaleMax(localMax * 1.1);
-                setScaleMin(localMin * 0.9);
+                xData.push(datapoint.timestamp * 1000);
+                lowData.push(datapoint.avgLowPrice || null);
+                highData.push(datapoint.avgHighPrice || null);
             }
+
+            let interval = Math.floor((xData.length - 2) / (MAX_DATA_POINTS - 2));
+
+            let sampledXData = sampleSeries(xData, interval);
+            let sampledLowData = sampleSeries(lowData, interval);
+            let sampledHighData = sampleSeries(highData, interval);
+
+            setXData(sampledXData);
+            setLowData(sampledLowData);
+            setHighData(sampledHighData);
+
+            // setXData(xData);
+            // setLowData(lowData);
+            // setHighData(highData);
+
+            const localMax = Math.max(...highData.filter((value) => value !== null), ...lowData.filter((value) => value !== null));
+            const localMin = Math.min(...lowData.filter((value) => value !== null), ...highData.filter((value) => value !== null));
+
+            setLocalMax(localMax);
+            setLocalMin(localMin);
+            setScaleMax(localMax * 1.1);
+            setScaleMin(localMin * 0.9);
         }
 
         loadData();
@@ -151,13 +180,13 @@ export default function PriceChart({itemId}) {
                             data: lowData,
                             label: 'Low Price',
                             connectNulls: true,
-                            showMark: ({ index }) => index % 10 === 0,
+                            // showMark: ({ index }) => index % 10 === 0,
                         },
                         {
                             data: highData,
                             label: 'High Price',
                             connectNulls: true,
-                            showMark: ({ index }) => index % 10 === 0,
+                            // showMark: ({ index }) => index % 10 === 0,
                         }
                     ]}
                     grid={{
