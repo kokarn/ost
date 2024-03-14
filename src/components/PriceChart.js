@@ -117,7 +117,16 @@ export default function PriceChart({itemId}) {
                         width: '100%'
                     }}
                 >
-                    Min: {numberFormat(localMin)} Max: {numberFormat(localMax)}
+                    <div
+                        className='price-chart-min-max'
+                    >
+                        Min: {numberFormat(localMin)}
+                    </div>
+                    <div
+                        className='price-chart-min-max'
+                    >
+                        Max: {numberFormat(localMax)}
+                    </div>
                 </div>
             </Grid>
             <Grid

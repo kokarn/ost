@@ -85,3 +85,7 @@ body {
 .skill-level-text-wrapper {
     line-height: 24px;
 }
+
+.price-chart-min-max {
+    line-height: 21px;
+}
