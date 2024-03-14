@@ -154,8 +154,11 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         }
         {!itemData && <Skeleton
                 variant="text"
-                sx={{ fontSize: '1rem' }}
-                width={400} height={60}
+                sx={{
+                    fontSize: '1rem',
+                }}
+                width={400}
+                height={60}
             />
         }
         <PriceChart
@@ -165,6 +168,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             container
         >
             {nodes.length > 1 && <Grid
+            xs = {12}
             md = {12}>
                 <CraftSelector
                     handleCraftChange={handleCraftChange}
@@ -177,26 +181,28 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                 sx={{
                     height: recipeItemHeight * 120 + 20,
                 }}
+                xs = {12}
             >
                 <ReactFlow
-                    defaultViewport={{
-                        x: 500,
-                        y: 20,
-                        zoom: 2,
-                    }}
+                    // defaultViewport={{
+                    //     x: 500,
+                    //     y: 20,
+                    //     zoom: 2,
+                    // }}
                     edges={edges}
                     nodes={nodes}
                     nodeTypes={nodeTypes}
                     // onNodesChange={onNodesChange}
                     // onEdgesChange={onEdgesChange}
                     // onConnect={onConnect}
-                    // fitView
+                    fitView
                     panOnDrag={false}
                     zoomOnScroll={false}
                 />
             </Grid>}
             <Grid
                 md = {4}
+                xs = {12}
             >
                 <Typography
                     variant={'h2'}
@@ -238,6 +244,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             {storeLocations.length > 0 && <Grid
                 md = {4}
                 mdOffset={4}
+                xs = {12}
             >
                 <Typography
                     variant={'h2'}

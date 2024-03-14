@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { LineChart } from '@mui/x-charts/LineChart';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
@@ -82,55 +83,86 @@ export default function PriceChart({itemId}) {
     }, [itemId, historicalDays]);
 
     return (
-        <div>
-            <ToggleButtonGroup
-                size="small"
-                value={historicalDays}
-                onChange = {handleChange}
-                exclusive
-                aria-label="Small sizes"
+        <Grid
+            container
+        >
+            <Grid
+                item
+                xs={6}
+                md={10}
             >
-                {children}
-            </ToggleButtonGroup>
-            Min: {numberFormat(localMin)} Max: {numberFormat(localMax)}
-            <LineChart
-                xAxis={[{
-                    data: xData,
-                    scaleType: 'time',
-                    // tickMinStep: 3600 * 1000 * ,
-                    valueFormatter: (value) => new Date(value).toLocaleTimeString(),
-                }]}
-                yAxis={[{
-                    scaleType: 'linear',
-                    valueFormatter: numberFormat,
-                    max: scaleMax,
-                    min: scaleMin,
-                }]}
-                series={[
-                    {
-                        data: lowData,
-                        label: 'Low Price',
-                        connectNulls: true,
-                        showMark: ({ index }) => index % 10 === 0,
-                    },
-                    {
-                        data: highData,
-                        label: 'High Price',
-                        connectNulls: true,
-                        showMark: ({ index }) => index % 10 === 0,
-                    }
-                ]}
-                grid={{
-                    horizontal: true,
+                <ToggleButtonGroup
+                    size="small"
+                    value={historicalDays}
+                    onChange = {handleChange}
+                    exclusive
+                    aria-label="Small sizes"
+                >
+                    {children}
+                </ToggleButtonGroup>
+            </Grid>
+            <Grid
+                xsOffset={2}
+                xs={4}
+                mdOffset={0}
+                md={2}
+                sx= {{
+                    display: 'flex',
+                    alignItems: 'center',
                 }}
-                height={300}
-                margin={{
-                    // top: 10,
-                    right: 0,
-                    // bottom: 10,
-                    left: 25,
-                }}
-            />
-        </div>
+            >
+                <div
+                    style={{
+                        textAlign: 'right',
+                        width: '100%'
+                    }}
+                >
+                    Min: {numberFormat(localMin)} Max: {numberFormat(localMax)}
+                </div>
+            </Grid>
+            <Grid
+                md={12}
+                xs={12}
+            >
+                <LineChart
+                    xAxis={[{
+                        data: xData,
+                        scaleType: 'time',
+                        // tickMinStep: 3600 * 1000 * ,
+                        valueFormatter: (value) => new Date(value).toLocaleTimeString(),
+                    }]}
+                    yAxis={[{
+                        scaleType: 'linear',
+                        valueFormatter: numberFormat,
+                        max: scaleMax,
+                        min: scaleMin,
+                    }]}
+                    series={[
+                        {
+                            data: lowData,
+                            label: 'Low Price',
+                            connectNulls: true,
+                            showMark: ({ index }) => index % 10 === 0,
+                        },
+                        {
+                            data: highData,
+                            label: 'High Price',
+                            connectNulls: true,
+                            showMark: ({ index }) => index % 10 === 0,
+                        }
+                    ]}
+                    grid={{
+                        horizontal: true,
+                    }}
+                    height={300}
+                    margin={{
+                        // top: 10,
+                        right: 0,
+                        // bottom: 10,
+                        left: 25,
+                    }}
+                />
+            </Grid>
+        </Grid>
     );
 }
