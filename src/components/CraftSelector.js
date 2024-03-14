@@ -80,7 +80,7 @@ function CraftSelector({handleCraftChange, displayCraft, itemCrafts}) {
             />
         )}
     />);
-        {/* {sortedCrafts.map((craft) => (
+        /* {sortedCrafts.map((craft) => (
             <MenuItem
                 key={craft.key}
                 sx={{
@@ -102,7 +102,7 @@ function CraftSelector({handleCraftChange, displayCraft, itemCrafts}) {
                     {numberFormat(craft.profit)}gp
                 </span>
             </MenuItem>
-        ))} */}
+        ))}
     // if(itemCrafts.length > 5){
     // } else {
     //     return (<ToggleButtonGroup
@@ -127,6 +127,7 @@ function CraftSelector({handleCraftChange, displayCraft, itemCrafts}) {
     //     ))}
     //     </ToggleButtonGroup>);
     // }
+    */
 };
 
 export default CraftSelector;
