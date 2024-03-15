@@ -43,26 +43,21 @@ export default function Skills({playerName, playerStats, setPlayerName}) {
 
     return (
         <Box>
-            <Typography
-                variant='h5'
-            >
-                {playerName}
-            </Typography>
             <Grid
                 container
                 spacing={1}
             >
                 <Grid
-                    xs = {8}
+                    xs = {9}
                 >
                     <TextField
+                        inputRef={inputRef}
                         label='Set a player name'
                         size='small'
-                        inputRef={inputRef}
                     />
                 </Grid>
                 <Grid
-                    xs = {4}
+                    xs = {3}
                 >
                     <Button
                         onClick={(event) => {
@@ -74,11 +69,18 @@ export default function Skills({playerName, playerStats, setPlayerName}) {
                     </Button>
                 </Grid>
             </Grid>
+            <Typography
+                variant='h5'
+                textAlign={'center'}
+            >
+                {playerName}
+            </Typography>
             {playerName && <Grid
                 container
                 spacing={0.5}
                 sx={{
                     backgroundColor: '#3f3529',
+                    margin: '0 auto',
                     width: 204,
                 }}
             >
@@ -120,8 +122,7 @@ export default function Skills({playerName, playerStats, setPlayerName}) {
                         </Grid>
                     );
                 })}
-            </Grid>
-        }
+            </Grid>}
         </Box>
     );
 }
