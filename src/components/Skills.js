@@ -8,6 +8,8 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import CheckIcon from '@mui/icons-material/Check';
+import CloseIcon from '@mui/icons-material/Close';
 
 // import useStateWithLocalStorage from '../hooks/useStateWithLocalStorage';
 
@@ -48,7 +50,7 @@ export default function Skills({playerName, playerStats, setPlayerName}) {
                 spacing={1}
             >
                 <Grid
-                    xs = {9}
+                    xs = {8}
                 >
                     <TextField
                         inputRef={inputRef}
@@ -57,7 +59,7 @@ export default function Skills({playerName, playerStats, setPlayerName}) {
                     />
                 </Grid>
                 <Grid
-                    xs = {3}
+                    xs = {4}
                 >
                     <Button
                         onClick={(event) => {
@@ -74,8 +76,9 @@ export default function Skills({playerName, playerStats, setPlayerName}) {
                 textAlign={'center'}
             >
                 {playerName}
+                {playerStats.Hitpoints ? <CheckIcon /> : <CloseIcon />}
             </Typography>
-            {playerName && <Grid
+            {playerName && playerStats.Hitpoints && <Grid
                 container
                 spacing={0.5}
                 sx={{
