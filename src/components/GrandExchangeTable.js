@@ -177,12 +177,12 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
                     id: false,
                 },
             },
-            sorting: {
-                sortModel: [{
-                    field: 'highAlchProfit',
-                    sort: 'desc',
-                }],
-            },
+            // sorting: {
+            //     sortModel: [{
+            //         field: 'highAlchProfit',
+            //         sort: 'desc',
+            //     }],
+            // },
             pagination: {
                 paginationModel: {
                     pageSize: 20,
