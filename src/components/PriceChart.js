@@ -11,6 +11,10 @@ import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 const MAX_DATA_POINTS = 48;
 
 const sampleSeries = (data, interval) => {
+    if(data.length <= MAX_DATA_POINTS) {
+        return data;
+    }
+
     // Initialize sampledItems array
     let sampledItems = [data[0]];  // Include the first item
 
