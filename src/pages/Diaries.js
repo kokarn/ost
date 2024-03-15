@@ -110,10 +110,10 @@ function Diaries({filter, playerStats}) {
             renderCell: ({row, value}) => {
                 const questRequirements = [];
                 for(const quest of value){
-                    let isQualifiedClass = 'skill-ok';
+                    let isQualifiedClass = 'skill-not-ok';
 
-                    if(playerStats.Quests && playerStats['Quests'][quest.name] < quest.status){
-                        isQualifiedClass = 'skill-not-ok';
+                    if(playerStats.Quests && playerStats['Quests'][quest.name] >= quest.status){
+                        isQualifiedClass = 'skill-ok';
                     }
 
                     questRequirements.push(<div
@@ -150,7 +150,7 @@ function Diaries({filter, playerStats}) {
 
                     let skillNote = '';
 
-                    if(isQualifiedClass !== 'skill-ok'){
+                    if(playerStats[skillKey] && isQualifiedClass !== 'skill-ok'){
                         skillNote = ` (${value[skill] - playerStats[skillKey]})`;
                     }
 
