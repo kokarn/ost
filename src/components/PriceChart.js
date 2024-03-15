@@ -117,7 +117,6 @@ export default function PriceChart({itemId}) {
             container
         >
             <Grid
-                item
                 xs={6}
                 md={10}
             >
