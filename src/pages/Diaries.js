@@ -174,7 +174,7 @@ function Diaries({filter, playerStats}) {
     ];
 
     const calculateRowHeight = (params) => {
-        return (Object.keys(params.model.skills).length || 1) * 25 + (16 * params.densityFactor);
+        return Math.max(Object.keys(params.model.skills).length, Object.keys(params.model.quests).length, 1) * 25 + (16 * params.densityFactor);
     };
 
     return <Box
