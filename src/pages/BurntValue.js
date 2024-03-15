@@ -105,7 +105,9 @@ function BurntValue() {
                 justifyContent={'space-between'}
             >
             {Object.entries(prices).map(([key, value], index) => (
-                <Grid>
+                <Grid
+                    key={index}
+                >
                     <TextField
                         type="number"
                         name={key}
