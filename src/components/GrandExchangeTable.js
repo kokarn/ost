@@ -71,7 +71,7 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
         {
             field: 'name',
             flex: 1,
-            headerName: 'Output',
+            headerName: 'Name',
             renderCell: ({ value }) => {
                 const itemData = rows.find((row) => row.name === value);
                 return <ItemRow
@@ -158,7 +158,7 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
                     setHighAlch(event.target.checked);
                 }}
             />
-        } label="High alc" />
+        } label="High alch" />
     </FormGroup>,
     <StickyTable
         autoHeight
