@@ -60,6 +60,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     const [displayCraft, setDisplayCraft] = useState(0);
     const [nodes, setNodes] = useNodesState([]);
     const [edges, setEdges] = useEdgesState([]);
+    const [initialSelectionDone, setInitialSelectionDone] = useState(false);
 
     let storeLocations = [];
 
@@ -73,7 +74,6 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
 
     const itemCrafts = useMemo(() => {
         let itemCrafts = [];
-        let initialSelectionDone = false;
         for(const craft of crafts) {
             if(!craft.input.find((input) => input.id.toString() === itemData?.id.toString())) {
                 continue;
@@ -81,7 +81,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
 
             if(!initialSelectionDone) {
                 setDisplayCraft(craft.resultItemId);
-                initialSelectionDone = true;
+                setInitialSelectionDone(true);
             }
 
             let cost = getCraftCost(craft.resultItemId, crafts, mapping);
@@ -96,7 +96,7 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
         }
 
         return itemCrafts;
-    }, [crafts, itemData, mapping]);
+    }, [crafts, itemData, mapping, initialSelectionDone]);
 
     const recipeItemHeight = useMemo(() => {
         // let recipeItemHeight = 1;
