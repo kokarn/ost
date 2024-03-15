@@ -43,18 +43,20 @@ function Zahur({mapping, latest, filter, crafts, volumes}) {
                 continue;
             }
 
+            const craft = crafts.find((craft) => craft.resultItemId === itemId.toString());
+
             itemMap[mapping[itemId]?.name.toLowerCase()] = itemId;
 
-            const profit = crafts[itemId]?.reward - crafts[itemId]?.cost - 200;
-            const totalCost = crafts[itemId]?.cost + 200;
+            const profit = craft?.reward - craft?.cost - 200;
+            const totalCost = craft?.cost + 200;
 
             potionRows.push({
                 id: itemId,
                 name: mapping[itemId]?.name,
-                input: crafts[itemId]?.input || [],
+                input: craft?.input || [],
                 zahurFee: 200,
                 totalCost: totalCost,
-                reward: crafts[itemId]?.reward,
+                reward: craft?.reward,
                 profit: profit,
                 roi: profit / totalCost,
                 profit1M: Math.floor(1000000 / totalCost) * profit,
@@ -90,23 +92,13 @@ function Zahur({mapping, latest, filter, crafts, volumes}) {
             field: 'input',
             headerName: 'Input',
             renderCell: ({ value }) => {
-                const itemCounts = {};
-                for(const itemId of value){
-                    if(!itemCounts[itemId]){
-                        itemCounts[itemId] = 0;
-                    }
-
-                    itemCounts[itemId] = itemCounts[itemId] + 1;
-                }
-
-                const itemIds = [...new Set(value)];
-
-                const itemComponents = itemIds.map((itemId) => {
-                    const itemPrice = Math.min(latest[itemId]?.low, (crafts[itemId]?.cost || 9999999));
+                const itemComponents = value.map((itemRequirement) => {
+                    const item = Object.values(mapping).find((item) => item.id.toString() === itemRequirement.id);
+                    const itemPrice = Math.min(latest[item.id]?.low, (crafts[item.id]?.cost || 9999999));
                     return <div
-                        key={itemId}
+                        key={item.id}
                     >
-                        {itemCounts[itemId]}x {mapping[itemId].name}: {numberFormat(itemPrice * itemCounts[itemId])}
+                        {itemRequirement.count}x {item.name}: {numberFormat(itemPrice * itemRequirement.count)}
                     </div>;
                 });
 
