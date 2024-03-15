@@ -21,6 +21,7 @@ function Items({latest, mapping, dayData, volumes, filter}) {
                 filter={filter}
                 dayData={dayData}
                 volumes={volumes}
+                shuffle
             />
         </Container>
     </Box>;

@@ -20,7 +20,7 @@ import '../App.css';
 
 timeago.register('en_short', en_short);
 
-function GrandExchangeTable({latest, mapping, filter, dayData, volumes}) {
+function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle = false}) {
     const [highAlch, setHighAlch] = useState(true);
     const rows = useMemo(() => {
         let returnRows = [];
@@ -40,8 +40,17 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes}) {
             });
         }
 
+        if(shuffle){
+            // shuffle returnRows
+
+            for (let i = returnRows.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [returnRows[i], returnRows[j]] = [returnRows[j], returnRows[i]];
+            }
+        }
+
         return returnRows;
-    }, [latest, mapping, dayData, volumes]);
+    }, [latest, mapping, dayData, volumes, shuffle]);
 
     const renderItemRows = useMemo(() => {
         return rows.filter((row) => {
