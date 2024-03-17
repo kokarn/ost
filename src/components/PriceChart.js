@@ -3,22 +3,21 @@ import { LineChart } from '@mui/x-charts/LineChart';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
-const MAX_DATA_POINTS = 48;
-
-const sampleSeries = (data, interval) => {
-    if(data.length <= MAX_DATA_POINTS) {
+const sampleSeries = (data, interval, maxDataPoints) => {
+    if(data.length <= maxDataPoints) {
         return data;
     }
 
     // Initialize sampledItems array
     let sampledItems = [data[0]];  // Include the first item
 
-    for(let i = 1; i < MAX_DATA_POINTS - 1; i++) {
+    for(let i = 1; i < maxDataPoints - 1; i = i + 1) {
         // For each segment, select the first item
         let segmentItem = data[i * interval];
         sampledItems.push(segmentItem);
@@ -38,6 +37,8 @@ export default function PriceChart({itemId}) {
     const [scaleMin, setScaleMin] = useState(0);
     const [localMax, setLocalMax] = useState(0);
     const [localMin, setLocalMin] = useState(0);
+
+    const isMobile = useMediaQuery('(max-width:600px)');
 
     const handleChange = (event, newDateRange) => {
         setHistoricalDays(newDateRange);
@@ -70,6 +71,12 @@ export default function PriceChart({itemId}) {
                 return true;
             }
 
+            let currentDataPoints = 48;
+
+            if(isMobile){
+                currentDataPoints = 12;
+            }
+
             const timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=5m&id=${itemId}`);
             let xData = [];
             let lowData = [];
@@ -86,11 +93,11 @@ export default function PriceChart({itemId}) {
                 highData.push(datapoint.avgHighPrice || null);
             }
 
-            let interval = Math.floor((xData.length - 2) / (MAX_DATA_POINTS - 2));
+            let interval = Math.floor((xData.length - 2) / (currentDataPoints - 2));
 
-            let sampledXData = sampleSeries(xData, interval);
-            let sampledLowData = sampleSeries(lowData, interval);
-            let sampledHighData = sampleSeries(highData, interval);
+            let sampledXData = sampleSeries(xData, interval, currentDataPoints);
+            let sampledLowData = sampleSeries(lowData, interval, currentDataPoints);
+            let sampledHighData = sampleSeries(highData, interval, currentDataPoints);
 
             setXData(sampledXData);
             setLowData(sampledLowData);
@@ -110,7 +117,7 @@ export default function PriceChart({itemId}) {
         }
 
         loadData();
-    }, [itemId, historicalDays]);
+    }, [itemId, historicalDays, isMobile]);
 
     return (
         <Grid
