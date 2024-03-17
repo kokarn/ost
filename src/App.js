@@ -52,6 +52,7 @@ import MoneyMaking from './pages/MoneyMaking.js';
 import MonsterProfits from './pages/MonsterProfits.js';
 import Stores from './pages/Stores.js';
 import ZahurCalculator from './pages/ZahurCalculator.js';
+import WesleyCalculator from './pages/WesleyCalculator.js';
 
 import './App.css';
 
@@ -163,6 +164,11 @@ function Layout({handleFilterChange, playerName, playerStats, handlePlayerNameCh
             key: 'zahur-calculator',
             label: 'Zahur Calculator',
             path: '/zahur-calculator',
+        },
+        {
+            key: 'wesley-calculator',
+            label: 'Wesley Calculator',
+            path: '/wesley-calculator',
         }
         // {
         //     key: 'admin',
@@ -546,6 +552,15 @@ function App() {
                         mapping={mapping}
                         volumes={volumes}
                         crafts={crafts}
+                    />}
+                />
+                <Route
+                    path="wesley-calculator"
+                    element={<WesleyCalculator
+                        latest={latest}
+                        filter={debouncedFilter}
+                        mapping={mapping}
+                        volumes={volumes}
                     />}
                 />
                 <Route
