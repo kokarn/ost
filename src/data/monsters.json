@@ -3493,8 +3493,8 @@
         "superior": true
     },
     {
-        "name": "Colossal Wyrm",
-        "link": "https://oldschool.runescape.wiki/w/Colossal_Wyrm",
+        "name": "Colossal Wyrm Remains",
+        "link": "https://oldschool.runescape.wiki/w/Colossal_Wyrm_Remains",
         "combatLevel": null,
         "drops": [],
         "superior": false
@@ -37158,6 +37158,10 @@
             {
                 "quantity": 1,
                 "item": "Bones"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (beginner)"
             },
             {
                 "quantity": 1,
@@ -73343,6 +73347,116 @@
         "superior": false
     },
     {
+        "name": "Sulphur Nagua",
+        "link": "https://oldschool.runescape.wiki/w/Sulphur_Nagua",
+        "combatLevel": 98,
+        "slayerMonster": true,
+        "slayerLevel": 48,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": null,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": null,
+                "item": "Death rune"
+            },
+            {
+                "quantity": null,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": null,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": null,
+                "item": "Sulphurous essence"
+            },
+            {
+                "quantity": null,
+                "item": "Coal"
+            },
+            {
+                "quantity": null,
+                "item": "Copper ore"
+            },
+            {
+                "quantity": null,
+                "item": "Iron ore"
+            },
+            {
+                "quantity": null,
+                "item": "Silver ore"
+            },
+            {
+                "quantity": null,
+                "item": "Tin ore"
+            },
+            {
+                "quantity": null,
+                "item": "Mithril ore"
+            },
+            {
+                "quantity": 0.00390625,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0003662104904657099,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.000244140625,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.0006103515625,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.00000762939453125,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.000003814697265625,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000028610229765035913,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Clue scroll (hard)"
+            },
+            {
+                "quantity": 0.002,
+                "item": "Sulphur blades"
+            }
+        ],
+        "superior": false
+    },
+    {
         "name": "Supply crate (Mahogany Homes)",
         "link": "https://oldschool.runescape.wiki/w/Supply_crate_(Mahogany_Homes)",
         "combatLevel": null,
@@ -78249,6 +78363,26 @@
         "superior": false
     },
     {
+        "name": "Wealthy citizen",
+        "link": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
+        "combatLevel": null,
+        "drops": [
+            {
+                "quantity": 79.05,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.11764705882352941,
+                "item": "House keys"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (easy)"
+            }
+        ],
+        "superior": false
+    },
+    {
         "name": "Werewolf",
         "link": "https://oldschool.runescape.wiki/w/Werewolf",
         "combatLevel": 88,
@@ -80764,264 +80898,6 @@
             {
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Zygomite",
-        "link": "https://oldschool.runescape.wiki/w/Zygomite",
-        "combatLevel": 86,
-        "slayerMonster": true,
-        "slayerLevel": 57,
-        "drops": [
-            {
-                "quantity": 1,
-                "item": "Ashes"
-            },
-            {
-                "quantity": 0.021897810218978103,
-                "item": "Steel axe"
-            },
-            {
-                "quantity": 0.021897810218978103,
-                "item": "Steel 2h sword"
-            },
-            {
-                "quantity": 0.0072992700729927005,
-                "item": "Mithril full helm"
-            },
-            {
-                "quantity": 0.43795620437956206,
-                "item": "Nature rune"
-            },
-            {
-                "quantity": 0.5474452554744526,
-                "item": "Earth rune"
-            },
-            {
-                "quantity": 0.014598540145985401,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.0072992700729927005,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.32116788321167883,
-                "item": "Strawberry seed"
-            },
-            {
-                "quantity": 0.029197080291970802,
-                "item": "Potato seed"
-            },
-            {
-                "quantity": 0.019464720194647202,
-                "item": "Mushroom spore"
-            },
-            {
-                "quantity": 0.5255474452554745,
-                "item": "Coins"
-            },
-            {
-                "quantity": 18.21897810218978,
-                "item": "Coins"
-            },
-            {
-                "quantity": 8.75912408759124,
-                "item": "Coins"
-            },
-            {
-                "quantity": 3.6496350364963503,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.043795620437956206,
-                "item": "Supercompost"
-            },
-            {
-                "quantity": 0.019464720194647202,
-                "item": "Mort myre fungus"
-            },
-            {
-                "quantity": 0.051094890510948905,
-                "item": "Clay"
-            },
-            {
-                "quantity": 0.019464720194647202,
-                "item": "Fungicide"
-            },
-            {
-                "quantity": 0.009124087591240877,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0045620437956204385,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.0022810218978102192,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.0008553807727509901,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0005702554744525548,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.0002851277372262774,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.0002851277372262774,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.001425638686131387,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000017820483576642338,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.000008910241788321169,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.000006682681490101646,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.005319148936170213,
-                "item": "Brimstone key"
-            },
-            {
-                "quantity": 1,
-                "item": "Ashes"
-            },
-            {
-                "quantity": 0.02142857142857143,
-                "item": "Steel axe"
-            },
-            {
-                "quantity": 0.04285714285714286,
-                "item": "Steel 2h sword"
-            },
-            {
-                "quantity": 0.007142857142857143,
-                "item": "Rune full helm"
-            },
-            {
-                "quantity": 0.04285714285714286,
-                "item": "Nature rune"
-            },
-            {
-                "quantity": 0.5357142857142857,
-                "item": "Earth rune"
-            },
-            {
-                "quantity": 0.014285714285714285,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.007142857142857143,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.3142857142857143,
-                "item": "Strawberry seed"
-            },
-            {
-                "quantity": 0.02857142857142857,
-                "item": "Potato seed"
-            },
-            {
-                "quantity": 0.02857142857142857,
-                "item": "Mushroom spore"
-            },
-            {
-                "quantity": 9.428571428571429,
-                "item": "Coins"
-            },
-            {
-                "quantity": 28.414285714285715,
-                "item": "Coins"
-            },
-            {
-                "quantity": 11,
-                "item": "Coins"
-            },
-            {
-                "quantity": 6.571428571428571,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.08571428571428572,
-                "item": "Supercompost"
-            },
-            {
-                "quantity": 0.02857142857142857,
-                "item": "Mort myre fungus"
-            },
-            {
-                "quantity": 0.05,
-                "item": "Clay"
-            },
-            {
-                "quantity": 0.02857142857142857,
-                "item": "Fungicide"
-            },
-            {
-                "quantity": 0.007142857142857143,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0035714285714285713,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.0017857142857142857,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.000669644351884714,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0004464285714285714,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.0002232142857142857,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.0002232142857142857,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.0011160714285714285,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000013950892857142857,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.000006975446428571428,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.000005231584730196974,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.009009009009009009,
-                "item": "Brimstone key"
             }
         ],
         "superior": false
@@ -98998,14 +98874,6 @@
                 "item": "Big bones"
             },
             {
-                "quantity": null,
-                "item": "Item"
-            },
-            {
-                "quantity": null,
-                "item": "Item"
-            },
-            {
                 "quantity": 0.0025,
                 "item": "Long bone"
             },
@@ -103306,6 +103174,264 @@
             {
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Zygomite",
+        "link": "https://oldschool.runescape.wiki/w/Zygomite",
+        "combatLevel": 86,
+        "slayerMonster": true,
+        "slayerLevel": 57,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Ashes"
+            },
+            {
+                "quantity": 0.021897810218978103,
+                "item": "Steel axe"
+            },
+            {
+                "quantity": 0.021897810218978103,
+                "item": "Steel 2h sword"
+            },
+            {
+                "quantity": 0.0072992700729927005,
+                "item": "Mithril full helm"
+            },
+            {
+                "quantity": 0.43795620437956206,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.5474452554744526,
+                "item": "Earth rune"
+            },
+            {
+                "quantity": 0.014598540145985401,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.0072992700729927005,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.32116788321167883,
+                "item": "Strawberry seed"
+            },
+            {
+                "quantity": 0.029197080291970802,
+                "item": "Potato seed"
+            },
+            {
+                "quantity": 0.019464720194647202,
+                "item": "Mushroom spore"
+            },
+            {
+                "quantity": 0.5255474452554745,
+                "item": "Coins"
+            },
+            {
+                "quantity": 18.21897810218978,
+                "item": "Coins"
+            },
+            {
+                "quantity": 8.75912408759124,
+                "item": "Coins"
+            },
+            {
+                "quantity": 3.6496350364963503,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.043795620437956206,
+                "item": "Supercompost"
+            },
+            {
+                "quantity": 0.019464720194647202,
+                "item": "Mort myre fungus"
+            },
+            {
+                "quantity": 0.051094890510948905,
+                "item": "Clay"
+            },
+            {
+                "quantity": 0.019464720194647202,
+                "item": "Fungicide"
+            },
+            {
+                "quantity": 0.009124087591240877,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0045620437956204385,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.0022810218978102192,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0008553807727509901,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0005702554744525548,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.0002851277372262774,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.0002851277372262774,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.001425638686131387,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000017820483576642338,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.000008910241788321169,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.000006682681490101646,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.005319148936170213,
+                "item": "Brimstone key"
+            },
+            {
+                "quantity": 1,
+                "item": "Ashes"
+            },
+            {
+                "quantity": 0.02142857142857143,
+                "item": "Steel axe"
+            },
+            {
+                "quantity": 0.04285714285714286,
+                "item": "Steel 2h sword"
+            },
+            {
+                "quantity": 0.007142857142857143,
+                "item": "Rune full helm"
+            },
+            {
+                "quantity": 0.04285714285714286,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.5357142857142857,
+                "item": "Earth rune"
+            },
+            {
+                "quantity": 0.014285714285714285,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.007142857142857143,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.3142857142857143,
+                "item": "Strawberry seed"
+            },
+            {
+                "quantity": 0.02857142857142857,
+                "item": "Potato seed"
+            },
+            {
+                "quantity": 0.02857142857142857,
+                "item": "Mushroom spore"
+            },
+            {
+                "quantity": 9.428571428571429,
+                "item": "Coins"
+            },
+            {
+                "quantity": 28.414285714285715,
+                "item": "Coins"
+            },
+            {
+                "quantity": 11,
+                "item": "Coins"
+            },
+            {
+                "quantity": 6.571428571428571,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.08571428571428572,
+                "item": "Supercompost"
+            },
+            {
+                "quantity": 0.02857142857142857,
+                "item": "Mort myre fungus"
+            },
+            {
+                "quantity": 0.05,
+                "item": "Clay"
+            },
+            {
+                "quantity": 0.02857142857142857,
+                "item": "Fungicide"
+            },
+            {
+                "quantity": 0.007142857142857143,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0035714285714285713,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.0017857142857142857,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.000669644351884714,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0004464285714285714,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.0002232142857142857,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.0002232142857142857,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.0011160714285714285,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000013950892857142857,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.000006975446428571428,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.000005231584730196974,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.009009009009009009,
+                "item": "Brimstone key"
             }
         ],
         "superior": false

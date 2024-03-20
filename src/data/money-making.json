@@ -2,7 +2,7 @@
     {
         "methodName": "Baking potatoes",
         "methodLink": "/w/Money_making_guide/Baking_potatoes",
-        "hourlyProfit": 130000,
+        "hourlyProfit": 138000,
         "skills": {
             "Cooking": "7"
         },
@@ -13,7 +13,7 @@
     {
         "methodName": "Barrows",
         "methodLink": "/w/Money_making_guide/Barrows",
-        "hourlyProfit": 731000,
+        "hourlyProfit": 760000,
         "skills": {
             "Prayer": "43",
             "Attack": "70",
@@ -27,7 +27,7 @@
     {
         "methodName": "Blast mining",
         "methodLink": "/w/Money_making_guide/Blast_mining",
-        "hourlyProfit": 507000,
+        "hourlyProfit": 545000,
         "skills": {
             "Mining": "43"
         },
@@ -38,7 +38,7 @@
     {
         "methodName": "Blessing unblessed symbols",
         "methodLink": "/w/Money_making_guide/Blessing_unblessed_symbols",
-        "hourlyProfit": 147000,
+        "hourlyProfit": 144000,
         "skills": {
             "Prayer": "31"
         },
@@ -49,7 +49,7 @@
     {
         "methodName": "Buying ale from the Rising Sun Inn",
         "methodLink": "/w/Money_making_guide/Buying_ale_from_the_Rising_Sun_Inn",
-        "hourlyProfit": 112000,
+        "hourlyProfit": 108000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -58,7 +58,7 @@
     {
         "methodName": "Buying beer tankards",
         "methodLink": "/w/Money_making_guide/Buying_beer_tankards",
-        "hourlyProfit": 567000,
+        "hourlyProfit": 564000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -67,7 +67,7 @@
     {
         "methodName": "Buying bronze bars",
         "methodLink": "/w/Money_making_guide/Buying_bronze_bars",
-        "hourlyProfit": 190000,
+        "hourlyProfit": 187000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -85,7 +85,7 @@
     {
         "methodName": "Buying iron ore",
         "methodLink": "/w/Money_making_guide/Buying_iron_ore",
-        "hourlyProfit": 185000,
+        "hourlyProfit": 214000,
         "skills": {
             "Mining": "60"
         },
@@ -96,7 +96,7 @@
     {
         "methodName": "Buying jug packs",
         "methodLink": "/w/Money_making_guide/Buying_jug_packs",
-        "hourlyProfit": 232000,
+        "hourlyProfit": 82000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -105,7 +105,7 @@
     {
         "methodName": "Buying kebabs in Al Kharid",
         "methodLink": "/w/Money_making_guide/Buying_kebabs_in_Al_Kharid",
-        "hourlyProfit": 42000,
+        "hourlyProfit": 41000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -114,7 +114,7 @@
     {
         "methodName": "Buying kegs of beer",
         "methodLink": "/w/Money_making_guide/Buying_kegs_of_beer",
-        "hourlyProfit": 936000,
+        "hourlyProfit": 1121000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -123,7 +123,7 @@
     {
         "methodName": "Buying monkey nuts",
         "methodLink": "/w/Money_making_guide/Buying_monkey_nuts",
-        "hourlyProfit": 1579000,
+        "hourlyProfit": 1658000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -132,7 +132,7 @@
     {
         "methodName": "Buying pies",
         "methodLink": "/w/Money_making_guide/Buying_pies",
-        "hourlyProfit": 236000,
+        "hourlyProfit": 221000,
         "skills": {
             "Cooking": "32"
         },
@@ -143,7 +143,7 @@
     {
         "methodName": "Buying team capes",
         "methodLink": "/w/Money_making_guide/Buying_team_capes",
-        "hourlyProfit": 235000,
+        "hourlyProfit": 249000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -152,7 +152,7 @@
     {
         "methodName": "Casting Bones to Bananas",
         "methodLink": "/w/Money_making_guide/Casting_Bones_to_Bananas",
-        "hourlyProfit": 52000,
+        "hourlyProfit": 192000,
         "skills": {
             "Magic": "15"
         },
@@ -161,9 +161,20 @@
         "random": ""
     },
     {
+        "methodName": "Casting Spin Flax",
+        "methodLink": "/w/Money_making_guide/Casting_Spin_Flax",
+        "hourlyProfit": 101000,
+        "skills": {
+            "Magic": "76"
+        },
+        "category": "Skilling/Magic",
+        "itenstity": "Moderate",
+        "random": ""
+    },
+    {
         "methodName": "Casting Superglass Make",
         "methodLink": "/w/Money_making_guide/Casting_Superglass_Make",
-        "hourlyProfit": 573000,
+        "hourlyProfit": 479000,
         "skills": {
             "Magic": "77"
         },
@@ -174,7 +185,7 @@
     {
         "methodName": "Casting Tan Leather",
         "methodLink": "/w/Money_making_guide/Casting_Tan_Leather",
-        "hourlyProfit": 1440000,
+        "hourlyProfit": 1162000,
         "skills": {
             "Magic": "78"
         },
@@ -185,7 +196,7 @@
     {
         "methodName": "Casting plank make",
         "methodLink": "/w/Money_making_guide/Casting_plank_make",
-        "hourlyProfit": 341000,
+        "hourlyProfit": 303000,
         "skills": {
             "Magic": "86"
         },
@@ -196,7 +207,7 @@
     {
         "methodName": "Catching anglerfish",
         "methodLink": "/w/Money_making_guide/Catching_anglerfish",
-        "hourlyProfit": 221000,
+        "hourlyProfit": 226000,
         "skills": {
             "Fishing": "82",
             "Hunter": "15"
@@ -208,7 +219,7 @@
     {
         "methodName": "Catching dark crabs",
         "methodLink": "/w/Money_making_guide/Catching_dark_crabs",
-        "hourlyProfit": 251000,
+        "hourlyProfit": 261000,
         "skills": {
             "Fishing": "85"
         },
@@ -219,7 +230,7 @@
     {
         "methodName": "Catching infernal eels",
         "methodLink": "/w/Money_making_guide/Catching_infernal_eels",
-        "hourlyProfit": 204000,
+        "hourlyProfit": 199000,
         "skills": {
             "Fishing": "80",
             "Herblore": "25"
@@ -231,7 +242,7 @@
     {
         "methodName": "Catching lobsters",
         "methodLink": "/w/Money_making_guide/Catching_lobsters",
-        "hourlyProfit": 22000,
+        "hourlyProfit": 21000,
         "skills": {
             "Fishing": "40"
         },
@@ -242,7 +253,7 @@
     {
         "methodName": "Catching minnows",
         "methodLink": "/w/Money_making_guide/Catching_minnows",
-        "hourlyProfit": 320000,
+        "hourlyProfit": 314000,
         "skills": {
             "Fishing": "82"
         },
@@ -253,7 +264,7 @@
     {
         "methodName": "Catching raw karambwan",
         "methodLink": "/w/Money_making_guide/Catching_raw_karambwan",
-        "hourlyProfit": 257000,
+        "hourlyProfit": 242000,
         "skills": {
             "Fishing": "65"
         },
@@ -264,7 +275,7 @@
     {
         "methodName": "Catching sacred eels",
         "methodLink": "/w/Money_making_guide/Catching_sacred_eels",
-        "hourlyProfit": 221000,
+        "hourlyProfit": 218000,
         "skills": {
             "Fishing": "87",
             "Cooking": "72"
@@ -276,7 +287,7 @@
     {
         "methodName": "Catching sharks",
         "methodLink": "/w/Money_making_guide/Catching_sharks",
-        "hourlyProfit": 136000,
+        "hourlyProfit": 134000,
         "skills": {
             "Fishing": "76"
         },
@@ -287,7 +298,7 @@
     {
         "methodName": "Catching shrimp & anchovies",
         "methodLink": "/w/Money_making_guide/Catching_shrimp_%26_anchovies",
-        "hourlyProfit": 48000,
+        "hourlyProfit": 51000,
         "skills": {
             "Fishing": "15"
         },
@@ -298,7 +309,7 @@
     {
         "methodName": "Catching trout & salmon",
         "methodLink": "/w/Money_making_guide/Catching_trout_%26_salmon",
-        "hourlyProfit": 25000,
+        "hourlyProfit": 26000,
         "skills": {
             "Fishing": "20"
         },
@@ -309,7 +320,7 @@
     {
         "methodName": "Catching tuna & swordfish (free-to-play)",
         "methodLink": "/w/Money_making_guide/Catching_tuna_%26_swordfish_(free-to-play)",
-        "hourlyProfit": 19000,
+        "hourlyProfit": 18000,
         "skills": {
             "Fishing": "50"
         },
@@ -320,7 +331,7 @@
     {
         "methodName": "Chambers of Xeric",
         "methodLink": "/w/Money_making_guide/Chambers_of_Xeric",
-        "hourlyProfit": 8593000,
+        "hourlyProfit": 8375000,
         "skills": {
             "Attack": "90",
             "Prayer": "70",
@@ -337,7 +348,7 @@
     {
         "methodName": "Charging air orbs",
         "methodLink": "/w/Money_making_guide/Charging_air_orbs",
-        "hourlyProfit": 489000,
+        "hourlyProfit": 490000,
         "skills": {
             "Magic": "66"
         },
@@ -348,7 +359,7 @@
     {
         "methodName": "Charging and alchemising bracelets of ethereum",
         "methodLink": "/w/Money_making_guide/Charging_and_alchemising_bracelets_of_ethereum",
-        "hourlyProfit": 643000,
+        "hourlyProfit": 527000,
         "skills": {
             "Magic": "55"
         },
@@ -359,7 +370,7 @@
     {
         "methodName": "Charging earth orbs",
         "methodLink": "/w/Money_making_guide/Charging_earth_orbs",
-        "hourlyProfit": 304000,
+        "hourlyProfit": 341000,
         "skills": {
             "Magic": "60"
         },
@@ -370,7 +381,7 @@
     {
         "methodName": "Charging fire orbs",
         "methodLink": "/w/Money_making_guide/Charging_fire_orbs",
-        "hourlyProfit": 390000,
+        "hourlyProfit": 400000,
         "skills": {
             "Magic": "63",
             "Agility": "70"
@@ -382,7 +393,7 @@
     {
         "methodName": "Charging water orbs",
         "methodLink": "/w/Money_making_guide/Charging_water_orbs",
-        "hourlyProfit": 311000,
+        "hourlyProfit": 372000,
         "skills": {
             "Magic": "56",
             "Agility": "70"
@@ -392,9 +403,31 @@
         "random": ""
     },
     {
+        "methodName": "Cleaning grimy avantoe",
+        "methodLink": "/w/Money_making_guide/Cleaning_grimy_avantoe",
+        "hourlyProfit": 235000,
+        "skills": {
+            "Herblore": "48"
+        },
+        "category": "Skilling/Herblore",
+        "itenstity": "High",
+        "random": ""
+    },
+    {
+        "methodName": "Cleaning grimy cadantine",
+        "methodLink": "/w/Money_making_guide/Cleaning_grimy_cadantine",
+        "hourlyProfit": 240000,
+        "skills": {
+            "Herblore": "65"
+        },
+        "category": "Skilling/Herblore",
+        "itenstity": "High",
+        "random": ""
+    },
+    {
         "methodName": "Cleaning grimy guam leaves",
         "methodLink": "/w/Money_making_guide/Cleaning_grimy_guam_leaves",
-        "hourlyProfit": 125000,
+        "hourlyProfit": 135000,
         "skills": {
             "Herblore": "3"
         },
@@ -405,7 +438,7 @@
     {
         "methodName": "Cleaning grimy irit leaves",
         "methodLink": "/w/Money_making_guide/Cleaning_grimy_irit_leaves",
-        "hourlyProfit": 310000,
+        "hourlyProfit": 430000,
         "skills": {
             "Herblore": "40"
         },
@@ -414,11 +447,11 @@
         "random": ""
     },
     {
-        "methodName": "Cleaning grimy toadflax",
-        "methodLink": "/w/Money_making_guide/Cleaning_grimy_toadflax",
-        "hourlyProfit": 235000,
+        "methodName": "Cleaning grimy kwuarm",
+        "methodLink": "/w/Money_making_guide/Cleaning_grimy_kwuarm",
+        "hourlyProfit": 150000,
         "skills": {
-            "Herblore": "30"
+            "Herblore": "54"
         },
         "category": "Skilling/Herblore",
         "itenstity": "High",
@@ -439,7 +472,7 @@
     {
         "methodName": "Collecting air talismans",
         "methodLink": "/w/Money_making_guide/Collecting_air_talismans",
-        "hourlyProfit": 20000,
+        "hourlyProfit": 21000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -448,7 +481,7 @@
     {
         "methodName": "Collecting and tanning cowhide",
         "methodLink": "/w/Money_making_guide/Collecting_and_tanning_cowhide",
-        "hourlyProfit": 81000,
+        "hourlyProfit": 87000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -457,7 +490,7 @@
     {
         "methodName": "Collecting anti-dragon shields",
         "methodLink": "/w/Money_making_guide/Collecting_anti-dragon_shields",
-        "hourlyProfit": 158000,
+        "hourlyProfit": 136000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -466,7 +499,7 @@
     {
         "methodName": "Collecting anti-dragon shields (free-to-play)",
         "methodLink": "/w/Money_making_guide/Collecting_anti-dragon_shields_(free-to-play)",
-        "hourlyProfit": 214000,
+        "hourlyProfit": 178000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -475,7 +508,7 @@
     {
         "methodName": "Collecting ashes",
         "methodLink": "/w/Money_making_guide/Collecting_ashes",
-        "hourlyProfit": 87000,
+        "hourlyProfit": 83000,
         "skills": {
             "Firemaking": "30"
         },
@@ -495,7 +528,7 @@
     {
         "methodName": "Collecting big bones from the Bone Yard",
         "methodLink": "/w/Money_making_guide/Collecting_big_bones_from_the_Bone_Yard",
-        "hourlyProfit": 50000,
+        "hourlyProfit": 51000,
         "skills": {
             "Prayer": "25"
         },
@@ -506,7 +539,7 @@
     {
         "methodName": "Collecting black scimitars from Ardougne Castle",
         "methodLink": "/w/Money_making_guide/Collecting_black_scimitars_from_Ardougne_Castle",
-        "hourlyProfit": 355000,
+        "hourlyProfit": 383000,
         "skills": {
             "Thieving": "61"
         },
@@ -517,7 +550,7 @@
     {
         "methodName": "Collecting bronze pickaxes",
         "methodLink": "/w/Money_making_guide/Collecting_bronze_pickaxes",
-        "hourlyProfit": 126000,
+        "hourlyProfit": 120000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -526,7 +559,7 @@
     {
         "methodName": "Collecting chaos runes",
         "methodLink": "/w/Money_making_guide/Collecting_chaos_runes",
-        "hourlyProfit": 149000,
+        "hourlyProfit": 129000,
         "skills": {
             "Magic": "25"
         },
@@ -537,7 +570,7 @@
     {
         "methodName": "Collecting climbing boots",
         "methodLink": "/w/Money_making_guide/Collecting_climbing_boots",
-        "hourlyProfit": 323000,
+        "hourlyProfit": 332000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -546,7 +579,7 @@
     {
         "methodName": "Collecting cosmic runes",
         "methodLink": "/w/Money_making_guide/Collecting_cosmic_runes",
-        "hourlyProfit": 126000,
+        "hourlyProfit": 111000,
         "skills": {
             "Prayer": "43"
         },
@@ -557,7 +590,7 @@
     {
         "methodName": "Collecting fish food",
         "methodLink": "/w/Money_making_guide/Collecting_fish_food",
-        "hourlyProfit": 127000,
+        "hourlyProfit": 120000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -566,7 +599,7 @@
     {
         "methodName": "Collecting garlic",
         "methodLink": "/w/Money_making_guide/Collecting_garlic",
-        "hourlyProfit": 79000,
+        "hourlyProfit": 74000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -575,7 +608,7 @@
     {
         "methodName": "Collecting iron ore",
         "methodLink": "/w/Money_making_guide/Collecting_iron_ore",
-        "hourlyProfit": 70000,
+        "hourlyProfit": 80000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -584,7 +617,7 @@
     {
         "methodName": "Collecting jangerberries",
         "methodLink": "/w/Money_making_guide/Collecting_jangerberries",
-        "hourlyProfit": 172000,
+        "hourlyProfit": 158000,
         "skills": {
             "Agility": "10"
         },
@@ -595,7 +628,7 @@
     {
         "methodName": "Collecting monk's robes",
         "methodLink": "/w/Money_making_guide/Collecting_monk%27s_robes",
-        "hourlyProfit": 240000,
+        "hourlyProfit": 204000,
         "skills": {
             "Prayer": "31"
         },
@@ -606,7 +639,7 @@
     {
         "methodName": "Collecting mort myre fungi",
         "methodLink": "/w/Money_making_guide/Collecting_mort_myre_fungi",
-        "hourlyProfit": 667000,
+        "hourlyProfit": 678000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -615,7 +648,7 @@
     {
         "methodName": "Collecting nature runes",
         "methodLink": "/w/Money_making_guide/Collecting_nature_runes",
-        "hourlyProfit": 153000,
+        "hourlyProfit": 144000,
         "skills": {
             "Prayer": "43",
             "Magic": "33"
@@ -627,7 +660,7 @@
     {
         "methodName": "Collecting planks",
         "methodLink": "/w/Money_making_guide/Collecting_planks",
-        "hourlyProfit": 206000,
+        "hourlyProfit": 202000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -636,7 +669,7 @@
     {
         "methodName": "Collecting red spiders' eggs",
         "methodLink": "/w/Money_making_guide/Collecting_red_spiders%27_eggs",
-        "hourlyProfit": 272000,
+        "hourlyProfit": 270000,
         "skills": {
             "Prayer": "25"
         },
@@ -647,7 +680,7 @@
     {
         "methodName": "Collecting red spiders' eggs (free-to-play)",
         "methodLink": "/w/Money_making_guide/Collecting_red_spiders%27_eggs_(free-to-play)",
-        "hourlyProfit": 194000,
+        "hourlyProfit": 193000,
         "skills": {
             "Combat level": "69"
         },
@@ -658,7 +691,7 @@
     {
         "methodName": "Collecting snape grass",
         "methodLink": "/w/Money_making_guide/Collecting_snape_grass",
-        "hourlyProfit": 428000,
+        "hourlyProfit": 442000,
         "skills": {
             "Magic": "72"
         },
@@ -669,7 +702,7 @@
     {
         "methodName": "Collecting spades",
         "methodLink": "/w/Money_making_guide/Collecting_spades",
-        "hourlyProfit": 63000,
+        "hourlyProfit": 60000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -678,7 +711,7 @@
     {
         "methodName": "Collecting steel platebodies",
         "methodLink": "/w/Money_making_guide/Collecting_steel_platebodies",
-        "hourlyProfit": 72000,
+        "hourlyProfit": 74000,
         "skills": {
             "Prayer": "43",
             "Magic": "25"
@@ -690,7 +723,7 @@
     {
         "methodName": "Collecting steel platebodies (High Alchemy)",
         "methodLink": "/w/Money_making_guide/Collecting_steel_platebodies_(High_Alchemy)",
-        "hourlyProfit": 259000,
+        "hourlyProfit": 262000,
         "skills": {
             "Magic": "55",
             "Prayer": "43"
@@ -702,7 +735,7 @@
     {
         "methodName": "Collecting tinderboxes",
         "methodLink": "/w/Money_making_guide/Collecting_tinderboxes",
-        "hourlyProfit": 144000,
+        "hourlyProfit": 163000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -711,7 +744,7 @@
     {
         "methodName": "Collecting white berries",
         "methodLink": "/w/Money_making_guide/Collecting_white_berries",
-        "hourlyProfit": 114000,
+        "hourlyProfit": 122000,
         "skills": {
             "Agility": "56"
         },
@@ -722,7 +755,7 @@
     {
         "methodName": "Collecting wine of zamorak",
         "methodLink": "/w/Money_making_guide/Collecting_wine_of_zamorak",
-        "hourlyProfit": 189000,
+        "hourlyProfit": 247000,
         "skills": {
             "Magic": "33",
             "Hitpoints": "20"
@@ -734,7 +767,7 @@
     {
         "methodName": "Collecting wine of zamorak (free-to-play)",
         "methodLink": "/w/Money_making_guide/Collecting_wine_of_zamorak_(free-to-play)",
-        "hourlyProfit": 95000,
+        "hourlyProfit": 123000,
         "skills": {
             "Magic": "37"
         },
@@ -745,7 +778,7 @@
     {
         "methodName": "Completing The Corrupted Gauntlet",
         "methodLink": "/w/Money_making_guide/Completing_The_Corrupted_Gauntlet",
-        "hourlyProfit": 4666000,
+        "hourlyProfit": 4967000,
         "skills": {},
         "category": "Combat/High",
         "itenstity": "High",
@@ -754,7 +787,7 @@
     {
         "methodName": "Completing The Gauntlet",
         "methodLink": "/w/Money_making_guide/Completing_The_Gauntlet",
-        "hourlyProfit": 1782000,
+        "hourlyProfit": 1913000,
         "skills": {},
         "category": "Combat/High",
         "itenstity": "High",
@@ -763,7 +796,7 @@
     {
         "methodName": "Completing elite clues (urium remains)",
         "methodLink": "/w/Money_making_guide/Completing_elite_clues_(urium_remains)",
-        "hourlyProfit": 765000,
+        "hourlyProfit": 769000,
         "skills": {
             "Firemaking": "95"
         },
@@ -774,7 +807,7 @@
     {
         "methodName": "Cooking plain pizzas",
         "methodLink": "/w/Money_making_guide/Cooking_plain_pizzas",
-        "hourlyProfit": 141000,
+        "hourlyProfit": 167000,
         "skills": {
             "Cooking": "35"
         },
@@ -785,7 +818,7 @@
     {
         "methodName": "Cooking raw anglerfish",
         "methodLink": "/w/Money_making_guide/Cooking_raw_anglerfish",
-        "hourlyProfit": 156000,
+        "hourlyProfit": 107000,
         "skills": {
             "Cooking": "84"
         },
@@ -796,7 +829,7 @@
     {
         "methodName": "Cooking raw chicken",
         "methodLink": "/w/Money_making_guide/Cooking_raw_chicken",
-        "hourlyProfit": 26000,
+        "hourlyProfit": 31000,
         "skills": {
             "Cooking": "1"
         },
@@ -807,7 +840,7 @@
     {
         "methodName": "Cooking raw dark crabs",
         "methodLink": "/w/Money_making_guide/Cooking_raw_dark_crabs",
-        "hourlyProfit": 282000,
+        "hourlyProfit": 369000,
         "skills": {
             "Cooking": "90"
         },
@@ -829,7 +862,7 @@
     {
         "methodName": "Cooking raw lobster",
         "methodLink": "/w/Money_making_guide/Cooking_raw_lobster",
-        "hourlyProfit": 100000,
+        "hourlyProfit": 95000,
         "skills": {
             "Cooking": "40"
         },
@@ -840,7 +873,7 @@
     {
         "methodName": "Cooking raw monkfish",
         "methodLink": "/w/Money_making_guide/Cooking_raw_monkfish",
-        "hourlyProfit": 265000,
+        "hourlyProfit": 186000,
         "skills": {
             "Cooking": "62"
         },
@@ -851,7 +884,7 @@
     {
         "methodName": "Cooking raw sharks",
         "methodLink": "/w/Money_making_guide/Cooking_raw_sharks",
-        "hourlyProfit": 135000,
+        "hourlyProfit": 229000,
         "skills": {
             "Cooking": "80"
         },
@@ -862,7 +895,7 @@
     {
         "methodName": "Cooking raw swordfish",
         "methodLink": "/w/Money_making_guide/Cooking_raw_swordfish",
-        "hourlyProfit": 78000,
+        "hourlyProfit": 111000,
         "skills": {
             "Cooking": "45"
         },
@@ -873,7 +906,7 @@
     {
         "methodName": "Cooking raw tuna",
         "methodLink": "/w/Money_making_guide/Cooking_raw_tuna",
-        "hourlyProfit": 29000,
+        "hourlyProfit": 30000,
         "skills": {
             "Cooking": "30"
         },
@@ -882,9 +915,20 @@
         "random": ""
     },
     {
+        "methodName": "Crafting Xerician robes",
+        "methodLink": "/w/Money_making_guide/Crafting_Xerician_robes",
+        "hourlyProfit": 355000,
+        "skills": {
+            "Crafting": "22"
+        },
+        "category": "Skilling/Crafting",
+        "itenstity": "Low",
+        "random": ""
+    },
+    {
         "methodName": "Crafting astral runes",
         "methodLink": "/w/Money_making_guide/Crafting_astral_runes",
-        "hourlyProfit": 1507000,
+        "hourlyProfit": 1442000,
         "skills": {
             "Runecraft": "85",
             "Magic": "69"
@@ -896,7 +940,7 @@
     {
         "methodName": "Crafting blood runes",
         "methodLink": "/w/Money_making_guide/Crafting_blood_runes",
-        "hourlyProfit": 2256000,
+        "hourlyProfit": 2107000,
         "skills": {
             "Runecraft": "77",
             "Mining": "78",
@@ -909,7 +953,7 @@
     {
         "methodName": "Crafting blood runes at Arceuus (max)",
         "methodLink": "/w/Money_making_guide/Crafting_blood_runes_at_Arceuus_(max)",
-        "hourlyProfit": 768000,
+        "hourlyProfit": 716000,
         "skills": {
             "Runecraft": "77",
             "Mining": "38",
@@ -923,7 +967,7 @@
     {
         "methodName": "Crafting blood runes at Arceuus (minimal requirements)",
         "methodLink": "/w/Money_making_guide/Crafting_blood_runes_at_Arceuus_(minimal_requirements)",
-        "hourlyProfit": 510000,
+        "hourlyProfit": 474000,
         "skills": {
             "Runecraft": "77",
             "Mining": "38",
@@ -937,7 +981,7 @@
     {
         "methodName": "Crafting blood runes at Arceuus (no diary)",
         "methodLink": "/w/Money_making_guide/Crafting_blood_runes_at_Arceuus_(no_diary)",
-        "hourlyProfit": 731000,
+        "hourlyProfit": 682000,
         "skills": {
             "Runecraft": "77",
             "Mining": "38",
@@ -951,7 +995,7 @@
     {
         "methodName": "Crafting blood runes through the Abyss",
         "methodLink": "/w/Money_making_guide/Crafting_blood_runes_through_the_Abyss",
-        "hourlyProfit": 1415000,
+        "hourlyProfit": 1324000,
         "skills": {
             "Runecraft": "77",
             "Mining": "21",
@@ -964,7 +1008,7 @@
     {
         "methodName": "Crafting clockwork (teleport method)",
         "methodLink": "/w/Money_making_guide/Crafting_clockwork_(teleport_method)",
-        "hourlyProfit": 404000,
+        "hourlyProfit": 390000,
         "skills": {
             "Crafting": "8",
             "Construction": "25",
@@ -977,7 +1021,7 @@
     {
         "methodName": "Crafting cosmic runes",
         "methodLink": "/w/Money_making_guide/Crafting_cosmic_runes",
-        "hourlyProfit": 576000,
+        "hourlyProfit": 507000,
         "skills": {
             "Runecraft": "27",
             "Agility": "66",
@@ -992,7 +1036,7 @@
     {
         "methodName": "Crafting cosmic runes through the Abyss",
         "methodLink": "/w/Money_making_guide/Crafting_cosmic_runes_through_the_Abyss",
-        "hourlyProfit": 636000,
+        "hourlyProfit": 563000,
         "skills": {
             "Runecraft": "75",
             "Mining": "21",
@@ -1005,7 +1049,7 @@
     {
         "methodName": "Crafting death runes through the Abyss",
         "methodLink": "/w/Money_making_guide/Crafting_death_runes_through_the_Abyss",
-        "hourlyProfit": 1642000,
+        "hourlyProfit": 1554000,
         "skills": {
             "Runecraft": "65",
             "Mining": "21",
@@ -1018,7 +1062,7 @@
     {
         "methodName": "Crafting diamond bracelets",
         "methodLink": "/w/Money_making_guide/Crafting_diamond_bracelets",
-        "hourlyProfit": 302000,
+        "hourlyProfit": 304000,
         "skills": {
             "Crafting": "58"
         },
@@ -1029,7 +1073,7 @@
     {
         "methodName": "Crafting diamond jewellery",
         "methodLink": "/w/Money_making_guide/Crafting_diamond_jewellery",
-        "hourlyProfit": 239000,
+        "hourlyProfit": 247000,
         "skills": {
             "Crafting": "56"
         },
@@ -1040,7 +1084,7 @@
     {
         "methodName": "Crafting double law runes through the Abyss",
         "methodLink": "/w/Money_making_guide/Crafting_double_law_runes_through_the_Abyss",
-        "hourlyProfit": 1609000,
+        "hourlyProfit": 1347000,
         "skills": {
             "Runecraft": "95",
             "Hitpoints": "70"
@@ -1052,9 +1096,9 @@
     {
         "methodName": "Crafting dragonstone jewellery",
         "methodLink": "/w/Money_making_guide/Crafting_dragonstone_jewellery",
-        "hourlyProfit": 515000,
+        "hourlyProfit": 512000,
         "skills": {
-            "Crafting": "55"
+            "Crafting": "74"
         },
         "category": "Skilling/Crafting",
         "itenstity": "Low",
@@ -1063,7 +1107,7 @@
     {
         "methodName": "Crafting drift nets",
         "methodLink": "/w/Money_making_guide/Crafting_drift_nets",
-        "hourlyProfit": 592000,
+        "hourlyProfit": 570000,
         "skills": {
             "Crafting": "26",
             "Construction": "29"
@@ -1075,7 +1119,7 @@
     {
         "methodName": "Crafting emerald bracelets",
         "methodLink": "/w/Money_making_guide/Crafting_emerald_bracelets",
-        "hourlyProfit": 268000,
+        "hourlyProfit": 310000,
         "skills": {
             "Crafting": "30"
         },
@@ -1086,7 +1130,7 @@
     {
         "methodName": "Crafting emerald jewellery",
         "methodLink": "/w/Money_making_guide/Crafting_emerald_jewellery",
-        "hourlyProfit": 151000,
+        "hourlyProfit": 134000,
         "skills": {
             "Crafting": "29"
         },
@@ -1119,7 +1163,7 @@
     {
         "methodName": "Crafting jade bracelets",
         "methodLink": "/w/Money_making_guide/Crafting_jade_bracelets",
-        "hourlyProfit": 341000,
+        "hourlyProfit": 343000,
         "skills": {
             "Crafting": "29"
         },
@@ -1130,7 +1174,7 @@
     {
         "methodName": "Crafting law runes through the Abyss",
         "methodLink": "/w/Money_making_guide/Crafting_law_runes_through_the_Abyss",
-        "hourlyProfit": 618000,
+        "hourlyProfit": 517000,
         "skills": {
             "Runecraft": "54",
             "Hitpoints": "70"
@@ -1142,7 +1186,7 @@
     {
         "methodName": "Crafting limestone bricks",
         "methodLink": "/w/Money_making_guide/Crafting_limestone_bricks",
-        "hourlyProfit": 375000,
+        "hourlyProfit": 660000,
         "skills": {
             "Crafting": "12"
         },
@@ -1153,7 +1197,7 @@
     {
         "methodName": "Crafting mud runes",
         "methodLink": "/w/Money_making_guide/Crafting_mud_runes",
-        "hourlyProfit": 220000,
+        "hourlyProfit": 218000,
         "skills": {
             "Runecraft": "13",
             "Magic": "82",
@@ -1167,7 +1211,7 @@
     {
         "methodName": "Crafting nature runes through the Abyss",
         "methodLink": "/w/Money_making_guide/Crafting_nature_runes_through_the_Abyss",
-        "hourlyProfit": 476000,
+        "hourlyProfit": 437000,
         "skills": {
             "Runecraft": "44",
             "Mining": "21",
@@ -1180,7 +1224,7 @@
     {
         "methodName": "Crafting ruby bracelets",
         "methodLink": "/w/Money_making_guide/Crafting_ruby_bracelets",
-        "hourlyProfit": 292000,
+        "hourlyProfit": 290000,
         "skills": {
             "Crafting": "42"
         },
@@ -1191,7 +1235,7 @@
     {
         "methodName": "Crafting ruby jewellery",
         "methodLink": "/w/Money_making_guide/Crafting_ruby_jewellery",
-        "hourlyProfit": 174000,
+        "hourlyProfit": 184000,
         "skills": {
             "Crafting": "50"
         },
@@ -1202,7 +1246,7 @@
     {
         "methodName": "Crafting runes at Ourania Altar",
         "methodLink": "/w/Money_making_guide/Crafting_runes_at_Ourania_Altar",
-        "hourlyProfit": 206000,
+        "hourlyProfit": 189000,
         "skills": {
             "Magic": "71",
             "Agility": "75"
@@ -1214,7 +1258,7 @@
     {
         "methodName": "Crafting sapphire bracelets",
         "methodLink": "/w/Money_making_guide/Crafting_sapphire_bracelets",
-        "hourlyProfit": 299000,
+        "hourlyProfit": 307000,
         "skills": {
             "Crafting": "23"
         },
@@ -1225,7 +1269,7 @@
     {
         "methodName": "Crafting sapphire jewellery",
         "methodLink": "/w/Money_making_guide/Crafting_sapphire_jewellery",
-        "hourlyProfit": 140000,
+        "hourlyProfit": 152000,
         "skills": {
             "Crafting": "20"
         },
@@ -1236,7 +1280,7 @@
     {
         "methodName": "Crafting soul runes",
         "methodLink": "/w/Money_making_guide/Crafting_soul_runes",
-        "hourlyProfit": 662000,
+        "hourlyProfit": 631000,
         "skills": {
             "Runecraft": "90",
             "Mining": "38",
@@ -1250,7 +1294,7 @@
     {
         "methodName": "Crafting topaz bracelets",
         "methodLink": "/w/Money_making_guide/Crafting_topaz_bracelets",
-        "hourlyProfit": 425000,
+        "hourlyProfit": 326000,
         "skills": {
             "Crafting": "38"
         },
@@ -1261,7 +1305,7 @@
     {
         "methodName": "Crafting wrath runes",
         "methodLink": "/w/Money_making_guide/Crafting_wrath_runes",
-        "hourlyProfit": 2491000,
+        "hourlyProfit": 2409000,
         "skills": {
             "Runecraft": "95"
         },
@@ -1272,7 +1316,7 @@
     {
         "methodName": "Creating Barrows teleport tablets",
         "methodLink": "/w/Money_making_guide/Creating_Barrows_teleport_tablets",
-        "hourlyProfit": 906000,
+        "hourlyProfit": 741000,
         "skills": {
             "Magic": "83",
             "Mining": "38",
@@ -1287,7 +1331,7 @@
     {
         "methodName": "Creating Camelot teleport tablets",
         "methodLink": "/w/Money_making_guide/Creating_Camelot_teleport_tablets",
-        "hourlyProfit": 155000,
+        "hourlyProfit": 158000,
         "skills": {
             "Magic": "45",
             "Construction": "57"
@@ -1299,7 +1343,7 @@
     {
         "methodName": "Creating Varrock teleport tablets",
         "methodLink": "/w/Money_making_guide/Creating_Varrock_teleport_tablets",
-        "hourlyProfit": 249000,
+        "hourlyProfit": 282000,
         "skills": {
             "Magic": "25",
             "Construction": "40"
@@ -1311,7 +1355,7 @@
     {
         "methodName": "Creating bones to peaches tablets",
         "methodLink": "/w/Money_making_guide/Creating_bones_to_peaches_tablets",
-        "hourlyProfit": 422000,
+        "hourlyProfit": 377000,
         "skills": {
             "Magic": "60",
             "Attack": "30",
@@ -1324,7 +1368,7 @@
     {
         "methodName": "Creating forester's rations",
         "methodLink": "/w/Money_making_guide/Creating_forester%27s_rations",
-        "hourlyProfit": 625000,
+        "hourlyProfit": 381000,
         "skills": {
             "Cooking": "35",
             "Woodcutting": "35"
@@ -1348,7 +1392,7 @@
     {
         "methodName": "Crushing bird nests",
         "methodLink": "/w/Money_making_guide/Crushing_bird_nests",
-        "hourlyProfit": 645000,
+        "hourlyProfit": 970000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -1357,7 +1401,7 @@
     {
         "methodName": "Cutting amethyst arrowtips",
         "methodLink": "/w/Money_making_guide/Cutting_amethyst_arrowtips",
-        "hourlyProfit": 217000,
+        "hourlyProfit": 121000,
         "skills": {
             "Crafting": "85"
         },
@@ -1368,7 +1412,7 @@
     {
         "methodName": "Cutting diamond bolt tips",
         "methodLink": "/w/Money_making_guide/Cutting_diamond_bolt_tips",
-        "hourlyProfit": 423000,
+        "hourlyProfit": 355000,
         "skills": {
             "Fletching": "65"
         },
@@ -1379,7 +1423,7 @@
     {
         "methodName": "Cutting magic logs",
         "methodLink": "/w/Money_making_guide/Cutting_magic_logs",
-        "hourlyProfit": 126000,
+        "hourlyProfit": 125000,
         "skills": {
             "Woodcutting": "75",
             "Attack": "60",
@@ -1392,7 +1436,7 @@
     {
         "methodName": "Cutting mahogany logs",
         "methodLink": "/w/Money_making_guide/Cutting_mahogany_logs",
-        "hourlyProfit": 147000,
+        "hourlyProfit": 152000,
         "skills": {
             "Woodcutting": "50"
         },
@@ -1403,7 +1447,7 @@
     {
         "methodName": "Cutting oak logs",
         "methodLink": "/w/Money_making_guide/Cutting_oak_logs",
-        "hourlyProfit": 35000,
+        "hourlyProfit": 38000,
         "skills": {
             "Woodcutting": "15"
         },
@@ -1412,20 +1456,9 @@
         "random": ""
     },
     {
-        "methodName": "Cutting redwood logs",
-        "methodLink": "/w/Money_making_guide/Cutting_redwood_logs",
-        "hourlyProfit": 106000,
-        "skills": {
-            "Woodcutting": "90"
-        },
-        "category": "Skilling/Woodcutting",
-        "itenstity": "Low",
-        "random": ""
-    },
-    {
         "methodName": "Cutting ruby bolt tips",
         "methodLink": "/w/Money_making_guide/Cutting_ruby_bolt_tips",
-        "hourlyProfit": 380000,
+        "hourlyProfit": 317000,
         "skills": {
             "Fletching": "63"
         },
@@ -1436,7 +1469,7 @@
     {
         "methodName": "Cutting willow logs",
         "methodLink": "/w/Money_making_guide/Cutting_willow_logs",
-        "hourlyProfit": 19000,
+        "hourlyProfit": 18000,
         "skills": {
             "Woodcutting": "30"
         },
@@ -1447,7 +1480,7 @@
     {
         "methodName": "Cutting yew logs (free-to-play)",
         "methodLink": "/w/Money_making_guide/Cutting_yew_logs_(free-to-play)",
-        "hourlyProfit": 162000,
+        "hourlyProfit": 169000,
         "skills": {
             "Woodcutting": "60"
         },
@@ -1458,7 +1491,7 @@
     {
         "methodName": "Degriming grimy guam leaf",
         "methodLink": "/w/Money_making_guide/Degriming_grimy_guam_leaf",
-        "hourlyProfit": 260000,
+        "hourlyProfit": 305000,
         "skills": {
             "Herblore": "50",
             "Magic": "70"
@@ -1470,7 +1503,7 @@
     {
         "methodName": "Delivering food in Gnome Restaurant",
         "methodLink": "/w/Money_making_guide/Delivering_food_in_Gnome_Restaurant",
-        "hourlyProfit": 1169000,
+        "hourlyProfit": 1116000,
         "skills": {
             "Cooking": "42",
             "Magic": "61"
@@ -1482,7 +1515,7 @@
     {
         "methodName": "Dismantling bracelets of ethereum",
         "methodLink": "/w/Money_making_guide/Dismantling_bracelets_of_ethereum",
-        "hourlyProfit": 683000,
+        "hourlyProfit": 1523000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -1491,7 +1524,7 @@
     {
         "methodName": "Enchanting diamond necklaces",
         "methodLink": "/w/Money_making_guide/Enchanting_diamond_necklaces",
-        "hourlyProfit": 250000,
+        "hourlyProfit": 137000,
         "skills": {
             "Magic": "57"
         },
@@ -1502,7 +1535,7 @@
     {
         "methodName": "Enchanting dragonstone jewellery",
         "methodLink": "/w/Money_making_guide/Enchanting_dragonstone_jewellery",
-        "hourlyProfit": 477000,
+        "hourlyProfit": 509000,
         "skills": {
             "Magic": "68"
         },
@@ -1513,7 +1546,7 @@
     {
         "methodName": "Enchanting jade amulets",
         "methodLink": "/w/Money_making_guide/Enchanting_jade_amulets",
-        "hourlyProfit": 296000,
+        "hourlyProfit": 445000,
         "skills": {
             "Magic": "27"
         },
@@ -1524,7 +1557,7 @@
     {
         "methodName": "Enchanting opal dragon bolts at the fountain of rune",
         "methodLink": "/w/Money_making_guide/Enchanting_opal_dragon_bolts_at_the_fountain_of_rune",
-        "hourlyProfit": 1836000,
+        "hourlyProfit": 1566000,
         "skills": {
             "Magic": "9"
         },
@@ -1535,7 +1568,7 @@
     {
         "methodName": "Enchanting sapphire rings",
         "methodLink": "/w/Money_making_guide/Enchanting_sapphire_rings",
-        "hourlyProfit": 414000,
+        "hourlyProfit": 347000,
         "skills": {
             "Magic": "7"
         },
@@ -1546,7 +1579,7 @@
     {
         "methodName": "Enchanting topaz jewellery",
         "methodLink": "/w/Money_making_guide/Enchanting_topaz_jewellery",
-        "hourlyProfit": 946000,
+        "hourlyProfit": 1418000,
         "skills": {
             "Magic": "49"
         },
@@ -1557,7 +1590,7 @@
     {
         "methodName": "Exchanging impling jars",
         "methodLink": "/w/Money_making_guide/Exchanging_impling_jars",
-        "hourlyProfit": 123000,
+        "hourlyProfit": 252000,
         "skills": {
             "Hunter": "17"
         },
@@ -1568,7 +1601,7 @@
     {
         "methodName": "Filling buckets with water",
         "methodLink": "/w/Money_making_guide/Filling_buckets_with_water",
-        "hourlyProfit": 533000,
+        "hourlyProfit": 735000,
         "skills": {
             "Magic": "68"
         },
@@ -1579,7 +1612,7 @@
     {
         "methodName": "Filling bullseye lantern (empty)",
         "methodLink": "/w/Money_making_guide/Filling_bullseye_lantern_(empty)",
-        "hourlyProfit": 821000,
+        "hourlyProfit": 774000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -1588,7 +1621,7 @@
     {
         "methodName": "Filling water containers",
         "methodLink": "/w/Money_making_guide/Filling_water_containers",
-        "hourlyProfit": 126000,
+        "hourlyProfit": 123000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -1597,7 +1630,7 @@
     {
         "methodName": "Filling water containers (Hosidius kitchen)",
         "methodLink": "/w/Money_making_guide/Filling_water_containers_(Hosidius_kitchen)",
-        "hourlyProfit": 227000,
+        "hourlyProfit": 222000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -1626,7 +1659,7 @@
     {
         "methodName": "Fletching ogre arrow shafts",
         "methodLink": "/w/Money_making_guide/Fletching_ogre_arrow_shafts",
-        "hourlyProfit": 497000,
+        "hourlyProfit": 504000,
         "skills": {
             "Fletching": "5"
         },
@@ -1637,7 +1670,7 @@
     {
         "methodName": "Fletching ruby bolts",
         "methodLink": "/w/Money_making_guide/Fletching_ruby_bolts",
-        "hourlyProfit": 567000,
+        "hourlyProfit": 270000,
         "skills": {
             "Fletching": "63"
         },
@@ -1648,7 +1681,7 @@
     {
         "methodName": "Fletching unstrung maple longbows",
         "methodLink": "/w/Money_making_guide/Fletching_unstrung_maple_longbows",
-        "hourlyProfit": 119000,
+        "hourlyProfit": 123000,
         "skills": {
             "Fletching": "55"
         },
@@ -1659,7 +1692,7 @@
     {
         "methodName": "Fletching unstrung yew longbows",
         "methodLink": "/w/Money_making_guide/Fletching_unstrung_yew_longbows",
-        "hourlyProfit": 152000,
+        "hourlyProfit": 186000,
         "skills": {
             "Fletching": "70"
         },
@@ -1690,7 +1723,7 @@
     {
         "methodName": "Grinding chocolate bars",
         "methodLink": "/w/Money_making_guide/Grinding_chocolate_bars",
-        "hourlyProfit": 225000,
+        "hourlyProfit": 342000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -1699,7 +1732,7 @@
     {
         "methodName": "Grinding desert goat horns",
         "methodLink": "/w/Money_making_guide/Grinding_desert_goat_horns",
-        "hourlyProfit": 540000,
+        "hourlyProfit": 531000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -1708,7 +1741,7 @@
     {
         "methodName": "Grinding unicorn horns",
         "methodLink": "/w/Money_making_guide/Grinding_unicorn_horns",
-        "hourlyProfit": 522000,
+        "hourlyProfit": 459000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -1717,7 +1750,7 @@
     {
         "methodName": "Hallowed Sepulchre",
         "methodLink": "/w/Money_making_guide/Hallowed_Sepulchre",
-        "hourlyProfit": 2112000,
+        "hourlyProfit": 2102000,
         "skills": {
             "Agility": "92",
             "Thieving": "66",
@@ -1732,7 +1765,7 @@
     {
         "methodName": "High alching combat bracelets at the fountain of rune",
         "methodLink": "/w/Money_making_guide/High_alching_combat_bracelets_at_the_fountain_of_rune",
-        "hourlyProfit": 455000,
+        "hourlyProfit": 521000,
         "skills": {
             "Magic": "55"
         },
@@ -1743,7 +1776,7 @@
     {
         "methodName": "High alching mystic air staves at the fountain of rune",
         "methodLink": "/w/Money_making_guide/High_alching_mystic_air_staves_at_the_fountain_of_rune",
-        "hourlyProfit": 570000,
+        "hourlyProfit": 534000,
         "skills": {
             "Magic": "55"
         },
@@ -1754,7 +1787,7 @@
     {
         "methodName": "High alching mystic earth staves at the fountain of rune",
         "methodLink": "/w/Money_making_guide/High_alching_mystic_earth_staves_at_the_fountain_of_rune",
-        "hourlyProfit": 655000,
+        "hourlyProfit": 860000,
         "skills": {
             "Magic": "55"
         },
@@ -1765,7 +1798,7 @@
     {
         "methodName": "High alching mystic water staves at the fountain of rune",
         "methodLink": "/w/Money_making_guide/High_alching_mystic_water_staves_at_the_fountain_of_rune",
-        "hourlyProfit": 582000,
+        "hourlyProfit": 401000,
         "skills": {
             "Magic": "55"
         },
@@ -1776,7 +1809,7 @@
     {
         "methodName": "High alching profitable free-to-play items",
         "methodLink": "/w/Money_making_guide/High_alching_profitable_free-to-play_items",
-        "hourlyProfit": 543000,
+        "hourlyProfit": 603000,
         "skills": {
             "Magic": "55"
         },
@@ -1787,7 +1820,18 @@
     {
         "methodName": "High alching rune arrows at the fountain of rune",
         "methodLink": "/w/Money_making_guide/High_alching_rune_arrows_at_the_fountain_of_rune",
-        "hourlyProfit": 192000,
+        "hourlyProfit": 194000,
+        "skills": {
+            "Magic": "55"
+        },
+        "category": "Skilling/Magic",
+        "itenstity": "Low",
+        "random": ""
+    },
+    {
+        "methodName": "High alching runite limbs at the fountain of rune",
+        "methodLink": "/w/Money_making_guide/High_alching_runite_limbs_at_the_fountain_of_rune",
+        "hourlyProfit": 204000,
         "skills": {
             "Magic": "55"
         },
@@ -1798,7 +1842,7 @@
     {
         "methodName": "Humidifying clay",
         "methodLink": "/w/Money_making_guide/Humidifying_clay",
-        "hourlyProfit": 511000,
+        "hourlyProfit": 625000,
         "skills": {
             "Magic": "68"
         },
@@ -1809,7 +1853,7 @@
     {
         "methodName": "Hunting black chinchompas",
         "methodLink": "/w/Money_making_guide/Hunting_black_chinchompas",
-        "hourlyProfit": 1232000,
+        "hourlyProfit": 1146000,
         "skills": {
             "Hunter": "80",
             "Prayer": "43",
@@ -1822,7 +1866,7 @@
     {
         "methodName": "Hunting carnivorous chinchompas",
         "methodLink": "/w/Money_making_guide/Hunting_carnivorous_chinchompas",
-        "hourlyProfit": 849000,
+        "hourlyProfit": 816000,
         "skills": {
             "Hunter": "63"
         },
@@ -1833,7 +1877,7 @@
     {
         "methodName": "Hunting chinchompas",
         "methodLink": "/w/Money_making_guide/Hunting_chinchompas",
-        "hourlyProfit": 198000,
+        "hourlyProfit": 173000,
         "skills": {
             "Hunter": "53"
         },
@@ -1844,7 +1888,7 @@
     {
         "methodName": "Hunting implings",
         "methodLink": "/w/Money_making_guide/Hunting_implings",
-        "hourlyProfit": 1226000,
+        "hourlyProfit": 1113000,
         "skills": {
             "Hunter": "83",
             "Thieving": "60",
@@ -1857,7 +1901,7 @@
     {
         "methodName": "Killing Ankou (free-to-play)",
         "methodLink": "/w/Money_making_guide/Killing_Ankou_(free-to-play)",
-        "hourlyProfit": 29000,
+        "hourlyProfit": 28000,
         "skills": {
             "Combat level": "60",
             "Magic": "60",
@@ -1874,7 +1918,7 @@
     {
         "methodName": "Killing Artio",
         "methodLink": "/w/Money_making_guide/Killing_Artio",
-        "hourlyProfit": 2986000,
+        "hourlyProfit": 2836000,
         "skills": {
             "Hitpoints": "60",
             "Ranged": "75",
@@ -1888,7 +1932,7 @@
     {
         "methodName": "Killing Bryophyta (free-to-play)",
         "methodLink": "/w/Money_making_guide/Killing_Bryophyta_(free-to-play)",
-        "hourlyProfit": 172000,
+        "hourlyProfit": 171000,
         "skills": {
             "Attack": "50",
             "Strength": "50",
@@ -1903,7 +1947,7 @@
     {
         "methodName": "Killing Callisto",
         "methodLink": "/w/Money_making_guide/Killing_Callisto",
-        "hourlyProfit": 3620000,
+        "hourlyProfit": 3455000,
         "skills": {
             "Combat level": "90",
             "Hitpoints": "60",
@@ -1918,7 +1962,7 @@
     {
         "methodName": "Killing Calvar'ion",
         "methodLink": "/w/Money_making_guide/Killing_Calvar%27ion",
-        "hourlyProfit": 2073000,
+        "hourlyProfit": 2171000,
         "skills": {
             "Prayer": "43"
         },
@@ -1929,7 +1973,7 @@
     {
         "methodName": "Killing Cerberus",
         "methodLink": "/w/Money_making_guide/Killing_Cerberus",
-        "hourlyProfit": 5013000,
+        "hourlyProfit": 4331000,
         "skills": {
             "Slayer": "91",
             "Attack": "85",
@@ -1942,7 +1986,7 @@
     {
         "methodName": "Killing Commander Zilyana",
         "methodLink": "/w/Money_making_guide/Killing_Commander_Zilyana",
-        "hourlyProfit": 4849000,
+        "hourlyProfit": 4900000,
         "skills": {
             "Combat level": "100",
             "Agility": "70",
@@ -1958,7 +2002,7 @@
     {
         "methodName": "Killing Dagannoth Kings (Rex only)",
         "methodLink": "/w/Money_making_guide/Killing_Dagannoth_Kings_(Rex_only)",
-        "hourlyProfit": 1216000,
+        "hourlyProfit": 1283000,
         "skills": {
             "Magic": "50",
             "Defence": "40",
@@ -1971,7 +2015,7 @@
     {
         "methodName": "Killing Dagannoth Kings (Solo tribrid)",
         "methodLink": "/w/Money_making_guide/Killing_Dagannoth_Kings_(Solo_tribrid)",
-        "hourlyProfit": 2529000,
+        "hourlyProfit": 2672000,
         "skills": {
             "Attack": "85",
             "Ranged": "85",
@@ -1986,7 +2030,7 @@
     {
         "methodName": "Killing Duke Sucellus",
         "methodLink": "/w/Money_making_guide/Killing_Duke_Sucellus",
-        "hourlyProfit": 4034000,
+        "hourlyProfit": 3992000,
         "skills": {
             "Strength": "90",
             "Attack": "90",
@@ -2000,7 +2044,7 @@
     {
         "methodName": "Killing Feral Vampyres",
         "methodLink": "/w/Money_making_guide/Killing_Feral_Vampyres",
-        "hourlyProfit": 215000,
+        "hourlyProfit": 224000,
         "skills": {
             "Combat level": "75"
         },
@@ -2011,7 +2055,7 @@
     {
         "methodName": "Killing General Graardor",
         "methodLink": "/w/Money_making_guide/Killing_General_Graardor",
-        "hourlyProfit": 4781000,
+        "hourlyProfit": 4737000,
         "skills": {
             "Strength": "70",
             "Attack": "80",
@@ -2026,7 +2070,7 @@
     {
         "methodName": "Killing Jubsters",
         "methodLink": "/w/Money_making_guide/Killing_Jubsters",
-        "hourlyProfit": 431000,
+        "hourlyProfit": 418000,
         "skills": {
             "Attack": "40"
         },
@@ -2037,7 +2081,7 @@
     {
         "methodName": "Killing K'ril Tsutsaroth",
         "methodLink": "/w/Money_making_guide/Killing_K%27ril_Tsutsaroth",
-        "hourlyProfit": 1733000,
+        "hourlyProfit": 1745000,
         "skills": {
             "Hitpoints": "70",
             "Attack": "80",
@@ -2052,7 +2096,7 @@
     {
         "methodName": "Killing Kree'arra",
         "methodLink": "/w/Money_making_guide/Killing_Kree%27arra",
-        "hourlyProfit": 6163000,
+        "hourlyProfit": 6193000,
         "skills": {
             "Ranged": "80",
             "Magic": "80",
@@ -2065,7 +2109,7 @@
     {
         "methodName": "Killing Lizardman Shamans (Canyon)",
         "methodLink": "/w/Money_making_guide/Killing_Lizardman_Shamans_(Canyon)",
-        "hourlyProfit": 1757000,
+        "hourlyProfit": 1713000,
         "skills": {
             "Ranged": "75",
             "Prayer": "70"
@@ -2077,7 +2121,7 @@
     {
         "methodName": "Killing Lizardman Shamans (Settlement or Temple)",
         "methodLink": "/w/Money_making_guide/Killing_Lizardman_Shamans_(Settlement_or_Temple)",
-        "hourlyProfit": 1093000,
+        "hourlyProfit": 1060000,
         "skills": {
             "Ranged": "75",
             "Prayer": "70"
@@ -2089,7 +2133,7 @@
     {
         "methodName": "Killing Nex (Duo)",
         "methodLink": "/w/Money_making_guide/Killing_Nex_(Duo)",
-        "hourlyProfit": 18763000,
+        "hourlyProfit": 18593000,
         "skills": {
             "Attack": "95",
             "Strength": "95",
@@ -2105,7 +2149,7 @@
     {
         "methodName": "Killing Nex (Team)",
         "methodLink": "/w/Money_making_guide/Killing_Nex_(Team)",
-        "hourlyProfit": 12467000,
+        "hourlyProfit": 12364000,
         "skills": {
             "Ranged": "90",
             "Defence": "90",
@@ -2119,7 +2163,7 @@
     {
         "methodName": "Killing Phantom Muspah (Twisted bow)",
         "methodLink": "/w/Money_making_guide/Killing_Phantom_Muspah_(Twisted_bow)",
-        "hourlyProfit": 4344000,
+        "hourlyProfit": 4383000,
         "skills": {
             "Ranged": "90",
             "Defence": "80",
@@ -2133,7 +2177,7 @@
     {
         "methodName": "Killing Phosani's Nightmare",
         "methodLink": "/w/Money_making_guide/Killing_Phosani%27s_Nightmare",
-        "hourlyProfit": 4118000,
+        "hourlyProfit": 3896000,
         "skills": {
             "Hitpoints": "90",
             "Magic": "90",
@@ -2146,7 +2190,7 @@
     {
         "methodName": "Killing Sarachnis",
         "methodLink": "/w/Money_making_guide/Killing_Sarachnis",
-        "hourlyProfit": 614000,
+        "hourlyProfit": 587000,
         "skills": {
             "Prayer": "70"
         },
@@ -2157,7 +2201,7 @@
     {
         "methodName": "Killing Spindel",
         "methodLink": "/w/Money_making_guide/Killing_Spindel",
-        "hourlyProfit": 4082000,
+        "hourlyProfit": 4305000,
         "skills": {
             "Strength": "80",
             "Attack": "80",
@@ -2170,7 +2214,7 @@
     {
         "methodName": "Killing The Leviathan",
         "methodLink": "/w/Money_making_guide/Killing_The_Leviathan",
-        "hourlyProfit": 5187000,
+        "hourlyProfit": 4810000,
         "skills": {
             "Ranged": "90",
             "Defence": "90",
@@ -2183,7 +2227,7 @@
     {
         "methodName": "Killing The Nightmare",
         "methodLink": "/w/Money_making_guide/Killing_The_Nightmare",
-        "hourlyProfit": 2136000,
+        "hourlyProfit": 2028000,
         "skills": {
             "Attack": "85",
             "Strength": "85",
@@ -2199,7 +2243,7 @@
     {
         "methodName": "Killing The Whisperer",
         "methodLink": "/w/Money_making_guide/Killing_The_Whisperer",
-        "hourlyProfit": 4533000,
+        "hourlyProfit": 5560000,
         "skills": {
             "Magic": "90",
             "Prayer": "77"
@@ -2211,7 +2255,7 @@
     {
         "methodName": "Killing Vardorvis",
         "methodLink": "/w/Money_making_guide/Killing_Vardorvis",
-        "hourlyProfit": 6455000,
+        "hourlyProfit": 6474000,
         "skills": {
             "Strength": "90",
             "Attack": "90",
@@ -2225,7 +2269,7 @@
     {
         "methodName": "Killing Venenatis",
         "methodLink": "/w/Money_making_guide/Killing_Venenatis",
-        "hourlyProfit": 6282000,
+        "hourlyProfit": 6546000,
         "skills": {
             "Strength": "80",
             "Attack": "80",
@@ -2238,7 +2282,7 @@
     {
         "methodName": "Killing Vet'ion",
         "methodLink": "/w/Money_making_guide/Killing_Vet%27ion",
-        "hourlyProfit": 2755000,
+        "hourlyProfit": 2856000,
         "skills": {
             "Prayer": "43"
         },
@@ -2249,7 +2293,7 @@
     {
         "methodName": "Killing Vorkath (Dragon hunter crossbow)",
         "methodLink": "/w/Money_making_guide/Killing_Vorkath_(Dragon_hunter_crossbow)",
-        "hourlyProfit": 3240000,
+        "hourlyProfit": 3093000,
         "skills": {
             "Ranged": "90",
             "Defence": "80",
@@ -2262,7 +2306,7 @@
     {
         "methodName": "Killing Vorkath (Dragon hunter lance)",
         "methodLink": "/w/Money_making_guide/Killing_Vorkath_(Dragon_hunter_lance)",
-        "hourlyProfit": 3360000,
+        "hourlyProfit": 3204000,
         "skills": {
             "Attack": "90",
             "Defence": "85",
@@ -2275,7 +2319,7 @@
     {
         "methodName": "Killing Vorkath (Toxic blowpipe)",
         "methodLink": "/w/Money_making_guide/Killing_Vorkath_(Toxic_blowpipe)",
-        "hourlyProfit": 1901000,
+        "hourlyProfit": 1786000,
         "skills": {
             "Ranged": "90",
             "Attack": "80",
@@ -2288,7 +2332,7 @@
     {
         "methodName": "Killing Vyrewatch Sentinels",
         "methodLink": "/w/Money_making_guide/Killing_Vyrewatch_Sentinels",
-        "hourlyProfit": 746000,
+        "hourlyProfit": 764000,
         "skills": {
             "Prayer": "43"
         },
@@ -2299,7 +2343,7 @@
     {
         "methodName": "Killing Zalcano",
         "methodLink": "/w/Money_making_guide/Killing_Zalcano",
-        "hourlyProfit": 1473000,
+        "hourlyProfit": 1461000,
         "skills": {
             "Mining": "70"
         },
@@ -2310,7 +2354,7 @@
     {
         "methodName": "Killing Zamorak monks",
         "methodLink": "/w/Money_making_guide/Killing_Zamorak_monks",
-        "hourlyProfit": 45000,
+        "hourlyProfit": 43000,
         "skills": {
             "Ranged": "40",
             "Defence": "20",
@@ -2323,7 +2367,7 @@
     {
         "methodName": "Killing Zulrah",
         "methodLink": "/w/Money_making_guide/Killing_Zulrah",
-        "hourlyProfit": 1489000,
+        "hourlyProfit": 1434000,
         "skills": {
             "Defence": "70",
             "Ranged": "80",
@@ -2336,7 +2380,7 @@
     {
         "methodName": "Killing Zulrah (max efficiency)",
         "methodLink": "/w/Money_making_guide/Killing_Zulrah_(max_efficiency)",
-        "hourlyProfit": 2810000,
+        "hourlyProfit": 2761000,
         "skills": {
             "Defence": "70",
             "Ranged": "95",
@@ -2349,7 +2393,7 @@
     {
         "methodName": "Killing aviansies",
         "methodLink": "/w/Money_making_guide/Killing_aviansies",
-        "hourlyProfit": 223000,
+        "hourlyProfit": 215000,
         "skills": {
             "Strength": "60",
             "Ranged": "70",
@@ -2362,7 +2406,7 @@
     {
         "methodName": "Killing bears",
         "methodLink": "/w/Money_making_guide/Killing_bears",
-        "hourlyProfit": 58000,
+        "hourlyProfit": 64000,
         "skills": {
             "Combat level": "30"
         },
@@ -2373,7 +2417,7 @@
     {
         "methodName": "Killing black dragons",
         "methodLink": "/w/Money_making_guide/Killing_black_dragons",
-        "hourlyProfit": 242000,
+        "hourlyProfit": 231000,
         "skills": {
             "Ranged": "80",
             "Defence": "70"
@@ -2385,7 +2429,7 @@
     {
         "methodName": "Killing blue dragons",
         "methodLink": "/w/Money_making_guide/Killing_blue_dragons",
-        "hourlyProfit": 567000,
+        "hourlyProfit": 545000,
         "skills": {
             "Combat level": "90",
             "Ranged": "70",
@@ -2399,7 +2443,7 @@
     {
         "methodName": "Killing brine rats",
         "methodLink": "/w/Money_making_guide/Killing_brine_rats",
-        "hourlyProfit": 170000,
+        "hourlyProfit": 191000,
         "skills": {
             "Slayer": "47",
             "Attack": "60",
@@ -2412,7 +2456,7 @@
     {
         "methodName": "Killing brutal black dragons",
         "methodLink": "/w/Money_making_guide/Killing_brutal_black_dragons",
-        "hourlyProfit": 1234000,
+        "hourlyProfit": 1179000,
         "skills": {
             "Slayer": "77",
             "Prayer": "37",
@@ -2426,7 +2470,7 @@
     {
         "methodName": "Killing brutal green dragons",
         "methodLink": "/w/Money_making_guide/Killing_brutal_green_dragons",
-        "hourlyProfit": 196000,
+        "hourlyProfit": 189000,
         "skills": {
             "Ranged": "70",
             "Prayer": "37"
@@ -2438,7 +2482,7 @@
     {
         "methodName": "Killing brutal red dragons",
         "methodLink": "/w/Money_making_guide/Killing_brutal_red_dragons",
-        "hourlyProfit": 447000,
+        "hourlyProfit": 439000,
         "skills": {
             "Ranged": "80",
             "Prayer": "37"
@@ -2450,7 +2494,7 @@
     {
         "methodName": "Killing cave horrors",
         "methodLink": "/w/Money_making_guide/Killing_cave_horrors",
-        "hourlyProfit": 231000,
+        "hourlyProfit": 234000,
         "skills": {
             "Slayer": "58",
             "Magic": "70",
@@ -2463,7 +2507,7 @@
     {
         "methodName": "Killing chaos druids",
         "methodLink": "/w/Money_making_guide/Killing_chaos_druids",
-        "hourlyProfit": 177000,
+        "hourlyProfit": 172000,
         "skills": {
             "Combat level": "40",
             "Prayer": "25"
@@ -2475,7 +2519,7 @@
     {
         "methodName": "Killing chaos dwarves",
         "methodLink": "/w/Money_making_guide/Killing_chaos_dwarves",
-        "hourlyProfit": 105000,
+        "hourlyProfit": 106000,
         "skills": {
             "Combat level": "60"
         },
@@ -2486,7 +2530,7 @@
     {
         "methodName": "Killing chickens",
         "methodLink": "/w/Money_making_guide/Killing_chickens",
-        "hourlyProfit": 25000,
+        "hourlyProfit": 24000,
         "skills": {},
         "category": "Combat/Low",
         "itenstity": "Low",
@@ -2495,7 +2539,7 @@
     {
         "methodName": "Killing cows and tanning cowhide",
         "methodLink": "/w/Money_making_guide/Killing_cows_and_tanning_cowhide",
-        "hourlyProfit": 70000,
+        "hourlyProfit": 76000,
         "skills": {
             "Combat level": "20"
         },
@@ -2506,7 +2550,7 @@
     {
         "methodName": "Killing demonic gorillas",
         "methodLink": "/w/Money_making_guide/Killing_demonic_gorillas",
-        "hourlyProfit": 2806000,
+        "hourlyProfit": 2518000,
         "skills": {
             "Attack": "80",
             "Strength": "85",
@@ -2524,7 +2568,7 @@
     {
         "methodName": "Killing disciples of Iban",
         "methodLink": "/w/Money_making_guide/Killing_disciples_of_Iban",
-        "hourlyProfit": 651000,
+        "hourlyProfit": 618000,
         "skills": {
             "Hitpoints": "50",
             "Agility": "60"
@@ -2536,7 +2580,7 @@
     {
         "methodName": "Killing ents",
         "methodLink": "/w/Money_making_guide/Killing_ents",
-        "hourlyProfit": 538000,
+        "hourlyProfit": 533000,
         "skills": {
             "Attack": "60",
             "Defence": "40",
@@ -2550,7 +2594,7 @@
     {
         "methodName": "Killing fiyr shades",
         "methodLink": "/w/Money_making_guide/Killing_fiyr_shades",
-        "hourlyProfit": 919000,
+        "hourlyProfit": 1082000,
         "skills": {
             "Firemaking": "65",
             "Attack": "80"
@@ -2575,7 +2619,7 @@
     {
         "methodName": "Killing green dragons",
         "methodLink": "/w/Money_making_guide/Killing_green_dragons",
-        "hourlyProfit": 873000,
+        "hourlyProfit": 839000,
         "skills": {
             "Combat level": "80",
             "Ranged": "60",
@@ -2588,7 +2632,7 @@
     {
         "methodName": "Killing green dragons (Myths Guild)",
         "methodLink": "/w/Money_making_guide/Killing_green_dragons_(Myths_Guild)",
-        "hourlyProfit": 950000,
+        "hourlyProfit": 917000,
         "skills": {
             "Combat level": "80",
             "Ranged": "60"
@@ -2600,7 +2644,7 @@
     {
         "methodName": "Killing hill giants",
         "methodLink": "/w/Money_making_guide/Killing_hill_giants",
-        "hourlyProfit": 57000,
+        "hourlyProfit": 58000,
         "skills": {
             "Attack": "30",
             "Strength": "30",
@@ -2611,9 +2655,18 @@
         "random": ""
     },
     {
+        "methodName": "Killing hobgoblins",
+        "methodLink": "/w/Money_making_guide/Killing_hobgoblins",
+        "hourlyProfit": 22000,
+        "skills": {},
+        "category": "Combat/Mid",
+        "itenstity": "Moderate",
+        "random": ""
+    },
+    {
         "methodName": "Killing hydras",
         "methodLink": "/w/Money_making_guide/Killing_hydras",
-        "hourlyProfit": 1205000,
+        "hourlyProfit": 1163000,
         "skills": {
             "Attack": "90",
             "Prayer": "70",
@@ -2626,7 +2679,7 @@
     {
         "methodName": "Killing ice troll runts",
         "methodLink": "/w/Money_making_guide/Killing_ice_troll_runts",
-        "hourlyProfit": 455000,
+        "hourlyProfit": 452000,
         "skills": {
             "Attack": "60",
             "Prayer": "43"
@@ -2638,7 +2691,7 @@
     {
         "methodName": "Killing imps",
         "methodLink": "/w/Money_making_guide/Killing_imps",
-        "hourlyProfit": 97000,
+        "hourlyProfit": 96000,
         "skills": {
             "Combat level": "30"
         },
@@ -2649,7 +2702,7 @@
     {
         "methodName": "Killing lava dragons",
         "methodLink": "/w/Money_making_guide/Killing_lava_dragons",
-        "hourlyProfit": 1093000,
+        "hourlyProfit": 1070000,
         "skills": {
             "Ranged": "80",
             "Magic": "75",
@@ -2663,7 +2716,7 @@
     {
         "methodName": "Killing mithril dragons",
         "methodLink": "/w/Money_making_guide/Killing_mithril_dragons",
-        "hourlyProfit": 807000,
+        "hourlyProfit": 759000,
         "skills": {
             "Hitpoints": "80",
             "Attack": "80",
@@ -2678,7 +2731,7 @@
     {
         "methodName": "Killing monkeys",
         "methodLink": "/w/Money_making_guide/Killing_monkeys",
-        "hourlyProfit": 88000,
+        "hourlyProfit": 89000,
         "skills": {
             "Combat level": "5"
         },
@@ -2689,7 +2742,7 @@
     {
         "methodName": "Killing ogress shamans",
         "methodLink": "/w/Money_making_guide/Killing_ogress_shamans",
-        "hourlyProfit": 139000,
+        "hourlyProfit": 136000,
         "skills": {
             "Ranged": "40"
         },
@@ -2700,7 +2753,7 @@
     {
         "methodName": "Killing ogress warriors",
         "methodLink": "/w/Money_making_guide/Killing_ogress_warriors",
-        "hourlyProfit": 84000,
+        "hourlyProfit": 82000,
         "skills": {
             "Ranged": "40"
         },
@@ -2711,7 +2764,7 @@
     {
         "methodName": "Killing red dragons",
         "methodLink": "/w/Money_making_guide/Killing_red_dragons",
-        "hourlyProfit": 230000,
+        "hourlyProfit": 226000,
         "skills": {
             "Agility": "30",
             "Woodcutting": "34",
@@ -2725,7 +2778,7 @@
     {
         "methodName": "Killing revenants (Craw's bow)",
         "methodLink": "/w/Money_making_guide/Killing_revenants_(Craw%27s_bow)",
-        "hourlyProfit": 3256000,
+        "hourlyProfit": 3231000,
         "skills": {
             "Defence": "45",
             "Ranged": "90",
@@ -2739,7 +2792,7 @@
     {
         "methodName": "Killing revenants (Magic shortbow)",
         "methodLink": "/w/Money_making_guide/Killing_revenants_(Magic_shortbow)",
-        "hourlyProfit": 2415000,
+        "hourlyProfit": 2401000,
         "skills": {
             "Defence": "45",
             "Ranged": "80",
@@ -2753,7 +2806,7 @@
     {
         "methodName": "Killing rune dragons",
         "methodLink": "/w/Money_making_guide/Killing_rune_dragons",
-        "hourlyProfit": 1448000,
+        "hourlyProfit": 1424000,
         "skills": {
             "Hitpoints": "90",
             "Magic": "75"
@@ -2765,7 +2818,7 @@
     {
         "methodName": "Killing skeletal wyverns",
         "methodLink": "/w/Money_making_guide/Killing_skeletal_wyverns",
-        "hourlyProfit": 745000,
+        "hourlyProfit": 732000,
         "skills": {
             "Slayer": "72",
             "Attack": "80",
@@ -2780,7 +2833,7 @@
     {
         "methodName": "Killing skogres and zogres",
         "methodLink": "/w/Money_making_guide/Killing_skogres_and_zogres",
-        "hourlyProfit": 526000,
+        "hourlyProfit": 470000,
         "skills": {
             "Ranged": "40",
             "Defence": "40"
@@ -2792,7 +2845,7 @@
     {
         "methodName": "Killing spidines",
         "methodLink": "/w/Money_making_guide/Killing_spidines",
-        "hourlyProfit": 365000,
+        "hourlyProfit": 363000,
         "skills": {
             "Attack": "40"
         },
@@ -2803,7 +2856,7 @@
     {
         "methodName": "Killing spiritual mages",
         "methodLink": "/w/Money_making_guide/Killing_spiritual_mages",
-        "hourlyProfit": 207000,
+        "hourlyProfit": 198000,
         "skills": {
             "Slayer": "83",
             "Attack": "70",
@@ -2817,7 +2870,7 @@
     {
         "methodName": "Killing the Abyssal Sire",
         "methodLink": "/w/Money_making_guide/Killing_the_Abyssal_Sire",
-        "hourlyProfit": 1126000,
+        "hourlyProfit": 1096000,
         "skills": {
             "Slayer": "85",
             "Attack": "85",
@@ -2833,7 +2886,7 @@
     {
         "methodName": "Killing the Alchemical Hydra",
         "methodLink": "/w/Money_making_guide/Killing_the_Alchemical_Hydra",
-        "hourlyProfit": 4349000,
+        "hourlyProfit": 4274000,
         "skills": {
             "Slayer": "95",
             "Ranged": "75",
@@ -2847,7 +2900,7 @@
     {
         "methodName": "Killing the Corporeal Beast",
         "methodLink": "/w/Money_making_guide/Killing_the_Corporeal_Beast",
-        "hourlyProfit": 2353000,
+        "hourlyProfit": 2418000,
         "skills": {
             "Prayer": "37",
             "Construction": "90"
@@ -2859,7 +2912,7 @@
     {
         "methodName": "Killing the Crazy archaeologist",
         "methodLink": "/w/Money_making_guide/Killing_the_Crazy_archaeologist",
-        "hourlyProfit": 108000,
+        "hourlyProfit": 102000,
         "skills": {
             "Magic": "50",
             "Prayer": "40"
@@ -2871,7 +2924,7 @@
     {
         "methodName": "Killing the Giant Mole (Dharok's)",
         "methodLink": "/w/Money_making_guide/Killing_the_Giant_Mole_(Dharok%27s)",
-        "hourlyProfit": 1270000,
+        "hourlyProfit": 1306000,
         "skills": {
             "Attack": "70",
             "Prayer": "43",
@@ -2884,7 +2937,7 @@
     {
         "methodName": "Killing the Giant Mole (Twisted bow)",
         "methodLink": "/w/Money_making_guide/Killing_the_Giant_Mole_(Twisted_bow)",
-        "hourlyProfit": 2017000,
+        "hourlyProfit": 2086000,
         "skills": {
             "Ranged": "85",
             "Prayer": "77"
@@ -2896,7 +2949,7 @@
     {
         "methodName": "Killing the Grotesque Guardians",
         "methodLink": "/w/Money_making_guide/Killing_the_Grotesque_Guardians",
-        "hourlyProfit": 1060000,
+        "hourlyProfit": 1042000,
         "skills": {
             "Slayer": "75",
             "Combat level": "90",
@@ -2910,7 +2963,7 @@
     {
         "methodName": "Killing the Kalphite Queen",
         "methodLink": "/w/Money_making_guide/Killing_the_Kalphite_Queen",
-        "hourlyProfit": 500000,
+        "hourlyProfit": 501000,
         "skills": {
             "Attack": "80",
             "Strength": "80",
@@ -2926,7 +2979,7 @@
     {
         "methodName": "Killing the King Black Dragon",
         "methodLink": "/w/Money_making_guide/Killing_the_King_Black_Dragon",
-        "hourlyProfit": 343000,
+        "hourlyProfit": 314000,
         "skills": {
             "Attack": "80",
             "Ranged": "70",
@@ -2940,7 +2993,7 @@
     {
         "methodName": "Killing the Kraken",
         "methodLink": "/w/Money_making_guide/Killing_the_Kraken",
-        "hourlyProfit": 904000,
+        "hourlyProfit": 891000,
         "skills": {
             "Slayer": "87",
             "Magic": "85"
@@ -2952,7 +3005,7 @@
     {
         "methodName": "Killing the Thermonuclear smoke devil",
         "methodLink": "/w/Money_making_guide/Killing_the_Thermonuclear_smoke_devil",
-        "hourlyProfit": 1427000,
+        "hourlyProfit": 1420000,
         "skills": {
             "Slayer": "93",
             "Combat level": "90",
@@ -2965,7 +3018,7 @@
     {
         "methodName": "Killing urium shades",
         "methodLink": "/w/Money_making_guide/Killing_urium_shades",
-        "hourlyProfit": 843000,
+        "hourlyProfit": 793000,
         "skills": {
             "Firemaking": "80",
             "Attack": "80"
@@ -2977,7 +3030,7 @@
     {
         "methodName": "Killing wizards",
         "methodLink": "/w/Money_making_guide/Killing_wizards",
-        "hourlyProfit": 30000,
+        "hourlyProfit": 29000,
         "skills": {
             "Combat level": "20"
         },
@@ -2988,7 +3041,7 @@
     {
         "methodName": "Last Man Standing",
         "methodLink": "/w/Money_making_guide/Last_Man_Standing",
-        "hourlyProfit": 842000,
+        "hourlyProfit": 802000,
         "skills": {
             "Skills": "750",
             "Quest points": "30"
@@ -2998,9 +3051,20 @@
         "random": ""
     },
     {
+        "methodName": "Looting ogre coffins",
+        "methodLink": "/w/Money_making_guide/Looting_ogre_coffins",
+        "hourlyProfit": 184000,
+        "skills": {
+            "Agility": "High agility"
+        },
+        "category": "Collecting",
+        "itenstity": "Moderate",
+        "random": ""
+    },
+    {
         "methodName": "Making Guthix rests",
         "methodLink": "/w/Money_making_guide/Making_Guthix_rests",
-        "hourlyProfit": 648000,
+        "hourlyProfit": 590000,
         "skills": {
             "Herblore": "18"
         },
@@ -3011,7 +3075,7 @@
     {
         "methodName": "Making adamant brutal arrows",
         "methodLink": "/w/Money_making_guide/Making_adamant_brutal_arrows",
-        "hourlyProfit": 360000,
+        "hourlyProfit": 660000,
         "skills": {
             "Fletching": "62"
         },
@@ -3022,7 +3086,7 @@
     {
         "methodName": "Making anchovy pizzas",
         "methodLink": "/w/Money_making_guide/Making_anchovy_pizzas",
-        "hourlyProfit": 280000,
+        "hourlyProfit": 198000,
         "skills": {
             "Cooking": "55"
         },
@@ -3033,7 +3097,7 @@
     {
         "methodName": "Making avantoe potions",
         "methodLink": "/w/Money_making_guide/Making_avantoe_potions",
-        "hourlyProfit": 1036000,
+        "hourlyProfit": 704000,
         "skills": {
             "Herblore": "50"
         },
@@ -3044,7 +3108,7 @@
     {
         "methodName": "Making cadantine potions",
         "methodLink": "/w/Money_making_guide/Making_cadantine_potions",
-        "hourlyProfit": 1568000,
+        "hourlyProfit": 712000,
         "skills": {
             "Herblore": "66"
         },
@@ -3055,7 +3119,7 @@
     {
         "methodName": "Making dough at Cooks' Guild",
         "methodLink": "/w/Money_making_guide/Making_dough_at_Cooks%27_Guild",
-        "hourlyProfit": 78000,
+        "hourlyProfit": 79000,
         "skills": {
             "Cooking": "32"
         },
@@ -3066,7 +3130,7 @@
     {
         "methodName": "Making dwarf weed potions",
         "methodLink": "/w/Money_making_guide/Making_dwarf_weed_potions",
-        "hourlyProfit": 964000,
+        "hourlyProfit": 736000,
         "skills": {
             "Herblore": "72"
         },
@@ -3086,7 +3150,7 @@
     {
         "methodName": "Making dynamite",
         "methodLink": "/w/Money_making_guide/Making_dynamite",
-        "hourlyProfit": 220000,
+        "hourlyProfit": 155000,
         "skills": {
             "Mining": "42",
             "Slayer": "10"
@@ -3096,20 +3160,9 @@
         "random": ""
     },
     {
-        "methodName": "Making flour",
-        "methodLink": "/w/Money_making_guide/Making_flour",
-        "hourlyProfit": 20000,
-        "skills": {
-            "Cooking": "32"
-        },
-        "category": "Processing",
-        "itenstity": "Low",
-        "random": ""
-    },
-    {
         "methodName": "Making gloves of silence",
         "methodLink": "/w/Money_making_guide/Making_gloves_of_silence",
-        "hourlyProfit": 605000,
+        "hourlyProfit": 762000,
         "skills": {},
         "category": "Processing/Magic",
         "itenstity": "Moderate",
@@ -3118,7 +3171,7 @@
     {
         "methodName": "Making guam potions",
         "methodLink": "/w/Money_making_guide/Making_guam_potions",
-        "hourlyProfit": 336000,
+        "hourlyProfit": 480000,
         "skills": {
             "Herblore": "3"
         },
@@ -3129,7 +3182,7 @@
     {
         "methodName": "Making harralander potions",
         "methodLink": "/w/Money_making_guide/Making_harralander_potions",
-        "hourlyProfit": 648000,
+        "hourlyProfit": 568000,
         "skills": {
             "Herblore": "22"
         },
@@ -3140,7 +3193,7 @@
     {
         "methodName": "Making irit potions",
         "methodLink": "/w/Money_making_guide/Making_irit_potions",
-        "hourlyProfit": 544000,
+        "hourlyProfit": 324000,
         "skills": {
             "Herblore": "45"
         },
@@ -3151,7 +3204,7 @@
     {
         "methodName": "Making kwuarm potions",
         "methodLink": "/w/Money_making_guide/Making_kwuarm_potions",
-        "hourlyProfit": 1012000,
+        "hourlyProfit": 732000,
         "skills": {
             "Herblore": "55"
         },
@@ -3162,7 +3215,7 @@
     {
         "methodName": "Making lantadyme potions",
         "methodLink": "/w/Money_making_guide/Making_lantadyme_potions",
-        "hourlyProfit": 804000,
+        "hourlyProfit": 656000,
         "skills": {
             "Herblore": "69"
         },
@@ -3171,9 +3224,18 @@
         "random": ""
     },
     {
+        "methodName": "Making magic pyre logs",
+        "methodLink": "/w/Money_making_guide/Making_magic_pyre_logs",
+        "hourlyProfit": 554000,
+        "skills": {},
+        "category": "Processing",
+        "itenstity": "Moderate",
+        "random": ""
+    },
+    {
         "methodName": "Making mahogany planks",
         "methodLink": "/w/Money_making_guide/Making_mahogany_planks",
-        "hourlyProfit": 474000,
+        "hourlyProfit": 348000,
         "skills": {
             "Firemaking": "50"
         },
@@ -3184,7 +3246,7 @@
     {
         "methodName": "Making mahogany planks at the Woodcutting Guild",
         "methodLink": "/w/Money_making_guide/Making_mahogany_planks_at_the_Woodcutting_Guild",
-        "hourlyProfit": 399000,
+        "hourlyProfit": 288000,
         "skills": {
             "Woodcutting": "60"
         },
@@ -3195,7 +3257,7 @@
     {
         "methodName": "Making marrentill potions",
         "methodLink": "/w/Money_making_guide/Making_marrentill_potions",
-        "hourlyProfit": 336000,
+        "hourlyProfit": 260000,
         "skills": {
             "Herblore": "5"
         },
@@ -3206,7 +3268,7 @@
     {
         "methodName": "Making oak planks",
         "methodLink": "/w/Money_making_guide/Making_oak_planks",
-        "hourlyProfit": 287000,
+        "hourlyProfit": 323000,
         "skills": {
             "Firemaking": "50"
         },
@@ -3226,7 +3288,7 @@
     {
         "methodName": "Making pie shells",
         "methodLink": "/w/Money_making_guide/Making_pie_shells",
-        "hourlyProfit": 309000,
+        "hourlyProfit": 350000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -3235,7 +3297,7 @@
     {
         "methodName": "Making pineapple pizzas",
         "methodLink": "/w/Money_making_guide/Making_pineapple_pizzas",
-        "hourlyProfit": 478000,
+        "hourlyProfit": 653000,
         "skills": {
             "Cooking": "65"
         },
@@ -3246,7 +3308,7 @@
     {
         "methodName": "Making pizza bases",
         "methodLink": "/w/Money_making_guide/Making_pizza_bases",
-        "hourlyProfit": 137000,
+        "hourlyProfit": 122000,
         "skills": {},
         "category": "Processing",
         "itenstity": "High",
@@ -3255,7 +3317,7 @@
     {
         "methodName": "Making ranarr potions",
         "methodLink": "/w/Money_making_guide/Making_ranarr_potions",
-        "hourlyProfit": 1147000,
+        "hourlyProfit": 913000,
         "skills": {
             "Herblore": "30"
         },
@@ -3266,7 +3328,7 @@
     {
         "methodName": "Making raw admiral pies",
         "methodLink": "/w/Money_making_guide/Making_raw_admiral_pies",
-        "hourlyProfit": 407000,
+        "hourlyProfit": 396000,
         "skills": {
             "Cooking": "70"
         },
@@ -3277,7 +3339,7 @@
     {
         "methodName": "Making raw summer pies",
         "methodLink": "/w/Money_making_guide/Making_raw_summer_pies",
-        "hourlyProfit": 264000,
+        "hourlyProfit": 311000,
         "skills": {
             "Cooking": "95"
         },
@@ -3288,7 +3350,7 @@
     {
         "methodName": "Making raw wild pies",
         "methodLink": "/w/Money_making_guide/Making_raw_wild_pies",
-        "hourlyProfit": 1082000,
+        "hourlyProfit": 932000,
         "skills": {
             "Cooking": "85"
         },
@@ -3299,7 +3361,7 @@
     {
         "methodName": "Making redwood pyre logs",
         "methodLink": "/w/Money_making_guide/Making_redwood_pyre_logs",
-        "hourlyProfit": 1172000,
+        "hourlyProfit": 1488000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -3308,7 +3370,7 @@
     {
         "methodName": "Making sacred oil",
         "methodLink": "/w/Money_making_guide/Making_sacred_oil",
-        "hourlyProfit": 1017000,
+        "hourlyProfit": 1056000,
         "skills": {
             "Crafting": "20",
             "Combat level": "81"
@@ -3320,7 +3382,7 @@
     {
         "methodName": "Making snapdragon potions",
         "methodLink": "/w/Money_making_guide/Making_snapdragon_potions",
-        "hourlyProfit": 1196000,
+        "hourlyProfit": 1032000,
         "skills": {
             "Herblore": "63"
         },
@@ -3331,7 +3393,7 @@
     {
         "methodName": "Making tarromin potions",
         "methodLink": "/w/Money_making_guide/Making_tarromin_potions",
-        "hourlyProfit": 368000,
+        "hourlyProfit": 392000,
         "skills": {
             "Herblore": "12"
         },
@@ -3342,7 +3404,7 @@
     {
         "methodName": "Making teak planks",
         "methodLink": "/w/Money_making_guide/Making_teak_planks",
-        "hourlyProfit": 375000,
+        "hourlyProfit": 291000,
         "skills": {
             "Firemaking": "50"
         },
@@ -3353,7 +3415,7 @@
     {
         "methodName": "Making toadflax potions",
         "methodLink": "/w/Money_making_guide/Making_toadflax_potions",
-        "hourlyProfit": 580000,
+        "hourlyProfit": 724000,
         "skills": {
             "Herblore": "34"
         },
@@ -3364,7 +3426,7 @@
     {
         "methodName": "Making toy cats",
         "methodLink": "/w/Money_making_guide/Making_toy_cats",
-        "hourlyProfit": 1426000,
+        "hourlyProfit": 1476000,
         "skills": {
             "Crafting": "85",
             "Construction": "42"
@@ -3376,7 +3438,7 @@
     {
         "methodName": "Making tuna potatoes",
         "methodLink": "/w/Money_making_guide/Making_tuna_potatoes",
-        "hourlyProfit": 506000,
+        "hourlyProfit": 710000,
         "skills": {
             "Cooking": "68"
         },
@@ -3387,7 +3449,7 @@
     {
         "methodName": "Making ultracompost",
         "methodLink": "/w/Money_making_guide/Making_ultracompost",
-        "hourlyProfit": 551000,
+        "hourlyProfit": 483000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -3396,7 +3458,7 @@
     {
         "methodName": "Making uncooked apple pies",
         "methodLink": "/w/Money_making_guide/Making_uncooked_apple_pies",
-        "hourlyProfit": 206000,
+        "hourlyProfit": 189000,
         "skills": {
             "Cooking": "30"
         },
@@ -3407,7 +3469,7 @@
     {
         "methodName": "Making uncooked berry pies",
         "methodLink": "/w/Money_making_guide/Making_uncooked_berry_pies",
-        "hourlyProfit": 221000,
+        "hourlyProfit": 179000,
         "skills": {
             "Cooking": "10"
         },
@@ -3418,7 +3480,7 @@
     {
         "methodName": "Making uncooked meat pies",
         "methodLink": "/w/Money_making_guide/Making_uncooked_meat_pies",
-        "hourlyProfit": 120000,
+        "hourlyProfit": 61000,
         "skills": {
             "Cooking": "20"
         },
@@ -3429,7 +3491,7 @@
     {
         "methodName": "Making weapon poison(++)",
         "methodLink": "/w/Money_making_guide/Making_weapon_poison(%2B%2B)",
-        "hourlyProfit": 761000,
+        "hourlyProfit": 771000,
         "skills": {
             "Herblore": "82"
         },
@@ -3440,7 +3502,7 @@
     {
         "methodName": "Mining adamantite ore",
         "methodLink": "/w/Money_making_guide/Mining_adamantite_ore",
-        "hourlyProfit": 164000,
+        "hourlyProfit": 173000,
         "skills": {
             "Mining": "70"
         },
@@ -3451,7 +3513,7 @@
     {
         "methodName": "Mining adamantite ore (free-to-play)",
         "methodLink": "/w/Money_making_guide/Mining_adamantite_ore_(free-to-play)",
-        "hourlyProfit": 118000,
+        "hourlyProfit": 125000,
         "skills": {
             "Mining": "70"
         },
@@ -3462,7 +3524,7 @@
     {
         "methodName": "Mining amethyst",
         "methodLink": "/w/Money_making_guide/Mining_amethyst",
-        "hourlyProfit": 461000,
+        "hourlyProfit": 433000,
         "skills": {
             "Mining": "92"
         },
@@ -3473,7 +3535,7 @@
     {
         "methodName": "Mining basalt",
         "methodLink": "/w/Money_making_guide/Mining_basalt",
-        "hourlyProfit": 569000,
+        "hourlyProfit": 553000,
         "skills": {
             "Mining": "72"
         },
@@ -3484,7 +3546,7 @@
     {
         "methodName": "Mining clay",
         "methodLink": "/w/Money_making_guide/Mining_clay",
-        "hourlyProfit": 66000,
+        "hourlyProfit": 61000,
         "skills": {},
         "category": "Skilling/Mining",
         "itenstity": "Low",
@@ -3493,7 +3555,7 @@
     {
         "methodName": "Mining clay members",
         "methodLink": "/w/Money_making_guide/Mining_clay_members",
-        "hourlyProfit": 105000,
+        "hourlyProfit": 103000,
         "skills": {},
         "category": "Skilling/Mining",
         "itenstity": "Moderate",
@@ -3513,7 +3575,7 @@
     {
         "methodName": "Mining coal and superheating Adamantite bars",
         "methodLink": "/w/Money_making_guide/Mining_coal_and_superheating_Adamantite_bars",
-        "hourlyProfit": 46000,
+        "hourlyProfit": 40000,
         "skills": {
             "Mining": "30",
             "Smithing": "70",
@@ -3526,7 +3588,7 @@
     {
         "methodName": "Mining coal and superheating Mithril bars",
         "methodLink": "/w/Money_making_guide/Mining_coal_and_superheating_Mithril_bars",
-        "hourlyProfit": 40000,
+        "hourlyProfit": 37000,
         "skills": {
             "Mining": "30",
             "Smithing": "50",
@@ -3539,7 +3601,7 @@
     {
         "methodName": "Mining gemstones",
         "methodLink": "/w/Money_making_guide/Mining_gemstones",
-        "hourlyProfit": 819000,
+        "hourlyProfit": 875000,
         "skills": {
             "Mining": "40"
         },
@@ -3574,7 +3636,7 @@
     {
         "methodName": "Mining iron ore",
         "methodLink": "/w/Money_making_guide/Mining_iron_ore",
-        "hourlyProfit": 221000,
+        "hourlyProfit": 251000,
         "skills": {
             "Mining": "15"
         },
@@ -3585,7 +3647,7 @@
     {
         "methodName": "Mining iron ore (free-to-play)",
         "methodLink": "/w/Money_making_guide/Mining_iron_ore_(free-to-play)",
-        "hourlyProfit": 65000,
+        "hourlyProfit": 75000,
         "skills": {
             "Mining": "15",
             "Combat level": "13"
@@ -3597,7 +3659,7 @@
     {
         "methodName": "Mining runite ore",
         "methodLink": "/w/Money_making_guide/Mining_runite_ore",
-        "hourlyProfit": 729000,
+        "hourlyProfit": 720000,
         "skills": {
             "Mining": "85"
         },
@@ -3608,7 +3670,7 @@
     {
         "methodName": "Mining runite ore (free-to-play)",
         "methodLink": "/w/Money_making_guide/Mining_runite_ore_(free-to-play)",
-        "hourlyProfit": 449000,
+        "hourlyProfit": 443000,
         "skills": {
             "Mining": "85",
             "Attack": "40",
@@ -3622,7 +3684,7 @@
     {
         "methodName": "Mining salts",
         "methodLink": "/w/Money_making_guide/Mining_salts",
-        "hourlyProfit": 354000,
+        "hourlyProfit": 336000,
         "skills": {
             "Mining": "72"
         },
@@ -3633,7 +3695,7 @@
     {
         "methodName": "Mining volcanic ash",
         "methodLink": "/w/Money_making_guide/Mining_volcanic_ash",
-        "hourlyProfit": 154000,
+        "hourlyProfit": 142000,
         "skills": {
             "Mining": "22"
         },
@@ -3644,7 +3706,7 @@
     {
         "methodName": "Motherlode Mine",
         "methodLink": "/w/Money_making_guide/Motherlode_Mine",
-        "hourlyProfit": 328000,
+        "hourlyProfit": 331000,
         "skills": {
             "Mining": "85"
         },
@@ -3655,7 +3717,7 @@
     {
         "methodName": "Opening crystal chests",
         "methodLink": "/w/Money_making_guide/Opening_crystal_chests",
-        "hourlyProfit": 771000,
+        "hourlyProfit": 1279000,
         "skills": {
             "Construction": "10"
         },
@@ -3666,7 +3728,7 @@
     {
         "methodName": "Opening eclectic impling jars",
         "methodLink": "/w/Money_making_guide/Opening_eclectic_impling_jars",
-        "hourlyProfit": 838000,
+        "hourlyProfit": 1131000,
         "skills": {
             "Construction": "42",
             "Magic": "96"
@@ -3678,7 +3740,7 @@
     {
         "methodName": "Opening grubby chests",
         "methodLink": "/w/Money_making_guide/Opening_grubby_chests",
-        "hourlyProfit": 1321000,
+        "hourlyProfit": 817000,
         "skills": {
             "Thieving": "57"
         },
@@ -3689,7 +3751,7 @@
     {
         "methodName": "Opening sinister chests",
         "methodLink": "/w/Money_making_guide/Opening_sinister_chests",
-        "hourlyProfit": 1340000,
+        "hourlyProfit": 1422000,
         "skills": {
             "Agility": "49",
             "Magic": "58"
@@ -3701,7 +3763,7 @@
     {
         "methodName": "Picking bananas",
         "methodLink": "/w/Money_making_guide/Picking_bananas",
-        "hourlyProfit": 263000,
+        "hourlyProfit": 290000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Moderate",
@@ -3710,7 +3772,7 @@
     {
         "methodName": "Picking potatoes",
         "methodLink": "/w/Money_making_guide/Picking_potatoes",
-        "hourlyProfit": 24000,
+        "hourlyProfit": 20000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -3719,7 +3781,7 @@
     {
         "methodName": "Pickpocketing H.A.M. members",
         "methodLink": "/w/Money_making_guide/Pickpocketing_H.A.M._members",
-        "hourlyProfit": 1014000,
+        "hourlyProfit": 1005000,
         "skills": {
             "Thieving": "15",
             "Magic": "96",
@@ -3732,7 +3794,7 @@
     {
         "methodName": "Pickpocketing elves",
         "methodLink": "/w/Money_making_guide/Pickpocketing_elves",
-        "hourlyProfit": 2674000,
+        "hourlyProfit": 2718000,
         "skills": {
             "Thieving": "85",
             "Agility": "50",
@@ -3746,7 +3808,7 @@
     {
         "methodName": "Pickpocketing master farmers",
         "methodLink": "/w/Money_making_guide/Pickpocketing_master_farmers",
-        "hourlyProfit": 929000,
+        "hourlyProfit": 939000,
         "skills": {
             "Thieving": "38",
             "Farming": "75"
@@ -3758,7 +3820,7 @@
     {
         "methodName": "Pickpocketing paladins",
         "methodLink": "/w/Money_making_guide/Pickpocketing_paladins",
-        "hourlyProfit": 608000,
+        "hourlyProfit": 544000,
         "skills": {
             "Thieving": "70",
             "Agility": "50"
@@ -3770,7 +3832,7 @@
     {
         "methodName": "Pickpocketing vyres",
         "methodLink": "/w/Money_making_guide/Pickpocketing_vyres",
-        "hourlyProfit": 2743000,
+        "hourlyProfit": 2848000,
         "skills": {
             "Thieving": "82",
             "Agility": "50",
@@ -3783,7 +3845,7 @@
     {
         "methodName": "Planting mithril seeds",
         "methodLink": "/w/Money_making_guide/Planting_mithril_seeds",
-        "hourlyProfit": 173000,
+        "hourlyProfit": 265000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -3792,7 +3854,7 @@
     {
         "methodName": "Recharging rings of wealth",
         "methodLink": "/w/Money_making_guide/Recharging_rings_of_wealth",
-        "hourlyProfit": 181000,
+        "hourlyProfit": 170000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Moderate",
@@ -3801,7 +3863,7 @@
     {
         "methodName": "Running laps of the Canifis rooftop course",
         "methodLink": "/w/Money_making_guide/Running_laps_of_the_Canifis_rooftop_course",
-        "hourlyProfit": 250000,
+        "hourlyProfit": 188000,
         "skills": {
             "Agility": "40"
         },
@@ -3812,7 +3874,7 @@
     {
         "methodName": "Shearing sheep",
         "methodLink": "/w/Money_making_guide/Shearing_sheep",
-        "hourlyProfit": 46000,
+        "hourlyProfit": 43000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "Low",
@@ -3821,7 +3883,7 @@
     {
         "methodName": "Smelting adamantite bars at Blast Furnace",
         "methodLink": "/w/Money_making_guide/Smelting_adamantite_bars_at_Blast_Furnace",
-        "hourlyProfit": 942000,
+        "hourlyProfit": 655000,
         "skills": {
             "Smithing": "70"
         },
@@ -3832,7 +3894,7 @@
     {
         "methodName": "Smelting bronze bars",
         "methodLink": "/w/Money_making_guide/Smelting_bronze_bars",
-        "hourlyProfit": 58000,
+        "hourlyProfit": 46000,
         "skills": {
             "Smithing": "1"
         },
@@ -3843,7 +3905,7 @@
     {
         "methodName": "Smelting iron bars",
         "methodLink": "/w/Money_making_guide/Smelting_iron_bars",
-        "hourlyProfit": 66000,
+        "hourlyProfit": 75000,
         "skills": {
             "Smithing": "15"
         },
@@ -3854,7 +3916,7 @@
     {
         "methodName": "Smelting iron bars at Blast Furnace",
         "methodLink": "/w/Money_making_guide/Smelting_iron_bars_at_Blast_Furnace",
-        "hourlyProfit": 262000,
+        "hourlyProfit": 332000,
         "skills": {
             "Smithing": "15"
         },
@@ -3865,7 +3927,7 @@
     {
         "methodName": "Smelting mithril bars at Blast Furnace",
         "methodLink": "/w/Money_making_guide/Smelting_mithril_bars_at_Blast_Furnace",
-        "hourlyProfit": 783000,
+        "hourlyProfit": 601000,
         "skills": {
             "Smithing": "50"
         },
@@ -3876,7 +3938,7 @@
     {
         "methodName": "Smelting runite bars at Blast Furnace",
         "methodLink": "/w/Money_making_guide/Smelting_runite_bars_at_Blast_Furnace",
-        "hourlyProfit": 931000,
+        "hourlyProfit": 1218000,
         "skills": {
             "Smithing": "85"
         },
@@ -3887,7 +3949,7 @@
     {
         "methodName": "Smelting silver bars",
         "methodLink": "/w/Money_making_guide/Smelting_silver_bars",
-        "hourlyProfit": 53000,
+        "hourlyProfit": 56000,
         "skills": {
             "Smithing": "20"
         },
@@ -3898,7 +3960,7 @@
     {
         "methodName": "Smelting steel bars at Blast Furnace",
         "methodLink": "/w/Money_making_guide/Smelting_steel_bars_at_Blast_Furnace",
-        "hourlyProfit": 623000,
+        "hourlyProfit": 601000,
         "skills": {
             "Smithing": "30"
         },
@@ -3909,7 +3971,7 @@
     {
         "methodName": "Smithing bronze dart tips",
         "methodLink": "/w/Money_making_guide/Smithing_bronze_dart_tips",
-        "hourlyProfit": 203000,
+        "hourlyProfit": 169000,
         "skills": {
             "Smithing": "4"
         },
@@ -3920,7 +3982,7 @@
     {
         "methodName": "Smithing cannonballs",
         "methodLink": "/w/Money_making_guide/Smithing_cannonballs",
-        "hourlyProfit": 280000,
+        "hourlyProfit": 237000,
         "skills": {
             "Smithing": "35"
         },
@@ -3931,7 +3993,7 @@
     {
         "methodName": "Smithing iron dart tips",
         "methodLink": "/w/Money_making_guide/Smithing_iron_dart_tips",
-        "hourlyProfit": 171000,
+        "hourlyProfit": 193000,
         "skills": {
             "Smithing": "19"
         },
@@ -3942,7 +4004,7 @@
     {
         "methodName": "Smithing mithril dart tips",
         "methodLink": "/w/Money_making_guide/Smithing_mithril_dart_tips",
-        "hourlyProfit": 132000,
+        "hourlyProfit": 113000,
         "skills": {
             "Smithing": "54"
         },
@@ -3953,7 +4015,7 @@
     {
         "methodName": "Smithing rune items",
         "methodLink": "/w/Money_making_guide/Smithing_rune_items",
-        "hourlyProfit": 839000,
+        "hourlyProfit": 700000,
         "skills": {
             "Smithing": "99"
         },
@@ -3975,7 +4037,7 @@
     {
         "methodName": "Stealing Wydin's bananas",
         "methodLink": "/w/Money_making_guide/Stealing_Wydin%27s_bananas",
-        "hourlyProfit": 48000,
+        "hourlyProfit": 52000,
         "skills": {},
         "category": "Collecting",
         "itenstity": "High",
@@ -3984,7 +4046,7 @@
     {
         "methodName": "Stealing cave goblin wire",
         "methodLink": "/w/Money_making_guide/Stealing_cave_goblin_wire",
-        "hourlyProfit": 579000,
+        "hourlyProfit": 587000,
         "skills": {
             "Thieving": "44"
         },
@@ -3995,7 +4057,7 @@
     {
         "methodName": "Stealing from Rogues' Castle chests",
         "methodLink": "/w/Money_making_guide/Stealing_from_Rogues%27_Castle_chests",
-        "hourlyProfit": 2318000,
+        "hourlyProfit": 2174000,
         "skills": {
             "Thieving": "84",
             "Prayer": "43"
@@ -4007,7 +4069,7 @@
     {
         "methodName": "Stringing magic longbows",
         "methodLink": "/w/Money_making_guide/Stringing_magic_longbows",
-        "hourlyProfit": 206000,
+        "hourlyProfit": 178000,
         "skills": {
             "Fletching": "85"
         },
@@ -4018,7 +4080,7 @@
     {
         "methodName": "Stringing maple longbows",
         "methodLink": "/w/Money_making_guide/Stringing_maple_longbows",
-        "hourlyProfit": 185000,
+        "hourlyProfit": 204000,
         "skills": {
             "Fletching": "55"
         },
@@ -4027,20 +4089,9 @@
         "random": ""
     },
     {
-        "methodName": "Stringing yew longbows",
-        "methodLink": "/w/Money_making_guide/Stringing_yew_longbows",
-        "hourlyProfit": 214000,
-        "skills": {
-            "Fletching": "70"
-        },
-        "category": "Skilling/Fletching",
-        "itenstity": "Moderate",
-        "random": ""
-    },
-    {
         "methodName": "Tanning black dragonhide",
         "methodLink": "/w/Money_making_guide/Tanning_black_dragonhide",
-        "hourlyProfit": 729000,
+        "hourlyProfit": 595000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -4049,7 +4100,7 @@
     {
         "methodName": "Tanning blue dragonhide",
         "methodLink": "/w/Money_making_guide/Tanning_blue_dragonhide",
-        "hourlyProfit": 726000,
+        "hourlyProfit": 543000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -4058,7 +4109,7 @@
     {
         "methodName": "Tanning cowhide",
         "methodLink": "/w/Money_making_guide/Tanning_cowhide",
-        "hourlyProfit": 162000,
+        "hourlyProfit": 203000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -4067,7 +4118,7 @@
     {
         "methodName": "Tanning green dragonhide",
         "methodLink": "/w/Money_making_guide/Tanning_green_dragonhide",
-        "hourlyProfit": 663000,
+        "hourlyProfit": 483000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -4076,7 +4127,7 @@
     {
         "methodName": "Tanning red dragonhide",
         "methodLink": "/w/Money_making_guide/Tanning_red_dragonhide",
-        "hourlyProfit": 645000,
+        "hourlyProfit": 567000,
         "skills": {},
         "category": "Processing",
         "itenstity": "Low",
@@ -4085,7 +4136,7 @@
     {
         "methodName": "Temple Trekking",
         "methodLink": "/w/Money_making_guide/Temple_Trekking",
-        "hourlyProfit": 435000,
+        "hourlyProfit": 437000,
         "skills": {
             "Combat level": "60"
         },
@@ -4096,7 +4147,7 @@
     {
         "methodName": "Theatre of Blood (Abyssal tentacle)",
         "methodLink": "/w/Money_making_guide/Theatre_of_Blood_(Abyssal_tentacle)",
-        "hourlyProfit": 7874000,
+        "hourlyProfit": 7949000,
         "skills": {
             "Attack": "95",
             "Strength": "95",
@@ -4113,7 +4164,7 @@
     {
         "methodName": "Theatre of Blood (Scythe of vitur)",
         "methodLink": "/w/Money_making_guide/Theatre_of_Blood_(Scythe_of_vitur)",
-        "hourlyProfit": 9320000,
+        "hourlyProfit": 9458000,
         "skills": {
             "Attack": "95",
             "Strength": "99",
@@ -4130,7 +4181,7 @@
     {
         "methodName": "Tombs of Amascut (Expert)",
         "methodLink": "/w/Money_making_guide/Tombs_of_Amascut_(Expert)",
-        "hourlyProfit": 7233000,
+        "hourlyProfit": 6973000,
         "skills": {
             "Attack": "82",
             "Strength": "85",
@@ -4147,7 +4198,7 @@
     {
         "methodName": "Tombs of Amascut (solo 500 raid level)",
         "methodLink": "/w/Money_making_guide/Tombs_of_Amascut_(solo_500_raid_level)",
-        "hourlyProfit": 15957000,
+        "hourlyProfit": 15388000,
         "skills": {
             "Attack": "95",
             "Strength": "95",
