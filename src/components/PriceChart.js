@@ -9,24 +9,24 @@ import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
 import runescapeNumberFormat from '../modules/runescape-number-format.mjs';
 
-const sampleSeries = (data, interval, maxDataPoints) => {
-    if(data.length <= maxDataPoints) {
-        return data;
-    }
+// const sampleSeries = (data, interval, maxDataPoints) => {
+//     if(data.length <= maxDataPoints) {
+//         return data;
+//     }
 
-    // Initialize sampledItems array
-    let sampledItems = [data[0]];  // Include the first item
+//     // Initialize sampledItems array
+//     let sampledItems = [data[0]];  // Include the first item
 
-    for(let i = 1; i < maxDataPoints - 1; i = i + 1) {
-        // For each segment, select the first item
-        let segmentItem = data[i * interval];
-        sampledItems.push(segmentItem);
-    }
+//     for(let i = 1; i < maxDataPoints - 1; i = i + 1) {
+//         // For each segment, select the first item
+//         let segmentItem = data[i * interval];
+//         sampledItems.push(segmentItem);
+//     }
 
-    sampledItems.push(data[data.length - 1]);  // Include the last item
+//     sampledItems.push(data[data.length - 1]);  // Include the last item
 
-    return sampledItems;
-};
+//     return sampledItems;
+// };
 
 export default function PriceChart({itemId}) {
     const [xData, setXData] = useState([]);
@@ -51,18 +51,24 @@ export default function PriceChart({itemId}) {
         >
             24h
         </ToggleButton>,
-        // <ToggleButton
-        //     value={7}
-        //     key="center"
-        // >
-        //     7d
-        // </ToggleButton>,
-        // <ToggleButton
-        //     value={30}
-        //     key="right"
-        // >
-        //     30d
-        // </ToggleButton>,
+        <ToggleButton
+            value={7}
+            key="center"
+        >
+            7d
+        </ToggleButton>,
+        <ToggleButton
+            value={30}
+            key="right"
+        >
+            30d
+        </ToggleButton>,
+        <ToggleButton
+            value={365}
+            key="right"
+        >
+            365d
+        </ToggleButton>,
     ];
 
     useEffect(() => {
@@ -71,13 +77,33 @@ export default function PriceChart({itemId}) {
                 return true;
             }
 
-            let currentDataPoints = 48;
+            let timeSeries;
+            
+            // let currentDataPoints = 48;
+            // if(isMobile){
+            //     currentDataPoints = 12;
+            // }
 
-            if(isMobile){
-                currentDataPoints = 12;
+            if(historicalDays === 1){
+                timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=5m&id=${itemId}`);
+            } else if(historicalDays === 7){
+                timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=1h&id=${itemId}`);
+            } else if(historicalDays === 30){
+                timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=6h&id=${itemId}`);
+            } else if(historicalDays === 365){
+                timeSeries = await loadJSON(`https://api.weirdgloop.org/exchange/history/osrs/all?id=${itemId}&compress=false`);
+
+                timeSeries.data = timeSeries[itemId].map((datapoint) => {
+                    return {
+                        timestamp: datapoint.timestamp,
+                        avgLowPrice: datapoint.price,
+                        avgHighPrice: datapoint.price,
+                        highPriceVolume: datapoint.volume,
+                        lowPriceVolume: datapoint.volume,
+                    };
+                });
             }
 
-            const timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=5m&id=${itemId}`);
             let xData = [];
             let lowData = [];
             let highData = [];
@@ -93,19 +119,19 @@ export default function PriceChart({itemId}) {
                 highData.push(datapoint.avgHighPrice || null);
             }
 
-            let interval = Math.floor((xData.length - 2) / (currentDataPoints - 2));
+            // let interval = Math.floor((xData.length - 2) / (currentDataPoints - 2));
 
-            let sampledXData = sampleSeries(xData, interval, currentDataPoints);
-            let sampledLowData = sampleSeries(lowData, interval, currentDataPoints);
-            let sampledHighData = sampleSeries(highData, interval, currentDataPoints);
+            // let sampledXData = sampleSeries(xData, interval, currentDataPoints);
+            // let sampledLowData = sampleSeries(lowData, interval, currentDataPoints);
+            // let sampledHighData = sampleSeries(highData, interval, currentDataPoints);
 
-            setXData(sampledXData);
-            setLowData(sampledLowData);
-            setHighData(sampledHighData);
+            // setXData(sampledXData);
+            // setLowData(sampledLowData);
+            // setHighData(sampledHighData);
 
-            // setXData(xData);
-            // setLowData(lowData);
-            // setHighData(highData);
+            setXData(xData);
+            setLowData(lowData);
+            setHighData(highData);
 
             const localMax = Math.max(...highData.filter((value) => value !== null), ...lowData.filter((value) => value !== null));
             const localMin = Math.min(...lowData.filter((value) => value !== null), ...highData.filter((value) => value !== null));
