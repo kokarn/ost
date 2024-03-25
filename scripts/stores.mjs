@@ -272,6 +272,7 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Keldagrim_Stonemason",
     "https://oldschool.runescape.wiki/w/Razmire_Builders_Merchants.",
     "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
+    "https://oldschool.runescape.wiki/w/Garden_Centre",
 ];
 
 const keys = [
