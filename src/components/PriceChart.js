@@ -230,6 +230,10 @@ export default function PriceChart({itemId}) {
                         // bottom: 10,
                         left: 25,
                     }}
+                    // tooltip={{
+                    //     trigger: "item",
+                    //     itemContent: PriceChartTooltip,
+                    // }}
                 />
             </Grid>
         </Grid>
