@@ -168,6 +168,12 @@ export default function PriceChart({itemId}) {
             <Grid
                 md={12}
                 xs={12}
+                // Something like this works when we move the chart to composition
+                sx = {{
+                    '& .MuiResponsiveChart-container': {
+                        overflow: 'visible',
+                    },
+                }}
             >
                 <LineChart
                     xAxis={[{
