@@ -79,7 +79,7 @@ function StoreProfits({mapping, latest, volumes, filter}) {
             if(itemProperties[mappingLookup[storeItem.name].id]?.stackable){
                 storeItem.storeProfit = storeItem.quantity * storeItem.gePrice - storeItem.storeCost;
             } else {
-                storeItem.storeProfit = Math.min(28, storeItem.quantity) * storeItem.gePrice - storeItem.storeCost;
+                storeItem.storeProfit = Math.min(27, storeItem.quantity) * storeItem.gePrice - storeItem.storeCost;
             }
 
             if(sellToStore){
