@@ -1,4 +1,4 @@
-import {writeFile} from 'fs/promises';
+import { writeFile, readFile } from 'fs/promises';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -289,6 +289,8 @@ let i = 0;
 
 stores = [...new Set(stores)];
 
+const mappingData = JSON.parse(await readFile(join(__dirname, '..', 'data', 'mapping.json')));
+
 console.log('Loading store data');
 console.time('stores');
 
@@ -314,8 +316,25 @@ for(const store of stores){
             continue;
         }
 
+        let mappingItem = false;
+
+        for(const itemId in mappingData){
+            if(mappingData[itemId].name !== item.item){
+                continue;
+            }
+
+            mappingItem = mappingData[itemId];
+            break;
+        }
+
+        if(!mappingItem){
+            console.log(`Couldn't find mapping for ${item.item}`);
+            continue;
+        }
+
         allItems.push({
             name: item.item,
+            id: mappingItem.id.toString(),
             quantity: Number(item.quantity),
             sellPrice: Number(item['sell-price']?.replace(',', '')),
             buyPrice: Number(item['buy-price']?.replace(',', '')),
