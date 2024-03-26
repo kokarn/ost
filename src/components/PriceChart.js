@@ -122,7 +122,7 @@ export default function PriceChart({itemId}) {
                     })
                     .map((datapoint) => {
                         return {
-                            timestamp: datapoint.timestamp,
+                            timestamp: datapoint.timestamp / 1000,
                             avgLowPrice: datapoint.price,
                             avgHighPrice: datapoint.price,
                             highPriceVolume: datapoint.volume,
