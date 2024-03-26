@@ -49,30 +49,45 @@ export default function PriceChart({itemId}) {
         <ToggleButton
             value={1}
             key="left"
+            sx = {{
+                px: 4,
+            }}
         >
-            24h
+            Live
         </ToggleButton>,
         <ToggleButton
             value={7}
             key="center"
+            sx = {{
+                px: 4,
+            }}
         >
-            7d
+            Week
         </ToggleButton>,
         <ToggleButton
             value={30}
             key="right"
+            sx = {{
+                px: 4,
+            }}
         >
-            30d
+            Month
         </ToggleButton>,
         <ToggleButton
             value={365}
             key="right"
+            sx = {{
+                px: 4,
+            }}
         >
-            365d
+            Year
         </ToggleButton>,
         <ToggleButton
             value={100000}
             key="right"
+            sx = {{
+                px: 4,
+            }}
         >
             All time
         </ToggleButton>,
