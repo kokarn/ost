@@ -37,6 +37,7 @@ export default function PriceChart({itemId}) {
     const [scaleMin, setScaleMin] = useState(0);
     const [localMax, setLocalMax] = useState(0);
     const [localMin, setLocalMin] = useState(0);
+    const [markSamples, setMarkSamples] = useState(10);
 
     const isMobile = useMediaQuery('(max-width:600px)');
 
@@ -69,6 +70,12 @@ export default function PriceChart({itemId}) {
         >
             365d
         </ToggleButton>,
+        <ToggleButton
+            value={100000}
+            key="right"
+        >
+            All time
+        </ToggleButton>,
     ];
 
     useEffect(() => {
@@ -78,11 +85,11 @@ export default function PriceChart({itemId}) {
             }
 
             let timeSeries;
-            
-            // let currentDataPoints = 48;
-            // if(isMobile){
-            //     currentDataPoints = 12;
-            // }
+
+            let currentDataPoints = 48;
+            if(isMobile){
+                currentDataPoints = 12;
+            }
 
             if(historicalDays === 1){
                 timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=5m&id=${itemId}`);
@@ -90,18 +97,23 @@ export default function PriceChart({itemId}) {
                 timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=1h&id=${itemId}`);
             } else if(historicalDays === 30){
                 timeSeries = await loadJSON(`https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=6h&id=${itemId}`);
-            } else if(historicalDays === 365){
+            } else if(historicalDays >= 30){
                 timeSeries = await loadJSON(`https://api.weirdgloop.org/exchange/history/osrs/all?id=${itemId}&compress=false`);
 
-                timeSeries.data = timeSeries[itemId].map((datapoint) => {
-                    return {
-                        timestamp: datapoint.timestamp,
-                        avgLowPrice: datapoint.price,
-                        avgHighPrice: datapoint.price,
-                        highPriceVolume: datapoint.volume,
-                        lowPriceVolume: datapoint.volume,
-                    };
-                });
+                // filter out datapoints more than historicalDays old
+                timeSeries.data = timeSeries[itemId]
+                    .filter((datapoint) => {
+                        return datapoint.timestamp > Date.now() - (3600 * 24 * historicalDays * 1000);
+                    })
+                    .map((datapoint) => {
+                        return {
+                            timestamp: datapoint.timestamp,
+                            avgLowPrice: datapoint.price,
+                            avgHighPrice: datapoint.price,
+                            highPriceVolume: datapoint.volume,
+                            lowPriceVolume: datapoint.volume,
+                        };
+                    });
             }
 
             let xData = [];
@@ -119,6 +131,11 @@ export default function PriceChart({itemId}) {
                 highData.push(datapoint.avgHighPrice || null);
             }
 
+            setMarkSamples(Math.ceil(xData.length / currentDataPoints));
+
+            // console.log(xData.length);
+            // console.log(xData.length / currentDataPoints);
+
             // let interval = Math.floor((xData.length - 2) / (currentDataPoints - 2));
 
             // let sampledXData = sampleSeries(xData, interval, currentDataPoints);
@@ -128,6 +145,8 @@ export default function PriceChart({itemId}) {
             // setXData(sampledXData);
             // setLowData(sampledLowData);
             // setHighData(sampledHighData);
+
+
 
             setXData(xData);
             setLowData(lowData);
@@ -237,13 +256,13 @@ export default function PriceChart({itemId}) {
                             data: lowData,
                             label: 'Low Price',
                             connectNulls: true,
-                            // showMark: ({ index }) => index % 10 === 0,
+                            showMark: ({ index }) => index % markSamples === 0,
                         },
                         {
                             data: highData,
                             label: 'High Price',
                             connectNulls: true,
-                            // showMark: ({ index }) => index % 10 === 0,
+                            showMark: ({ index }) => index % markSamples === 0,
                         }
                     ]}
                     grid={{
