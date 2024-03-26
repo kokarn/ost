@@ -1,0 +1,61 @@
+[
+    {
+        "key": "grand-exchange",
+        "label": "Grand Exchange",
+        "path": "/"
+    },
+    {
+        "key": "burnt-value",
+        "label": "Burnt Value",
+        "path": "/burnt-value"
+    },
+    {
+        "key": "crafting",
+        "label": "Crafting",
+        "path": "/crafting"
+    },
+    {
+        "key": "diaries",
+        "label": "Diaries",
+        "path": "/diaries"
+    },
+    {
+        "key": "implings",
+        "label": "Implings",
+        "path": "/implings",
+        "type": "calculator"
+    },
+    {
+        "key": "level",
+        "label": "Level Calculator",
+        "path": "/level-calculator",
+        "type": "calculator"
+    },
+    {
+        "key": "money-making",
+        "label": "Money Making",
+        "path": "/money-making"
+    },
+    {
+        "key": "monster-profits",
+        "label": "Monster profits",
+        "path": "/monster-profits"
+    },
+    {
+        "key": "stores",
+        "label": "Stores",
+        "path": "/stores"
+    },
+    {
+        "key": "zahur-calculator",
+        "label": "Zahur Calculator",
+        "path": "/zahur-calculator",
+        "type": "calculator"
+    },
+    {
+        "key": "wesley-calculator",
+        "label": "Wesley Calculator",
+        "path": "/wesley-calculator",
+        "type": "calculator"
+    }
+]
