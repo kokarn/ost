@@ -29,8 +29,6 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
                 continue;
             }
 
-            console.log(mapping[itemId], dayData[itemId], latest[itemId]);
-
             returnRows.push({
                 id: itemId,
                 volume: volumes?.[itemId],
