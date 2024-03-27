@@ -264,6 +264,9 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                                     Store
                                 </TableCell>
                                 <TableCell align="right">
+                                    Location
+                                </TableCell>
+                                <TableCell align="right">
                                     Quantity
                                 </TableCell>
                                 <TableCell align="right">
@@ -284,6 +287,13 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                                                 .replace(/_/g, ' ')
                                                 .replace(/\.$/, '')
                                         )}
+                                    </a>
+                                </TableCell>
+                                <TableCell align="right">
+                                    <a
+                                        href = {`https://oldschool.runescape.wiki${row.storeLocationLink}`}
+                                    >
+                                        {row.storeLocation}
                                     </a>
                                 </TableCell>
                                 <TableCell align="right">{row.quantity}</TableCell>
