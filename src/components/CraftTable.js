@@ -28,7 +28,9 @@ function CraftTable({latest, mapping, crafts, filter}) {
                 }
 
                 for(const rowInput of row.input){
-                    if(mapping[rowInput].name.toLowerCase().includes(filter.toLowerCase())){
+                    const inputItemName = mapping[rowInput.id].name;
+
+                    if(inputItemName.toLowerCase().includes(filter.toLowerCase())){
                         return true;
                     }
                 }
