@@ -3,21 +3,7 @@ import * as cheerio from 'cheerio';
 
 import parseWikiTable from './parse-wiki-table.mjs';
 import dropsToLoot from './drops-to-loot.mjs';
-
-const parseInfoBox = ($) => {
-    const infoBox = $('.infobox tr');
-
-    const data = {};
-
-    infoBox.each((index, element) => {
-        const key = $(element).find('th').text().trim();
-        const value = $(element).find('td').text().trim();
-
-        data[key] = value;
-    });
-
-    return data;
-};
+import getInfoBoxData from './get-info-box-data.mjs';
 
 const getMonsterData = async (url, keys) => {
     let drops;
@@ -34,7 +20,7 @@ const getMonsterData = async (url, keys) => {
 
     const totalLoot = dropsToLoot(drops);
 
-    const infoBoxData = parseInfoBox($);
+    const infoBoxData = getInfoBoxData($);
 
     returnData.combatLevel = Number(infoBoxData['Combat level']);
 

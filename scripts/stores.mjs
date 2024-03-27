@@ -6,6 +6,7 @@ import got from 'got';
 import * as cheerio from 'cheerio';
 
 import parseWikiTable from './modules/parse-wiki-table.mjs';
+import getInfoBoxData from './modules/get-info-box-data.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -311,6 +312,7 @@ for(const store of stores){
     }
 
     const data = await parseWikiTable($, keys, false, 'item');
+    const infoBoxData = getInfoBoxData($);
 
     for(const item of data){
         if(!item.item){
@@ -342,6 +344,8 @@ for(const store of stores){
             // gePrice: Number(item['ge-price']?.replace(',', '')),
             store,
             storeChangeRate: changeRate,
+            storeLocation: infoBoxData.Location,
+            storeLocationLink: infoBoxData.LocationLink,
         });
     }
 }
