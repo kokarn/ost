@@ -4,6 +4,10 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import useMediaQuery from '@mui/material/useMediaQuery';
+import FormControl from '@mui/material/FormControl';
+import InputLabel from '@mui/material/InputLabel';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
 
 import numberFormat from '../modules/number-format.mjs';
 import loadJSON from '../modules/load-json.mjs';
@@ -42,55 +46,36 @@ export default function PriceChart({itemId}) {
     const isMobile = useMediaQuery('(max-width:600px)');
 
     const handleChange = (event, newDateRange) => {
+        if(typeof newDateRange === 'object'){
+            setHistoricalDays(event.target.value);
+
+            return true;
+        }
+
         setHistoricalDays(newDateRange);
     };
 
-    const children = [
-        <ToggleButton
-            value={1}
-            key="left"
-            sx = {{
-                px: 4,
-            }}
-        >
-            Live
-        </ToggleButton>,
-        <ToggleButton
-            value={7}
-            key="center"
-            sx = {{
-                px: 4,
-            }}
-        >
-            Week
-        </ToggleButton>,
-        <ToggleButton
-            value={30}
-            key="right"
-            sx = {{
-                px: 4,
-            }}
-        >
-            Month
-        </ToggleButton>,
-        <ToggleButton
-            value={365}
-            key="right"
-            sx = {{
-                px: 4,
-            }}
-        >
-            Year
-        </ToggleButton>,
-        <ToggleButton
-            value={100000}
-            key="right"
-            sx = {{
-                px: 4,
-            }}
-        >
-            All time
-        </ToggleButton>,
+    const ranges = [
+        {
+            value: 1,
+            label: 'Live',
+        },
+        {
+            value: 7,
+            label: 'Week',
+        },
+        {
+            value: 30,
+            label: 'Month',
+        },
+        {
+            value: 365,
+            label: 'Year',
+        },
+        {
+            value: 100000,
+            label: 'All time',
+        },
     ];
 
     useEffect(() => {
@@ -192,10 +177,54 @@ export default function PriceChart({itemId}) {
                     value={historicalDays}
                     onChange = {handleChange}
                     exclusive
-                    aria-label="Small sizes"
+                    aria-label="Price chart range"
+                    sx = {{
+                        display: {
+                            md: 'flex',
+                            xs: 'none',
+                        },
+                    }}
                 >
-                    {children}
+                    {ranges.map((range) => (
+                        <ToggleButton
+                            key={range.value}
+                            value={range.value}
+                            aria-label={range.label}
+                            sx = {{
+                                px: 4,
+                            }}
+                        >
+                            {range.label}
+                        </ToggleButton>
+                    ))}
                 </ToggleButtonGroup>
+                <FormControl
+                    fullWidth
+                    sx = {{
+                        display: {
+                            md: 'none',
+                            xs: 'block',
+                        },
+                    }}
+                >
+                    <InputLabel id="demo-simple-select-label">Time period</InputLabel>
+                    <Select
+                        // labelId="demo-simple-select-label"
+                        // id="demo-simple-select"
+                        value={historicalDays}
+                        label="Range"
+                        onChange={handleChange}
+                    >
+                        {ranges.map((range) => (
+                            <MenuItem
+                                key={range.value}
+                                value={range.value}
+                            >
+                                {range.label}
+                            </MenuItem>
+                        ))}
+                    </Select>
+                </FormControl>
             </Grid>
             <Grid
                 xsOffset={2}
