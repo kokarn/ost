@@ -34467,798 +34467,6 @@
         "superior": false
     },
     {
-        "name": "Animated Iron Armour",
-        "link": "https://oldschool.runescape.wiki/w/Animated_Iron_Armour",
-        "combatLevel": 23,
-        "drops": [
-            {
-                "quantity": 10,
-                "item": "Warrior guild token"
-            },
-            {
-                "quantity": 1,
-                "item": "Iron full helm"
-            },
-            {
-                "quantity": 1,
-                "item": "Iron platebody"
-            },
-            {
-                "quantity": 0.9,
-                "item": "Iron platelegs"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Animated Steel Armour",
-        "link": "https://oldschool.runescape.wiki/w/Animated_Steel_Armour",
-        "combatLevel": 46,
-        "drops": [
-            {
-                "quantity": 15,
-                "item": "Warrior guild token"
-            },
-            {
-                "quantity": 0.9,
-                "item": "Steel full helm"
-            },
-            {
-                "quantity": 1,
-                "item": "Steel platebody"
-            },
-            {
-                "quantity": 1,
-                "item": "Steel platelegs"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Ankou",
-        "link": "https://oldschool.runescape.wiki/w/Ankou",
-        "combatLevel": 75,
-        "drops": [
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.01,
-                "item": "Black knife"
-            },
-            {
-                "quantity": 0.01,
-                "item": "Black robe"
-            },
-            {
-                "quantity": 0.36,
-                "item": "Adamant arrow"
-            },
-            {
-                "quantity": 1,
-                "item": "Death rune"
-            },
-            {
-                "quantity": 0.6599999999999999,
-                "item": "Blood rune"
-            },
-            {
-                "quantity": 0.08,
-                "item": "Law rune"
-            },
-            {
-                "quantity": 0.15,
-                "item": "Blood rune"
-            },
-            {
-                "quantity": 0.007501875468867216,
-                "item": "Grimy guam leaf"
-            },
-            {
-                "quantity": 0.00562429696287964,
-                "item": "Grimy marrentill"
-            },
-            {
-                "quantity": 0.004219409282700422,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.0032808398950131233,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.002577984016499098,
-                "item": "Grimy ranarr weed"
-            },
-            {
-                "quantity": 0.0018751171948246767,
-                "item": "Grimy irit leaf"
-            },
-            {
-                "quantity": 0.001406271972999578,
-                "item": "Grimy avantoe"
-            },
-            {
-                "quantity": 0.0011719207781553968,
-                "item": "Grimy kwuarm"
-            },
-            {
-                "quantity": 0.0009374707040404987,
-                "item": "Grimy cadantine"
-            },
-            {
-                "quantity": 0.000703135986499789,
-                "item": "Grimy lantadyme"
-            },
-            {
-                "quantity": 0.000703135986499789,
-                "item": "Grimy dwarf weed"
-            },
-            {
-                "quantity": 0.00130718954248366,
-                "item": "Limpwurt seed"
-            },
-            {
-                "quantity": 0.00125,
-                "item": "Strawberry seed"
-            },
-            {
-                "quantity": 0.0011927480916030535,
-                "item": "Marrentill seed"
-            },
-            {
-                "quantity": 0.0008778860503906593,
-                "item": "Jangerberry seed"
-            },
-            {
-                "quantity": 0.0008110957904128477,
-                "item": "Tarromin seed"
-            },
-            {
-                "quantity": 0.0007919537499010057,
-                "item": "Wildblood seed"
-            },
-            {
-                "quantity": 0.0006011421701232341,
-                "item": "Watermelon seed"
-            },
-            {
-                "quantity": 0.0005343593031954686,
-                "item": "Harralander seed"
-            },
-            {
-                "quantity": 0.0003816793893129771,
-                "item": "Snape grass seed"
-            },
-            {
-                "quantity": 0.0003721345638582912,
-                "item": "Ranarr seed"
-            },
-            {
-                "quantity": 0.00032442252790033737,
-                "item": "Whiteberry seed"
-            },
-            {
-                "quantity": 0.00027671702916597487,
-                "item": "Mushroom spore"
-            },
-            {
-                "quantity": 0.0002576323586242432,
-                "item": "Toadflax seed"
-            },
-            {
-                "quantity": 0.00017175638074954486,
-                "item": "Belladonna seed"
-            },
-            {
-                "quantity": 0.00017175638074954486,
-                "item": "Irit seed"
-            },
-            {
-                "quantity": 0.00012404639335111332,
-                "item": "Poison ivy seed"
-            },
-            {
-                "quantity": 0.00011450425383302991,
-                "item": "Avantoe seed"
-            },
-            {
-                "quantity": 0.00011450425383302991,
-                "item": "Cactus seed"
-            },
-            {
-                "quantity": 0.00008587819037477243,
-                "item": "Kwuarm seed"
-            },
-            {
-                "quantity": 0.00007633587786259542,
-                "item": "Potato cactus seed"
-            },
-            {
-                "quantity": 0.00004770992366412214,
-                "item": "Snapdragon seed"
-            },
-            {
-                "quantity": 0.00003816793893129771,
-                "item": "Cadantine seed"
-            },
-            {
-                "quantity": 0.000028625981513341138,
-                "item": "Lantadyme seed"
-            },
-            {
-                "quantity": 0.000019083969465648855,
-                "item": "Dwarf weed seed"
-            },
-            {
-                "quantity": 0.000009541984732824428,
-                "item": "Torstol seed"
-            },
-            {
-                "quantity": 0.75,
-                "item": "Pure essence"
-            },
-            {
-                "quantity": 0.1,
-                "item": "Mithril ore"
-            },
-            {
-                "quantity": 2.64,
-                "item": "Coins"
-            },
-            {
-                "quantity": 10.4,
-                "item": "Coins"
-            },
-            {
-                "quantity": 19.8,
-                "item": "Dark fishing bait"
-            },
-            {
-                "quantity": 0.03,
-                "item": "Left skull half"
-            },
-            {
-                "quantity": 0.02,
-                "item": "Bass"
-            },
-            {
-                "quantity": 0.02,
-                "item": "Weapon poison"
-            },
-            {
-                "quantity": 0.01,
-                "item": "Fried mushrooms"
-            },
-            {
-                "quantity": 0.005,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0025,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.0004687507324230194,
-                "item": "Chaos talisman"
-            },
-            {
-                "quantity": 0.0004687507324230194,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0003125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00015625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.00015625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.00078125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000009765625,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.0000048828125,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000036621093302965172,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 1,
-                "item": "Clue scroll (elite)"
-            },
-            {
-                "quantity": 1,
-                "item": "Reward casket (elite)"
-            },
-            {
-                "quantity": 0.3333333333333333,
-                "item": "Looting bag"
-            },
-            {
-                "quantity": null,
-                "item": "Brimstone key"
-            },
-            {
-                "quantity": 0.001953125,
-                "item": "Clue scroll (hard)"
-            },
-            {
-                "quantity": 0.0034129692832764505,
-                "item": "Ancient shard"
-            },
-            {
-                "quantity": 0.0022727272727272726,
-                "item": "Dark totem base"
-            },
-            {
-                "quantity": 0.0022727272727272726,
-                "item": "Dark totem middle"
-            },
-            {
-                "quantity": 0.0022727272727272726,
-                "item": "Dark totem top"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.05,
-                "item": "Black robe"
-            },
-            {
-                "quantity": 0.36,
-                "item": "Adamant arrow"
-            },
-            {
-                "quantity": 0.4,
-                "item": "Law rune"
-            },
-            {
-                "quantity": 0.75,
-                "item": "Rune essence"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Mithril ore"
-            },
-            {
-                "quantity": 2.64,
-                "item": "Coins"
-            },
-            {
-                "quantity": 10.4,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.3,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.05,
-                "item": "Coins"
-            },
-            {
-                "quantity": 19.8,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.03,
-                "item": "Left skull half"
-            },
-            {
-                "quantity": 0.005,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0025,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.0004687507324230194,
-                "item": "Unknown talisman(m)"
-            },
-            {
-                "quantity": 0.0003125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00015625,
-                "item": "Loop half of key(m)"
-            },
-            {
-                "quantity": 0.00015625,
-                "item": "Tooth half of key(m)"
-            },
-            {
-                "quantity": 0.00078125,
-                "item": "Rune javelin(m)"
-            },
-            {
-                "quantity": 0.000009765625,
-                "item": "Rune spear(m)"
-            },
-            {
-                "quantity": 0.0000048828125,
-                "item": "Shield left half(m)"
-            },
-            {
-                "quantity": 0.0000036621093302965172,
-                "item": "Dragon spear(m)"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.010869565217391304,
-                "item": "Adamant platelegs"
-            },
-            {
-                "quantity": 0.3913043478260869,
-                "item": "Rune arrow"
-            },
-            {
-                "quantity": 0.4891304347826087,
-                "item": "Death rune"
-            },
-            {
-                "quantity": 0.5543478260869565,
-                "item": "Death rune"
-            },
-            {
-                "quantity": 0.358695652173913,
-                "item": "Blood rune"
-            },
-            {
-                "quantity": 0.17391304347826086,
-                "item": "Blood rune"
-            },
-            {
-                "quantity": 0.19565217391304346,
-                "item": "Blood rune"
-            },
-            {
-                "quantity": 0.008149959250203748,
-                "item": "Grimy guam leaf"
-            },
-            {
-                "quantity": 0.006112469437652812,
-                "item": "Grimy marrentill"
-            },
-            {
-                "quantity": 0.004585052728106373,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.003566333808844508,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.002802690582959641,
-                "item": "Grimy ranarr weed"
-            },
-            {
-                "quantity": 0.002037905033625433,
-                "item": "Grimy irit leaf"
-            },
-            {
-                "quantity": 0.0015285845307245489,
-                "item": "Grimy avantoe"
-            },
-            {
-                "quantity": 0.0012737230925996689,
-                "item": "Grimy kwuarm"
-            },
-            {
-                "quantity": 0.0010190563538163661,
-                "item": "Grimy cadantine"
-            },
-            {
-                "quantity": 0.0007642922653622744,
-                "item": "Grimy lantadyme"
-            },
-            {
-                "quantity": 0.0007642922653622744,
-                "item": "Grimy dwarf weed"
-            },
-            {
-                "quantity": 0.0014208581983518045,
-                "item": "Limpwurt seed"
-            },
-            {
-                "quantity": 0.001358695652173913,
-                "item": "Strawberry seed"
-            },
-            {
-                "quantity": 0.0012965123816932453,
-                "item": "Marrentill seed"
-            },
-            {
-                "quantity": 0.0009541984732824427,
-                "item": "Jangerberry seed"
-            },
-            {
-                "quantity": 0.0008816009873931059,
-                "item": "Tarromin seed"
-            },
-            {
-                "quantity": 0.0008608815426997245,
-                "item": "Wildblood seed"
-            },
-            {
-                "quantity": 0.0006534239414532148,
-                "item": "Watermelon seed"
-            },
-            {
-                "quantity": 0.0005808212812917465,
-                "item": "Harralander seed"
-            },
-            {
-                "quantity": 0.000414868901427149,
-                "item": "Snape grass seed"
-            },
-            {
-                "quantity": 0.00040449801795971205,
-                "item": "Ranarr seed"
-            },
-            {
-                "quantity": 0.00035263417730446435,
-                "item": "Whiteberry seed"
-            },
-            {
-                "quantity": 0.0003007790176557284,
-                "item": "Mushroom spore"
-            },
-            {
-                "quantity": 0.0002800336040324839,
-                "item": "Toadflax seed"
-            },
-            {
-                "quantity": 0.00018669255470091855,
-                "item": "Belladonna seed"
-            },
-            {
-                "quantity": 0.00018669255470091855,
-                "item": "Irit seed"
-            },
-            {
-                "quantity": 0.00013483267265323732,
-                "item": "Poison ivy seed"
-            },
-            {
-                "quantity": 0.00012446015408167075,
-                "item": "Avantoe seed"
-            },
-            {
-                "quantity": 0.00012446015408167075,
-                "item": "Cactus seed"
-            },
-            {
-                "quantity": 0.00009334540600584343,
-                "item": "Kwuarm seed"
-            },
-            {
-                "quantity": 0.00008297378028542981,
-                "item": "Potato cactus seed"
-            },
-            {
-                "quantity": 0.000051858612678393625,
-                "item": "Snapdragon seed"
-            },
-            {
-                "quantity": 0.000041486890142714904,
-                "item": "Cadantine seed"
-            },
-            {
-                "quantity": 0.00003111513533528114,
-                "item": "Lantadyme seed"
-            },
-            {
-                "quantity": 0.000020743445071357452,
-                "item": "Dwarf weed seed"
-            },
-            {
-                "quantity": 0.000010371722535678726,
-                "item": "Torstol seed"
-            },
-            {
-                "quantity": 37.17391304347826,
-                "item": "Dark fishing bait"
-            },
-            {
-                "quantity": 78.84210526315789,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.10869565217391304,
-                "item": "Mithril ore"
-            },
-            {
-                "quantity": 0.005263157894736842,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.002631578947368421,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.0013157894736842105,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.0004934202410851298,
-                "item": "Chaos talisman"
-            },
-            {
-                "quantity": 0.0003289473684210526,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.0001644736842105263,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.0001644736842105263,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.0008223684210526315,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000010279605263157895,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.000005139802631578947,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000038548520232171575,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 1,
-                "item": "Clue scroll (elite)"
-            },
-            {
-                "quantity": 1,
-                "item": "Reward casket (elite)"
-            },
-            {
-                "quantity": 0.3333333333333333,
-                "item": "Looting bag"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "Clue scroll (hard)"
-            },
-            {
-                "quantity": 0.012195121951219513,
-                "item": "Larran's key"
-            },
-            {
-                "quantity": 0.004166666666666667,
-                "item": "Slayer's enchantment"
-            },
-            {
-                "quantity": 0.08928571428571429,
-                "item": "Blighted anglerfish"
-            },
-            {
-                "quantity": 0.08928571428571429,
-                "item": "Blighted manta ray"
-            },
-            {
-                "quantity": 0.05952380952380952,
-                "item": "Blighted karambwan"
-            },
-            {
-                "quantity": 0.2976190476190476,
-                "item": "Blighted teleport spell sack"
-            },
-            {
-                "quantity": 0.2976190476190476,
-                "item": "Blighted ancient ice sack"
-            },
-            {
-                "quantity": 0.2976190476190476,
-                "item": "Blighted vengeance sack"
-            },
-            {
-                "quantity": 0.5952380952380952,
-                "item": "Blighted entangle sack"
-            },
-            {
-                "quantity": 0.02976190476190476,
-                "item": "Blighted super restore(4)"
-            },
-            {
-                "quantity": 0.02976190476190476,
-                "item": "Revenant cave teleport"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Dareeyak teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Wilderness crabs teleport"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Carrallanger teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Paddewwa teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Annakarl teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Lassar teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Kharyrll teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Senntisten teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Ghorrock teleport (tablet)"
-            },
-            {
-                "quantity": 0.005945303210463734,
-                "item": "Target teleport"
-            },
-            {
-                "quantity": 0.0023781212841854932,
-                "item": "Magic shortbow scroll"
-            },
-            {
-                "quantity": 0.0023781212841854932,
-                "item": "Ring of wealth scroll"
-            },
-            {
-                "quantity": 0.0011892020454275182,
-                "item": "Trouver parchment"
-            },
-            {
-                "quantity": 0.0005946010227137591,
-                "item": "Looting bag note"
-            }
-        ],
-        "superior": false
-    },
-    {
         "name": "Archer (Burthorpe)",
         "link": "https://oldschool.runescape.wiki/w/Archer_(Burthorpe)",
         "combatLevel": 42,
@@ -37907,6 +37115,22 @@
         "superior": false
     },
     {
+        "name": "Black jaguar",
+        "link": "https://oldschool.runescape.wiki/w/Black_jaguar",
+        "combatLevel": 67,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 1,
+                "item": "Jaguar fur"
+            }
+        ],
+        "superior": false
+    },
+    {
         "name": "Body Golem",
         "link": "https://oldschool.runescape.wiki/w/Body_Golem",
         "combatLevel": 50,
@@ -39836,6 +39060,22 @@
             {
                 "quantity": 0.0625,
                 "item": "Mossy key"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Calcified deposit",
+        "link": "https://oldschool.runescape.wiki/w/Calcified_deposit",
+        "combatLevel": null,
+        "drops": [
+            {
+                "quantity": 8,
+                "item": "Blessed bone shards"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Calcified moth"
             }
         ],
         "superior": false
@@ -53275,6 +52515,284 @@
         "superior": false
     },
     {
+        "name": "Grimy Lizard",
+        "link": "https://oldschool.runescape.wiki/w/Grimy_Lizard",
+        "combatLevel": 50,
+        "slayerMonster": true,
+        "slayerLevel": 44,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Mystic gloves (light)"
+            },
+            {
+                "quantity": 3.5859375,
+                "item": "Earth rune"
+            },
+            {
+                "quantity": 0.21875,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 1.5625,
+                "item": "Water rune"
+            },
+            {
+                "quantity": 0.01953125,
+                "item": "Grimy guam leaf"
+            },
+            {
+                "quantity": 0.014641288433382138,
+                "item": "Grimy marrentill"
+            },
+            {
+                "quantity": 0.01098901098901099,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.008547008547008548,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.006715916722632639,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.0048828125,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.0036616623947272058,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.003051571559353067,
+                "item": "Grimy kwuarm"
+            },
+            {
+                "quantity": 0.00244140625,
+                "item": "Grimy cadantine"
+            },
+            {
+                "quantity": 0.0018311664530305805,
+                "item": "Grimy lantadyme"
+            },
+            {
+                "quantity": 0.0018311664530305805,
+                "item": "Grimy dwarf weed"
+            },
+            {
+                "quantity": 0.00244140625,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Grimy snapdragon"
+            },
+            {
+                "quantity": 0.0014648365974775516,
+                "item": "Grimy torstol"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Mahogany seed"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Teak seed"
+            },
+            {
+                "quantity": 0.007782101167315175,
+                "item": "Toadflax seed"
+            },
+            {
+                "quantity": 0.005296610169491525,
+                "item": "Irit seed"
+            },
+            {
+                "quantity": 0.00513083632632119,
+                "item": "Belladonna seed"
+            },
+            {
+                "quantity": 0.0036416605972323375,
+                "item": "Poison ivy seed"
+            },
+            {
+                "quantity": 0.0036416605972323375,
+                "item": "Avantoe seed"
+            },
+            {
+                "quantity": 0.003475842891901286,
+                "item": "Cactus seed"
+            },
+            {
+                "quantity": 0.0024826216484607746,
+                "item": "Potato cactus seed"
+            },
+            {
+                "quantity": 0.0024826216484607746,
+                "item": "Kwuarm seed"
+            },
+            {
+                "quantity": 0.0016550810989738496,
+                "item": "Snapdragon seed"
+            },
+            {
+                "quantity": 0.0011586142973004287,
+                "item": "Cadantine seed"
+            },
+            {
+                "quantity": 0.0008276090374906895,
+                "item": "Lantadyme seed"
+            },
+            {
+                "quantity": 0.001986228813559322,
+                "item": "Snape grass seed"
+            },
+            {
+                "quantity": 0.0004965489845573266,
+                "item": "Dwarf weed seed"
+            },
+            {
+                "quantity": 0.0003310381355932203,
+                "item": "Torstol seed"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Potato seed"
+            },
+            {
+                "quantity": 0.2857142857142857,
+                "item": "Onion seed"
+            },
+            {
+                "quantity": 0.19047619047619047,
+                "item": "Cabbage seed"
+            },
+            {
+                "quantity": 0.06976744186046512,
+                "item": "Tomato seed"
+            },
+            {
+                "quantity": 0.034482758620689655,
+                "item": "Sweetcorn seed"
+            },
+            {
+                "quantity": 0.011428571428571429,
+                "item": "Strawberry seed"
+            },
+            {
+                "quantity": 0.00546448087431694,
+                "item": "Watermelon seed"
+            },
+            {
+                "quantity": 0.003976143141153081,
+                "item": "Snape grass seed"
+            },
+            {
+                "quantity": 0.0070921985815602835,
+                "item": "Barley seed"
+            },
+            {
+                "quantity": 0.005291005291005291,
+                "item": "Hammerstone seed"
+            },
+            {
+                "quantity": 0.0039946737683089215,
+                "item": "Asgarnian seed"
+            },
+            {
+                "quantity": 0.0026455026455026454,
+                "item": "Jute seed"
+            },
+            {
+                "quantity": 0.001763668430335097,
+                "item": "Yanillian seed"
+            },
+            {
+                "quantity": 0.0008818342151675485,
+                "item": "Krandorian seed"
+            },
+            {
+                "quantity": 0.00022431583669807088,
+                "item": "Wildblood seed"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Earth talisman"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Water talisman"
+            },
+            {
+                "quantity": 0.1484375,
+                "item": "Rainbow fish"
+            },
+            {
+                "quantity": 0.203125,
+                "item": "Oak roots"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00390625,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0014648473262874177,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00048828125,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00048828125,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00244140625,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000030517578125,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000152587890625,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.000011444091578596275,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": null,
+                "item": "Clue scroll (hard)"
+            }
+        ],
+        "superior": false
+    },
+    {
         "name": "Grotesque Guardians",
         "link": "https://oldschool.runescape.wiki/w/Grotesque_Guardians",
         "combatLevel": null,
@@ -56718,6 +56236,42 @@
             {
                 "quantity": 0.0078125,
                 "item": "Clue scroll (easy)"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Jaguar",
+        "link": "https://oldschool.runescape.wiki/w/Jaguar",
+        "combatLevel": 67,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 1,
+                "item": "Jaguar fur"
+            },
+            {
+                "quantity": null,
+                "item": "Clue scroll (medium)"
+            },
+            {
+                "quantity": null,
+                "item": "Clue scroll (hard)"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Jaguar cub",
+        "link": "https://oldschool.runescape.wiki/w/Jaguar_cub",
+        "combatLevel": 31,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
             }
         ],
         "superior": false
@@ -61875,6 +61429,110 @@
         "superior": false
     },
     {
+        "name": "Lunar Chest",
+        "link": "https://oldschool.runescape.wiki/w/Lunar_Chest",
+        "combatLevel": null,
+        "drops": [
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Eclipse atlatl"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Eclipse moon helm"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Eclipse moon chestplate"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Eclipse moon tassets"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Dual macuahuitl"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blood moon helm"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blood moon chestplate"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blood moon tassets"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blue moon spear"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blue moon helm"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blue moon chestplate"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Blue moon tassets"
+            },
+            {
+                "quantity": 96,
+                "item": "Atlatl dart"
+            },
+            {
+                "quantity": 67.6,
+                "item": "Blessed bone shards"
+            },
+            {
+                "quantity": 9.600000000000001,
+                "item": "Wyrmling bones"
+            },
+            {
+                "quantity": 5.4,
+                "item": "Sun-kissed bones"
+            },
+            {
+                "quantity": 79.19999999999999,
+                "item": "Swamp tar"
+            },
+            {
+                "quantity": 14.8,
+                "item": "Water orb"
+            },
+            {
+                "quantity": 5.4,
+                "item": "Supercompost"
+            },
+            {
+                "quantity": 12,
+                "item": "Soft clay"
+            },
+            {
+                "quantity": 9,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 3,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Maple seed"
+            },
+            {
+                "quantity": 0.2,
+                "item": "Yew seed"
+            }
+        ],
+        "superior": false
+    },
+    {
         "name": "Malevolent Mage",
         "link": "https://oldschool.runescape.wiki/w/Malevolent_Mage",
         "combatLevel": 162,
@@ -63582,6 +63240,252 @@
             {
                 "quantity": 0.0015384615384615385,
                 "item": "Lil' zik"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Moonlight Cockatrice",
+        "link": "https://oldschool.runescape.wiki/w/Moonlight_Cockatrice",
+        "combatLevel": 49,
+        "slayerMonster": true,
+        "slayerLevel": 25,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Mithril sword"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Mithril dagger"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Iron boots"
+            },
+            {
+                "quantity": 0.0390625,
+                "item": "Mithril javelin"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Mithril longsword"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Mystic boots (light)"
+            },
+            {
+                "quantity": 0.234375,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.15625,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.1171875,
+                "item": "Law rune"
+            },
+            {
+                "quantity": 0.15625,
+                "item": "Water rune"
+            },
+            {
+                "quantity": 0.234375,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": 0.01953125,
+                "item": "Grimy guam leaf"
+            },
+            {
+                "quantity": 0.014641288433382138,
+                "item": "Grimy marrentill"
+            },
+            {
+                "quantity": 0.01098901098901099,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.008547008547008548,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.006715916722632639,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.0048828125,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.0036616623947272058,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.003051571559353067,
+                "item": "Grimy kwuarm"
+            },
+            {
+                "quantity": 0.00244140625,
+                "item": "Grimy cadantine"
+            },
+            {
+                "quantity": 0.0018311664530305805,
+                "item": "Grimy lantadyme"
+            },
+            {
+                "quantity": 0.0018311664530305805,
+                "item": "Grimy dwarf weed"
+            },
+            {
+                "quantity": 0.21052631578947367,
+                "item": "Potato seed"
+            },
+            {
+                "quantity": 0.15384615384615385,
+                "item": "Onion seed"
+            },
+            {
+                "quantity": 0.10256410256410256,
+                "item": "Cabbage seed"
+            },
+            {
+                "quantity": 0.038461538461538464,
+                "item": "Tomato seed"
+            },
+            {
+                "quantity": 0.019108280254777073,
+                "item": "Sweetcorn seed"
+            },
+            {
+                "quantity": 0.006369426751592357,
+                "item": "Strawberry seed"
+            },
+            {
+                "quantity": 0.00303951367781155,
+                "item": "Watermelon seed"
+            },
+            {
+                "quantity": 0.0022099447513812156,
+                "item": "Snape grass seed"
+            },
+            {
+                "quantity": 0.0013144922773578706,
+                "item": "Barley seed"
+            },
+            {
+                "quantity": 0.0009816753926701572,
+                "item": "Hammerstone seed"
+            },
+            {
+                "quantity": 0.0007405578869414959,
+                "item": "Asgarnian seed"
+            },
+            {
+                "quantity": 0.00049079754601227,
+                "item": "Jute seed"
+            },
+            {
+                "quantity": 0.0003271716015049894,
+                "item": "Yanillian seed"
+            },
+            {
+                "quantity": 0.0001635858007524947,
+                "item": "Krandorian seed"
+            },
+            {
+                "quantity": 0.00004161464835622139,
+                "item": "Wildblood seed"
+            },
+            {
+                "quantity": 11.71875,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.9375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 6.25,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.984375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.234375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.40625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.1640625,
+                "item": "Limpwurt root"
+            },
+            {
+                "quantity": 0.00390625,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0003662104904657099,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.000244140625,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.0006103515625,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.00000762939453125,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.000003814697265625,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000028610229765035913,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": null,
+                "item": "Clue scroll (medium)"
+            },
+            {
+                "quantity": 0.001,
+                "item": "Cockatrice head"
             }
         ],
         "superior": false
@@ -73358,100 +73262,104 @@
                 "item": "Bones"
             },
             {
-                "quantity": null,
+                "quantity": 0.002,
+                "item": "Sulphur blades"
+            },
+            {
+                "quantity": 4.296875,
                 "item": "Chaos rune"
             },
             {
-                "quantity": null,
+                "quantity": 0.78125,
                 "item": "Death rune"
             },
             {
-                "quantity": null,
+                "quantity": 5.078125,
                 "item": "Fire rune"
             },
             {
-                "quantity": null,
+                "quantity": 5.46875,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": 0.21875,
                 "item": "Nature rune"
             },
             {
-                "quantity": null,
+                "quantity": 0.25,
                 "item": "Sulphurous essence"
             },
             {
-                "quantity": null,
+                "quantity": 0.7109375,
                 "item": "Coal"
             },
             {
-                "quantity": null,
+                "quantity": 0.28125,
                 "item": "Copper ore"
             },
             {
-                "quantity": null,
+                "quantity": 1.4765625,
                 "item": "Iron ore"
             },
             {
-                "quantity": null,
+                "quantity": 0.65625,
                 "item": "Silver ore"
             },
             {
-                "quantity": null,
+                "quantity": 0.46875,
                 "item": "Tin ore"
             },
             {
-                "quantity": null,
+                "quantity": 0.0546875,
                 "item": "Mithril ore"
             },
             {
-                "quantity": 0.00390625,
+                "quantity": 0.015625,
                 "item": "Uncut sapphire"
             },
             {
-                "quantity": 0.001953125,
+                "quantity": 0.0078125,
                 "item": "Uncut emerald"
             },
             {
-                "quantity": 0.0009765625,
+                "quantity": 0.00390625,
                 "item": "Uncut ruby"
             },
             {
-                "quantity": 0.0003662104904657099,
+                "quantity": 0.0014648473262874177,
                 "item": "Nature talisman"
             },
             {
-                "quantity": 0.000244140625,
+                "quantity": 0.0009765625,
                 "item": "Uncut diamond"
             },
             {
-                "quantity": 0.0001220703125,
+                "quantity": 0.00048828125,
                 "item": "Loop half of key"
             },
             {
-                "quantity": 0.0001220703125,
+                "quantity": 0.00048828125,
                 "item": "Tooth half of key"
             },
             {
-                "quantity": 0.0006103515625,
+                "quantity": 0.00244140625,
                 "item": "Rune javelin"
             },
             {
-                "quantity": 0.00000762939453125,
+                "quantity": 0.000030517578125,
                 "item": "Rune spear"
             },
             {
-                "quantity": 0.000003814697265625,
+                "quantity": 0.0000152587890625,
                 "item": "Shield left half"
             },
             {
-                "quantity": 0.0000028610229765035913,
+                "quantity": 0.000011444091578596275,
                 "item": "Dragon spear"
             },
             {
-                "quantity": 0.0078125,
+                "quantity": null,
                 "item": "Clue scroll (hard)"
-            },
-            {
-                "quantity": 0.002,
-                "item": "Sulphur blades"
             }
         ],
         "superior": false
@@ -78372,11 +78280,11 @@
                 "item": "Coins"
             },
             {
-                "quantity": 0.11764705882352941,
+                "quantity": 0.058823529411764705,
                 "item": "House keys"
             },
             {
-                "quantity": 0.02,
+                "quantity": 0.01,
                 "item": "Clue scroll (easy)"
             }
         ],
@@ -79679,1230 +79587,6 @@
         "superior": false
     },
     {
-        "name": "Zoja",
-        "link": "https://oldschool.runescape.wiki/w/Zoja",
-        "combatLevel": 24,
-        "drops": [
-            {
-                "quantity": 1,
-                "item": "Wolf bones"
-            },
-            {
-                "quantity": 0.01953125,
-                "item": "Steel axe"
-            },
-            {
-                "quantity": 0.9765625,
-                "item": "Steel arrow"
-            },
-            {
-                "quantity": 0.09765625,
-                "item": "Steel arrow(p)"
-            },
-            {
-                "quantity": 0.0009765625,
-                "item": "Grimy guam leaf"
-            },
-            {
-                "quantity": 0.0007324397568300008,
-                "item": "Grimy marrentill"
-            },
-            {
-                "quantity": 0.0005493298176225005,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.00042724087840724604,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.00033569438383295846,
-                "item": "Grimy ranarr weed"
-            },
-            {
-                "quantity": 0.000244140625,
-                "item": "Grimy irit leaf"
-            },
-            {
-                "quantity": 0.00018310658634391078,
-                "item": "Grimy avantoe"
-            },
-            {
-                "quantity": 0.000152587890625,
-                "item": "Grimy kwuarm"
-            },
-            {
-                "quantity": 0.0001220703125,
-                "item": "Grimy cadantine"
-            },
-            {
-                "quantity": 0.00009155245497908026,
-                "item": "Grimy lantadyme"
-            },
-            {
-                "quantity": 0.00009155245497908026,
-                "item": "Grimy dwarf weed"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "Eye of newt"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "Snape grass"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "Jangerberries"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "White berries"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "Limpwurt root"
-            },
-            {
-                "quantity": 0.00390625,
-                "item": "Wine of zamorak"
-            },
-            {
-                "quantity": 0.09765625,
-                "item": "Iron ore"
-            },
-            {
-                "quantity": 0.0390625,
-                "item": "Coal"
-            },
-            {
-                "quantity": 0.0390625,
-                "item": "Steel bar"
-            },
-            {
-                "quantity": 0.0390625,
-                "item": "Raw chicken"
-            },
-            {
-                "quantity": 0.0390625,
-                "item": "Raw beef"
-            },
-            {
-                "quantity": 0.0390625,
-                "item": "Raw bear meat"
-            },
-            {
-                "quantity": 0.1953125,
-                "item": "Vial of water"
-            },
-            {
-                "quantity": 0.234375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.146484375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.15625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.390625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.37109375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.48828125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.9375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.171875,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.09765625,
-                "item": "Bucket"
-            },
-            {
-                "quantity": 0.078125,
-                "item": "Tinderbox"
-            },
-            {
-                "quantity": 0.1953125,
-                "item": "Vial"
-            },
-            {
-                "quantity": 0.1953125,
-                "item": "Fur"
-            },
-            {
-                "quantity": 0.1953125,
-                "item": "Grey wolf fur"
-            },
-            {
-                "quantity": 0.001953125,
-                "item": "Blamish oil"
-            },
-            {
-                "quantity": 0.00048828125,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.000244140625,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.0001220703125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.00004577637417242037,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.000030517578125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.0000152587890625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.0000152587890625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.0000762939453125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 9.5367431640625e-7,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 4.76837158203125e-7,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 3.5762786822601814e-7,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Clue scroll (easy)"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Zombie",
-        "link": "https://oldschool.runescape.wiki/w/Zombie",
-        "combatLevel": 13,
-        "drops": [
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Zombie bone(m)"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll(m)"
-            },
-            {
-                "quantity": null,
-                "item": "Larran's key"
-            },
-            {
-                "quantity": null,
-                "item": "Slayer's enchantment"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.03125,
-                "item": "Bronze med helm"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Bronze longsword"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Iron axe"
-            },
-            {
-                "quantity": 0.2734375,
-                "item": "Iron arrow"
-            },
-            {
-                "quantity": 0.234375,
-                "item": "Body rune"
-            },
-            {
-                "quantity": 0.1953125,
-                "item": "Mind rune"
-            },
-            {
-                "quantity": 0.40625,
-                "item": "Air rune"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Iron arrow"
-            },
-            {
-                "quantity": 0.078125,
-                "item": "Steel arrow"
-            },
-            {
-                "quantity": 0.046875,
-                "item": "Nature rune"
-            },
-            {
-                "quantity": 0.04878048780487805,
-                "item": "Grimy guam leaf(m)"
-            },
-            {
-                "quantity": 0.03663003663003663,
-                "item": "Grimy marrentill(m)"
-            },
-            {
-                "quantity": 0.027472527472527472,
-                "item": "Grimy tarromin(m)"
-            },
-            {
-                "quantity": 0.021367521367521368,
-                "item": "Grimy harralander(m)"
-            },
-            {
-                "quantity": 0.016778523489932886,
-                "item": "Grimy ranarr weed(m)"
-            },
-            {
-                "quantity": 0.01221001221001221,
-                "item": "Grimy irit leaf(m)"
-            },
-            {
-                "quantity": 0.009157509157509158,
-                "item": "Grimy avantoe(m)"
-            },
-            {
-                "quantity": 0.007627765064836004,
-                "item": "Grimy kwuarm(m)"
-            },
-            {
-                "quantity": 0.006105006105006105,
-                "item": "Grimy cadantine(m)"
-            },
-            {
-                "quantity": 0.004576659038901602,
-                "item": "Grimy lantadyme(m)"
-            },
-            {
-                "quantity": 0.004576659038901602,
-                "item": "Grimy dwarf weed(m)"
-            },
-            {
-                "quantity": 2.8125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.421875,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.203125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.4375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.4453125,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Copper ore"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Zombie bone(m)"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll(m)"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.0234375,
-                "item": "Iron mace"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Iron dagger"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Bronze kiteshield"
-            },
-            {
-                "quantity": 0.0234375,
-                "item": "Mithril arrow"
-            },
-            {
-                "quantity": 0.046875,
-                "item": "Body rune"
-            },
-            {
-                "quantity": 0.0703125,
-                "item": "Air rune"
-            },
-            {
-                "quantity": 0.03125,
-                "item": "Chaos rune"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Cosmic rune"
-            },
-            {
-                "quantity": 0.0546875,
-                "item": "Fire rune"
-            },
-            {
-                "quantity": 0.05847953216374269,
-                "item": "Grimy guam leaf(m)"
-            },
-            {
-                "quantity": 0.043859649122807015,
-                "item": "Grimy marrentill(m)"
-            },
-            {
-                "quantity": 0.033003300330033,
-                "item": "Grimy tarromin(m)"
-            },
-            {
-                "quantity": 0.02564102564102564,
-                "item": "Grimy harralander(m)"
-            },
-            {
-                "quantity": 0.020161290322580645,
-                "item": "Grimy ranarr weed(m)"
-            },
-            {
-                "quantity": 0.014641288433382138,
-                "item": "Grimy irit leaf(m)"
-            },
-            {
-                "quantity": 0.01098901098901099,
-                "item": "Grimy avantoe(m)"
-            },
-            {
-                "quantity": 0.009157509157509158,
-                "item": "Grimy kwuarm(m)"
-            },
-            {
-                "quantity": 0.007326007326007326,
-                "item": "Grimy cadantine(m)"
-            },
-            {
-                "quantity": 0.005494505494505495,
-                "item": "Grimy lantadyme(m)"
-            },
-            {
-                "quantity": 0.005494505494505495,
-                "item": "Grimy dwarf weed(m)"
-            },
-            {
-                "quantity": 3.125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 2.953125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.640625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.421875,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Tinderbox"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Eye of newt"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Tin ore"
-            },
-            {
-                "quantity": 0.001953125,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0009765625,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00048828125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.00018310558050877717,
-                "item": "Chaos talisman"
-            },
-            {
-                "quantity": 0.00018310558050877717,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0001220703125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.00030517578125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000003814697265625,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.0000019073486328125,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000014305114677881647,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Zombie bone(m)"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll(m)"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Bronze kiteshield"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Iron dagger"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Iron mace"
-            },
-            {
-                "quantity": 0.09375,
-                "item": "Cosmic rune"
-            },
-            {
-                "quantity": 0.15625,
-                "item": "Chaos rune"
-            },
-            {
-                "quantity": 0.0703125,
-                "item": "Air rune"
-            },
-            {
-                "quantity": 0.0703125,
-                "item": "Body rune"
-            },
-            {
-                "quantity": 0.0546875,
-                "item": "Fire rune"
-            },
-            {
-                "quantity": 0.025380710659898477,
-                "item": "Grimy guam leaf(m)"
-            },
-            {
-                "quantity": 0.01904761904761905,
-                "item": "Grimy marrentill(m)"
-            },
-            {
-                "quantity": 0.014285714285714285,
-                "item": "Grimy tarromin(m)"
-            },
-            {
-                "quantity": 0.011111111111111112,
-                "item": "Grimy harralander(m)"
-            },
-            {
-                "quantity": 0.008726003490401396,
-                "item": "Grimy ranarr weed(m)"
-            },
-            {
-                "quantity": 0.006349206349206349,
-                "item": "Grimy irit leaf(m)"
-            },
-            {
-                "quantity": 0.00475963826749167,
-                "item": "Grimy avantoe(m)"
-            },
-            {
-                "quantity": 0.0039666798889329636,
-                "item": "Grimy kwuarm(m)"
-            },
-            {
-                "quantity": 0.0031735956839098697,
-                "item": "Grimy cadantine(m)"
-            },
-            {
-                "quantity": 0.00238038562247084,
-                "item": "Grimy lantadyme(m)"
-            },
-            {
-                "quantity": 0.00238038562247084,
-                "item": "Grimy dwarf weed(m)"
-            },
-            {
-                "quantity": 1.484375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.015625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.09375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.140625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.984375,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.984375,
-                "item": "Dark fishing bait(m)"
-            },
-            {
-                "quantity": 0.78125,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.78125,
-                "item": "Dark fishing bait(m)"
-            },
-            {
-                "quantity": 0.1640625,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.1640625,
-                "item": "Dark fishing bait(m)"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Eye of newt"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Tinderbox"
-            },
-            {
-                "quantity": 0.001953125,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0009765625,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00048828125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.00018310558050877717,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0001220703125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.00030517578125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000003814697265625,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.0000019073486328125,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000014305114677881647,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Zombie bone"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll(m)"
-            },
-            {
-                "quantity": 0.0007980845969672786,
-                "item": "Larran's key"
-            },
-            {
-                "quantity": 0.0033222591362126247,
-                "item": "Slayer's enchantment"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 1.8,
-                "item": "Steel arrow"
-            },
-            {
-                "quantity": 0.7000000000000001,
-                "item": "Body rune"
-            },
-            {
-                "quantity": 0.01,
-                "item": "Grimy guam leaf(m)"
-            },
-            {
-                "quantity": 0.007501875468867216,
-                "item": "Grimy marrentill(m)"
-            },
-            {
-                "quantity": 0.00562429696287964,
-                "item": "Grimy tarromin(m)"
-            },
-            {
-                "quantity": 0.004374453193350831,
-                "item": "Grimy harralander(m)"
-            },
-            {
-                "quantity": 0.003437607425232039,
-                "item": "Grimy ranarr weed(m)"
-            },
-            {
-                "quantity": 0.0025,
-                "item": "Grimy irit leaf(m)"
-            },
-            {
-                "quantity": 0.0018751171948246767,
-                "item": "Grimy avantoe(m)"
-            },
-            {
-                "quantity": 0.0015625,
-                "item": "Grimy kwuarm(m)"
-            },
-            {
-                "quantity": 0.00125,
-                "item": "Grimy cadantine(m)"
-            },
-            {
-                "quantity": 0.0009374707040404987,
-                "item": "Grimy lantadyme(m)"
-            },
-            {
-                "quantity": 0.0009374707040404987,
-                "item": "Grimy dwarf weed(m)"
-            },
-            {
-                "quantity": 4.4,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.4,
-                "item": "Coins(f)"
-            },
-            {
-                "quantity": 0.1,
-                "item": "Beer"
-            },
-            {
-                "quantity": 0.04,
-                "item": "Ashes"
-            },
-            {
-                "quantity": 0.005,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0025,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.0004687507324230194,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0003125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00015625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.00015625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.00078125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000009765625,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.0000048828125,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000036621093302965172,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll(m)"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Zombie pirate",
-        "link": "https://oldschool.runescape.wiki/w/Zombie_pirate",
-        "combatLevel": 57,
-        "drops": [
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.0234375,
-                "item": "Steel scimitar"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Iron dagger"
-            },
-            {
-                "quantity": 0.1640625,
-                "item": "Bronze bolts"
-            },
-            {
-                "quantity": 0.0703125,
-                "item": "Air rune"
-            },
-            {
-                "quantity": 0.046875,
-                "item": "Cosmic rune"
-            },
-            {
-                "quantity": 0.046875,
-                "item": "Body rune"
-            },
-            {
-                "quantity": 0.1328125,
-                "item": "Water rune"
-            },
-            {
-                "quantity": 0.03125,
-                "item": "Chaos rune"
-            },
-            {
-                "quantity": 0.05847953216374269,
-                "item": "Grimy guam leaf"
-            },
-            {
-                "quantity": 0.043859649122807015,
-                "item": "Grimy marrentill"
-            },
-            {
-                "quantity": 0.033003300330033,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.02564102564102564,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.020161290322580645,
-                "item": "Grimy ranarr weed"
-            },
-            {
-                "quantity": 0.014641288433382138,
-                "item": "Grimy irit leaf"
-            },
-            {
-                "quantity": 0.01098901098901099,
-                "item": "Grimy avantoe"
-            },
-            {
-                "quantity": 0.009157509157509158,
-                "item": "Grimy kwuarm"
-            },
-            {
-                "quantity": 0.007326007326007326,
-                "item": "Grimy cadantine"
-            },
-            {
-                "quantity": 0.005494505494505495,
-                "item": "Grimy lantadyme"
-            },
-            {
-                "quantity": 0.005494505494505495,
-                "item": "Grimy dwarf weed"
-            },
-            {
-                "quantity": 2.953125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.78125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.640625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.625,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.1484375,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.390625,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.0234375,
-                "item": "Karamthulhu"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Iron ore"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Right eye patch"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Rusty scimitar"
-            },
-            {
-                "quantity": 0.001953125,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0009765625,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00048828125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.00018310558050877717,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0001220703125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.00030517578125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000003814697265625,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.0000019073486328125,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000014305114677881647,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Zombie bone"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll"
-            },
-            {
-                "quantity": 1,
-                "item": "Bones"
-            },
-            {
-                "quantity": 0.1640625,
-                "item": "Steel bolts"
-            },
-            {
-                "quantity": 0.015625,
-                "item": "Mithril dagger"
-            },
-            {
-                "quantity": 0.0234375,
-                "item": "Bandana eyepatch (blue)"
-            },
-            {
-                "quantity": 0.0390625,
-                "item": "Bandana eyepatch (red)"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Right eye patch"
-            },
-            {
-                "quantity": 0.0234375,
-                "item": "Mithril scimitar"
-            },
-            {
-                "quantity": 0.1796875,
-                "item": "Water rune"
-            },
-            {
-                "quantity": 0.09375,
-                "item": "Body rune"
-            },
-            {
-                "quantity": 0.0546875,
-                "item": "Chaos rune"
-            },
-            {
-                "quantity": 0.1171875,
-                "item": "Cosmic rune"
-            },
-            {
-                "quantity": 0.046875,
-                "item": "Law rune"
-            },
-            {
-                "quantity": 0.05847953216374269,
-                "item": "Grimy guam leaf"
-            },
-            {
-                "quantity": 0.043859649122807015,
-                "item": "Grimy marrentill"
-            },
-            {
-                "quantity": 0.033003300330033,
-                "item": "Grimy tarromin"
-            },
-            {
-                "quantity": 0.02564102564102564,
-                "item": "Grimy harralander"
-            },
-            {
-                "quantity": 0.020161290322580645,
-                "item": "Grimy ranarr weed"
-            },
-            {
-                "quantity": 0.014641288433382138,
-                "item": "Grimy irit leaf"
-            },
-            {
-                "quantity": 0.01098901098901099,
-                "item": "Grimy avantoe"
-            },
-            {
-                "quantity": 0.009157509157509158,
-                "item": "Grimy kwuarm"
-            },
-            {
-                "quantity": 0.007326007326007326,
-                "item": "Grimy cadantine"
-            },
-            {
-                "quantity": 0.005494505494505495,
-                "item": "Grimy lantadyme"
-            },
-            {
-                "quantity": 0.005494505494505495,
-                "item": "Grimy dwarf weed"
-            },
-            {
-                "quantity": 2.34375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 6.234375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 2.875,
-                "item": "Coins"
-            },
-            {
-                "quantity": 2.578125,
-                "item": "Coins"
-            },
-            {
-                "quantity": 0.9375,
-                "item": "Coins"
-            },
-            {
-                "quantity": 1.71875,
-                "item": "Fishing bait"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Rusty scimitar"
-            },
-            {
-                "quantity": 0.0078125,
-                "item": "Braindeath 'rum'"
-            },
-            {
-                "quantity": 0.001953125,
-                "item": "Uncut sapphire"
-            },
-            {
-                "quantity": 0.0009765625,
-                "item": "Uncut emerald"
-            },
-            {
-                "quantity": 0.00048828125,
-                "item": "Uncut ruby"
-            },
-            {
-                "quantity": 0.00018310558050877717,
-                "item": "Nature talisman"
-            },
-            {
-                "quantity": 0.0001220703125,
-                "item": "Uncut diamond"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Loop half of key"
-            },
-            {
-                "quantity": 0.00006103515625,
-                "item": "Tooth half of key"
-            },
-            {
-                "quantity": 0.00030517578125,
-                "item": "Rune javelin"
-            },
-            {
-                "quantity": 0.000003814697265625,
-                "item": "Rune spear"
-            },
-            {
-                "quantity": 0.0000019073486328125,
-                "item": "Shield left half"
-            },
-            {
-                "quantity": 0.0000014305114677881647,
-                "item": "Dragon spear"
-            },
-            {
-                "quantity": 0.25,
-                "item": "Zombie bone"
-            },
-            {
-                "quantity": 0.0002,
-                "item": "Zombie champion scroll"
-            }
-        ],
-        "superior": false
-    },
-    {
         "name": "Category:Slayer monster images",
         "link": "https://oldschool.runescape.wiki/w/Category:Slayer_monster_images",
         "combatLevel": null,
@@ -81565,6 +80249,750 @@
             {
                 "quantity": 0.0078125,
                 "item": "Clue scroll (medium)"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Ankou",
+        "link": "https://oldschool.runescape.wiki/w/Ankou",
+        "combatLevel": 75,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Black knife"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Black robe"
+            },
+            {
+                "quantity": 0.36,
+                "item": "Adamant arrow"
+            },
+            {
+                "quantity": 1,
+                "item": "Death rune"
+            },
+            {
+                "quantity": 0.6599999999999999,
+                "item": "Blood rune"
+            },
+            {
+                "quantity": 0.08,
+                "item": "Law rune"
+            },
+            {
+                "quantity": 0.15,
+                "item": "Blood rune"
+            },
+            {
+                "quantity": 0.007501875468867216,
+                "item": "Grimy guam leaf"
+            },
+            {
+                "quantity": 0.00562429696287964,
+                "item": "Grimy marrentill"
+            },
+            {
+                "quantity": 0.004219409282700422,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.0032808398950131233,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.002577984016499098,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.0018751171948246767,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.001406271972999578,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.0011719207781553968,
+                "item": "Grimy kwuarm"
+            },
+            {
+                "quantity": 0.0009374707040404987,
+                "item": "Grimy cadantine"
+            },
+            {
+                "quantity": 0.000703135986499789,
+                "item": "Grimy lantadyme"
+            },
+            {
+                "quantity": 0.000703135986499789,
+                "item": "Grimy dwarf weed"
+            },
+            {
+                "quantity": 0.00130718954248366,
+                "item": "Limpwurt seed"
+            },
+            {
+                "quantity": 0.00125,
+                "item": "Strawberry seed"
+            },
+            {
+                "quantity": 0.0011927480916030535,
+                "item": "Marrentill seed"
+            },
+            {
+                "quantity": 0.0008778860503906593,
+                "item": "Jangerberry seed"
+            },
+            {
+                "quantity": 0.0008110957904128477,
+                "item": "Tarromin seed"
+            },
+            {
+                "quantity": 0.0007919537499010057,
+                "item": "Wildblood seed"
+            },
+            {
+                "quantity": 0.0006011421701232341,
+                "item": "Watermelon seed"
+            },
+            {
+                "quantity": 0.0005343593031954686,
+                "item": "Harralander seed"
+            },
+            {
+                "quantity": 0.0003816793893129771,
+                "item": "Snape grass seed"
+            },
+            {
+                "quantity": 0.0003721345638582912,
+                "item": "Ranarr seed"
+            },
+            {
+                "quantity": 0.00032442252790033737,
+                "item": "Whiteberry seed"
+            },
+            {
+                "quantity": 0.00027671702916597487,
+                "item": "Mushroom spore"
+            },
+            {
+                "quantity": 0.0002576323586242432,
+                "item": "Toadflax seed"
+            },
+            {
+                "quantity": 0.00017175638074954486,
+                "item": "Belladonna seed"
+            },
+            {
+                "quantity": 0.00017175638074954486,
+                "item": "Irit seed"
+            },
+            {
+                "quantity": 0.00012404639335111332,
+                "item": "Poison ivy seed"
+            },
+            {
+                "quantity": 0.00011450425383302991,
+                "item": "Avantoe seed"
+            },
+            {
+                "quantity": 0.00011450425383302991,
+                "item": "Cactus seed"
+            },
+            {
+                "quantity": 0.00008587819037477243,
+                "item": "Kwuarm seed"
+            },
+            {
+                "quantity": 0.00007633587786259542,
+                "item": "Potato cactus seed"
+            },
+            {
+                "quantity": 0.00004770992366412214,
+                "item": "Snapdragon seed"
+            },
+            {
+                "quantity": 0.00003816793893129771,
+                "item": "Cadantine seed"
+            },
+            {
+                "quantity": 0.000028625981513341138,
+                "item": "Lantadyme seed"
+            },
+            {
+                "quantity": 0.000019083969465648855,
+                "item": "Dwarf weed seed"
+            },
+            {
+                "quantity": 0.000009541984732824428,
+                "item": "Torstol seed"
+            },
+            {
+                "quantity": 0.75,
+                "item": "Pure essence"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Mithril ore"
+            },
+            {
+                "quantity": 2.64,
+                "item": "Coins"
+            },
+            {
+                "quantity": 10.4,
+                "item": "Coins"
+            },
+            {
+                "quantity": 19.8,
+                "item": "Dark fishing bait"
+            },
+            {
+                "quantity": 0.03,
+                "item": "Left skull half"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Bass"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Weapon poison"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Fried mushrooms"
+            },
+            {
+                "quantity": 0.005,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0025,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0004687507324230194,
+                "item": "Chaos talisman"
+            },
+            {
+                "quantity": 0.0004687507324230194,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0003125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00015625,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00015625,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00078125,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000009765625,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000048828125,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000036621093302965172,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 1,
+                "item": "Clue scroll (elite)"
+            },
+            {
+                "quantity": 1,
+                "item": "Reward casket (elite)"
+            },
+            {
+                "quantity": 0.3333333333333333,
+                "item": "Looting bag"
+            },
+            {
+                "quantity": null,
+                "item": "Brimstone key"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Clue scroll (hard)"
+            },
+            {
+                "quantity": 0.0034129692832764505,
+                "item": "Ancient shard"
+            },
+            {
+                "quantity": 0.0022727272727272726,
+                "item": "Dark totem base"
+            },
+            {
+                "quantity": 0.0022727272727272726,
+                "item": "Dark totem middle"
+            },
+            {
+                "quantity": 0.0022727272727272726,
+                "item": "Dark totem top"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.05,
+                "item": "Black robe"
+            },
+            {
+                "quantity": 0.36,
+                "item": "Adamant arrow"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Law rune"
+            },
+            {
+                "quantity": 0.75,
+                "item": "Rune essence"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Mithril ore"
+            },
+            {
+                "quantity": 2.64,
+                "item": "Coins"
+            },
+            {
+                "quantity": 10.4,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.3,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.05,
+                "item": "Coins"
+            },
+            {
+                "quantity": 19.8,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.03,
+                "item": "Left skull half"
+            },
+            {
+                "quantity": 0.005,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0025,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0004687507324230194,
+                "item": "Unknown talisman(m)"
+            },
+            {
+                "quantity": 0.0003125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00015625,
+                "item": "Loop half of key(m)"
+            },
+            {
+                "quantity": 0.00015625,
+                "item": "Tooth half of key(m)"
+            },
+            {
+                "quantity": 0.00078125,
+                "item": "Rune javelin(m)"
+            },
+            {
+                "quantity": 0.000009765625,
+                "item": "Rune spear(m)"
+            },
+            {
+                "quantity": 0.0000048828125,
+                "item": "Shield left half(m)"
+            },
+            {
+                "quantity": 0.0000036621093302965172,
+                "item": "Dragon spear(m)"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.010869565217391304,
+                "item": "Adamant platelegs"
+            },
+            {
+                "quantity": 0.3913043478260869,
+                "item": "Rune arrow"
+            },
+            {
+                "quantity": 0.4891304347826087,
+                "item": "Death rune"
+            },
+            {
+                "quantity": 0.5543478260869565,
+                "item": "Death rune"
+            },
+            {
+                "quantity": 0.358695652173913,
+                "item": "Blood rune"
+            },
+            {
+                "quantity": 0.17391304347826086,
+                "item": "Blood rune"
+            },
+            {
+                "quantity": 0.19565217391304346,
+                "item": "Blood rune"
+            },
+            {
+                "quantity": 0.008149959250203748,
+                "item": "Grimy guam leaf"
+            },
+            {
+                "quantity": 0.006112469437652812,
+                "item": "Grimy marrentill"
+            },
+            {
+                "quantity": 0.004585052728106373,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.003566333808844508,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.002802690582959641,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.002037905033625433,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.0015285845307245489,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.0012737230925996689,
+                "item": "Grimy kwuarm"
+            },
+            {
+                "quantity": 0.0010190563538163661,
+                "item": "Grimy cadantine"
+            },
+            {
+                "quantity": 0.0007642922653622744,
+                "item": "Grimy lantadyme"
+            },
+            {
+                "quantity": 0.0007642922653622744,
+                "item": "Grimy dwarf weed"
+            },
+            {
+                "quantity": 0.0014208581983518045,
+                "item": "Limpwurt seed"
+            },
+            {
+                "quantity": 0.001358695652173913,
+                "item": "Strawberry seed"
+            },
+            {
+                "quantity": 0.0012965123816932453,
+                "item": "Marrentill seed"
+            },
+            {
+                "quantity": 0.0009541984732824427,
+                "item": "Jangerberry seed"
+            },
+            {
+                "quantity": 0.0008816009873931059,
+                "item": "Tarromin seed"
+            },
+            {
+                "quantity": 0.0008608815426997245,
+                "item": "Wildblood seed"
+            },
+            {
+                "quantity": 0.0006534239414532148,
+                "item": "Watermelon seed"
+            },
+            {
+                "quantity": 0.0005808212812917465,
+                "item": "Harralander seed"
+            },
+            {
+                "quantity": 0.000414868901427149,
+                "item": "Snape grass seed"
+            },
+            {
+                "quantity": 0.00040449801795971205,
+                "item": "Ranarr seed"
+            },
+            {
+                "quantity": 0.00035263417730446435,
+                "item": "Whiteberry seed"
+            },
+            {
+                "quantity": 0.0003007790176557284,
+                "item": "Mushroom spore"
+            },
+            {
+                "quantity": 0.0002800336040324839,
+                "item": "Toadflax seed"
+            },
+            {
+                "quantity": 0.00018669255470091855,
+                "item": "Belladonna seed"
+            },
+            {
+                "quantity": 0.00018669255470091855,
+                "item": "Irit seed"
+            },
+            {
+                "quantity": 0.00013483267265323732,
+                "item": "Poison ivy seed"
+            },
+            {
+                "quantity": 0.00012446015408167075,
+                "item": "Avantoe seed"
+            },
+            {
+                "quantity": 0.00012446015408167075,
+                "item": "Cactus seed"
+            },
+            {
+                "quantity": 0.00009334540600584343,
+                "item": "Kwuarm seed"
+            },
+            {
+                "quantity": 0.00008297378028542981,
+                "item": "Potato cactus seed"
+            },
+            {
+                "quantity": 0.000051858612678393625,
+                "item": "Snapdragon seed"
+            },
+            {
+                "quantity": 0.000041486890142714904,
+                "item": "Cadantine seed"
+            },
+            {
+                "quantity": 0.00003111513533528114,
+                "item": "Lantadyme seed"
+            },
+            {
+                "quantity": 0.000020743445071357452,
+                "item": "Dwarf weed seed"
+            },
+            {
+                "quantity": 0.000010371722535678726,
+                "item": "Torstol seed"
+            },
+            {
+                "quantity": 37.17391304347826,
+                "item": "Dark fishing bait"
+            },
+            {
+                "quantity": 78.84210526315789,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.10869565217391304,
+                "item": "Mithril ore"
+            },
+            {
+                "quantity": 0.005263157894736842,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.002631578947368421,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.0013157894736842105,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0004934202410851298,
+                "item": "Chaos talisman"
+            },
+            {
+                "quantity": 0.0003289473684210526,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.0001644736842105263,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.0001644736842105263,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.0008223684210526315,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000010279605263157895,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.000005139802631578947,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000038548520232171575,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 1,
+                "item": "Clue scroll (elite)"
+            },
+            {
+                "quantity": 1,
+                "item": "Reward casket (elite)"
+            },
+            {
+                "quantity": 0.3333333333333333,
+                "item": "Looting bag"
+            },
+            {
+                "quantity": 0.00390625,
+                "item": "Clue scroll (hard)"
+            },
+            {
+                "quantity": 0.012195121951219513,
+                "item": "Larran's key"
+            },
+            {
+                "quantity": 0.004166666666666667,
+                "item": "Slayer's enchantment"
+            },
+            {
+                "quantity": 0.08928571428571429,
+                "item": "Blighted anglerfish"
+            },
+            {
+                "quantity": 0.08928571428571429,
+                "item": "Blighted manta ray"
+            },
+            {
+                "quantity": 0.05952380952380952,
+                "item": "Blighted karambwan"
+            },
+            {
+                "quantity": 0.2976190476190476,
+                "item": "Blighted teleport spell sack"
+            },
+            {
+                "quantity": 0.2976190476190476,
+                "item": "Blighted ancient ice sack"
+            },
+            {
+                "quantity": 0.2976190476190476,
+                "item": "Blighted vengeance sack"
+            },
+            {
+                "quantity": 0.5952380952380952,
+                "item": "Blighted entangle sack"
+            },
+            {
+                "quantity": 0.02976190476190476,
+                "item": "Blighted super restore(4)"
+            },
+            {
+                "quantity": 0.02976190476190476,
+                "item": "Revenant cave teleport"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Dareeyak teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Wilderness crabs teleport"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Carrallanger teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Paddewwa teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Annakarl teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Lassar teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Kharyrll teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Senntisten teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Ghorrock teleport (tablet)"
+            },
+            {
+                "quantity": 0.005945303210463734,
+                "item": "Target teleport"
+            },
+            {
+                "quantity": 0.0023781212841854932,
+                "item": "Magic shortbow scroll"
+            },
+            {
+                "quantity": 0.0023781212841854932,
+                "item": "Ring of wealth scroll"
+            },
+            {
+                "quantity": 0.0011892020454275182,
+                "item": "Trouver parchment"
+            },
+            {
+                "quantity": 0.0005946010227137591,
+                "item": "Looting bag note"
             }
         ],
         "superior": false
@@ -82720,6 +82148,30 @@
             {
                 "quantity": 1,
                 "item": "Vile ashes"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Buffalo (monster)",
+        "link": "https://oldschool.runescape.wiki/w/Buffalo_(monster)",
+        "combatLevel": 9,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 1,
+                "item": "Raw beef"
+            },
+            {
+                "quantity": null,
+                "item": "Clue scroll (beginner)"
+            },
+            {
+                "quantity": null,
+                "item": "Clue scroll (easy)"
             }
         ],
         "superior": false
@@ -88263,22 +87715,6 @@
         "superior": false
     },
     {
-        "name": "Ghost",
-        "link": "https://oldschool.runescape.wiki/w/Ghost",
-        "combatLevel": 19,
-        "drops": [
-            {
-                "quantity": 0.14285714285714285,
-                "item": "Looting bag(m)"
-            },
-            {
-                "quantity": 0.011111111111111112,
-                "item": "Clue scroll (beginner)"
-            }
-        ],
-        "superior": false
-    },
-    {
         "name": "Greater Skeleton Hellhound (Calvar'ion)",
         "link": "https://oldschool.runescape.wiki/w/Greater_Skeleton_Hellhound_(Calvar%27ion)",
         "combatLevel": 139,
@@ -88798,8 +88234,260 @@
         "superior": false
     },
     {
-        "name": "Hill Giant (Dark)",
-        "link": "https://oldschool.runescape.wiki/w/Hill_Giant_(Dark)",
+        "name": "Hill Giant (Giants' Plateau)",
+        "link": "https://oldschool.runescape.wiki/w/Hill_Giant_(Giants%27_Plateau)",
+        "combatLevel": 28,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Big bones"
+            },
+            {
+                "quantity": 0.0390625,
+                "item": "Iron med helm"
+            },
+            {
+                "quantity": 0.03125,
+                "item": "Iron dagger"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Iron kiteshield"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Steel scimitar"
+            },
+            {
+                "quantity": 0.140625,
+                "item": "Iron arrow"
+            },
+            {
+                "quantity": 0.3515625,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": 0.1640625,
+                "item": "Water rune"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Law rune"
+            },
+            {
+                "quantity": 0.15625,
+                "item": "Steel arrow"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Mind rune"
+            },
+            {
+                "quantity": 0.03125,
+                "item": "Cosmic rune"
+            },
+            {
+                "quantity": 0.09375,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Death rune"
+            },
+            {
+                "quantity": 0.013679890560875515,
+                "item": "Grimy guam leaf(m)"
+            },
+            {
+                "quantity": 0.010256410256410256,
+                "item": "Grimy marrentill(m)"
+            },
+            {
+                "quantity": 0.007692307692307693,
+                "item": "Grimy tarromin(m)"
+            },
+            {
+                "quantity": 0.005980861244019139,
+                "item": "Grimy harralander(m)"
+            },
+            {
+                "quantity": 0.004699248120300752,
+                "item": "Grimy ranarr weed(m)"
+            },
+            {
+                "quantity": 0.003417634996582365,
+                "item": "Grimy irit leaf(m)"
+            },
+            {
+                "quantity": 0.002563445270443476,
+                "item": "Grimy avantoe(m)"
+            },
+            {
+                "quantity": 0.0021362956633198035,
+                "item": "Grimy kwuarm(m)"
+            },
+            {
+                "quantity": 0.0017091095539224063,
+                "item": "Grimy cadantine(m)"
+            },
+            {
+                "quantity": 0.001281722635221738,
+                "item": "Grimy lantadyme(m)"
+            },
+            {
+                "quantity": 0.001281722635221738,
+                "item": "Grimy dwarf weed(m)"
+            },
+            {
+                "quantity": 0.21052631578947367,
+                "item": "Potato seed(m)"
+            },
+            {
+                "quantity": 0.16,
+                "item": "Onion seed(m)"
+            },
+            {
+                "quantity": 0.10526315789473684,
+                "item": "Cabbage seed(m)"
+            },
+            {
+                "quantity": 0.03896103896103896,
+                "item": "Tomato seed(m)"
+            },
+            {
+                "quantity": 0.01935483870967742,
+                "item": "Sweetcorn seed(m)"
+            },
+            {
+                "quantity": 0.006430868167202572,
+                "item": "Strawberry seed(m)"
+            },
+            {
+                "quantity": 0.0030721966205837174,
+                "item": "Watermelon seed(m)"
+            },
+            {
+                "quantity": 0.002232142857142857,
+                "item": "Snape grass seed(m)"
+            },
+            {
+                "quantity": 0.703125,
+                "item": "Coins(f)"
+            },
+            {
+                "quantity": 4.15625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 4.0625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.9375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.546875,
+                "item": "Coins(f)"
+            },
+            {
+                "quantity": 0.375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.0859375,
+                "item": "Limpwurt root"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Beer"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Body talisman"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Giant key"
+            },
+            {
+                "quantity": 0.005859260561317162,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0029297161105088917,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.0014648365974775516,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0005493177473577816,
+                "item": "Nature talisman(m)"
+            },
+            {
+                "quantity": 0.0003662104904657099,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Loop half of key(m)"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Tooth half of key(m)"
+            },
+            {
+                "quantity": 0.0009155279025438858,
+                "item": "Rune javelin(m)"
+            },
+            {
+                "quantity": 0.000011444092233432473,
+                "item": "Rune spear(m)"
+            },
+            {
+                "quantity": 0.000005722045789298137,
+                "item": "Shield left half(m)"
+            },
+            {
+                "quantity": 0.000004291534403364494,
+                "item": "Dragon spear(m)"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Ensouled giant head(m)"
+            },
+            {
+                "quantity": 0.02,
+                "item": "Clue scroll (beginner)"
+            },
+            {
+                "quantity": 0.0025,
+                "item": "Long bone(m)"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Giant champion scroll(m)"
+            },
+            {
+                "quantity": 0.00019950124688279303,
+                "item": "Curved bone(m)"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Hill Giant (Kourend)",
+        "link": "https://oldschool.runescape.wiki/w/Hill_Giant_(Kourend)",
         "combatLevel": 28,
         "drops": [
             {
@@ -89062,8 +88750,8 @@
         "superior": false
     },
     {
-        "name": "Hill Giant (Giants' Plateau)",
-        "link": "https://oldschool.runescape.wiki/w/Hill_Giant_(Giants%27_Plateau)",
+        "name": "Hill Giant (Varlamore)",
+        "link": "https://oldschool.runescape.wiki/w/Hill_Giant_(Varlamore)",
         "combatLevel": 28,
         "drops": [
             {
@@ -89071,12 +88759,12 @@
                 "item": "Big bones"
             },
             {
-                "quantity": 0.0390625,
-                "item": "Iron med helm"
-            },
-            {
                 "quantity": 0.03125,
                 "item": "Iron dagger"
+            },
+            {
+                "quantity": 0.0390625,
+                "item": "Iron full helm"
             },
             {
                 "quantity": 0.0234375,
@@ -89084,7 +88772,7 @@
             },
             {
                 "quantity": 0.015625,
-                "item": "Steel scimitar"
+                "item": "Steel longsword"
             },
             {
                 "quantity": 0.140625,
@@ -89128,83 +88816,79 @@
             },
             {
                 "quantity": 0.013679890560875515,
-                "item": "Grimy guam leaf(m)"
+                "item": "Grimy guam leaf"
             },
             {
                 "quantity": 0.010256410256410256,
-                "item": "Grimy marrentill(m)"
+                "item": "Grimy marrentill"
             },
             {
                 "quantity": 0.007692307692307693,
-                "item": "Grimy tarromin(m)"
+                "item": "Grimy tarromin"
             },
             {
                 "quantity": 0.005980861244019139,
-                "item": "Grimy harralander(m)"
+                "item": "Grimy harralander"
             },
             {
                 "quantity": 0.004699248120300752,
-                "item": "Grimy ranarr weed(m)"
+                "item": "Grimy ranarr weed"
             },
             {
                 "quantity": 0.003417634996582365,
-                "item": "Grimy irit leaf(m)"
+                "item": "Grimy irit leaf"
             },
             {
                 "quantity": 0.002563445270443476,
-                "item": "Grimy avantoe(m)"
+                "item": "Grimy avantoe"
             },
             {
                 "quantity": 0.0021362956633198035,
-                "item": "Grimy kwuarm(m)"
+                "item": "Grimy kwuarm"
             },
             {
                 "quantity": 0.0017091095539224063,
-                "item": "Grimy cadantine(m)"
+                "item": "Grimy cadantine"
             },
             {
                 "quantity": 0.001281722635221738,
-                "item": "Grimy lantadyme(m)"
+                "item": "Grimy lantadyme"
             },
             {
                 "quantity": 0.001281722635221738,
-                "item": "Grimy dwarf weed(m)"
+                "item": "Grimy dwarf weed"
             },
             {
                 "quantity": 0.21052631578947367,
-                "item": "Potato seed(m)"
+                "item": "Potato seed"
             },
             {
                 "quantity": 0.16,
-                "item": "Onion seed(m)"
+                "item": "Onion seed"
             },
             {
                 "quantity": 0.10526315789473684,
-                "item": "Cabbage seed(m)"
+                "item": "Cabbage seed"
             },
             {
                 "quantity": 0.03896103896103896,
-                "item": "Tomato seed(m)"
+                "item": "Tomato seed"
             },
             {
                 "quantity": 0.01935483870967742,
-                "item": "Sweetcorn seed(m)"
+                "item": "Sweetcorn seed"
             },
             {
                 "quantity": 0.006430868167202572,
-                "item": "Strawberry seed(m)"
+                "item": "Strawberry seed"
             },
             {
                 "quantity": 0.0030721966205837174,
-                "item": "Watermelon seed(m)"
+                "item": "Watermelon seed"
             },
             {
                 "quantity": 0.002232142857142857,
-                "item": "Snape grass seed(m)"
-            },
-            {
-                "quantity": 0.703125,
-                "item": "Coins(f)"
+                "item": "Snape grass seed"
             },
             {
                 "quantity": 4.15625,
@@ -89217,10 +88901,6 @@
             {
                 "quantity": 0.9375,
                 "item": "Coins"
-            },
-            {
-                "quantity": 0.546875,
-                "item": "Coins(f)"
             },
             {
                 "quantity": 0.375,
@@ -89260,7 +88940,11 @@
             },
             {
                 "quantity": 0.0005493177473577816,
-                "item": "Nature talisman(m)"
+                "item": "Chaos talisman"
+            },
+            {
+                "quantity": 0.0005493177473577816,
+                "item": "Nature talisman"
             },
             {
                 "quantity": 0.0003662104904657099,
@@ -89268,31 +88952,35 @@
             },
             {
                 "quantity": 0.00018310558050877717,
-                "item": "Loop half of key(m)"
+                "item": "Loop half of key"
             },
             {
                 "quantity": 0.00018310558050877717,
-                "item": "Tooth half of key(m)"
+                "item": "Tooth half of key"
             },
             {
                 "quantity": 0.0009155279025438858,
-                "item": "Rune javelin(m)"
+                "item": "Rune javelin"
             },
             {
                 "quantity": 0.000011444092233432473,
-                "item": "Rune spear(m)"
+                "item": "Rune spear"
             },
             {
                 "quantity": 0.000005722045789298137,
-                "item": "Shield left half(m)"
+                "item": "Shield left half"
             },
             {
                 "quantity": 0.000004291534403364494,
-                "item": "Dragon spear(m)"
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 1,
+                "item": "Key (medium)"
             },
             {
                 "quantity": 0.04,
-                "item": "Ensouled giant head(m)"
+                "item": "Ensouled giant head"
             },
             {
                 "quantity": 0.02,
@@ -89300,15 +88988,15 @@
             },
             {
                 "quantity": 0.0025,
-                "item": "Long bone(m)"
+                "item": "Long bone"
             },
             {
                 "quantity": 0.0002,
-                "item": "Giant champion scroll(m)"
+                "item": "Giant champion scroll"
             },
             {
                 "quantity": 0.00019950124688279303,
-                "item": "Curved bone(m)"
+                "item": "Curved bone"
             }
         ],
         "superior": false
@@ -95666,90 +95354,6 @@
         "superior": false
     },
     {
-        "name": "Scorpia's guardian",
-        "link": "https://oldschool.runescape.wiki/w/Scorpia%27s_guardian",
-        "combatLevel": 47,
-        "drops": [
-            {
-                "quantity": 0.3333333333333333,
-                "item": "Looting bag"
-            },
-            {
-                "quantity": 0.04,
-                "item": "Ensouled scorpion head"
-            },
-            {
-                "quantity": 0.002347417840375587,
-                "item": "Larran's key"
-            },
-            {
-                "quantity": 0.003787878787878788,
-                "item": "Slayer's enchantment"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Scorpia's offspring (monster)",
-        "link": "https://oldschool.runescape.wiki/w/Scorpia%27s_offspring_(monster)",
-        "combatLevel": 15,
-        "drops": [
-            {
-                "quantity": 0.1,
-                "item": "Looting bag"
-            },
-            {
-                "quantity": 0.04,
-                "item": "Ensouled scorpion head"
-            },
-            {
-                "quantity": 0.01,
-                "item": "Clue scroll (beginner)"
-            },
-            {
-                "quantity": 0.000731528895391368,
-                "item": "Larran's key"
-            },
-            {
-                "quantity": 0.003134796238244514,
-                "item": "Slayer's enchantment"
-            }
-        ],
-        "superior": false
-    },
-    {
-        "name": "Scorpion",
-        "link": "https://oldschool.runescape.wiki/w/Scorpion",
-        "combatLevel": 14,
-        "drops": [
-            {
-                "quantity": 1,
-                "item": "Book page 1(m)"
-            },
-            {
-                "quantity": 0.1,
-                "item": "Looting bag(m)"
-            },
-            {
-                "quantity": 0.04,
-                "item": "Ensouled scorpion head(m)"
-            },
-            {
-                "quantity": 0.01,
-                "item": "Clue scroll (beginner)"
-            },
-            {
-                "quantity": 0.0007112375533428165,
-                "item": "Larran's key(m)"
-            },
-            {
-                "quantity": 0.003257328990228013,
-                "item": "Slayer's enchantment(m)"
-            }
-        ],
-        "superior": false
-    },
-    {
         "name": "Sea Snake Hatchling",
         "link": "https://oldschool.runescape.wiki/w/Sea_Snake_Hatchling",
         "combatLevel": 62,
@@ -101933,6 +101537,24 @@
         "superior": false
     },
     {
+        "name": "Wyrmling",
+        "link": "https://oldschool.runescape.wiki/w/Wyrmling",
+        "combatLevel": 55,
+        "slayerMonster": true,
+        "slayerLevel": 62,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Wyrmling bones"
+            },
+            {
+                "quantity": 0.0024752475247524753,
+                "item": "Brimstone key"
+            }
+        ],
+        "superior": false
+    },
+    {
         "name": "Yt-HurKot",
         "link": "https://oldschool.runescape.wiki/w/Yt-HurKot",
         "combatLevel": 108,
@@ -101966,6 +101588,646 @@
             {
                 "quantity": 0.0002,
                 "item": "Zombie champion scroll"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Zombie",
+        "link": "https://oldschool.runescape.wiki/w/Zombie",
+        "combatLevel": 13,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Zombie bone(m)"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll(m)"
+            },
+            {
+                "quantity": null,
+                "item": "Larran's key"
+            },
+            {
+                "quantity": null,
+                "item": "Slayer's enchantment"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.03125,
+                "item": "Bronze med helm"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Bronze longsword"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Iron axe"
+            },
+            {
+                "quantity": 0.2734375,
+                "item": "Iron arrow"
+            },
+            {
+                "quantity": 0.234375,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.1953125,
+                "item": "Mind rune"
+            },
+            {
+                "quantity": 0.40625,
+                "item": "Air rune"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Iron arrow"
+            },
+            {
+                "quantity": 0.078125,
+                "item": "Steel arrow"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Nature rune"
+            },
+            {
+                "quantity": 0.04878048780487805,
+                "item": "Grimy guam leaf(m)"
+            },
+            {
+                "quantity": 0.03663003663003663,
+                "item": "Grimy marrentill(m)"
+            },
+            {
+                "quantity": 0.027472527472527472,
+                "item": "Grimy tarromin(m)"
+            },
+            {
+                "quantity": 0.021367521367521368,
+                "item": "Grimy harralander(m)"
+            },
+            {
+                "quantity": 0.016778523489932886,
+                "item": "Grimy ranarr weed(m)"
+            },
+            {
+                "quantity": 0.01221001221001221,
+                "item": "Grimy irit leaf(m)"
+            },
+            {
+                "quantity": 0.009157509157509158,
+                "item": "Grimy avantoe(m)"
+            },
+            {
+                "quantity": 0.007627765064836004,
+                "item": "Grimy kwuarm(m)"
+            },
+            {
+                "quantity": 0.006105006105006105,
+                "item": "Grimy cadantine(m)"
+            },
+            {
+                "quantity": 0.004576659038901602,
+                "item": "Grimy lantadyme(m)"
+            },
+            {
+                "quantity": 0.004576659038901602,
+                "item": "Grimy dwarf weed(m)"
+            },
+            {
+                "quantity": 2.8125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.421875,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.203125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.4375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.4453125,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Copper ore"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Zombie bone(m)"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll(m)"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Iron mace"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Iron dagger"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Bronze kiteshield"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Mithril arrow"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.0703125,
+                "item": "Air rune"
+            },
+            {
+                "quantity": 0.03125,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Cosmic rune"
+            },
+            {
+                "quantity": 0.0546875,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": 0.05847953216374269,
+                "item": "Grimy guam leaf(m)"
+            },
+            {
+                "quantity": 0.043859649122807015,
+                "item": "Grimy marrentill(m)"
+            },
+            {
+                "quantity": 0.033003300330033,
+                "item": "Grimy tarromin(m)"
+            },
+            {
+                "quantity": 0.02564102564102564,
+                "item": "Grimy harralander(m)"
+            },
+            {
+                "quantity": 0.020161290322580645,
+                "item": "Grimy ranarr weed(m)"
+            },
+            {
+                "quantity": 0.014641288433382138,
+                "item": "Grimy irit leaf(m)"
+            },
+            {
+                "quantity": 0.01098901098901099,
+                "item": "Grimy avantoe(m)"
+            },
+            {
+                "quantity": 0.009157509157509158,
+                "item": "Grimy kwuarm(m)"
+            },
+            {
+                "quantity": 0.007326007326007326,
+                "item": "Grimy cadantine(m)"
+            },
+            {
+                "quantity": 0.005494505494505495,
+                "item": "Grimy lantadyme(m)"
+            },
+            {
+                "quantity": 0.005494505494505495,
+                "item": "Grimy dwarf weed(m)"
+            },
+            {
+                "quantity": 3.125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 2.953125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.640625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.421875,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Tinderbox"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Eye of newt"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Tin ore"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00048828125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Chaos talisman"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00030517578125,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000003814697265625,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000019073486328125,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000014305114677881647,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Zombie bone(m)"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll(m)"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Bronze kiteshield"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Iron dagger"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Iron mace"
+            },
+            {
+                "quantity": 0.09375,
+                "item": "Cosmic rune"
+            },
+            {
+                "quantity": 0.15625,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": 0.0703125,
+                "item": "Air rune"
+            },
+            {
+                "quantity": 0.0703125,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.0546875,
+                "item": "Fire rune"
+            },
+            {
+                "quantity": 0.025380710659898477,
+                "item": "Grimy guam leaf(m)"
+            },
+            {
+                "quantity": 0.01904761904761905,
+                "item": "Grimy marrentill(m)"
+            },
+            {
+                "quantity": 0.014285714285714285,
+                "item": "Grimy tarromin(m)"
+            },
+            {
+                "quantity": 0.011111111111111112,
+                "item": "Grimy harralander(m)"
+            },
+            {
+                "quantity": 0.008726003490401396,
+                "item": "Grimy ranarr weed(m)"
+            },
+            {
+                "quantity": 0.006349206349206349,
+                "item": "Grimy irit leaf(m)"
+            },
+            {
+                "quantity": 0.00475963826749167,
+                "item": "Grimy avantoe(m)"
+            },
+            {
+                "quantity": 0.0039666798889329636,
+                "item": "Grimy kwuarm(m)"
+            },
+            {
+                "quantity": 0.0031735956839098697,
+                "item": "Grimy cadantine(m)"
+            },
+            {
+                "quantity": 0.00238038562247084,
+                "item": "Grimy lantadyme(m)"
+            },
+            {
+                "quantity": 0.00238038562247084,
+                "item": "Grimy dwarf weed(m)"
+            },
+            {
+                "quantity": 1.484375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.015625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.09375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.140625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.984375,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.984375,
+                "item": "Dark fishing bait(m)"
+            },
+            {
+                "quantity": 0.78125,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.78125,
+                "item": "Dark fishing bait(m)"
+            },
+            {
+                "quantity": 0.1640625,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.1640625,
+                "item": "Dark fishing bait(m)"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Eye of newt"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Tinderbox"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00048828125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00030517578125,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000003814697265625,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000019073486328125,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000014305114677881647,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Zombie bone"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll(m)"
+            },
+            {
+                "quantity": 0.0007980845969672786,
+                "item": "Larran's key"
+            },
+            {
+                "quantity": 0.0033222591362126247,
+                "item": "Slayer's enchantment"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 1.8,
+                "item": "Steel arrow"
+            },
+            {
+                "quantity": 0.7000000000000001,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.01,
+                "item": "Grimy guam leaf(m)"
+            },
+            {
+                "quantity": 0.007501875468867216,
+                "item": "Grimy marrentill(m)"
+            },
+            {
+                "quantity": 0.00562429696287964,
+                "item": "Grimy tarromin(m)"
+            },
+            {
+                "quantity": 0.004374453193350831,
+                "item": "Grimy harralander(m)"
+            },
+            {
+                "quantity": 0.003437607425232039,
+                "item": "Grimy ranarr weed(m)"
+            },
+            {
+                "quantity": 0.0025,
+                "item": "Grimy irit leaf(m)"
+            },
+            {
+                "quantity": 0.0018751171948246767,
+                "item": "Grimy avantoe(m)"
+            },
+            {
+                "quantity": 0.0015625,
+                "item": "Grimy kwuarm(m)"
+            },
+            {
+                "quantity": 0.00125,
+                "item": "Grimy cadantine(m)"
+            },
+            {
+                "quantity": 0.0009374707040404987,
+                "item": "Grimy lantadyme(m)"
+            },
+            {
+                "quantity": 0.0009374707040404987,
+                "item": "Grimy dwarf weed(m)"
+            },
+            {
+                "quantity": 4.4,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.4,
+                "item": "Coins(f)"
+            },
+            {
+                "quantity": 0.1,
+                "item": "Beer"
+            },
+            {
+                "quantity": 0.04,
+                "item": "Ashes"
+            },
+            {
+                "quantity": 0.005,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0025,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.0004687507324230194,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0003125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00015625,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00015625,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00078125,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000009765625,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000048828125,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000036621093302965172,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll(m)"
             }
         ],
         "superior": false
@@ -102970,6 +103232,366 @@
             {
                 "quantity": 1,
                 "item": "Ruined backpack"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll"
+            }
+        ],
+        "superior": false
+    },
+    {
+        "name": "Zombie pirate",
+        "link": "https://oldschool.runescape.wiki/w/Zombie_pirate",
+        "combatLevel": 57,
+        "drops": [
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Steel scimitar"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Iron dagger"
+            },
+            {
+                "quantity": 0.1640625,
+                "item": "Bronze bolts"
+            },
+            {
+                "quantity": 0.0703125,
+                "item": "Air rune"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Cosmic rune"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.1328125,
+                "item": "Water rune"
+            },
+            {
+                "quantity": 0.03125,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": 0.05847953216374269,
+                "item": "Grimy guam leaf"
+            },
+            {
+                "quantity": 0.043859649122807015,
+                "item": "Grimy marrentill"
+            },
+            {
+                "quantity": 0.033003300330033,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.02564102564102564,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.020161290322580645,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.014641288433382138,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.01098901098901099,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.009157509157509158,
+                "item": "Grimy kwuarm"
+            },
+            {
+                "quantity": 0.007326007326007326,
+                "item": "Grimy cadantine"
+            },
+            {
+                "quantity": 0.005494505494505495,
+                "item": "Grimy lantadyme"
+            },
+            {
+                "quantity": 0.005494505494505495,
+                "item": "Grimy dwarf weed"
+            },
+            {
+                "quantity": 2.953125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.78125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.640625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.625,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.1484375,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.390625,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Karamthulhu"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Iron ore"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Right eye patch"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Rusty scimitar"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00048828125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00030517578125,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000003814697265625,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000019073486328125,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000014305114677881647,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Zombie bone"
+            },
+            {
+                "quantity": 0.0002,
+                "item": "Zombie champion scroll"
+            },
+            {
+                "quantity": 1,
+                "item": "Bones"
+            },
+            {
+                "quantity": 0.1640625,
+                "item": "Steel bolts"
+            },
+            {
+                "quantity": 0.015625,
+                "item": "Mithril dagger"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Bandana eyepatch (blue)"
+            },
+            {
+                "quantity": 0.0390625,
+                "item": "Bandana eyepatch (red)"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Right eye patch"
+            },
+            {
+                "quantity": 0.0234375,
+                "item": "Mithril scimitar"
+            },
+            {
+                "quantity": 0.1796875,
+                "item": "Water rune"
+            },
+            {
+                "quantity": 0.09375,
+                "item": "Body rune"
+            },
+            {
+                "quantity": 0.0546875,
+                "item": "Chaos rune"
+            },
+            {
+                "quantity": 0.1171875,
+                "item": "Cosmic rune"
+            },
+            {
+                "quantity": 0.046875,
+                "item": "Law rune"
+            },
+            {
+                "quantity": 0.05847953216374269,
+                "item": "Grimy guam leaf"
+            },
+            {
+                "quantity": 0.043859649122807015,
+                "item": "Grimy marrentill"
+            },
+            {
+                "quantity": 0.033003300330033,
+                "item": "Grimy tarromin"
+            },
+            {
+                "quantity": 0.02564102564102564,
+                "item": "Grimy harralander"
+            },
+            {
+                "quantity": 0.020161290322580645,
+                "item": "Grimy ranarr weed"
+            },
+            {
+                "quantity": 0.014641288433382138,
+                "item": "Grimy irit leaf"
+            },
+            {
+                "quantity": 0.01098901098901099,
+                "item": "Grimy avantoe"
+            },
+            {
+                "quantity": 0.009157509157509158,
+                "item": "Grimy kwuarm"
+            },
+            {
+                "quantity": 0.007326007326007326,
+                "item": "Grimy cadantine"
+            },
+            {
+                "quantity": 0.005494505494505495,
+                "item": "Grimy lantadyme"
+            },
+            {
+                "quantity": 0.005494505494505495,
+                "item": "Grimy dwarf weed"
+            },
+            {
+                "quantity": 2.34375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 6.234375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 2.875,
+                "item": "Coins"
+            },
+            {
+                "quantity": 2.578125,
+                "item": "Coins"
+            },
+            {
+                "quantity": 0.9375,
+                "item": "Coins"
+            },
+            {
+                "quantity": 1.71875,
+                "item": "Fishing bait"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Rusty scimitar"
+            },
+            {
+                "quantity": 0.0078125,
+                "item": "Braindeath 'rum'"
+            },
+            {
+                "quantity": 0.001953125,
+                "item": "Uncut sapphire"
+            },
+            {
+                "quantity": 0.0009765625,
+                "item": "Uncut emerald"
+            },
+            {
+                "quantity": 0.00048828125,
+                "item": "Uncut ruby"
+            },
+            {
+                "quantity": 0.00018310558050877717,
+                "item": "Nature talisman"
+            },
+            {
+                "quantity": 0.0001220703125,
+                "item": "Uncut diamond"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Loop half of key"
+            },
+            {
+                "quantity": 0.00006103515625,
+                "item": "Tooth half of key"
+            },
+            {
+                "quantity": 0.00030517578125,
+                "item": "Rune javelin"
+            },
+            {
+                "quantity": 0.000003814697265625,
+                "item": "Rune spear"
+            },
+            {
+                "quantity": 0.0000019073486328125,
+                "item": "Shield left half"
+            },
+            {
+                "quantity": 0.0000014305114677881647,
+                "item": "Dragon spear"
+            },
+            {
+                "quantity": 0.25,
+                "item": "Zombie bone"
             },
             {
                 "quantity": 0.0002,
