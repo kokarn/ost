@@ -29,6 +29,8 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
                 continue;
             }
 
+            console.log(mapping[itemId], dayData[itemId], latest[itemId]);
+
             returnRows.push({
                 id: itemId,
                 volume: volumes?.[itemId],
@@ -85,7 +87,7 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
         {
             field: 'high',
             headerName: 'Buy',
-            // valueFormatter: ({ value }) => numberFormat(value),
+            // valueFormatter: (value) => numberFormat(value),
             renderCell: ({row}) => {
                 return <div>
                     {numberFormat(row.high)}
@@ -101,7 +103,7 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
         {
             field: 'low',
             headerName: 'Sell',
-            // valueFormatter: ({ value }) => numberFormat(value),
+            // valueFormatter: (value) => numberFormat(value),
             renderCell: ({row}) => {
                 return <div>
                     {numberFormat(row.low)}
@@ -117,31 +119,31 @@ function GrandExchangeTable({latest, mapping, filter, dayData, volumes, shuffle 
         {
             field: 'volume',
             headerName: 'Volume',
-            valueFormatter: ({ value }) => runescapeNumberFormat(value),
+            valueFormatter: (value) => runescapeNumberFormat(value),
             width: 120,
         },
         {
             field: 'lowalch',
             headerName: 'Low alch',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: (value) => numberFormat(value),
             width: 120,
         },
         {
             field: 'highalch',
             headerName: 'High alch',
-            valueFormatter: ({ value }) => numberFormat(value),
+            // valueFormatter: (value) => numberFormat(value),
             width: 120,
         },
         {
             field: 'lowAlchProfit',
             headerName: 'Low alch profit',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: (value) => numberFormat(value),
             width: 120,
         },
         {
             field: 'highAlchProfit',
             headerName: 'High alch profit',
-            // valueFormatter: ({ value }) => numberFormat(value),
+            // valueFormatter: (value) => numberFormat(value),
             renderCell: ({ value }) => numberFormat(value),
             width: 120,
         },

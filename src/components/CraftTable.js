@@ -63,7 +63,7 @@ function CraftTable({latest, mapping, crafts, filter}) {
         {
             field: 'volume',
             headerName: 'Volume',
-            valueFormatter: ({ value }) => runescapeNumberFormat(value),
+            valueFormatter: (value) => runescapeNumberFormat(value),
             width: 120,
         },
         {
@@ -94,19 +94,19 @@ function CraftTable({latest, mapping, crafts, filter}) {
         {
             field: 'cost',
             headerName: 'Cost',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: (value) => numberFormat(value),
             width: 120,
         },
         {
             field: 'reward',
             headerName: 'Reward',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: (value) => numberFormat(value),
             width: 120,
         },
         {
             field: 'profit',
             headerName: 'Profit',
-            valueFormatter: ({ value }) => numberFormat(value),
+            valueFormatter: (value) => numberFormat(value),
             width: 120,
         },
     ];

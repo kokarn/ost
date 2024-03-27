@@ -123,13 +123,13 @@ function MoneyMaking({filter, playerStats}) {
         // {
         //     field: 'reward',
         //     headerName: 'Reward',
-        //     valueFormatter: ({ value }) => numberFormat(value),
+        //     valueFormatter: (value) => numberFormat(value),
         //     width: 120,
         // },
         // {
         //     field: 'profit',
         //     headerName: 'Profit',
-        //     valueFormatter: ({ value }) => numberFormat(value),
+        //     valueFormatter: (value) => numberFormat(value),
         //     width: 120,
         // },
     ];
