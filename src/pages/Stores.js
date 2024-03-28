@@ -63,8 +63,8 @@ function StoreProfits({mapping, latest, volumes, filter}) {
                 continue;
             }
 
-            // // Remove all items with a low volume
-            if(volumes[mappingLookup[storeItem.name].id] < 1000){
+            // Remove all items with a low volume
+            if(volumes[mappingLookup[storeItem.name].id] < 400){
                 // console.log(`Low volume: ${storeItem.name} (${volumes[mappingLookup[storeItem.name].id]})`);
                 continue;
             }
