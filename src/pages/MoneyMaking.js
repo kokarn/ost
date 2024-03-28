@@ -15,10 +15,11 @@ import Stack from '@mui/material/Stack';
 import numberFormat from '../modules/number-format.mjs';
 
 import moneyMaking from '../data/money-making.json';
+import soupMoneyMaking from '../data/soup-money-making.json';
 
 import '../App.css';
 
-function MoneyMaking({filter, playerStats}) {
+function MoneyMaking({filter, playerStats, mapping}) {
     const [hideEmpty, setHideEmpty] = useState(true);
     const [hideUnqualified, setHideUnqualified] = useState(true);
 
@@ -28,6 +29,28 @@ function MoneyMaking({filter, playerStats}) {
         for (const result of moneyMaking) {
             returnRows.push({
                 id: result.methodName,
+                ...result,
+            });
+        }
+
+        for(const result of soupMoneyMaking){
+            console.log(result);
+            const hourlyCost = result.hourlyInput.reduce((acc, item) => {
+                if(item.id === 'coins'){
+                    return acc + item.count;
+                }
+
+                return acc + (mapping[item.id]?.lowestPrice.cost * item.count);
+            }, 0);
+
+            const hourlyProfit = result.hourlyOutput.reduce((acc, item) => {
+                console.log(mapping[item.id]);
+                return acc + (mapping[item.id]?.lowestPrice.cost * item.count);
+            }, 0) - hourlyCost;
+
+            returnRows.push({
+                id: result.methodName,
+                hourlyProfit,
                 ...result,
             });
         }
@@ -51,7 +74,7 @@ function MoneyMaking({filter, playerStats}) {
         });
 
         return returnRows;
-    }, [playerStats, hideEmpty, hideUnqualified, filter]);
+    }, [playerStats, hideEmpty, hideUnqualified, filter, mapping]);
 
     const columns = [
         {

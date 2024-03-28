@@ -170,6 +170,7 @@ function App() {
                     element={<MoneyMaking
                         filter={debouncedFilter}
                         playerStats={playerStats}
+                        mapping={mapping}
                     />}
                 />
                 <Route

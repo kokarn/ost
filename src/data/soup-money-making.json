@@ -1,0 +1,86 @@
+[
+    {
+        "methodName": "Buying Relicyms Balm",
+        "methodLink": "https://youtu.be/5APP4w44ldk?si=GYcdKVGBy71yVukc&t=370",
+        "hourlyInput": [
+            {
+                "id": "coins",
+                "count": 1205820
+            }
+        ],
+        "hourlyOutput": [
+            {
+                "id": 4842,
+                "count": 2591
+            }
+        ],
+        "skills": {
+            "Herblore": "8",
+            "Quests": "Zogre Flesh Eaters"
+        },
+        "category": "Collecting",
+        "intensity": "High"
+    },
+    {
+        "methodName": "Crafting lava shards",
+        "methodLink": "https://youtu.be/rP-b3eWoxTM?si=KtYEcEbsf9H4Zi65&t=138",
+        "hourlyInput": [
+            {
+                "id": 11992,
+                "count": 4000
+            }
+        ],
+        "hourlyOutput": [
+            {
+                "id": 11994,
+                "count": 35824
+            }
+        ],
+        "skills": {
+            "Achievements": "Wilderness Hard Diary"
+        },
+        "category": "Collecting",
+        "intensity": "High"
+    },
+    {
+        "methodName": "Catching rabbits",
+        "methodLink": "https://youtu.be/rP-b3eWoxTM?si=fdS_kUkak8p5A3XL&t=283",
+        "hourlyInput": [
+            {
+                "id": 10031,
+                "count": 27
+            },
+            {
+                "id": 1759,
+                "count": 241
+            }
+        ],
+        "hourlyOutput": [
+            {
+                "id": 10132,
+                "count": 241
+            }
+        ],
+        "skills": {
+            "Hunter": 27
+        },
+        "category": "Skilling/Hunter",
+        "intensity": "High"
+    },
+    {
+        "methodName": "Collecting Mithril grapples",
+        "methodLink": "https://youtu.be/9bDh6rrQGmU?si=Ce-H5mf88AbDmJ2U&t=24",
+        "hourlyInput": [],
+        "hourlyOutput": [
+            {
+                "id": 9419,
+                "count": 979
+            }
+        ],
+        "skills": {
+            "Attack": 70
+        },
+        "category": "Collecting",
+        "intensity": "High"
+    }
+]
