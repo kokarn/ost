@@ -25542,6 +25542,17 @@
         "storeLocationLink": "/w/Ape_Atoll"
     },
     {
+        "name": "Bandit's brew",
+        "id": "4627",
+        "quantity": 10,
+        "sellPrice": 650,
+        "buyPrice": 350,
+        "store": "https://oldschool.runescape.wiki/w/The_Big_Heist_Lodge",
+        "storeChangeRate": 3,
+        "storeLocation": "Bandit Village in the Kharidian Desert",
+        "storeLocationLink": "/w/Bandit_Camp_(Kharidian_Desert)"
+    },
+    {
         "name": "Herring",
         "id": "347",
         "quantity": 5,

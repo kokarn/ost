@@ -251,6 +251,7 @@ let stores = [
     "https://oldschool.runescape.wiki/w/Slayer_Equipment_(shop)",
     "https://oldschool.runescape.wiki/w/Smithing_Smith%27s_Shop.",
     "https://oldschool.runescape.wiki/w/Solihib%27s_Food_Stall",
+    "https://oldschool.runescape.wiki/w/The_Big_Heist_Lodge",
     "https://oldschool.runescape.wiki/w/The_Shrimp_and_Parrot",
     "https://oldschool.runescape.wiki/w/The_Spice_is_Right",
     "https://oldschool.runescape.wiki/w/Thirus_Urkar%27s_Fine_Dynamite_Store",
