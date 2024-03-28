@@ -131,10 +131,22 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
     };
 
     return <Container>
-        {itemData && <Typography
-                variant="h1"
+        <Grid
+            container
+        >
+            {itemData && <Grid
+                xs = {10}
+                // md = {12}
             >
-                {itemData?.name}
+                <Typography
+                    variant="h1"
+                >
+                    {itemData?.name}
+                </Typography>
+            </Grid>}
+            {itemData && <Grid
+                xs = {2}
+            >
                 <img
                     alt = {`${itemData?.name} icon`}
                     src={`https://oldschool.runescape.wiki/images/${itemData?.icon.replace(/ /g, '_')}?cache`}
@@ -144,8 +156,8 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
                         padding: '10px',
                     }}
                 />
-            </Typography>
-        }
+            </Grid>}
+        </Grid>
         {itemData && <Typography
             variant="subtitle2"
             >
@@ -168,14 +180,16 @@ function Item({latest, mapping, crafts, dayData, volumes, filter}) {
             container
         >
             {nodes.length > 1 && <Grid
-            xs = {12}
-            md = {12}>
-                <CraftSelector
-                    handleCraftChange={handleCraftChange}
-                    displayCraft={displayCraft}
-                    itemCrafts={itemCrafts}
-                />
-            </Grid>}
+                xs = {12}
+                md = {12}
+                >
+                    <CraftSelector
+                        handleCraftChange={handleCraftChange}
+                        displayCraft={displayCraft}
+                        itemCrafts={itemCrafts}
+                    />
+                </Grid>
+            }
             {nodes.length > 1 && <Grid
                 md = {12}
                 sx={{
