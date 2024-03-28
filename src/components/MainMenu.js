@@ -199,10 +199,6 @@ function MainMenu({handleFilterChange, playerName, playerStats, handlePlayerName
                         }}
                     >
                         {pages.map((page) => {
-                            if(page.type === 'calculator'){
-                                return null;
-                            }
-
                             return (<MenuItem
                                 key={`mobile-${page.path}`}
                                 onClick={handleCloseNavMenu}
