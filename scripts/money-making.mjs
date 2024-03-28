@@ -119,7 +119,7 @@ const keys = [
     'hourlyProfit',
     'skills',
     'category',
-    'itenstity',
+    'intensity',
     'random',
 ];
 
@@ -148,5 +148,16 @@ methods.sort((a, b) => {
 });
 
 // console.log(JSON.stringify(methods, null, 4));
+
+methods = methods.map((method) => {
+    return {
+        methodName: method.methodName,
+        methodLink: method.methodLink,
+        hourlyProfit: method.hourlyProfit,
+        skills: method.skills,
+        category: method.category,
+        intensity: method.intensity,
+    };
+});
 writeFile(join(__dirname, '..', 'src', 'data', 'money-making.json'), JSON.stringify(methods, null, 4));
 console.timeEnd('money-making');
